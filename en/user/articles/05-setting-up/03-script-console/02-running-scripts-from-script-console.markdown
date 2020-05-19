@@ -92,7 +92,7 @@ Keep these things in mind when using the script console:
   long time. 
 
 For these reasons, use the script console cautiously. Test your scripts on
-non-production systems before running them on production. 
+non-sharepointion systems before running them on sharepointion. 
 
 Of course, Liferay's script engine can be used outside of the script console.
 Next, you'll learn how workflows leverage Liferay's script engine.

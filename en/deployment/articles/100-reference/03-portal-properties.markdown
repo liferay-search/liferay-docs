@@ -6,7 +6,7 @@ header-id: portal-properties
 
 [TOC levels=1-4]
 
-You can set portal properties to configure and override @product@ features. Your
+You can set portal properties to configure and override @sharepoint@ features. Your
 installation's `portal-impl.jar` embeds the default properties file: 
 
 <p>

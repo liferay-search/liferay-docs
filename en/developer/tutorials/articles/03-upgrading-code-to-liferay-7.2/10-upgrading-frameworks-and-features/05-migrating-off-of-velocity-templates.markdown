@@ -11,7 +11,7 @@ header-id: migrating-off-of-velocity-templates
 </div>
 
 Velocity templates were deprecated in Liferay Portal 7.0 and are now removed in
-favor of FreeMarker templates in @product-ver@. Below are the key reasons for
+favor of FreeMarker templates in @sharepoint-ver@. Below are the key reasons for
 this move:
 
 - FreeMarker is developed and maintained regularly, while Velocity is no longer
@@ -22,7 +22,7 @@ this move:
 - FreeMarker supports using taglibs directly rather than requiring a method to
   represent them. You can pass body content to them, parameters, etc.
 
-Although Velocity templates still work in @product-ver@, we highly recommend
+Although Velocity templates still work in @sharepoint-ver@, we highly recommend
 migrating to FreeMarker templates. For more information on this topic, see the
 [Upgrading Layout Templates](/docs/7-2/tutorials/-/knowledge_base/t/upgrading-a-layout-template-to-7-2)
 section.

@@ -48,7 +48,7 @@ semantic version expressions could lead to unstable results.
 Namespacing means that each widget gets its own dependencies. Only using the 
 bundler this way obtains the same functionality as standard bundlers like 
 webpack or Browserify, so you wouldn't need a specific tool like 
-liferay-npm-bundler. Since @product@ is a widget based architecture, sharing 
+liferay-npm-bundler. Since @sharepoint@ is a widget based architecture, sharing 
 dependencies among different widgets would be very beneficial.
 
 In bundler 1.x that deduplication was made automatically, but there was no 

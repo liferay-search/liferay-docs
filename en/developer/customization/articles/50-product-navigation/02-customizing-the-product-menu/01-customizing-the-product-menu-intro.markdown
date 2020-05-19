@@ -1,5 +1,5 @@
 ---
-header-id: customizing-the-product-menu
+header-id: customizing-the-sharepoint-menu
 ---
 
 # Customizing the Product Menu
@@ -62,7 +62,7 @@ implementation are described next.
 
 If you need something simple for your Panel Category like a name, extending
 `BasePanelCategory` is probably sufficient. For example, the
-[`ControlPanelCategory`](https://github.com/liferay/liferay-portal/blob/7.2.0-ga1/modules/apps/product-navigation/product-navigation-control-panel/src/main/java/com/liferay/product/navigation/control/panel/internal/application/list/ControlPanelCategory.java)
+[`ControlPanelCategory`](https://github.com/liferay/liferay-portal/blob/7.2.0-ga1/modules/apps/sharepoint-navigation/sharepoint-navigation-control-panel/src/main/java/com/liferay/sharepoint/navigation/control/panel/internal/application/list/ControlPanelCategory.java)
 extends `BasePanelCategory` and specifies a `getLabel` method to set and display
 the Panel Category name.
 
@@ -77,7 +77,7 @@ public String getLabel(Locale locale) {
 
 If you need more complex functionality, extend `BaseJSPPanelCategory` and use
 JSPs to render the Panel Category. For example, the
-[`SiteAdministrationPanelCategory`](https://github.com/liferay/liferay-portal/blob/7.2.0-ga1/modules/apps/product-navigation/product-navigation-site-administration/src/main/java/com/liferay/product/navigation/site/administration/internal/application/list/SiteAdministrationPanelCategory.java)
+[`SiteAdministrationPanelCategory`](https://github.com/liferay/liferay-portal/blob/7.2.0-ga1/modules/apps/sharepoint-navigation/sharepoint-navigation-site-administration/src/main/java/com/liferay/sharepoint/navigation/site/administration/internal/application/list/SiteAdministrationPanelCategory.java)
 specifies the `getHeaderJspPath` and `getJspPath` methods. You could create
 a JSP with the UI you want to render and specify its path in methods like these:
 

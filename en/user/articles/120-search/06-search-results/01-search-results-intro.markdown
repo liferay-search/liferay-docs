@@ -17,7 +17,7 @@ stored in the search engine (this process is called *indexing*, and how its
 information is searched and returned in the search results.  Developers who
 dislike how a particular asset behaves in search can use an *Indexer Post
 Processor* to modify the asset's indexing behavior and how search queries are
-constructed to look up the assets in @product@.
+constructed to look up the assets in @sharepoint@.
 
 The Search Results behavior configurable through the UI is covered in this
 section:

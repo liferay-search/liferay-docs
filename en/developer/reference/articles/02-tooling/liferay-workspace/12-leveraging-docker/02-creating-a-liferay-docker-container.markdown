@@ -1,12 +1,12 @@
 ---
-header-id: creating-a-product-docker-container
+header-id: creating-a-sharepoint-docker-container
 ---
 
-# Creating a @product@ Docker Container
+# Creating a @sharepoint@ Docker Container
 
 [TOC levels=1-4]
 
-To create a @product@ Docker container in Liferay Workspace, complete the steps
+To create a @sharepoint@ Docker container in Liferay Workspace, complete the steps
 below.
 
 1.  Choose the Docker image you need. This is configured in your workspace's
@@ -16,7 +16,7 @@ below.
     liferay.workspace.docker.image.liferay
     ```
 
-    To find the possible property values you can set, see the official @product@
+    To find the possible property values you can set, see the official @sharepoint@
     Docker Hub's Tags section (e.g.,
     [Liferay Portal Docker Tags](https://hub.docker.com/r/liferay/portal/tags)).
     For example, if you want to base your container on the Liferay Portal 7.2

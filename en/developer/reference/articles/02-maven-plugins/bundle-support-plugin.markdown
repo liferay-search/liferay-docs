@@ -56,9 +56,9 @@ Name | Description
 ---- | -----------
 [bundle-support:clean](#clean-goals-available-parameters) |  Deletes a file from the `deploy` directory of a Liferay bundle.
 [bundle-support:create-token](#create-token-goals-available-parameters) | Creates a token used to validate your user credentials when downloading a DXP bundle.
-[bundle-support:deploy](#deploy-goals-available-parameters) | Deploys the Maven project to the specified @product@ bundle.
-[bundle-support:dist](#dist-goals-available-parameters) | Creates a distributable @product@ bundle archive file (e.g., ZIP).
-[bundle-support:init](#init-goals-available-parameters) | Downloads and installs the specified @product@ version.
+[bundle-support:deploy](#deploy-goals-available-parameters) | Deploys the Maven project to the specified @sharepoint@ bundle.
+[bundle-support:dist](#dist-goals-available-parameters) | Creates a distributable @sharepoint@ bundle archive file (e.g., ZIP).
+[bundle-support:init](#init-goals-available-parameters) | Downloads and installs the specified @sharepoint@ version.
 
 ## clean Goal's Available Parameters
 
@@ -67,7 +67,7 @@ You can set the following parameters in the `clean` execution's
 
 Parameter Name | Type | Default Value | Description
 ------------- | ---- | ------------- | -----------
-`liferayHome` | `String` | `bundles` |  The directory where your @product@ instance resides. This can be specified from the command line as `-DliferayHome=`.
+`liferayHome` | `String` | `bundles` |  The directory where your @sharepoint@ instance resides. This can be specified from the command line as `-DliferayHome=`.
 `fileName` | `String` | `${project.artifactId}.${project.packaging}` | The name of the file to delete from your bundle.
 
 ## create-token Goal's Available Parameters
@@ -111,7 +111,7 @@ You can set the following parameters in the `deploy` execution's
 
 Parameter Name | Type | Default Value | Description
 ------------- | ---- | ------------- | -----------
-`liferayHome` | `String` | `bundles` | The directory where your @product@ instance resides. This can be specified from the command line as `-DliferayHome=`.
+`liferayHome` | `String` | `bundles` | The directory where your @sharepoint@ instance resides. This can be specified from the command line as `-DliferayHome=`.
 `deployFile` | `File` | `${project.build.directory}/${project.build.finalName}.${project.packaging}` | The packaged file (e.g., JAR) to deploy to the Liferay bundle.
 `outputFileName` | `String` | `${project.artifactId}.${project.packaging}` | The name of the output file.
 
@@ -136,7 +136,7 @@ section of the POM:
 
 Parameter Name | Type | Default Value | Description
 ------------- | ---- | ------------- | -----------
-`liferayHome` | `String` | `bundles` | The directory where your @product@ instance resides. This can be specified from the command line as `-DliferayHome=`.
+`liferayHome` | `String` | `bundles` | The directory where your @sharepoint@ instance resides. This can be specified from the command line as `-DliferayHome=`.
 `archiveFileName` | `String` | `null` | The name for the generated archive file.
 `cacheDir`  | `File` | `${user.home}/.liferay/bundles` | The directory where the downloaded bundle Zip files are stored.
 `configs`  | `String` | `configs` | The directory that contains the configuration files.
@@ -147,7 +147,7 @@ Parameter Name | Type | Default Value | Description
 `outputFileName` | `String` | `${project.artifactId}.${project.packaging}` | The path to the archive file.
 `password` | `String` | `null` | The password if your Liferay bundle's URL requires authentication.
 `stripComponents` | `int` | `1` | The number of directories to strip when expanding your bundle.
-`token` | `boolean` | `false` | Whether to use a token to download a @product@ bundle. This should be set to `true` when downloading a DXP bundle.
+`token` | `boolean` | `false` | Whether to use a token to download a @sharepoint@ bundle. This should be set to `true` when downloading a DXP bundle.
 `tokenFile` | `File` | `${user.home}/.liferay/token` | The file to hold the Liferay bundle authentication token.
 `url` | `URL` | `${liferay.workspace.bundle.url}` | The URL of the Liferay bundle to expand.
 `userName` | `String` | `null` | The user name if your Liferay bundle's URL requires authentication.
@@ -173,13 +173,13 @@ section of the POM:
 
 Parameter Name | Type | Default Value | Description
 ------------- | ---- | ------------- | -----------
-`liferayHome` | `String` | `bundles` | The directory where your @product@ instance resides. This can be specified from the command line as `-DliferayHome=`.
+`liferayHome` | `String` | `bundles` | The directory where your @sharepoint@ instance resides. This can be specified from the command line as `-DliferayHome=`.
 `cacheDir` | `File` | `${user.home}/.liferay/bundles` | The directory where the downloaded bundle Zip files are stored.
 `configs` | `String` | `configs` | The directory that contains the configuration files.
 `environment` | `String` | `${liferay.workspace.environment}` | The environment with the settings appropriate for current development (e.g., `common`, `dev`, `local`, `prod`, and `uat`).
 `password` | `String` | `null` | The password if your Liferay bundle's URL requires authentication.
 `stripComponents` | `int` | `1` | The number of directories to strip when expanding your bundle.
-`token` | `boolean` | `false` | Whether to use a token to download a @product@ bundle. This should be set to `true` when downloading a DXP bundle.
+`token` | `boolean` | `false` | Whether to use a token to download a @sharepoint@ bundle. This should be set to `true` when downloading a DXP bundle.
 `tokenFile` | `File` | `${user.home}/.liferay/token` | The file to hold the Liferay bundle authentication token.
 `url` | `URL` | `${liferay.workspace.bundle.url}` | The URL of the Liferay bundle to expand.
 `userName` | `String` | `null` | The user name if your Liferay bundle's URL requires authentication.

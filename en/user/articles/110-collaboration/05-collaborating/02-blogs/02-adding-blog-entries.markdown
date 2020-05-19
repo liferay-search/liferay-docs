@@ -11,7 +11,7 @@ right away. The easiest way to do this is in the Site Administration menu.
 Follow these steps to add a blog entry in Site Administration: 
 
 1.  Click the Menu button 
-    (![Menu](../../../../images/icon-menu.png)) to open the product menu. Then
+    (![Menu](../../../../images/icon-menu.png)) to open the sharepoint menu. Then
     expand the menu for your site and select *Content & Data* &rarr; *Blogs*. 
     This takes you to the Blogs app for your site. The *Entries* tab is selected 
     by default, which lists the site's blog entries. 
@@ -93,9 +93,9 @@ Follow these steps to add a blog entry in Site Administration:
 
     Finally, you can allow *pingbacks* for the blog entry. Pingbacks are XML-RPC
     requests that are sent automatically when you link to another site. If you
-    link to another site in your blog entry, @product@ sends a pingback to the
+    link to another site in your blog entry, @sharepoint@ sends a pingback to the
     other site to notify that site that you linked to it. Similarly, if someone
-    links to your blog entry, @product@ can receive a pingback from that
+    links to your blog entry, @sharepoint@ can receive a pingback from that
     site and record the link. 
 
     ![Figure 2: When creating a blog entry, the Configuration panel lets you control when and where the blog entry appears, and what to use for the entry's abstract.](../../../../images/blog-entry-configuration.png)

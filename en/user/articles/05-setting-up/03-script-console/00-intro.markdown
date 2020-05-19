@@ -6,7 +6,7 @@ header-id: using-liferays-script-engine
 
 [TOC levels=1-4]
 
-@product@ provides a robust script engine for executing
+@sharepoint@ provides a robust script engine for executing
 [Groovy](http://groovy-lang.org/)
 scripts. You can execute scripts to perform maintenance tasks like data
 cleanup, user maintenance operations, bulk invocations of Liferay's API, or

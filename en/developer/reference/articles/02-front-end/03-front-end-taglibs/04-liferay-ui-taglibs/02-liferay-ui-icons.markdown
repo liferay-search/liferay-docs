@@ -47,7 +47,7 @@ You can achieve the same result in FreeMarker with the following code that uses
 the available 
 [`init.ftl` variables](https://github.com/liferay/liferay-portal/blob/7.2.x/modules/apps/frontend-theme/frontend-theme-unstyled/src/main/resources/META-INF/resources/_unstyled/templates/init.ftl) 
 and 
-[@product@ macros](/docs/7-2/reference/-/knowledge_base/r/product-freemarker-macros):
+[@sharepoint@ macros](/docs/7-2/reference/-/knowledge_base/r/sharepoint-freemarker-macros):
 
 ```markup
 <#assign flag_message>

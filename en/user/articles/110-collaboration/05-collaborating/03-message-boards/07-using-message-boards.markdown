@@ -10,7 +10,7 @@ You can add a Message Boards widget to a page from the *Add*
 (![Add](../../../../images/icon-add-app.png)) menu's *Widgets* &rarr; 
 *Collaboration* section. The Message Boards interface is similar to other 
 message boards that populate the Internet. In any case, it can't hurt to explore 
-how to use @product@'s Message Boards and discover its features. 
+how to use @sharepoint@'s Message Boards and discover its features. 
 
 ![Figure 1: The Message Boards widget lets you explore its categories, interact with message threads, and post new messages.](../../../../images/message-boards-category-threads.png)
 

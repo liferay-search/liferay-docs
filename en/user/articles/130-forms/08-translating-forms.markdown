@@ -6,7 +6,7 @@ header-id: translating-forms
 
 [TOC levels=1-4]
 
-Forms can be translated to any locale that @product@ supports. The form builder 
+Forms can be translated to any locale that @sharepoint@ supports. The form builder 
 specifies a translation of the form's default language. 
 
 The form's default language and the available translations are set in the
@@ -42,7 +42,7 @@ To fill out a translated form in a translated language,
 
 | **Note:** Translations work differently depending on how a User accesses a Form:
 | 
-| If [accessed in the Form widget on a @product@
+| If [accessed in the Form widget on a @sharepoint@
 | page](/docs/7-2/user/-/knowledge_base/u/creating-and-managing-forms#accessing-forms),
 | the Form is displayed in the User's language automatically. If there's no
 | translation available for the User's language, the default language of the Form

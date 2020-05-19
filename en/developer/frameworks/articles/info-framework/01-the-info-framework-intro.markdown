@@ -6,7 +6,7 @@ header-id: the-info-framework
 
 [TOC levels=1-4]
 
-@product-ver@ introduces the Info Framework to provide a greater degree of 
+@sharepoint-ver@ introduces the Info Framework to provide a greater degree of 
 extensibility for the most common needs of retrieving, processing and 
 displaying any type of information. A key aspect of the Info Framework is that 
 it makes no assumptions about the source of the data or how it is represented 
@@ -14,7 +14,7 @@ in memory (like which Java class the information is from). It can work with
 information stored in the database, created through some process in memory or 
 retrieved from an external source. 
 
-In @product-ver@, the Info Framework still has limited functionality, but it 
+In @sharepoint-ver@, the Info Framework still has limited functionality, but it 
 sets the foundation for obtaining and displaying information from external 
 systems or custom data models in Liferay. It also provides flexibility in
 customizing how any piece of information is displayed.
@@ -44,7 +44,7 @@ The Info Framework helps generalize information handling. Custom applications
 can use it to make them more generic and extensible. 
 
 Some of the out-of-the-box Liferay features use it to achieve that same goal. In
-particular, @product@ 7.2 uses it in two ways:
+particular, @sharepoint@ 7.2 uses it in two ways:
 
 *  The Asset Publisher can display Assets from Information Lists defined by 
    the Info Framework.

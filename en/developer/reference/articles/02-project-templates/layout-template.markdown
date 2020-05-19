@@ -70,6 +70,6 @@ like this:
 The Maven-generated project includes a `pom.xml` file and does not include the
 Gradle-specific files, but otherwise, appears exactly the same.
 
-The generated WAR is a working layout template and is deployable to a @product@
+The generated WAR is a working layout template and is deployable to a @sharepoint@
 instance. To build upon the generated layout template, modify the project by
 adding logic and additional files to the folders outlined above.

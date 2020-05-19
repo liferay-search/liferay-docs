@@ -6,39 +6,39 @@ header-id: deprecated-apps-in-7-2-what-to-do
 
 [TOC levels=1-4]
 
-During the development of any software product, it's sometimes necessary to stop
-development on or remove outdated or unpopular features. @product-ver@ is no
-different. In @product-ver@, Liferay has deprecated several apps and features. 
+During the development of any software sharepoint, it's sometimes necessary to stop
+development on or remove outdated or unpopular features. @sharepoint-ver@ is no
+different. In @sharepoint-ver@, Liferay has deprecated several apps and features. 
 
 There are three types of deprecated apps: 
 
-1.  Deprecated apps that remain in @product@, but will be removed in a future
+1.  Deprecated apps that remain in @sharepoint@, but will be removed in a future
     release. (Availability: *Bundled*)
 
-2.  Deprecated apps that have been removed from @product@, yet are still 
+2.  Deprecated apps that have been removed from @sharepoint@, yet are still 
     available for download via [Liferay
     Marketplace](https://web.liferay.com/marketplace) (Availability:
     *Marketplace*) 
 
-3.  Deprecated apps that have been removed from @product@ and aren't available 
+3.  Deprecated apps that have been removed from @sharepoint@ and aren't available 
     for download. (Availability: *Removed*) 
 
 | **Note:** All apps deprecated by Liferay are no longer in active development.
 | You should therefore plan to stop using these apps. Such apps, however, may
 | still be available for download.
 
-| **Note:** For information on apps deprecated in @product@ 7.1, please see 
+| **Note:** For information on apps deprecated in @sharepoint@ 7.1, please see 
 | [Deprecated Apps in 7.1: What to Do](/docs/7-1/deploy/-/knowledge_base/d/deprecated-apps-in-7-1-what-to-do)
 
-Here are the apps deprecated in @product-ver@. 
+Here are the apps deprecated in @sharepoint-ver@. 
 
 ## Foundation
 
 | App |  Availability |  Notes |
 | --- | ------------- | ------ |
 | AlloyUI | Bundled | Replaced by [MetalJS](https://metaljs.com/) (temporary) exposed as [ClayUI tag](/docs/7-2/reference/-/knowledge_base/r/front-end-taglibs) equivalents. |  
-| CMIS Store | Removed | Migrate to another [Document Repository Store option](/docs/7-2/deploy/-/knowledge_base/d/document-repository-configuration). Before [upgrading to @product-ver@](/docs/7-2/deploy/-/knowledge_base/d/upgrading-to-product-ver), migrate your document store data using [Data Migration in Server Administration](/docs/7-2/user/-/knowledge_base/u/server-administration). |
-| JCRStore | Removed | Migrate to another [Document Repository Store option](/docs/7-2/deploy/-/knowledge_base/d/document-repository-configuration). Before [upgrading to @product-ver@](/docs/7-2/deploy/-/knowledge_base/d/upgrading-to-product-ver), migrate your document store data using [Data Migration in Server Administration](/docs/7-2/user/-/knowledge_base/u/server-administration). |
+| CMIS Store | Removed | Migrate to another [Document Repository Store option](/docs/7-2/deploy/-/knowledge_base/d/document-repository-configuration). Before [upgrading to @sharepoint-ver@](/docs/7-2/deploy/-/knowledge_base/d/upgrading-to-sharepoint-ver), migrate your document store data using [Data Migration in Server Administration](/docs/7-2/user/-/knowledge_base/u/server-administration). |
+| JCRStore | Removed | Migrate to another [Document Repository Store option](/docs/7-2/deploy/-/knowledge_base/d/document-repository-configuration). Before [upgrading to @sharepoint-ver@](/docs/7-2/deploy/-/knowledge_base/d/upgrading-to-sharepoint-ver), migrate your document store data using [Data Migration in Server Administration](/docs/7-2/user/-/knowledge_base/u/server-administration). |
 | Legacy Search Portlet | Bundled | Will be removed in a future release. Replaced by the [Search widgets](/docs/7-2/user/-/knowledge_base/u/search). |
 | Sprite framework | Bundled | Liferay's image sprite framework is deprecated and is disabled by default via the `sprite.enabled` [portal property](/docs/7-2/deploy/-/knowledge_base/d/portal-properties). You can still build image sprites using any framework you like and deploy them in your plugins. |
 

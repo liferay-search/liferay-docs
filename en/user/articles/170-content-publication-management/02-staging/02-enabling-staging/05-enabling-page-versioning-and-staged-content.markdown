@@ -26,14 +26,14 @@ You can also choose content for the staging environment to manage on the Staging
 Configuration page.
 
 Choosing content to be staged may sound self-explanatory, but content must have
-specific attributes in @product@ to use it in a staged environment. Content or
+specific attributes in @sharepoint@ to use it in a staged environment. Content or
 an entity should be site-scoped, so they are always part of a site; otherwise,
 they are not eligible for staging. For example, page-scoped entities are only
 eligible for staging on published pages. When scoped data is on a page (e.g.,
 Web Content Display widget) and the page is published, the scoped data is
 published with it.
 
-@product@ by default supports the following content groups for staging:
+@sharepoint@ by default supports the following content groups for staging:
 
 - Blogs
 - Bookmarks
@@ -89,7 +89,7 @@ possible to modify the individual portlet configuration once you enable staging.
 In case you need adjustments later on, you must turn staging off and re-enable
 it with your new configuration.
 
-Besides managing the widget-specific content, @product@ also has several special
+Besides managing the widget-specific content, @sharepoint@ also has several special
 content types such as pages or users. For instance, pages are a part of the site
 and can reference other content types, but in a special way. The page references
 widgets, which means publishing a page also implies publishing its widgets. The

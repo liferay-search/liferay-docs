@@ -6,13 +6,13 @@ header-id: upgrading-a-sharded-environment
 
 [TOC levels=1-4]
 
-Since @product@ 7.0, Liferay removed its own physical partitioning
+Since @sharepoint@ 7.0, Liferay removed its own physical partitioning
 implementation (also known as sharding) in favor of the capabilities provided
-natively by database vendors. Upgrading a sharded installation to @product-ver@
-requires migrating it to as many non-sharded @product@ installations (servers)
-as you have shards. These steps guide you through configuring the new @product@
+natively by database vendors. Upgrading a sharded installation to @sharepoint-ver@
+requires migrating it to as many non-sharded @sharepoint@ installations (servers)
+as you have shards. These steps guide you through configuring the new @sharepoint@
 servers to use your formerly sharded data and upgrading the data to
-@product-ver@. 
+@sharepoint-ver@. 
 
 | **Note:** Liferay continues to support its logical partitioning capabilities 
 | (also known as
@@ -29,13 +29,13 @@ Here are the upgrade steps:
 
 2.  [Plan for deprecated applications](/docs/7-2/deploy/-/knowledge_base/d/planning-for-deprecated-applications). 
 
-3.  [Test upgrading a @product@ backup copy](/docs/7-2/deploy/-/knowledge_base/d/test-upgrading-a-product-backup-copy). 
+3.  [Test upgrading a @sharepoint@ backup copy](/docs/7-2/deploy/-/knowledge_base/d/test-upgrading-a-sharepoint-backup-copy). 
 
-4.  [Prepare to upgrade the @product@ database](/docs/7-2/deploy/-/knowledge_base/d/preparing-to-upgrade-the-product-database). 
+4.  [Prepare to upgrade the @sharepoint@ database](/docs/7-2/deploy/-/knowledge_base/d/preparing-to-upgrade-the-sharepoint-database). 
 
-4.  [Prepare a new @product@ server for the data upgrade](/docs/7-2/deploy/-/knowledge_base/d/preparing-a-new-product-server-for-data-upgrade). 
+4.  [Prepare a new @sharepoint@ server for the data upgrade](/docs/7-2/deploy/-/knowledge_base/d/preparing-a-new-sharepoint-server-for-data-upgrade). 
 
-5.  [Upgrade the @product@ data](/docs/7-2/deploy/-/knowledge_base/d/upgrading-the-product-data)
+5.  [Upgrade the @sharepoint@ data](/docs/7-2/deploy/-/knowledge_base/d/upgrading-the-sharepoint-data)
     for the default shard. As part of the configuration, copy all of the shard
     JDBC connection properties from `portal-ext.properties` to
     `portal-upgrade-database.properties`. For example, JDBC connections for a
@@ -58,10 +58,10 @@ Here are the upgrade steps:
     jdbc.two.password=
     ```
 
-5.  [Prepare a @product-ver@ server](/docs/7-2/deploy/-/knowledge_base/d/preparing-a-new-product-server-for-data-upgrade)
+5.  [Prepare a @sharepoint-ver@ server](/docs/7-2/deploy/-/knowledge_base/d/preparing-a-new-sharepoint-server-for-data-upgrade)
     for each non-default shard.
 
-6.  [Upgrade the @product@ data](/docs/7-2/deploy/-/knowledge_base/d/upgrading-the-product-data)
+6.  [Upgrade the @sharepoint@ data](/docs/7-2/deploy/-/knowledge_base/d/upgrading-the-sharepoint-data)
     for each non-default shard. The JDBC *default* connection properties in each
     server's `portal-upgrade-database.properties` must specify the associated
     shard. Here's how: 
@@ -122,5 +122,5 @@ Here are the upgrade steps:
     ```
 
 Congratulations! You have migrated off of a sharded environment to virtual
-instances on separate @product@ servers. You have also upgraded to
-@product-ver@. Your virtual instances are ready for action. 
+instances on separate @sharepoint@ servers. You have also upgraded to
+@sharepoint-ver@. Your virtual instances are ready for action. 

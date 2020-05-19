@@ -8,7 +8,7 @@ header-id: database-templates
 
 Below are templates (example
 [portal properties](/docs/7-2/deploy/-/knowledge_base/d/portal-properties))
-for configuring various databases as a built-in data source for @product@. 
+for configuring various databases as a built-in data source for @sharepoint@. 
 
 ## MariaDB
 

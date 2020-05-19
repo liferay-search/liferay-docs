@@ -20,19 +20,19 @@ files:
 
 **Open Sync Folder:** Select a Site to open its local Sync folder. 
 
-**View Website:** Select a Site to view the page in @product@ that contains 
+**View Website:** Select a Site to view the page in @sharepoint@ that contains 
 its Documents and Media app. 
 
 **Recent Files:** Lists recently created and modified files in the 
 repositories you can access. 
 
-Note that if you sync with two or more @product@ instances, Sync shows each at 
+Note that if you sync with two or more @sharepoint@ instances, Sync shows each at 
 the top of the menu instead of your Sync status. Mouse over each instance to 
 reveal a submenu with that instance's Sync status and file shortcuts. 
 
-![Figure 2: When you sync with more than one @product@ instance, Sync shows submenus for each.](../../../../images/sync-toolbar-02.png)
+![Figure 2: When you sync with more than one @sharepoint@ instance, Sync shows submenus for each.](../../../../images/sync-toolbar-02.png)
 
-Finally, regardless of how many @product@ instances you sync with, the menu lists 
+Finally, regardless of how many @sharepoint@ instances you sync with, the menu lists 
 the following three options: 
 
 **Preferences:** Open Sync's preferences. 
@@ -46,7 +46,7 @@ on your machine.
 
 ## Using Sync Preferences
 
-You can use Sync's preferences to add/remove @product@ instances to sync with, 
+You can use Sync's preferences to add/remove @sharepoint@ instances to sync with, 
 edit connection settings, and control Sync's basic behavior. Open Sync's 
 preferences by clicking the Sync icon in the task bar (Windows) or menu bar 
 (Mac OS) and selecting *Preferences*. A preference screen for your instance 
@@ -94,7 +94,7 @@ versions. You can click the *Check Now* button to check for updates manually.
 ![Figure 4: The Preferences menu's *General* tab contains settings for Sync's general behavior.](../../../../images/sync-preferences-general-01.png)
 
 Finally, the Preferences menu's *Network* tab controls how Sync transfers data
-with your @product@ servers. It contains the following options: 
+with your @sharepoint@ servers. It contains the following options: 
 
 **Download Rate:** To limit the rate at which Sync downloads data, select 
 *Limit to* and then specify the rate. 
@@ -105,14 +105,14 @@ with your @product@ servers. It contains the following options:
 **Enable LAN Syncing:** Whether to download updates from other desktop clients 
 on the same local network before downloading from the server. This can help 
 reduce server load and increase data transfer speeds. Note that LAN syncing 
-only works when enabled in the @product@ instance by the administrator, and in 
+only works when enabled in the @sharepoint@ instance by the administrator, and in 
 other clients. 
 
 ![Figure 5: The Preferences menu's *Network* tab contains settings for Sync's data transfer behavior.](../../../../images/sync-desktop-prefs-network.png)
 
-Note that your @product@ administrator can also limit the download/upload rate.
-In this case, @product@'s settings take precedent. For example, if you set
-a 5.0 MB/s download rate in the client but @product@'s download limit is 2.0
+Note that your @sharepoint@ administrator can also limit the download/upload rate.
+In this case, @sharepoint@'s settings take precedent. For example, if you set
+a 5.0 MB/s download rate in the client but @sharepoint@'s download limit is 2.0
 MB/s, the latter takes precedence. Also, the client's rate applies across all
 its accounts. For example, if the client connects to three accounts and its
 download rate is 5.0 MB/s, then the sum of the download rate for all three

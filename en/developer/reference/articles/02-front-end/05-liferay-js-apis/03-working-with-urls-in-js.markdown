@@ -9,7 +9,7 @@ header-id: working-with-urls-in-javascript
 The `Liferay` global JavaScript Object exposes methods, objects, and properties 
 that access the portal context. Four of these are helpful when working with 
 URLS: `authToken`, `currentURL`, `currentURLEncoded`, and `PortletURL`. If you 
-have experience with Java development in @product@, you may have worked with 
+have experience with Java development in @sharepoint@, you may have worked with 
 some of these before. The `Liferay` global object is automatically available at 
 runtime, so no additional dependencies are required. 
 

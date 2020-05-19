@@ -53,10 +53,10 @@ doesn't guarantee a proper data upgrade--you implement that via
 [data upgrade processes](/docs/7-2/frameworks/-/knowledge_base/f/creating-an-upgrade-process-for-your-app). 
 Build Auto Upgrade is for development purposes only. 
 
-| **WARNING**: DO NOT USE the Build Auto Upgrade feature in production. @product@
-| DOES NOT support Build Auto Upgrade in production. Build Auto Upgrade is for
-| development purposes only. Enabling it in production can result in data loss and
-| improper data upgrade. In production environments, leave the property
+| **WARNING**: DO NOT USE the Build Auto Upgrade feature in sharepointion. @sharepoint@
+| DOES NOT support Build Auto Upgrade in sharepointion. Build Auto Upgrade is for
+| development purposes only. Enabling it in sharepointion can result in data loss and
+| improper data upgrade. In sharepointion environments, leave the property
 | `schema.module.build.auto.upgrade` in `portal-developer.properties` set to
 | `false`.
 
@@ -71,7 +71,7 @@ Schema Change | Result |
 Add column    | Create a new empty column. |
 Rename column | Drop the existing column and delete all its data. Create a new empty column. |
 Delete column | Drop the existing column and delete all its data. |
-Create or rename a table in @product@'s built-in data source. | Orphan the existing table and all its data. Create the new table. |
+Create or rename a table in @sharepoint@'s built-in data source. | Orphan the existing table and all its data. Create the new table. |
 
 Great! Now you know how to use the Build Auto Upgrade developer feature. 
 

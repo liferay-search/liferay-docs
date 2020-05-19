@@ -69,13 +69,13 @@ if you need guidance.
 
     Replace the `PORTLET_NAME` text with the portlet to provide when one is
     requested by the theme template. For example, the default portlet uses
-    `com_liferay_product_navigation_user_personal_bar_web_portlet_ProductNavigationPersonalBarPortlet`
+    `com_liferay_sharepoint_navigation_user_personal_bar_web_portlet_ProductNavigationPersonalBarPortlet`
 
 If you want to inspect the entire module used for Liferay's User Personal Bar,
 see the
-[product-navigation-user-personal-bar-web](https://github.com/liferay/liferay-portal/tree/7.2.0-ga1/modules/apps/product-navigation/product-navigation-user-personal-bar-web) module.
+[sharepoint-navigation-user-personal-bar-web](https://github.com/liferay/liferay-portal/tree/7.2.0-ga1/modules/apps/sharepoint-navigation/sharepoint-navigation-user-personal-bar-web) module.
 
 ## Related Topics
 
-- [Customizing the Product Menu](/docs/7-2/customization/-/knowledge_base/c/customizing-the-product-menu)
+- [Customizing the Product Menu](/docs/7-2/customization/-/knowledge_base/c/customizing-the-sharepoint-menu)
 - [Customizing the Control Menu](/docs/7-2/customization/-/knowledge_base/c/customizing-the-control-menu)

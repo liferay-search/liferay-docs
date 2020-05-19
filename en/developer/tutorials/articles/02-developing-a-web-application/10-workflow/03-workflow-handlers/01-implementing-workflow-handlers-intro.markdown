@@ -8,11 +8,11 @@ header-id: handling-workflow
 
 The guestbook project's service layer is now updated to handle workflow. It now
 properly sets the status fields for guestbooks and guestbook entries, gets
-entities by their statuses, and sends entities to @product@'s workflow framework
+entities by their statuses, and sends entities to @sharepoint@'s workflow framework
 whenever the `addGuestbook` or `addGuestbookEntry` methods are called. Recall
 that you still have an uncalled service method, `updateStatus`, for both
 entities. Now you'll implement workflow handlers, classes that interact with
-@product@'s workflow framework and your service layer (by calling `updateStatus`
+@sharepoint@'s workflow framework and your service layer (by calling `updateStatus`
 on the appropriate entity).
 
 There's a handy abstract class you can extend to make the job easier, called

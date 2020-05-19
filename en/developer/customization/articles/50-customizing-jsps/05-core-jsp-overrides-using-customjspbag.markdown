@@ -14,7 +14,7 @@ API based approaches. If your Custom JSP Bag's JSP is buggy (because of your
 code or because of a change in Liferay), you are most likely to find out at 
 runtime, where functionality breaks and nasty log errors greet you. Using 
 Custom JSP Bags to override JSPs is a bad practice, equivalent to using Ext 
-plugins to customize @product@. If you're maintaining existing Custom JSP Bags, 
+plugins to customize @sharepoint@. If you're maintaining existing Custom JSP Bags, 
 however, this tutorial explains how they work. 
 
 | **Important:** Liferay cannot guarantee that JSPs overridden using Custom JSP 
@@ -33,7 +33,7 @@ continue with providing your custom JSP.
 
 ## Providing a Custom JSP
 
-Create your JSPs to override @product@ core JSPs. If you're using the Maven 
+Create your JSPs to override @sharepoint@ core JSPs. If you're using the Maven 
 [Standard Directory Layout](https://maven.apache.org/guides/introduction/introduction-to-the-standard-directory-layout.html),
 place your JSPs under `src/main/resources/META-INF/jsps`. For example, if you're 
 overriding 
@@ -54,7 +54,7 @@ place your custom JSP at
 
 ## Implement a Custom JSP Bag
 
-@product@ (specifically the [`CustomJspBagRegistryUtil` class](@platform-ref@/7.2-latest/javadocs/portal-impl/com/liferay/portal/deploy/hot/CustomJspBagRegistryUtil.html)) 
+@sharepoint@ (specifically the [`CustomJspBagRegistryUtil` class](@platform-ref@/7.2-latest/javadocs/portal-impl/com/liferay/portal/deploy/hot/CustomJspBagRegistryUtil.html)) 
 loads JSPs from [`CustomJspBag`](@platform-ref@/7.2-latest/javadocs/portal-impl/com/liferay/portal/deploy/hot/CustomJspBag.html)
 services. The Core Override JSP sample project provides a working custom JSP bag 
 implementation. The following steps for implementing a custom JSP bag refer to 
@@ -181,7 +181,7 @@ Add back URL for Core Override JSP Sample Project code once it's ported:
     ```
 
 Now your module provides custom JSPs and a custom JSP bag implementation. When 
-you deploy it, @product@ uses its custom JSPs in place of the core JSPs they 
+you deploy it, @sharepoint@ uses its custom JSPs in place of the core JSPs they 
 override. 
 
 <!--
@@ -207,7 +207,7 @@ You'll see this:
 
 If you must add something to `bottom.jsp`, override `bottom-ext.jsp`. 
 
-Since @product@ 7.0, the content from the following JSP files formerly in 
+Since @sharepoint@ 7.0, the content from the following JSP files formerly in 
 `html/common/themes` are inlined to improve performance.
  
 - `body_bottom-ext.jsp`
@@ -228,11 +228,11 @@ article.
 
 In Liferay Portal 6.2, you could use [Application Adapters](/docs/6-2/tutorials/-/knowledge_base/t/customizing-sites-and-site-templates-with-application-adapters) 
 to scope your core JSP customizations to a specific Site. Since the majority of 
-JSPs were moved into modules for @product@ 7.0, the use case for this has shrunk 
+JSPs were moved into modules for @sharepoint@ 7.0, the use case for this has shrunk 
 considerably. If you must scope a core JSP customization to a Site, prepare an 
 application adapter [as you would have for Liferay Portal 6.2](/docs/6-2/tutorials/-/knowledge_base/t/customizing-sites-and-site-templates-with-application-adapters), 
-and deploy it to @product-ver@. It will still work. However, note that this 
-approach is deprecated in @product-ver@ and won't be supported at all in Liferay 
+and deploy it to @sharepoint-ver@. It will still work. However, note that this 
+approach is deprecated in @sharepoint-ver@ and won't be supported at all in Liferay 
 8.0. 
 
 <!-- Uncomment once we cover scoping to a site

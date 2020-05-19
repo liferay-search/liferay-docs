@@ -12,7 +12,7 @@ WebDAV is a set of methods based on HTTP that let users create, edit, move, or
 delete files stored on web servers. WebDAV is supported by most major operating 
 systems and desktop environments, including Linux, macOS, and Windows. Using
 your file manager via WebDAV doesn't bypass the functionality of the web 
-interface---@product@ increments the version numbers of files edited and 
+interface---@sharepoint@ increments the version numbers of files edited and 
 uploaded via WebDAV. 
 
 To access the Document Library folder from a file browser, you must use your

@@ -6,21 +6,21 @@ header-id: migrating-from-audience-targeting-to-segmentation-and-personalization
 
 [TOC levels=1-4]
 
-@product-ver@ integrates all the Audience Targeting app's features into
+@sharepoint-ver@ integrates all the Audience Targeting app's features into
 Liferay's core as Segmentation and Personalization. This enables better
 integration with other applications and provides developers with easier access
 to Segmentation and Personalization features. Audience Targeting users must
 migrate their user segments into the new Segments application. There are three
 steps to the migration process:
 
-1.  Upgrade to @product-ver@.
+1.  Upgrade to @sharepoint-ver@.
 
 2.  Migrate custom rules.
 
 3.  Migrate behavior-based features.
 
-First, to upgrade to the latest version of @product@, follow the
-[upgrade guide](/docs/7-2/tutorials/-/knowledge_base/t/upgrading-code-to-product-ver).
+First, to upgrade to the latest version of @sharepoint@, follow the
+[upgrade guide](/docs/7-2/tutorials/-/knowledge_base/t/upgrading-code-to-sharepoint-ver).
 Most of your Audience Targeting configuration is automatically transferred
 into the new engine.
 

@@ -73,7 +73,7 @@ For more information, see
 
 ### Fragments CLI
 
-To streamline fragment development, @product-ver@ provides command line tools
+To streamline fragment development, @sharepoint-ver@ provides command line tools
 for generating, importing, and exporting fragments and fragment collections. For
 more information about the CLI, see the 
 [official Liferay Fragments CLI project](https://github.com/liferay/generator-liferay-fragments/blob/master/README.md)
@@ -129,10 +129,10 @@ filler text that should be replaced before the page is published.
 
 All of these work together to help you create dynamic, reusable elements for 
 building a site. For example, if you need a small text box with an image and 
-link to provide a  product description, you can create a fragment containing
+link to provide a  sharepoint description, you can create a fragment containing
 editable filler text, space for an editable image, the appropriate formatting,
 and an editable link. That fragment can be added to multiple pages, and
-marketers can define the image, text, and link for each product they need to
+marketers can define the image, text, and link for each sharepoint they need to
 describe. 
 
 You can make a Fragment even more dynamic by including a widget. Currently,

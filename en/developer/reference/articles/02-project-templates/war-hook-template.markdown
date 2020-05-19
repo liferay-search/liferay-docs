@@ -79,10 +79,10 @@ like this:
 The Maven-generated project includes a `pom.xml` file and does not include the
 Gradle-specific files, but otherwise, appears exactly the same.
 
-The generated WAR hook is functional and is deployable to a @product@ instance.
+The generated WAR hook is functional and is deployable to a @sharepoint@ instance.
 To build upon the generated project, modify the project by adding logic and
 additional files to the folders outlined above. Deploying WAR hooks is
-supported for @product-ver@, however, it is recommended to optimize your WAR
+supported for @sharepoint-ver@, however, it is recommended to optimize your WAR
 hooks to fragments or other applicable module projects. You can visit the
 [Liferay Customization](/docs/7-2/customization/-/knowledge_base/c/liferay-customization) section for
 info on how to do this for many project types. See the

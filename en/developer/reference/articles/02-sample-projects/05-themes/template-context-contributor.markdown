@@ -6,7 +6,7 @@ header-id: template-context-contributor
 
 [TOC levels=1-4]
 
-The Template Context Contributor sample injects a new variable into @product@'s
+The Template Context Contributor sample injects a new variable into @sharepoint@'s
 theme context. When deploying this sample with no customizations, you can use
 the `${sample_text}` variable from any theme.
 
@@ -18,7 +18,7 @@ Context contributors allow non-JSP developers an easy way to inject variables
 into their Liferay templates.
 
 This sample leverages the
-[TemplateContextContributor](@product-ref@/7.2-latest/javadocs/portal-kernel/com/liferay/portal/kernel/template/TemplateContextContributor.html)
+[TemplateContextContributor](@sharepoint-ref@/7.2-latest/javadocs/portal-kernel/com/liferay/portal/kernel/template/TemplateContextContributor.html)
 API.
 
 ## How does this sample leverage the API(s) and/or code component?
@@ -29,7 +29,7 @@ context contributor sample provides the `${sample_text}` variable by injecting
 it into Liferay's `contextObjects`, which is a map provided by default to offer
 common variables to non-JSP template developers. You can easily inject your own
 variables into the `contextObjects` map usable by any theme deployed to
-@product@.
+@sharepoint@.
 
 Are you working with templates that aren't themes (e.g., ADTs, DDM templates,
 etc.)? You can change the context in which your variables are injected by
@@ -44,7 +44,7 @@ For more information on customizing the Template Context Contributor sample to
 fit your needs, see the Javadoc listed in this sample's
 `com.liferay.blade.samples.theme.contributorBladeTemplateContextContributor`
 class. For more information on context contributors and how to create them in
-@product@, visit the
+@sharepoint@, visit the
 [Context Contributors](/docs/7-2/frameworks/-/knowledge_base/f/injecting-additional-context-variables-and-functionality-into-your-theme-te)
 tutorial.
 

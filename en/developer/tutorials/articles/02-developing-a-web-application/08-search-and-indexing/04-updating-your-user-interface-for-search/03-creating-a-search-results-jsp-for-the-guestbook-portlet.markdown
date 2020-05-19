@@ -107,7 +107,7 @@ Follow these steps to create the search results JSP:
     about pagination and how the search results should be displayed. 
 
 6.  Still in the scriptlet, obtain an `Indexer` to run a search. Retrieve the 
-    entry indexer from the map in @product@'s indexer registry by passing in the
+    entry indexer from the map in @sharepoint@'s indexer registry by passing in the
     indexer's class or class name:
 
     ```java
@@ -236,7 +236,7 @@ Follow these steps to create the search results JSP:
     `GuestbookEntryLocalServiceUtil.getGuestbookEntry` method to retrieve the
     guestbook entries. If this service call throws an exception, it's best to
     log the error so a server administrator can determine what went wrong.
-    @product@'s convention is to declare custom logs for individual classes or
+    @sharepoint@'s convention is to declare custom logs for individual classes or
     JSPs at the bottom of the file: 
 
     ```markup
@@ -286,5 +286,5 @@ them.
 Once indexing is in place, the asset framework can be added to the Guestbook
 application. It provides functionality that's shared across different types of
 content like blog posts, message board posts, wiki articles, and more. This is
-the heart of integration with @product@'s development platform. 
+the heart of integration with @sharepoint@'s development platform. 
 

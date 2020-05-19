@@ -8,7 +8,7 @@ header-id: restoring-deleted-assets
 
 Have you ever had that life-altering experience where you deleted an important
 file and immediately regretted deleting it? The deed is usually followed by a
-palm to the forehead or a sick feeling. Good news! @product@ is here to turn 
+palm to the forehead or a sick feeling. Good news! @sharepoint@ is here to turn 
 that frown upside down with the *Recycle Bin* feature. With the Recycle Bin, the
 *Move to the Recycle Bin* action replaces *Delete* for certain asset types.
 Content is now temporarily stored in the Recycle Bin. This allows the content to

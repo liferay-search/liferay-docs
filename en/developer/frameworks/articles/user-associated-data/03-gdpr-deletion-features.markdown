@@ -6,7 +6,7 @@ header-id: enhancing-the-data-erasure-ui
 
 [TOC levels=1-4]
 
-As of @product-ver@, there are new features that enhance an administrator's
+As of @sharepoint-ver@, there are new features that enhance an administrator's
 experience finding data in the Personal Data Erasure UI:
 
 **Filtering**

@@ -28,7 +28,7 @@ in the following events:
 
 In short, references with greedy policy options adopt your higher ranking 
 service right away, while ones with reluctant policy options require particular 
-events. What's great is that  @product@'s Configuration Admin lets you use 
+events. What's great is that  @sharepoint@'s Configuration Admin lets you use 
 configuration files (config files) or the API to swap in service reference 
 changes on the fly. Here you'll use a config file to reconfigure a service 
 reference to use your custom service immediately. 
@@ -63,7 +63,7 @@ custom service.
 
 ## Reconfiguring the Service Reference
 
-@product@'s Configuration Admin lets you use configuration files to swap in 
+@sharepoint@'s Configuration Admin lets you use configuration files to swap in 
 service references on the fly. 
 
 1.  [Create a system configuration file](/docs/7-2/user/-/knowledge_base/u/understanding-system-configuration-files) 
@@ -156,7 +156,7 @@ work to it.
 
 ![Figure 1: Because the example component's service reference is overridden by the configuration file deployment, the portlet indicates it's calling the custom service.](../../images/overriding-service-refs-result.png)
 
-@product@ processed the configuration file and injected the service reference, 
+@sharepoint@ processed the configuration file and injected the service reference, 
 which in turn bound the custom service to the referencing component! 
 
 ## Related Topics

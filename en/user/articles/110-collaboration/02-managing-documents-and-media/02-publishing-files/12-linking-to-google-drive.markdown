@@ -14,11 +14,11 @@ enable it, you must complete these steps:
 1.  Install the Liferay Plugin for Google Drive&trade; from Liferay Marketplace. 
 
 2.  Create and/or configure a Google project capable of communicating with your 
-    @product@ instance. The 
+    @sharepoint@ instance. The 
     [Google Picker API](https://developers.google.com/picker/) 
     must be enabled for this project. This API lets you select Google files to 
     link to. You must also create the credentials the Google project needs to 
-    communicate with your @product@ instance. 
+    communicate with your @sharepoint@ instance. 
 
 3.  Configure your portal to communicate with your Google project. 
 
@@ -50,7 +50,7 @@ If you need help installing apps from Marketplace, see the documentation on
 ## Configure Your Google Project
 
 Follow these steps to create and/or configure your Google project so it can 
-communicate with your @product@ instance: 
+communicate with your @sharepoint@ instance: 
 
 1.  Go to the
     [Google API Console](https://console.developers.google.com). 
@@ -76,19 +76,19 @@ communicate with your @product@ instance:
     Google API Console documentation on 
     [creating API keys](https://support.google.com/googleapi/answer/6158862?hl=en). 
     Be sure to restrict the key to HTTP referrers (web sites), and set it to 
-    accept requests from your @product@ instance's URL. 
+    accept requests from your @sharepoint@ instance's URL. 
 
 Your new OAuth client ID and public API access key now appear on your Google 
 project's Credentials screen. Keep this screen open to reference these values as 
-you specify them in @product@. 
+you specify them in @sharepoint@. 
 
 ## Configure Your Portal
 
-Now that you have a Google project set up for use with @product@, you must 
+Now that you have a Google project set up for use with @sharepoint@, you must 
 connect your installation to that project. You can do this at two scopes: 
 
-1.  Globally, for all instances in your @product@ installation. 
-2.  At the instance scope, for one or more instances in your @product@ 
+1.  Globally, for all instances in your @sharepoint@ installation. 
+2.  At the instance scope, for one or more instances in your @sharepoint@ 
     installation. 
 
 You can override the global configuration for one or more instances by 
@@ -96,7 +96,7 @@ configuring those instances separately. Similarly, you can configure only the
 instances you want to connect to your Google project and leave the global 
 configuration empty. 
 
-Follow these steps to configure your @product@ installation to connect to your 
+Follow these steps to configure your @sharepoint@ installation to connect to your 
 Google project: 
 
 1.  Note that the configuration options are the same in the global and 

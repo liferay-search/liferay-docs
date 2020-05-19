@@ -12,7 +12,7 @@ header-id: resolving-a-projects-dependencies
 
 You may have compile errors due to missing Liferay classes or unresolved symbols
 because they've been moved, renamed, or removed. As a part of modularization in
-@product@, many of these classes reside in new modules. 
+@sharepoint@, many of these classes reside in new modules. 
 
 You must resolve all of these Liferay classes for your project. Some of the
 class changes are quick and easy to fix. Changes involving the new modules
@@ -58,10 +58,10 @@ Great! You've updated your class imports!
 You must resolve the new module as a dependency for your project. This requires
 identifying the module and specifying your project's dependency on it. 
 
-Before @product@ 7.0, all the platform APIs were in `portal-service.jar`. Many 
+Before @sharepoint@ 7.0, all the platform APIs were in `portal-service.jar`. Many 
 of these APIs are now in independent modules. Modularization has resulted in 
 many benefits, as described in the article 
-[Benefits of @product-ver@ for Liferay Portal 6 Developers](/docs/tutorials/7-1/-/knowledge_base/t/benefits-of-liferay-7-for-liferay-6-developers#modular-development-paradigm). 
+[Benefits of @sharepoint-ver@ for Liferay Portal 6 Developers](/docs/tutorials/7-1/-/knowledge_base/t/benefits-of-liferay-7-for-liferay-6-developers#modular-development-paradigm). 
 One such advantage is that these API modules can evolve separately from the
 platform kernel. They also simplify future upgrades. For example, instead of
 having to check all of Liferay's APIs, each module's 
@@ -73,7 +73,7 @@ As part of the modularization, `portal-service.jar` has been renamed
 appropriately to `portal-kernel.jar`, as it continues to hold the portal 
 kernel's APIs. 
 
-![Figure 1: Liferay refactored the portal-service JAR for @product-ver@. Application APIs now exist in their own modules, and the portal-service JAR is now *portal-kernel*.](../../../images/from-liferay-6-portal-apis-before-after.png)
+![Figure 1: Liferay refactored the portal-service JAR for @sharepoint-ver@. Application APIs now exist in their own modules, and the portal-service JAR is now *portal-kernel*.](../../../images/from-liferay-6-portal-apis-before-after.png)
 
 Each app module consists of a set of classes that are highly cohesive and have
 a specific purpose, such as providing the app's API, implementation, or UI. The 
@@ -83,7 +83,7 @@ modules that now hold the classes referenced by your plugin.
 The reference article 
 [Classes Moved from `portal-service.jar`](/docs/7-1/reference/-/knowledge_base/r/classes-moved-from-portal-service-jar) 
 contains a table that maps each class moved from `portal-service.jar` to its new 
-module in @product@ 7.1. The table includes each class's new package and
+module in @sharepoint@ 7.1. The table includes each class's new package and
 symbolic name (artifact ID). You'll use this information to configure your
 plugin's dependencies on these modules. 
 
@@ -93,7 +93,7 @@ For more information on finding and resolving your project dependencies, see
 ## Class Replaced or Removed
 
 In cases where the class has been replaced by another class or removed from the
-product, some investigation is required. The easiest way to resolve this type of
+sharepoint, some investigation is required. The easiest way to resolve this type of
 issue is to use the Upgrade Planner. It finds removed classes your project
 is referencing and explains what happened to the class, how to handle the
 change, and why the change was made. These are listed as breaking changes (among

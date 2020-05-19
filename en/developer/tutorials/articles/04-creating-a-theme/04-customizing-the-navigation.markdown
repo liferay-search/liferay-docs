@@ -6,7 +6,7 @@ header-id: customizing-the-navigation
 
 [TOC levels=1-4]
 
-Navigation items (pages) are defined and configured in @product@. The Navigation 
+Navigation items (pages) are defined and configured in @sharepoint@. The Navigation 
 template iterates through the existing navigation items (pages) and assigns the 
 template's markup for each of them. Page updates therefore require no updates to 
 the theme directly and can be made by a Site Administrator, thus reducing the 
@@ -292,8 +292,8 @@ Follow these steps to configure the Header's navigation:
 
 15.  The Control Menu is displayed on top of everything when the user is signed 
      in, which covers the Header. You must update the `navigation.ftl` template 
-     to account for the Control Menu. @product@ provides a unique class that is 
-     added to the `body` of the page when each product navigation (which 
+     to account for the Control Menu. @sharepoint@ provides a unique class that is 
+     added to the `body` of the page when each sharepoint navigation (which 
      includes the Control Menu) is visible. Use the `has-control-menu` class is 
      added to the body when the Control Menu is visible. Open `_custom.scss` and 
      add this code snippet just above the closing bracket for the `body` to add 

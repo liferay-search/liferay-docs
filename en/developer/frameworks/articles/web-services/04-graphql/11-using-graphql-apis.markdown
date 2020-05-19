@@ -6,7 +6,7 @@ header-id: using-graphql-apis
 
 [TOC levels=1-4]
 
-@product@'s GraphQL APIs are independent of clients and can be used with any
+@sharepoint@'s GraphQL APIs are independent of clients and can be used with any
 GraphQL client you want. The only usual requirements are setting up the
 `Authentication` header using OAuth, Cookie, Basic, etc.
 

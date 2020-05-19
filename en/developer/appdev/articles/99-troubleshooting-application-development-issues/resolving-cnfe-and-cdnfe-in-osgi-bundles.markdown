@@ -21,7 +21,7 @@ In OSGi environments, however, there are additional cases where a
 1.  The missing class belongs to a module dependency that's an OSGi module. 
 2.  The missing class belongs to a module dependency that's *not* an OSGi 
     module. 
-3.  The missing class belongs to a global library, either at the @product@ 
+3.  The missing class belongs to a global library, either at the @sharepoint@ 
     web app scope or the application server scope. 
 4.  The missing class belongs to a Java runtime package.
 
@@ -93,7 +93,7 @@ In this case, you have two options:
 
 ## Case 3: The Missing Class Belongs to a Global Library
 
-In this case, you can configure @product@ so the OSGi system module exports the
+In this case, you can configure @sharepoint@ so the OSGi system module exports the
 missing class's package. Then your module can import it. You should **NOT**,
 however, undertake this lightly. If Liferay intended to make a global library
 available for use by developers, the system module would already export this
@@ -104,13 +104,13 @@ unintended consequences. There are two ways to export the package:
     [`module.framework.system.packages.extra`](@platform-ref@/7.2-latest/propertiesdoc/portal.properties.html#Module%20Framework)
     to specify the packages to export. Preserve the property's current list. 
 
-2.  If the package you need is from a @product@ JAR, you might be able to add 
+2.  If the package you need is from a @sharepoint@ JAR, you might be able to add 
     the module to the list of exported packages in
     `[LIFERAY_HOME]/osgi/core/com.liferay.portal.bootstrap.jar`'s
     `META-INF/system.packages.extra.bnd` file. Try this option 
     only if the first option doesn't work. 
 
-If the package you need is from a @product@ module, (i.e., it's **NOT** 
+If the package you need is from a @sharepoint@ module, (i.e., it's **NOT** 
 from a global library), you can add the package to that module's `bnd.bnd` 
 exports. You should **NOT**, however, undertake this lightly. The package would
 already be exported if Liferay intended for it to be available. 
@@ -118,14 +118,14 @@ already be exported if Liferay intended for it to be available.
 ## Case 4: The Missing Class Belongs to a Java Runtime Package
 
 `rt.jar` (the JRE library) has non-public packages. If your module imports one
-of them, configure @product@'s system bundle to export the package to the module
+of them, configure @sharepoint@'s system bundle to export the package to the module
 framework. 
 
 1.  Add the current
     [`module.framework.system.packages.extra` property setting](@platform-ref@/7.2-latest/propertiesdoc/portal.properties.html#Module%20Framework)
     to a
     [`portal-ext.properties` file](/docs/7-2/deploy/-/knowledge_base/d/portal-properties). 
-    Your server's current setting is in the @product@ web application's
+    Your server's current setting is in the @sharepoint@ web application's
     `/WEB-INF/lib/portal-impl.jar/portal.properties` file. 
 
 2.  In your `portal-ext.properties` file, append the required Java runtime 

@@ -82,7 +82,7 @@ like this:
 The Maven-generated project includes a `pom.xml` file and does not include the
 Gradle-specific files, but otherwise, appears exactly the same.
 
-The generated module is a working application and is deployable to a @product@
+The generated module is a working application and is deployable to a @sharepoint@
 instance. An unmodified module generated as described above creates a social
 bookmark named *Test* that searches the current URL using Google Search.
 

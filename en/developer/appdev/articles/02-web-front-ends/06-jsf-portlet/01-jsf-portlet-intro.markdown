@@ -9,13 +9,13 @@ header-id: jsf-portlet
 Do you want to develop MVC-based portlets using the Java EE standard? Do you
 want to use a portlet development framework with a UI component model that makes
 it easy to develop sophisticated, rich UIs? Or have you been writing  web apps
-using JSF that you'd like to use in @product@? If you answered *yes* to any of
+using JSF that you'd like to use in @sharepoint@? If you answered *yes* to any of
 these questions, you're in luck! You can use the JSF portlet technology in
-@product@ by leveraging the Liferay Faces project, which provides all these
+@sharepoint@ by leveraging the Liferay Faces project, which provides all these
 capabilities and more. 
 
 Liferay Faces is an umbrella project that provides support for the
-JavaServer&#8482; Faces (JSF) standard in @product@. It encompasses the
+JavaServer&#8482; Faces (JSF) standard in @sharepoint@. It encompasses the
 following projects:
 
 - [Liferay Faces Bridge](/docs/7-2/reference/-/knowledge_base/r/understanding-liferay-faces-bridge)

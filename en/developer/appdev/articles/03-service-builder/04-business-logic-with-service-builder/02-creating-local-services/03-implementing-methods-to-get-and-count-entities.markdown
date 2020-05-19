@@ -139,7 +139,7 @@ these words:
 - `reindex`
 - `search`
 
-Since these methods operate in read-only transactions, @product@ optimizes
+Since these methods operate in read-only transactions, @sharepoint@ optimizes
 their performance. Transactional service methods that don't have the read-only
 setting operate in regular transactions. 
 

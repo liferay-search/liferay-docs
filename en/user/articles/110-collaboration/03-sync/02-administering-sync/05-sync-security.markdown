@@ -7,22 +7,22 @@ header-id: ensuring-liferay-sync-security
 [TOC levels=1-4]
 
 As an administrator, you have a stake in the security of all connections to and
-from your servers. As long as @product@ is configured to use HTTPS, Sync clients
+from your servers. As long as @sharepoint@ is configured to use HTTPS, Sync clients
 use user-supplied credentials to communicate securely. Users can only access the
 documents and Sites they're permitted to access. To support Security Mode in the
-Sync mobile client and securely transmit files, your @product@ server must also
+Sync mobile client and securely transmit files, your @sharepoint@ server must also
 use SSL. The next section demonstrates how Sync's permissions work with your
-@product@ instance's permissions. 
+@sharepoint@ instance's permissions. 
 
 ## Liferay Sync Permissions Demonstration
 
-Sync uses @product@'s default permissions to determine files and folders to sync
+Sync uses @sharepoint@'s default permissions to determine files and folders to sync
 with the user's devices. It can only sync files a user can access. After
 installing the desktop Sync client, follow the steps below to test this
 functionality. 
 
 First, enter `classified information` into a new text file and save it on your
-desktop as `secret.txt`. Then use your browser to sign into @product@
+desktop as `secret.txt`. Then use your browser to sign into @sharepoint@
 and create a new user with the user name *secretagent* and the email address
 *secretagent\@liferay.com*. Give this user a password and then create a new
 private Site called *Secret Site*. Create a page on the Site and add the
@@ -40,7 +40,7 @@ at the window's bottom left to add an account. Provide the secretagent user's
 credentials and uncheck all Sites except the Secret Site. Now confirm that Sync
 downloaded the `secret.txt` file to your new Sync folder. Open it and check that
 it contains the text `classified information`. Next, use Sync to connect to your
-@product@ instance with the user that doesn't belong to the Secret Site. The
+@sharepoint@ instance with the user that doesn't belong to the Secret Site. The
 file doesn't sync because this user isn't a Site member. 
 
 Now go to Sync Connector Admin and set the Secret Site's default file
@@ -60,10 +60,10 @@ secretagent user's local Sync folder. It still contains the original text.
 Likewise, the original file remains in the Site's Documents and Media portlet. 
 To get rid of the error in the other user's local Sync folder, return there and 
 then right click the file and select *Download From Server*. This replaces the 
-file with the latest file in the @product@ instance. 
+file with the latest file in the @sharepoint@ instance. 
 
 Now edit `secret.txt` in the secretagent user's local Sync folder. When you
-check the file in the other user's local Sync folder and in the @product@ 
+check the file in the other user's local Sync folder and in the @sharepoint@ 
 instance, notice that Sync propagated the edits. The changes were propagated 
 because the secretagent user owns the file in the instance. Owners can do 
 anything with their files, even when the Site's default file permissions are set 

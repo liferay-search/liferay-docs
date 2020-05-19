@@ -27,7 +27,7 @@ Now you've taken the entity and successfully run it through a workflow.
 
 ## What API(s) and/or code components does this sample highlight?
 
-This sample demonstrates @product@'s Workflow Handler API. Specifically, it
+This sample demonstrates @sharepoint@'s Workflow Handler API. Specifically, it
 demonstrates how to create a `WorkflowHandler` for your custom entity that is
 [asset enabled](/docs/7-2/frameworks/-/knowledge_base/f/asset-framework).
 

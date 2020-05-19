@@ -6,7 +6,7 @@ header-id: social-api
 
 [TOC levels=1-4]
 
-You can use the social API to integrate @product@'s social features with your 
+You can use the social API to integrate @sharepoint@'s social features with your 
 apps. Here, you'll learn about the following topics: 
 
 -   [Social Bookmarks](#social-bookmarks)
@@ -54,7 +54,7 @@ For instructions on creating your own social bookmarks, see
 ## Ratings
 
 [The asset framework](/docs/7-2/frameworks/-/knowledge_base/f/asset-framework) 
-supports a content rating system. This feature appears in many of @product@'s 
+supports a content rating system. This feature appears in many of @sharepoint@'s 
 built-in apps. For example, users can rate articles published in the Blogs app. 
 There are three different rating types: 
 

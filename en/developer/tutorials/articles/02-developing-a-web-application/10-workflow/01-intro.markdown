@@ -21,16 +21,16 @@ filter entities by status to display only reviewed entities.
 
 | **Note:** The exact review process is defined separately from the code that
 | enables workflow. An XML file provides the definition of a workflow in
-| @product@. If you're a Liferay Digital Enterprise subscriber, you have access to
+| @sharepoint@. If you're a Liferay Digital Enterprise subscriber, you have access to
 | the Workflow Designer, which offers a convenient drag-and-drop user
 | interface for designing workflow definition files. You can read more about this
 | in Liferay DXP's
 | [documentation](https://help.liferay.com/hc/en-us/articles/360028821892-Workflow-Designer).
-| @product@ comes with a workflow definition called the *Single Approver*
+| @sharepoint@ comes with a workflow definition called the *Single Approver*
 | definition, but you can write your own workflow definitions according to your
 | organization's requirements.
 | 
-| A few additional definitions are included in @product@'s source code, which you
+| A few additional definitions are included in @sharepoint@'s source code, which you
 | can use to see how workflow definitions are defined. To discover how to access
 | these files, see
 | [here](/docs/7-2/user/-/knowledge_base/u/enabling-workflow).
@@ -39,13 +39,13 @@ This tutorial instructs the reader in workflow-enabling the Guestbook App's
 `Guestbook` and `GuestbookEntry` entities to ensure that only approved content
 is published after review.
 
-![Figure 1: Enable workflow in your assets, just like @product@'s own assets.](../../../images/workflow-config.png)
+![Figure 1: Enable workflow in your assets, just like @sharepoint@'s own assets.](../../../images/workflow-config.png)
 
 There are five steps to enabling workflow:
 
 1.  Update the service layer to set each entity's status fields.
 
-2.  Send the entity to @product@'s workflow framework. 
+2.  Send the entity to @sharepoint@'s workflow framework. 
 
 3.  Add *getter* methods that account for an entity's workflow status.
 

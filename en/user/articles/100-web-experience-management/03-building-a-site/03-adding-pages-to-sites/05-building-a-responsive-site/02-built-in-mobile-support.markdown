@@ -70,7 +70,7 @@ have unintended effects.
 
 ## Designing Mobile Friendly Pages
 
-@product@ provides the tools you need, but building pages that provide a good 
+@sharepoint@ provides the tools you need, but building pages that provide a good 
 experience across all kinds of devices still means working across all levels of
 web development and publishing. Theme developers must create themes that use
 Liferay's frameworks to scale content well across all kinds of displays.

@@ -35,17 +35,17 @@ following property in your `portal-ext.properties` file:
 
 **Required:** Check this box if LDAP authentication is required. Users can't log
 in unless they can bind to the LDAP directory successfully. Uncheck this box if
-users with @product@ accounts but no LDAP accounts can log in.
+users with @sharepoint@ accounts but no LDAP accounts can log in.
 
-**Use LDAP Password Policy:** @product@ uses its own password policy by default.
+**Use LDAP Password Policy:** @sharepoint@ uses its own password policy by default.
 This can be configured on the Control Panel's Password Policies page. Check the
 *Use LDAP Password Policy* box if you want to use the password policies defined
 by your LDAP directory. Once this is enabled, the Password Policies tab states
 that you are not using a local password policy. You must now use your LDAP
-directory's mechanism for setting password policies. @product@ cannot enforce
+directory's mechanism for setting password policies. @sharepoint@ cannot enforce
 these policies; the best it can do is pass through the messages returned by your
 LDAP server. It does this by parsing the messages in the LDAP controls the
-server returns. By default, @product@ is configured to parse the messages
+server returns. By default, @sharepoint@ is configured to parse the messages
 returned by the Fedora Directory Server. If you use a different LDAP server, you
 must customize the messages in *System Settings* &rarr; *Security* &rarr; *LDAP*
 &rarr; *Connection*. 
@@ -69,15 +69,15 @@ directories. Otherwise, Users are imported as they log in.
 ![Figure 1: Ziltoid and Rex have been imported because they logged in.](../../../images/imported-ldap-users.png)
 
 **Enable Import on Startup:** Check this box to do the mass import when
-@product@ starts. Note: this box only appears if you check **Enable Import**,
-described above. Definitely leave this unchecked if you have a @product@
+@sharepoint@ starts. Note: this box only appears if you check **Enable Import**,
+described above. Definitely leave this unchecked if you have a @sharepoint@
 cluster, or all your nodes will do a mass import when each of them starts up.
 
 **Import Interval:** When mass importing users, import users every X minutes. 
 
-**Import Method:** Set either User or Group. If you set this to User, @product@
+**Import Method:** Set either User or Group. If you set this to User, @sharepoint@
 imports all users from the location specified in the server connection. If you
-set this to Group, @product@ searches all the groups and imports the users in
+set this to Group, @sharepoint@ searches all the groups and imports the users in
 each group. If you have users who do not belong to any groups, they are not
 imported. 
 
@@ -105,7 +105,7 @@ a corresponding Liferay Role.
 
 ## Servers
 
-**LDAP Servers:** @product@ supports connections to multiple LDAP servers. Use
+**LDAP Servers:** @sharepoint@ supports connections to multiple LDAP servers. Use
 the *Add* button to add LDAP servers. Each LDAP server has
 several configuration options [explained here](/docs/7-2/deploy/-/knowledge_base/d/ldap). 
 
@@ -142,5 +142,5 @@ can be different. The properties described here contain snippets of words from
 those messages and work with Red Hat's Fedora Directory Server. If you are not
 using that server, the word snippets may not work with your LDAP server. If they
 don't, you can replace the values of these properties with phrases from your
-server's error messages. This enables @product@ to recognize them.
+server's error messages. This enables @sharepoint@ to recognize them.
 

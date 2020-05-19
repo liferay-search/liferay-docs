@@ -31,7 +31,7 @@ highlighted tool.
     | `liferay.version.default` property. This version is applied when creating
     | projects based on the corresponding project template versions.
     |
-    | If you wish to develop projects for a different @product@ version, you can
+    | If you wish to develop projects for a different @sharepoint@ version, you can
     | pass a different version in the Blade init command. For example,
     |
     | ```bash
@@ -102,7 +102,7 @@ A dialog appears prompting you to open the Liferay Workspace perspective. Click
 
     ![Figure 3: Choose *Liferay Gradle Workspace* or *Liferay Maven Workspace*, depending on the build you prefer.](../../../images/intellij-workspace-build.png)
 
-4.  Specify your workspace's name, location, intended @product@ version,
+4.  Specify your workspace's name, location, intended @sharepoint@ version,
     [target platform](/docs/7-2/reference/-/knowledge_base/r/managing-the-target-platform),
     and SDK (i.e., Java JDK). Then click *Finish*.
 

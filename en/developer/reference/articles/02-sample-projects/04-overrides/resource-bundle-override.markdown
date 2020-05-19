@@ -8,7 +8,7 @@ header-id: resource-bundle-override
 
 This example overrides the default
 `javax.portlet.title.com_liferay_login_web_portlet_LoginPortlet` language key
-for @product@'s default Login portlet. After deploying this sample to @product@,
+for @sharepoint@'s default Login portlet. After deploying this sample to @sharepoint@,
 the Login portlet's *Sign In* title is modified to display *Login Portlet
 Override*.
 
@@ -27,8 +27,8 @@ OSGi manifest header.
 ## How does this sample leverage the API(s) and/or code component?
 
 This sample conveys the recommended approach to override a portlet's
-language keys file for any module that is deployed to @product@'s OSGi runtime
-(not applicable to @product@'s core language keys).
+language keys file for any module that is deployed to @sharepoint@'s OSGi runtime
+(not applicable to @sharepoint@'s core language keys).
 
 The steps to override a portlet's language keys are
 
@@ -66,8 +66,8 @@ For more information on the `Provide-Capability` header and its parts, see the
 section.
 
 This approach can be used to override any portlet's language keys (i.e.,
-`language.properties` files that are inside a module deployed to @product@'s
-OSGi runtime). If you need to override @product@'s core language keys, see the
+`language.properties` files that are inside a module deployed to @sharepoint@'s
+OSGi runtime). If you need to override @sharepoint@'s core language keys, see the
 [Overriding Global Language Keys](/docs/7-2/customization/-/knowledge_base/c/overriding-global-language-keys)
 article.
 

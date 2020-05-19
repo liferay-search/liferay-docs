@@ -6,12 +6,12 @@ header-id: overriding-inline-content-using-jsps
 
 [TOC levels=1-4]
 
-Some @product@ core content, such as tag library tags, can only be overridden 
+Some @sharepoint@ core content, such as tag library tags, can only be overridden 
 using JSPs ending in `.readme`. The suffix `.readme` facilitates finding them. 
-The code from these JSPs is now inlined (brought into @product@ Java source 
-files) to improve performance. @product@ ignores JSP files with the `.readme` 
+The code from these JSPs is now inlined (brought into @sharepoint@ Java source 
+files) to improve performance. @sharepoint@ ignores JSP files with the `.readme` 
 suffix. If you add code to a JSP `.readme` file and remove the `.readme` suffix, 
-@product@ uses that JSP instead of the core inline content. This tutorial shows 
+@sharepoint@ uses that JSP instead of the core inline content. This tutorial shows 
 you how to make these customizations. 
 
 | **Important:** This type of customization is a last resort. Your override may 
@@ -19,8 +19,8 @@ you how to make these customizations.
 | down with it. Liferay cannot guarantee that content overridden using JSP 
 | `.readme` files can be upgraded. 
 
-| **Warning:** Modifying a @product@ tag library tag affects all uses of that tag 
-| in your @product@ installation. 
+| **Warning:** Modifying a @sharepoint@ tag library tag affects all uses of that tag 
+| in your @sharepoint@ installation. 
 
 Here's how to override inline content using JSPs:
 
@@ -31,7 +31,7 @@ Here's how to override inline content using JSPs:
     | **Note:** you can develop your JSP anywhere, but a Custom JSP Bag module 
     | provides a straightforward way to build and deploy it.
 
-2.  Download the @product@ source code or browse the source code on 
+2.  Download the @sharepoint@ source code or browse the source code on 
     [GitHub (Liferay Portal CE)](https://github.com/liferay/liferay-portal/tree/7.2.x). 
 
 3.  Search the source code for a `.jsp.readme` file that overrides the tag 
@@ -41,11 +41,11 @@ Here's how to override inline content using JSPs:
     | append new content to existing content. Examples include the
     | `bottom-test.jsp.readme`, `bottom-ext.jsp.readme`,
     | `body_top-ext.jsp.readme`, and `body_bottom-ext.jsp.readme` files in
-    | the @product@ application's `portal-web/docroot/html/common/themes` folder.
+    | the @sharepoint@ application's `portal-web/docroot/html/common/themes` folder.
 
 4.  Copy the `.jsp.readme` file into your project and drop the `.readme` suffix. 
-    Use the same relative file path @product@ uses for the `.jsp.readme` file. 
-    For example, if the file in @product@ is
+    Use the same relative file path @sharepoint@ uses for the `.jsp.readme` file. 
+    For example, if the file in @sharepoint@ is
 
         portal-web/docroot/html/taglib/aui/fieldset/start.jsp.readme
 
@@ -63,7 +63,7 @@ Here's how to override inline content using JSPs:
 
 7.  Deploy your JSP. 
 
-@product@ uses your JSP in place of the current inline logic. If you want 
+@sharepoint@ uses your JSP in place of the current inline logic. If you want 
 to walk through an example override, continue with this tutorial. Otherwise, 
 congratulations on a modified `.jsp.readme` file to override core inline 
 content! 
@@ -71,7 +71,7 @@ content!
 ## Example: Overriding the fieldset Taglib Tag
 
 This example demonstrates changing the `liferay:aui` tag library's `fieldset` 
-tag. Browsing the @product@ web application or the source code at 
+tag. Browsing the @sharepoint@ web application or the source code at 
 `portal-web/docroot/html/taglib/aui/fieldset` reveals these files:
 
 - `start.jsp.readme`
@@ -203,7 +203,7 @@ On deploying the `start.jsp`, the `fieldset` tags render the same as they did
 before. This is expected because it uses the same logic as `FieldsetTag`'s 
 `processStart` method. 
 
-![Figure 1: @product@'s home page's search and sign in components are in a `fieldset`.](../../images/jsp-readme-inline-fieldset.png)
+![Figure 1: @sharepoint@'s home page's search and sign in components are in a `fieldset`.](../../images/jsp-readme-inline-fieldset.png)
 
 The `fieldset` starting logic is ready for customization. To test that this 
 works, you'll print the word *test* surrounded by asterisks before the end of 
@@ -219,7 +219,7 @@ Redeploy the JSP and refresh the page to see the text printed above the
 
 ![Figure 2: Before the `fieldset`'s nested fields, it prints *test* surrounded by asterisks.](../../images/jsp-readme-override-inline-fieldset.png)
 
-You know how to override specific @product@ core inline content using Liferay's 
+You know how to override specific @sharepoint@ core inline content using Liferay's 
 `.jsp.readme` files. 
 
 ## Related Topics

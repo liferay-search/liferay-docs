@@ -23,7 +23,7 @@ modifying a Liferay server:
     blade server init
     ```
 
-    This downloads the @product@ bundle set in your workspace's
+    This downloads the @sharepoint@ bundle set in your workspace's
     `gradle.propeties` file. See the
     [Adding a Liferay Bundle to Workspace](/docs/7-2/reference/-/knowledge_base/r/adding-a-liferay-bundle-to-liferay-workspace)
     article for more information.
@@ -96,7 +96,7 @@ modifying a Liferay server:
     | You can replace the JAR name above with the module JAR you want to exclude.
     | This is useful for those who want to have a module in their workspace that
     | is used for development or debug purposes only, and it should not be deployed
-    | to production. This works for Gradle builds only at this time.
+    | to sharepointion. This works for Gradle builds only at this time.
 
     <!-- TODO: Add way for producing a distributable workspace using Blade, when
     available. It can only be done currently with ./gradlew distBundle[Zip|Tar].
@@ -111,4 +111,4 @@ modifying a Liferay server:
 To reference all of Blade CLI's available options, see the
 [Blade CLI](/docs/7-2/reference/-/knowledge_base/r/blade-cli) article.
 
-Awesome! You learned how to interact with @product@ using Blade CLI.
+Awesome! You learned how to interact with @sharepoint@ using Blade CLI.

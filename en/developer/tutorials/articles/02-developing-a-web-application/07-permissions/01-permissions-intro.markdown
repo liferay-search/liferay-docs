@@ -11,7 +11,7 @@ users want a Guestbook that's limited to certain trusted people? What if you
 don't want just any old user to go around editing or deleting people's Guestbook
 entries? To do that, you have to implement permissions. 
 
-Thankfully, with @product@ you don't have to write an entire permissions system 
+Thankfully, with @sharepoint@ you don't have to write an entire permissions system 
 from scratch: the framework provides a robust and well-tested permissions system 
 that you can implement quickly. You'll follow Liferay's well-defined process for 
 implementing permissions, called *DRAC*: 

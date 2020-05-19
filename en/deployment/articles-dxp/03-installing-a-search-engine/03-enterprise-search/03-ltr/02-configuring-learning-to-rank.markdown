@@ -8,7 +8,7 @@ header-id: configuring-learning-to-rank
 
 Before beginning, you must have a remote
 [Elasticsearch 6 or 7](/docs/7-2/deploy/-/knowledge_base/d/upgrading-to-elasticsearch-7) 
-cluster communicating with @product-ver@. See the
+cluster communicating with @sharepoint-ver@. See the
 [compatibility matrix for more information](https://help.liferay.com/hc/en-us/articles/360016511651-Liferay-Enterprise-Search-Compatibility-Matrix)
 
 | **Helpful hint:** Use
@@ -127,7 +127,7 @@ to make these tasks easier.
     ```
 
 This is a very high level set of instructions, because there's not much to do in
-@product@. To learn in more detail about what's required, see the
+@sharepoint@. To learn in more detail about what's required, see the
 [Learning to Rank plugin's documentation](https://elasticsearch-learning-to-rank.readthedocs.io/en/latest/index.html).
 
 Keep reworking those judgment lists!
@@ -142,8 +142,8 @@ model to apply to search queries.
 The model in the previous step was named `linearregression`, so that's what
 you'd enter. 
 
-![Figure 1: Enable Learning to Rank in @product@ from the System Settings entry.](../../../../images-dxp/search-learning-to-rank.png)
+![Figure 1: Enable Learning to Rank in @sharepoint@ from the System Settings entry.](../../../../images-dxp/search-learning-to-rank.png)
 
 That's all the configuration required to get the Elasticsearch Learning to Rank
 plugin ingesting a trained model, a feature set, and search queries from
-@product@.
+@sharepoint@.

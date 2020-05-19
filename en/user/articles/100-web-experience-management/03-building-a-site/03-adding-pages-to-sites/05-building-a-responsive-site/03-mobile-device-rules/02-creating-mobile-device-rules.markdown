@@ -10,7 +10,7 @@ To configure mobile device rules, you need a way to find out the characteristics
 of the device. While some of the characteristics are provided by the device,
 most are not. For this reason, there are databases that contain information
 about thousands of devices. These databases make it possible to learn every
-detail about a device from the device type. @product@'s Mobile Device Rules can
+detail about a device from the device type. @sharepoint@'s Mobile Device Rules can
 connect to device databases so that you can use their device characteristics in
 your rules. 
 
@@ -32,7 +32,7 @@ won't have enough information about the devices being used to make page
 requests.
 
 <!-- Uncomment when the referenced article is published. Jim
-To learn how to tap into @product@'s Device API, see the 
+To learn how to tap into @sharepoint@'s Device API, see the 
 Using the Device Recognition API(/develop/tutorials/-/knowledge_base/7-1/using-the-device-recognition-api)
 tutorial.
 -->
@@ -80,7 +80,7 @@ you'd like to take actions.
 4.  Click *Save*.
 
 You'll notice after saving the classification rule that it's characterized as a 
-*Simple Rule*. Only Simple Rules are included with @product@, but the rules 
+*Simple Rule*. Only Simple Rules are included with @sharepoint@, but the rules 
 are designed to be extensible, and additional rule types can be added by your 
 developers.
 

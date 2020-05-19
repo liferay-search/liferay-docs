@@ -75,7 +75,7 @@ you wish:
     variable for later use. Note, however, that you don't have to do this. 
 
 You can find the full code for this example in the `updateFileEntry` method of 
-@product@'s 
+@sharepoint@'s 
 [`EditFileEntryMVCActionCommand`](https://github.com/liferay/liferay-portal/blob/master/modules/apps/document-library/document-library-web/src/main/java/com/liferay/document/library/web/internal/portlet/action/EditFileEntryMVCActionCommand.java) 
 class. This class uses the Documents and Media API to implement almost all the 
 `FileEntry` actions that the Documents and Media app supports. Also note that 

@@ -1,50 +1,50 @@
 ---
-header-id: installing-product
+header-id: installing-sharepoint
 ---
 
-# Installing @product@
+# Installing @sharepoint@
 
 [TOC levels=1-4]
 
 Now that you've
-[prepared for installing @product@](/docs/7-2/deploy/-/knowledge_base/d/preparing-for-install),
+[prepared for installing @sharepoint@](/docs/7-2/deploy/-/knowledge_base/d/preparing-for-install),
 you can install and deploy it! This involves uncompressing the archive (the
 7-Zip or gzip bundle file), possibly copying a JDBC driver to your application
-server, and starting the application server. Lastly, @product@ provides a setup
+server, and starting the application server. Lastly, @sharepoint@ provides a setup
 wizard to configure portal essentials. 
 
 | **Note:** Since bundles are the easiest way to complete an installation, the 
-| installation steps here assume you're installing a @product@ bundle. If you 
-| plan to install @product@ manually, please refer to the *Installing @product@ 
+| installation steps here assume you're installing a @sharepoint@ bundle. If you 
+| plan to install @sharepoint@ manually, please refer to the *Installing @sharepoint@ 
 | on [Application Server]* article for the application server you're
 | installing on. 
 
-## Extracting a @product@ Bundle 
+## Extracting a @sharepoint@ Bundle 
 
-Extract your @product@ bundle to the appropriate location on your server.
+Extract your @sharepoint@ bundle to the appropriate location on your server.
 This folder is the
 [*Liferay Home*](/docs/7-2/deploy/-/knowledge_base/d/liferay-home). 
 
 ## Installing the JDBC Driver 
 
 If you're using a supported open source database or if you're setting up
-@product@ to use the embedded HSQL database for demo purposes, you can skip this
+@sharepoint@ to use the embedded HSQL database for demo purposes, you can skip this
 step. Otherwise, copy your database's JDBC driver `.jar` file to the folder your
 application server documentation specifies. On Tomcat, for example, the driver
 belongs in the `[Tomcat]/lib/ext` folder. 
 
-## Running @product@ for the First Time 
+## Running @sharepoint@ for the First Time 
 
 Start your application server using the start script bundled with your
 application server. For example, the Tomcat bundle provides the `startup.sh`
 script in `$CATALINA_HOME/bin`.
 
-| **Note:** @product@ writes log files to folder `[Liferay Home]/logs`. 
+| **Note:** @sharepoint@ writes log files to folder `[Liferay Home]/logs`. 
 
-| **Important:** @product@ requires that the application server JVM use the GMT 
-| time zone and UTF-8 file encoding. They're preset in your @product@ bundle. 
+| **Important:** @sharepoint@ requires that the application server JVM use the GMT 
+| time zone and UTF-8 file encoding. They're preset in your @sharepoint@ bundle. 
 
-The first time @product@ starts, it creates all of its database tables. On
+The first time @sharepoint@ starts, it creates all of its database tables. On
 completing startup, it launches a web browser that displays the Basic
 Configuration page (the setup wizard). If for some reason your browser doesn't
 load the Basic Configuration page automatically, open your browser and navigate
@@ -65,13 +65,13 @@ things:
 
 Supply this basic portal information:
 
-**Portal Name:** name the installation you're powering with @product@.
+**Portal Name:** name the installation you're powering with @sharepoint@.
 
 **Default Language:** choose your portal's default locale and click the *Change*
 button. This immediately localizes your portal content, including the Basic
 Configuration page. 
 
-**Time Zone:** select your @product@ instance's default time zone. 
+**Time Zone:** select your @sharepoint@ instance's default time zone. 
 
 ### Administrator User 
 
@@ -83,15 +83,15 @@ For the administrator, supply the following information:
 
 **Email:** the default administrator user's email address
 
-| **Note:** the administrator user's email domain is used as the @product@ 
+| **Note:** the administrator user's email domain is used as the @sharepoint@ 
 | instance's default domain (i.e., the
 | [`company.default.web.id`](@platform-ref@/7.2-latest/propertiesdoc/portal.properties.html#Company) [portal property](/docs/7-2/deploy/-/knowledge_base/d/portal-properties)).
 
 ### Database 
 
-This section lets you connect to @product@'s built-in data source.
+This section lets you connect to @sharepoint@'s built-in data source.
 
-| **Important:** If you haven't created a database for @product@, create one 
+| **Important:** If you haven't created a database for @sharepoint@, create one 
 | now following
 | [database preparation instructions](/docs/7-2/deploy/-/knowledge_base/d/preparing-for-install#preparing-a-database)
 | in the preceding article. 
@@ -99,19 +99,19 @@ This section lets you connect to @product@'s built-in data source.
 HSQL is selected as the default database, but it's primarily for demonstration
 or trial purposes. 
 
-Click the *Change* link if you want to use @product@'s built-in data source and
+Click the *Change* link if you want to use @sharepoint@'s built-in data source and
 configure it to use the
 [database you created earlier](/docs/7-2/deploy/-/knowledge_base/d/preparing-for-install#preparing-a-database). 
 
 The database configuration section also has an *Add Sample Data* checkbox for
 adding sample data to your database. This data includes Users, Sites, and
-Organizations for demo purposes. If you're installing @product@ on your own
+Organizations for demo purposes. If you're installing @sharepoint@ on your own
 machine to explore features, the sample data may be useful. If, however, you're
-installing @product@ on a real server, start with a clean system by leaving this
+installing @sharepoint@ on a real server, start with a clean system by leaving this
 checkbox unselected. 
 
-| **Warning:** HSQL should not be used in production @product@ instances. 
-| Configure @product@ to use a different database; specify that database via the
+| **Warning:** HSQL should not be used in sharepointion @sharepoint@ instances. 
+| Configure @sharepoint@ to use a different database; specify that database via the
 | Basic Configuration page here or using portal properties. See
 | [Database Preparation](/docs/7-2/deploy/-/knowledge_base/d/preparing-for-install#preparing-a-database)
 | for details.
@@ -125,10 +125,10 @@ however, use a
 The
 [Portal properties reference documentation](@platform-ref@/7.2-latest/propertiesdoc)
 lists the default properties and describes all the properties you can set for
-@product@. 
+@sharepoint@. 
 
 | **Tip:** The wizard is a helpful tool, especially if you're setting
-| up @product@ for the first time. If you're a veteran and you already have your
+| up @sharepoint@ for the first time. If you're a veteran and you already have your
 | various properties set up, you can disable the setup wizard. If you disable 
 | the setup wizard, you must configure everything manually from a portal
 | properties file (e.g., `[LIFERAY_HOME]/portal-ext.properties`). To disable the
@@ -137,11 +137,11 @@ lists the default properties and describes all the properties you can set for
 | setup wizards creates in Liferay Home) override property values in
 | `portal-ext.properties`.
 
-On finishing basic configuration, @product@ prompts you to restart your server.
-When you restart your application server, @product@ initializes the database you
+On finishing basic configuration, @sharepoint@ prompts you to restart your server.
+When you restart your application server, @sharepoint@ initializes the database you
 specified. 
 
-Now that @product@ is up and running, you can continue configuring it as
+Now that @sharepoint@ is up and running, you can continue configuring it as
 desired. Here are some suggestions:
 
 1.  [Configure your mail session](/docs/7-2/deploy/-/knowledge_base/d/configuring-mail),
@@ -149,14 +149,14 @@ desired. Here are some suggestions:
 
 2.  Install the Marketplace plugin, if it isn't already installed. If your 
     machine has  restricted access to the public network or if you restricted
-    the @product@ database user's permissions after initializing the database
+    the @sharepoint@ database user's permissions after initializing the database
     (not recommended), you can still set up Marketplace by following the
     [Marketplace setup instructions](/docs/7-2/deploy/-/knowledge_base/d/setting-up-marketplace-and-portal-security). 
 
 3.  Read the
-    [Configuring @product@](/docs/7-2/deploy/-/knowledge_base/d/configuring-product)
-    articles for guidance in configuring @product@'s default time zone, locales,
+    [Configuring @sharepoint@](/docs/7-2/deploy/-/knowledge_base/d/configuring-sharepoint)
+    articles for guidance in configuring @sharepoint@'s default time zone, locales,
     logging, search engine, document repository, and more.
 
 You're on your way to providing your organization with terrific experiences on
-@product@. 
+@sharepoint@. 

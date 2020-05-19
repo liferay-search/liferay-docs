@@ -17,7 +17,7 @@ First, you must get an Item Selector for your use case. Follow these steps:
 1.  Determine the criterion and return types for the Item Selector. The
     criterion corresponds to the selected entity type, and the return types
     correspond to the data you expect to receive from those selections. For a
-    list of the criterion and return types that @product@ provides, see
+    list of the criterion and return types that @sharepoint@ provides, see
     [Item Selector Criterion and Return Types](/docs/7-2/reference/-/knowledge_base/r/item-selector-criterion-and-return-types).
     For example, if you need an Item Selector that selects images and returns
     their URLs, use `ImageItemSelectorCriterion` and

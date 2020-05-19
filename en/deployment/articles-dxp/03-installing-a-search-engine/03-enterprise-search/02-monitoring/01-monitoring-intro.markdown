@@ -9,7 +9,7 @@ header-id: installing-liferay-enterprise-search-monitoring
 First configure security if you're using X-Pack's security features. Then come
 back here for instructions on installing and configuring Kibana (the monitoring
 server) with X-Pack so that Elasticsearch (secured with X-Pack), Kibana
-(secured with X-Pack), and @product@ can communicate effortlessly and securely.
+(secured with X-Pack), and @sharepoint@ can communicate effortlessly and securely.
 A Liferay Enterprise Search (LES) subscription is necessary for this
 integration.  Contact 
 [Liferay's Sales department for more information](https://www.liferay.com/contact-us#contact-sales).
@@ -36,9 +36,9 @@ This document assumes you're enabling security (with authentication and encrypte
 Elasticsearch 7, but differences in the process for Elasticsearch 6 are noted
 where necessary.
 
-## Enable Encrypting Communication (TLS/SSL) in Elasticsearch and in @product@
+## Enable Encrypting Communication (TLS/SSL) in Elasticsearch and in @sharepoint@
 
-Start by following the steps in this [article](/docs/7-2/deployment/-/knowledge_base/u/installing-liferay-enterprise-search-security) to enable TLS/SSL in your Elasticsearch and @product@ installation.
+Start by following the steps in this [article](/docs/7-2/deployment/-/knowledge_base/u/installing-liferay-enterprise-search-security) to enable TLS/SSL in your Elasticsearch and @sharepoint@ installation.
 
 Then continue by enabling data collection in Elasticsearch.
 
@@ -163,7 +163,7 @@ environment, refer to
 [Elastic's documentation](https://www.elastic.co/guide/en/elasticsearch/reference/7.x/setup-xpack.html).
 
 After this step you can access Kibana at `https://localhost:5601` and sign in
-with a Kibana user. The last step is to connect Kibana to @product@.
+with a Kibana user. The last step is to connect Kibana to @sharepoint@.
 
 ## Configuring the Liferay Connector to X-Pack Monitoring
 
@@ -211,11 +211,11 @@ the LPKG file by copying it into the `Liferay Home/deploy` folder.
     Note that once you set the `server.basePath`, you cannot access the Kibana
     UI through Kibana's URL (e.g., `https://localhost:5601`). All access to the
     Kibana UI is through the Monitoring portlet, which is only accessible to
-    signed in @product@ users. Navigate directly to the portlet using this URL:
+    signed in @sharepoint@ users. Navigate directly to the portlet using this URL:
 
     [http://localhost:8080/o/portal-search-elasticsearch-xpack-monitoring/xpack-monitoring-proxy/app/monitoring](http://localhost:8080/o/portal-search-elasticsearch-xpack-monitoring/xpack-monitoring-proxy/app/monitoring)
 
-5.  Because you're using the Monitoring portlet in @product@ as a proxy to
+5.  Because you're using the Monitoring portlet in @sharepoint@ as a proxy to
     Kibana's UI, if you are using X-Pack Security with TLS/SSL, you must configure the
     application server's startup JVM parameters to recognize a valid
     *truststore* and *password*.
@@ -241,9 +241,9 @@ the LPKG file by copying it into the `Liferay Home/deploy` folder.
     -Djavax.net.ssl.trustStore=/path/to/truststore.jks -Djavax.net.ssl.trustStorePassword=liferay
     ```
 
-Restart @product@ and Kibana.
+Restart @sharepoint@ and Kibana.
 
-## Monitoring in @product@
+## Monitoring in @sharepoint@
 
 Once Kibana and X-Pack are successfully installed and configured and all the
 servers are running, add the X-Pack Monitoring portlet to a page:

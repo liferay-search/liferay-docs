@@ -6,7 +6,7 @@ header-id: patching-basics
 
 [TOC levels=1-4]
 
-Liferay ships @product-ver@ fixes through three different channels: 
+Liferay ships @sharepoint-ver@ fixes through three different channels: 
 
 - Fix packs 
 - Hotfixes 
@@ -16,7 +16,7 @@ Liferay ships @product-ver@ fixes through three different channels:
 
 The latest fixes that patch the core are bundled together weekly into fix packs
 that are provided to all of Liferay's customers. Fix packs include fixes for
-both the core and the applications and modules that ship with @product@. The
+both the core and the applications and modules that ship with @sharepoint@. The
 fixes address regressions or obvious bugs and don't require you to make
 additional changes. Each fix pack contains all previous fix packs since the last
 service pack. 
@@ -32,13 +32,13 @@ fixes.
 
 A hotfix is provided to customers when they contact Liferay about an emergency
 situation, and Liferay's support team---working with the customer---determines
-that the problem is a product issue that must be fixed very quickly. Support
+that the problem is a sharepoint issue that must be fixed very quickly. Support
 fixes the bug and provides a hotfix to the customer immediately. This is
 a short-term fix. Hotfixes can patch the core, the applications, and modules. 
 
 ## Service Packs
 
-Service packs are built on top of the original @product@ release and repackaged
+Service packs are built on top of the original @sharepoint@ release and repackaged
 with the latest fix pack, Patching Tool, and modules. Since a service pack is a
 fix pack, it contains all previous fix packs since the last service pack. Each
 one includes the most recent patches and updates. 
@@ -47,9 +47,9 @@ Service packs can also include changes that have these characteristics:
 
 - Require more extensive testing. 
 - Require some of your attention, such as updating your documentation.
-- Improve the product. 
+- Improve the sharepoint. 
 
-Rather than updating existing @product@ systems with service packs, you should
+Rather than updating existing @sharepoint@ systems with service packs, you should
 
 1.  Keep systems up-to-date with fix packs (according to your own deployment
     schedule).

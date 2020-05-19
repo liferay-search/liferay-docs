@@ -6,7 +6,7 @@ header-id: ldap
 
 [TOC levels=1-4]
 
-LDAP is a common user store for @product@. You can configure LDAP at the
+LDAP is a common user store for @sharepoint@. You can configure LDAP at the
 system scope in System Settings or at the instance scope in Instance settings.
 Users can be imported from LDAP or exported to LDAP. To access LDAP
 configuration settings, navigate to *Control Panel &rarr; Configuration* &rarr;
@@ -27,7 +27,7 @@ values for that directory.
 
 These settings cover the connection to LDAP.
 
-**Base Provider URL:** The link to the LDAP server. Make sure the @product@ server
+**Base Provider URL:** The link to the LDAP server. Make sure the @sharepoint@ server
 can communicate with the LDAP server. If there is a firewall between the two
 systems, make sure the appropriate ports are opened.
 
@@ -37,7 +37,7 @@ usually modeled after your organization. It may look similar to this:
 
 **Principal:** The default LDAP administrator user ID is populated here. If your
 administrator ID differs, use that credential instead. You need an
-administrative credential because @product@ uses this ID to synchronize
+administrative credential because @sharepoint@ uses this ID to synchronize
 user accounts to and from LDAP.
 
 **Credentials:** This is the password for the LDAP administrative user.
@@ -45,13 +45,13 @@ user accounts to and from LDAP.
 This is all you need to make a regular connection to an LDAP directory. The rest
 of the configuration, however, may need to be customized, as it represents "best
 guesses" as to correct defaults. The default attribute mappings usually provide
-enough data to synchronize back to the @product@ database when a user attempts
+enough data to synchronize back to the @sharepoint@ database when a user attempts
 to log in. To test the connection to your LDAP server, click the *Test LDAP
 Connection* button.
 
 ## Checkpoint
 
-Before proceeding to fine tune @product@'s LDAP connections, ensure the
+Before proceeding to fine tune @sharepoint@'s LDAP connections, ensure the
 following steps have been taken:
 
 1.  The LDAP connection is enabled. Depending on your needs, LDAP authentication
@@ -121,7 +121,7 @@ Save the changes. Communication to LDAP is now encrypted.
 
 ## Configuring LDAP Import/Export
 
-The other settings configure mappings between LDAP and @product@ so users and
+The other settings configure mappings between LDAP and @sharepoint@ so users and
 groups can be imported. 
 
 ### Users
@@ -129,9 +129,9 @@ groups can be imported.
 This section contains settings for finding users in your LDAP directory.
 
 **Authentication Search Filter:** Use this search filter box to determine
-the search criteria for user logins. By default, @product@ uses users' email
+the search criteria for user logins. By default, @sharepoint@ uses users' email
 addresses for their login names. The value here must use the authentication
-method you use. For example, if you changed @product@'s authentication method to
+method you use. For example, if you changed @sharepoint@'s authentication method to
 use screen names instead of the email addresses, you would modify the search
 filter so it can match the entered log in name:
 
@@ -147,7 +147,7 @@ different LDAP object classes, you can change this.
 
 **User Mapping:** Next, you can define mappings from LDAP attributes to Liferay
 fields. Though LDAP user attributes may be different from LDAP server to LDAP
-server, there are five fields @product@ requires to be mapped for the user
+server, there are five fields @sharepoint@ requires to be mapped for the user
 to be recognized:
 
 -   *Screen Name* (e.g., `uid` or `cn`)
@@ -163,8 +163,8 @@ plus the suffix defined in the property `users.email.address.auto.suffix=`.
 Finally, make sure to set Liferay and LDAP authentication to something other
 than email address.
 
-If you want to import LDAP groups as @product@ user groups, make sure define
-a mapping for the @product@ group field so that membership information is
+If you want to import LDAP groups as @sharepoint@ user groups, make sure define
+a mapping for the @sharepoint@ group field so that membership information is
 preserved:
 
   -   *Group* (e.g., *member*)
@@ -175,17 +175,17 @@ The Control Panel provides default mappings for commonly used LDAP attributes.
 You can also add your own mappings.
 
 **Test LDAP Users:** Once you have your attribute mappings set up (see above),
-click the *Test LDAP Users* button and @product@ attempts to pull LDAP users and
+click the *Test LDAP Users* button and @sharepoint@ attempts to pull LDAP users and
 match them with their mappings as a preview.
 
 ![Figure 1: You should see a list of users when you click the *Test LDAP Users* button.](../../../images/testing-ldap-users.png)
 
 ### Groups
 
-This section contains settings for mapping LDAP groups to @product@ user groups.
+This section contains settings for mapping LDAP groups to @sharepoint@ user groups.
 
 **Import Search Filter:** This is the filter for mapping LDAP groups to
-@product@ user groups. For example, 
+@sharepoint@ user groups. For example, 
 
     (objectClass=groupOfNames)
 
@@ -207,7 +207,7 @@ the groups returned by your search filter.
 This section contains settings for exporting user data from LDAP.
 
 **Users DN:** Enter the location in your LDAP tree where the users are stored.
-@product@ exports the users to this location.
+@sharepoint@ exports the users to this location.
 
 **User Default Object Classes:** Users are exported with the listed default
 object classes. To find out what your default object classes are, use an LDAP
@@ -215,7 +215,7 @@ browser tool such as Apache Directory Studio to locate a user and view the
 Object Class attributes stored in LDAP for that user.
 
 **Groups DN:** Enter the location in your LDAP tree where the groups are stored.
-When @product@ does an export, it exports the groups to this location.
+When @sharepoint@ does an export, it exports the groups to this location.
 
 **Group Default Object Classes:** When a group is exported, the group is created
 with the listed default object classes. To find out what your default object
@@ -224,15 +224,15 @@ a group and view the Object Class attributes stored in LDAP for that group.
 
 When you've set all your options and tested your connection, click *Save*. 
 
-| **Note:** If a user changes a value like a password in @product@, that change is
-| passed to the LDAP server, provided @product@ has enough schema access to make
+| **Note:** If a user changes a value like a password in @sharepoint@, that change is
+| passed to the LDAP server, provided @sharepoint@ has enough schema access to make
 | the change.
 
-Now you know how to connect an LDAP server to @product@ and how to
+Now you know how to connect an LDAP server to @sharepoint@ and how to
 configure user import behavior, export behavior, and other LDAP settings.
 
 ## Related Topics
 
-[@product@ Security Overview](/docs/7-0/deploy/-/knowledge_base/d/liferay-portal-security-overview)
-[Logging into @product@](/docs/7-0/deploy/-/knowledge_base/d/logging-in-to-liferay)
+[@sharepoint@ Security Overview](/docs/7-0/deploy/-/knowledge_base/d/liferay-portal-security-overview)
+[Logging into @sharepoint@](/docs/7-0/deploy/-/knowledge_base/d/logging-in-to-liferay)
 

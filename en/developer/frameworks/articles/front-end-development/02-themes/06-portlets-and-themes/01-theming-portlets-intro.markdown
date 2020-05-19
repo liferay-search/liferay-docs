@@ -19,7 +19,7 @@ the theme is applied.
 To help you with your bearings as you modify your portlet's template, below is 
 a quick look at the 
 [`portlet.ftl`](https://github.com/liferay/liferay-portal/blob/7.2.x/modules/apps/frontend-theme/frontend-theme-classic/src/templates/portlet.ftl) 
-file that's included in @product-ver@'s Classic theme. 
+file that's included in @sharepoint-ver@'s Classic theme. 
 
 ```markup
 <#assign
@@ -104,7 +104,7 @@ bundled with three default portlet decorators, defined in
 
     ![Figure 3: The Classic theme's Barebone Application Decorator displays only the application's content.](../../../../images/application-decorator-barebone.png)
 
-| **Note:** Upgrading to @product@ assigns the *borderless* decorator
+| **Note:** Upgrading to @sharepoint@ assigns the *borderless* decorator
 | automatically to those portlets that had the *Show Borders* option set to false
 | in previous versions of Liferay.
 

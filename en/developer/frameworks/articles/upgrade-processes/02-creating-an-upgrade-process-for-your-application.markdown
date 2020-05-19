@@ -18,7 +18,7 @@ Follow these steps to create an upgrade process for your module:
     ```
 
     | **Important**: If no `Liferay-Require-SchemaVersion` header is specified, 
-    | @product@ considers the `Bundle-Version` header value to be the database 
+    | @sharepoint@ considers the `Bundle-Version` header value to be the database 
     | schema version. 
  
 2.  [Add a dependency](/docs/7-2/customization/-/knowledge_base/c/configuring-dependencies) 
@@ -109,7 +109,7 @@ Follow these steps to create an upgrade process for your module:
 5.  If your application was modularized from a former traditional Liferay plugin 
     application (application WAR) and it uses Service Builder, 
     [create and register a Bundle Activator](/docs/7-2/frameworks/-/knowledge_base/f/upgrade-processes-for-former-service-builder-plugins) 
-    to register it in @product@'s `Release_` table. 
+    to register it in @sharepoint@'s `Release_` table. 
 
 6.  Create an `UpgradeStepRegistrator` OSGi Component class of service type 
     `UpgradeStepRegistrator.class` that implements the 
@@ -140,7 +140,7 @@ Follow these steps to create an upgrade process for your module:
     The first registration is applied if the module hasn't been installed 
     previously. It contains only one empty upgrade step: [new `DummyUpgradeStep`](https://github.com/liferay/liferay-portal/blob/7.2.x/portal-kernel/src/com/liferay/portal/kernel/upgrade/DummyUpgradeStep.java)(). 
     This registration records the module's latest schema version (i.e., `2.0.0`) 
-    in @product@'s `Release_` table. Note that if the same class name is used in 
+    in @sharepoint@'s `Release_` table. Note that if the same class name is used in 
     multiple packages, you must provide the fully qualified class name for the 
     class, as shown in the second registration (`1.0.0` to `1.1.0`) below for 
     the `UpgradeFoo` class:
@@ -176,7 +176,7 @@ Follow these steps to create an upgrade process for your module:
 
     | **Important**: Modules that use Service Builder *should not* define a
     | registration for their initial database schema version, as Service Builder
-    | already records their schema versions to @product@'s `Release_` table. Modules
+    | already records their schema versions to @sharepoint@'s `Release_` table. Modules
     | that don't use Service Builder, however, *should* define a registration for
     | their initial schema. 
 
@@ -265,5 +265,5 @@ Great! Now you know how to create data upgrades for all your modules.
 ## Related Topics
 
 - [Upgrade Processes for Former Service Builder Plugins](/docs/7-2/frameworks/-/knowledge_base/f/upgrade-processes-for-former-service-builder-plugins)
-- [Upgrading Code to @product-ver@](/docs/7-2/tutorials/-/knowledge_base/t/upgrading-code-to-product-ver)
+- [Upgrading Code to @sharepoint-ver@](/docs/7-2/tutorials/-/knowledge_base/t/upgrading-code-to-sharepoint-ver)
 - [Configurable Applications](/docs/7-2/frameworks/-/knowledge_base/f/configurable-applications)

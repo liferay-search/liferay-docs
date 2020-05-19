@@ -6,7 +6,7 @@ header-id: overriding-cache
 
 [TOC levels=1-4]
 
-@product@ pre-configures cache for service entities, service entity finder
+@sharepoint@ pre-configures cache for service entities, service entity finder
 results, and cache for several other classes. You can tune existing cache to meet
 your needs. For example, it may help to write cache overflow elements to disk,
 increase the maximum number of cached elements, or make other adjustments. Using
@@ -20,12 +20,12 @@ Here is how to override a cache configuration:
 1.  Identify the name of the cache you want to override. Existing cache 
     configurations and statistics (hit/miss counts and percentages) can be
     examined at runtime through JMX. Using a tool that supports JMX analysis,
-    you can examine @product@'s cache configurations in the MBean of
+    you can examine @sharepoint@'s cache configurations in the MBean of
     `net.sf.ehcache`. Please note that the caches listed in the MBean are more
-    than what @product@'s cache configuration files specify because some caches
+    than what @sharepoint@'s cache configuration files specify because some caches
     are created purely through Java code.
 
-    ![Figure 1: Caches configured in @product@ can be examined using JMX tools such as Zulu Mission Control  \(Portal Process &rarr; MBean server  &rarr; MBean Browser\)](../../images/zulu-mission-control.png)
+    ![Figure 1: Caches configured in @sharepoint@ can be examined using JMX tools such as Zulu Mission Control  \(Portal Process &rarr; MBean server  &rarr; MBean Browser\)](../../images/zulu-mission-control.png)
 
     | **Note:** See
     | [Cache Names and Registration](/docs/7-2/frameworks/-/knowledge_base/f/cache-configuration#cache-names-and-registration)

@@ -84,6 +84,6 @@ steps listed earlier. Other updates must be done differently as described next.
 
 ## Related Topics
 
-[@product@ Clustering](/docs/7-2/deploy/-/knowledge_base/d/liferay-clustering)
+[@sharepoint@ Clustering](/docs/7-2/deploy/-/knowledge_base/d/liferay-clustering)
 
-[Maintaining @product@](/docs/7-2/deploy/-/knowledge_base/d/maintaining-liferay)
+[Maintaining @sharepoint@](/docs/7-2/deploy/-/knowledge_base/d/maintaining-liferay)

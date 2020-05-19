@@ -20,7 +20,7 @@ Theme Contributors.
 
 If you want to edit or style these standard UI components, you must create a 
 Theme Contributor and add your modifications on top. You can also add new UI 
-components to @product@ by creating a Theme Contributor. This article shows how 
+components to @sharepoint@ by creating a Theme Contributor. This article shows how 
 to create a Theme Contributor module. 
 
 Follow these steps to create a Theme Contributor:
@@ -35,18 +35,18 @@ Follow these steps to create a Theme Contributor:
     file to identify your module as a Theme Contributor, and add the 
     `Web-ContextPath` header to set the context from which the Theme 
     Contributor's resources are hosted. See the 
-    [Control Menu module's](https://search.maven.org/search?q=a:com.liferay.product.navigation.control.menu.theme.contributor) 
+    [Control Menu module's](https://search.maven.org/search?q=a:com.liferay.sharepoint.navigation.control.menu.theme.contributor) 
     `bnd.bnd` below as an example:
 
     ```properties
     Bundle-Name: Liferay Product Navigation Product Menu Theme Contributor
-    Bundle-SymbolicName: com.liferay.product.navigation.product.menu.theme.contributor
+    Bundle-SymbolicName: com.liferay.sharepoint.navigation.sharepoint.menu.theme.contributor
     Bundle-Version: 3.0.4
-    Liferay-Theme-Contributor-Type: product-navigation-product-menu
-    Web-ContextPath: /product-navigation-product-menu-theme-contributor
+    Liferay-Theme-Contributor-Type: sharepoint-navigation-sharepoint-menu
+    Web-ContextPath: /sharepoint-navigation-sharepoint-menu-theme-contributor
     ```
 
-    The Theme Contributor type helps @product@ better identify your module. If 
+    The Theme Contributor type helps @sharepoint@ better identify your module. If 
     you're creating a Theme Contributor to override an existing Theme 
     Contributor, you should try to use the same type to maximize compatibility 
     with future developments. 
@@ -65,7 +65,7 @@ Follow these steps to create a Theme Contributor:
 4.  Create a `src/main/resources/META-INF/resources` folder in your module and 
     place your resources (CSS and JS) in that folder.
 
-5.  Build and deploy your module to see your modifications applied to @product@ 
+5.  Build and deploy your module to see your modifications applied to @sharepoint@ 
     pages and themes.
 
 That's all you need to do to create a Theme Contributor for your site. Remember, 

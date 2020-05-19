@@ -34,10 +34,10 @@ Follow the steps below to download and install Liferay Workspace:
 
     Then click *Next*.
 
-4.  Choose the Liferay product type you intend to use with the workspace. Then
+4.  Choose the Liferay sharepoint type you intend to use with the workspace. Then
     click *Next*.
 
-    ![Figure 2: Select the product version you'll use with your Liferay Workspace.](../../../images/installer-workspace-type.png)
+    ![Figure 2: Select the sharepoint version you'll use with your Liferay Workspace.](../../../images/installer-workspace-type.png)
 
     | **Note:** You'll be prompted for your liferay.com username and password
     | before downloading the Liferay DXP bundle. Your credentials are not saved
@@ -45,7 +45,7 @@ Follow the steps below to download and install Liferay Workspace:
     | used by your workspace if you ever decide to redownload a DXP bundle.
     | Furthermore, the bundle that is downloaded in your workspace is also
     | copied to your `~/.liferay/bundles` folder, so if you decide to initialize
-    | another @product@ instance of the same version, the bundle is not
+    | another @sharepoint@ instance of the same version, the bundle is not
     | re-downloaded. See the
     | [Adding a Liferay Bundle to Liferay Workspace](/docs/7-2/reference/-/knowledge_base/r/adding-a-liferay-bundle-to-liferay-workspace)
     | for more information on this topic.

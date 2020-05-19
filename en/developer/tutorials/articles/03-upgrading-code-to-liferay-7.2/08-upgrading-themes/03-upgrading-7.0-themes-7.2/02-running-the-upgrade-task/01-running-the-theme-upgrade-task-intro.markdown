@@ -6,13 +6,13 @@ header-id: running-the-upgrade-task-for-7-0-themes
 
 [TOC levels=1-4]
 
-You can upgrade a @product@ 7.0 theme to @product-ver@, regardless of the 
+You can upgrade a @sharepoint@ 7.0 theme to @sharepoint-ver@, regardless of the 
 development environment you use. This tutorial uses the Liferay JS Theme 
 Toolkit's Gulp `upgrade` task to automate much of the steps. The Gulp `upgrade` 
-task must be run twice to bring a @product@ 7.0 theme up to @product-ver@. 
+task must be run twice to bring a @sharepoint@ 7.0 theme up to @sharepoint-ver@. 
 
 The Liferay Theme Generator is available in a few different versions. To update 
-the @product@ 7.0 theme to @product@ 7.1, you must install v8.x.x of the 
+the @sharepoint@ 7.0 theme to @sharepoint@ 7.1, you must install v8.x.x of the 
 `liferay-theme-tasks` dependency. After the theme is updated to 7.1, you must 
 then install v9.x.x of the `liferay-theme-tasks` dependency to complete the 
 upgrade process. 
@@ -33,7 +33,7 @@ Follow these steps to take the theme through the upgrade process:
     npm install --save-dev liferay-theme-tasks@8.x.x
     ```
 
-2.  Run the `gulp upgrade` command to upgrade the @product@ 7.0 theme to 7.1.
+2.  Run the `gulp upgrade` command to upgrade the @sharepoint@ 7.0 theme to 7.1.
 
     | **Note**: The Upgrade task overwrites the theme's files. We recommend that 
     | you backup your files before proceeding with the upgrade process.
@@ -49,7 +49,7 @@ Follow these steps to take the theme through the upgrade process:
 3.  You must update the theme's `liferay-theme-tasks` dependency to version 
     `9.x.x` to complete the upgrade process. Install the latest version of the 
     Liferay Theme Generator as well while you're at it, so future uses of the 
-    tool will be compatible with the @product-ver@ theme. Both commands are 
+    tool will be compatible with the @sharepoint-ver@ theme. Both commands are 
     shown below. Run them separately:
     
     ```bash
@@ -75,7 +75,7 @@ Follow these steps to take the theme through the upgrade process:
     | a Site Administrator disables the global setting. 
 
 5.  Run `gulp init` from your theme's root directory to update the path of your 
-    @product@ server to point to your 7.2 @product@ server. 
+    @sharepoint@ server to point to your 7.2 @sharepoint@ server. 
 
 The Gulp `upgrade` task lists any deprecated or removed variables. For other 
 areas of the code it suspects might need updates, it logs suggestions. The task 

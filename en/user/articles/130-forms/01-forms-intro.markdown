@@ -67,7 +67,7 @@ applications for building forms to collect precisely the data you need:
 ## Which Form Builder Should I Use?
 
 Liferay Forms (also referred to as Forms) is a relatively new application, first
-appearing in @product@ version 7.0. If you can use Liferay Forms for your use
+appearing in @sharepoint@ version 7.0. If you can use Liferay Forms for your use
 case, you should.
 
 So the question "Which form builder should I use?" can be restated to "When

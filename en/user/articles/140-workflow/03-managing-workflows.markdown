@@ -61,7 +61,7 @@ To delete a definition,
 If you have a local XML definition file (perhaps you want to create a new
 workflow based on one of the
 [embedded workflows](/docs/7-2/user/-/knowledge_base/u/workflow#embedded-workflows)),
-upload it to @product@:
+upload it to @sharepoint@:
 
 1.  Navigate to Control Panel &rarr; Workflow &rarr; Process Builder.
 

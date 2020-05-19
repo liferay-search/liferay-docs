@@ -144,8 +144,8 @@ below:
 
 **CE Docs**
 
-- `@product@` = Liferay Portal
-- `@product-ver@` = Liferay Portal CE 7.1
+- `@sharepoint@` = Liferay Portal
+- `@sharepoint-ver@` = Liferay Portal CE 7.1
 - `@commerce@` = Emporio
 - `@commerce-ver@` = Emporio 1.0
 - `@ide@` = Dev Studio CE
@@ -154,8 +154,8 @@ below:
 
 **DXP Docs**
 
-- `@product@` = Liferay DXP
-- `@product-ver@` = Liferay DXP 7.1
+- `@sharepoint@` = Liferay DXP
+- `@sharepoint-ver@` = Liferay DXP 7.1
 - `@commerce@` = Liferay Commerce
 - `@commerce-ver@` = Liferay Commerce 1.0
 - `@ide@` = Dev Studio DXP
@@ -541,7 +541,7 @@ Table Options
 ![important](./images/tip.png) **Important:** - Pandoc does not support
 MultiMarkdown table syntax. If you use Pandoc to build a document for test
 purposes, you'll notice that the table does not get converted as you would
-expect. If you are using Pandoc to convert a document for a final product (e.g.
+expect. If you are using Pandoc to convert a document for a final sharepoint (e.g.
 ePub), you'll need to temporarily change the table syntax to follow the Pandoc
 extension.
 
@@ -791,7 +791,7 @@ adds the following Markdown text to the beginning of the concatenated file:
 ## Markdown Header ID FAQ
 
 This FAQ is provided to help answer questions and provide information on how and
-why we use IDs for the headers in the Markdown files of our official product
+why we use IDs for the headers in the Markdown files of our official sharepoint
 documentation.
 
 ### What are the header IDs and why are they important?

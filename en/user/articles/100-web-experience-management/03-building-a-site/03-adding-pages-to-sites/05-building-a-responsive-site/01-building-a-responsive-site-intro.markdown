@@ -9,7 +9,7 @@ header-id: building-a-responsive-site
 Now more than half of all page views in the world come from mobile devices 
 like phones and tablets. That means that if your pages don't look good on 
 mobile devices, your pages don't look good for more than half the people
-looking at them. @product@ can provide the best experience possible no matter
+looking at them. @sharepoint@ can provide the best experience possible no matter
 what device you're using.
 
 Most of the heavy lifting for mobile optimization comes from your developers.

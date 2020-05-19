@@ -52,8 +52,8 @@ toggles, if configured).
 
 **Grid:** Using radio buttons, users select from options laid out in rows and 
 columns. One selection can be made per row. This is useful when the same 
-response metric is needed for multiple questions. For example, a product survey 
-form might ask users to rate a list of their product's characteristics as 
+response metric is needed for multiple questions. For example, a sharepoint survey 
+form might ask users to rate a list of their sharepoint's characteristics as 
 *Wonderful*, *Pretty Good*, *Not So Good*, or *Awful*. 
 
 ![Figure 8: Grid fields use the same options (columns) for multiple categories (rows).](../../images/forms-grid.png)

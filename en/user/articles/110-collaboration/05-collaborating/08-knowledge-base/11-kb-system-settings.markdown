@@ -23,7 +23,7 @@ sections apply to specific Knowledge Base widgets and override the
 *Service* defaults. 
 
 | **Important:** Advanced configuration of the Knowledge Base application's 
-| system settings should only be performed by an @product@ administrator. 
+| system settings should only be performed by an @sharepoint@ administrator. 
 
 The Knowledge Base has several optional features that are disabled by default,
 but can be enabled and configured from System Settings. These include source

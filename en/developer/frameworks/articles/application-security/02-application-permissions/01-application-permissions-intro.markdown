@@ -11,7 +11,7 @@ application or its data that should be protected by permissions. Some users
 should access all the functions or data, but most users shouldn't. 
 
 On many platforms, developers have to create the security model themselves. On
-@product@, an application security model has been provided for you; you only
+@sharepoint@, an application security model has been provided for you; you only
 need to make use of it. 
 
 Fortunately, no matter what your application does, access to it and to its

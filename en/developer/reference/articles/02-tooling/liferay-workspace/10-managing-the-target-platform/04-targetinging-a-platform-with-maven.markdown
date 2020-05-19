@@ -44,10 +44,10 @@ by adding a few dependencies to your project.
     These dependencies are described below:
 
     `com.liferay.ce.portal.bom`: provides all the artifacts included in
-    @product@.
+    @sharepoint@.
 
     `com.liferay.ce.portal.compile.only`: provides artifacts that are not
-    included in @product@, but are necessary to reference during the build
+    included in @sharepoint@, but are necessary to reference during the build
     (e.g., `org.osgi.core`).
 
     `release.portal.bom.third.party`: provides all third party artifacts that

@@ -188,7 +188,7 @@ ratings on guestbook entries:
 | are stored in the `RatingsEntry` table. Similarly, the `RatingsEntry` table
 | contains a `classPK` column that links the guestbook entry to the rating. Using
 | a `classPK` foreign key in one table to represent the primary key of another
-| table is a common pattern throughout @product@.
+| table is a common pattern throughout @sharepoint@.
 
 Next, you'll update the guestbook actions to use the new view. 
 

@@ -7,7 +7,7 @@ header-id: creating-forums-with-message-boards
 [TOC levels=1-4]
 
 Although you're likely already familiar with what a modern forum can do, here's
-a sampling of what users and administrators can do with @product@'s Message
+a sampling of what users and administrators can do with @sharepoint@'s Message
 Boards app. 
 
 Users can: 
@@ -34,13 +34,13 @@ Administrators can:
 
 As you can see, there's something for everyone! 
 
-The Message Boards app also integrates with the rest of @product@'s features. 
+The Message Boards app also integrates with the rest of @sharepoint@'s features. 
 In many web sites, it's obvious that there's no link between the main Site and 
 the message boards. In some cases, users are even required to register twice: 
 once for the main Site and once for the message boards. Sometimes it's even 
 three times: once for the Site, once for the message boards, and once for the 
 shopping cart. By providing a message boards app along with all of the other 
-apps and widgets, @product@ provides a unique, integrated approach to building 
+apps and widgets, @sharepoint@ provides a unique, integrated approach to building 
 Sites. Administrators can concentrate on building their Site while the 
 integration work is done for them. 
 

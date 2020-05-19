@@ -35,7 +35,7 @@ Note that apps on Liferay Marketplace must be designed for Liferay Portal 6.1
 GA3 or later. That doesn't mean they can't work with prior versions. However,
 only Liferay Portal 6.1 GA3 and later versions support installing apps directly
 from Marketplace and provide safeguards against malicious apps. If you want to
-use an app with an earlier version of @product@, make sure that version provides
+use an app with an earlier version of @sharepoint@, make sure that version provides
 the dependencies your app needs. 
 
 Lastly, you should determine a versioning scheme for your app. How will you

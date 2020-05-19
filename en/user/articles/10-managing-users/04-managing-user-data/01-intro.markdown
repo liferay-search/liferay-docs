@@ -30,7 +30,7 @@ technically challenging requirements, the _right to data portability_ and the
 _right to be forgotten_.
 
 | **Note:** It is Liferay's sincerest hope that through the User Management
-| functionality of @product@, companies processing the personal data of their
+| functionality of @sharepoint@, companies processing the personal data of their
 | website's users can satisfy the requirements of GDPR. However, the tools
 | discussed here and anywhere else in the documentation, including those directly
 | aimed at addressing GDPR requirements (as in this article) do not guarantee

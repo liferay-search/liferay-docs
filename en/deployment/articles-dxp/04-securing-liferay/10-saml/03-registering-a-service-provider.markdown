@@ -6,7 +6,7 @@ header-id: registering-a-saml-service-provider
 
 [TOC levels=1-4]
 
-Setting up @product@ as a SAML Identity Provider is only useful if you
+Setting up @sharepoint@ as a SAML Identity Provider is only useful if you
 can connect to one or more SAML Service Providers. Navigate to the Service
 Provider Connections tab of the SAML Admin Control Panel entry and click 
 the *Add Service Provider* button to add a SAML Service Provider.
@@ -45,7 +45,7 @@ any special meaning to Liferay Identity Providers. The `NameID` value is defined
 by the Name Identifier attribute. See the next option.
 
 **Name Identifier Attribute Name:** This specifies which attribute of the
-@product@ `User` object to use as the `NameID` value. Possible values include
+@sharepoint@ `User` object to use as the `NameID` value. Possible values include
 `emailAddress`, `screenName` and `uuid`. Additionally, you can prefix the name
 with `static:` or `expando:`. If you use the prefix `static`, the value is
 whatever comes after `static:`. If you use the prefix `expando`, the value is
@@ -83,14 +83,14 @@ namespaces can be useful. Use them when attribute names from different
 namespaces might conflict. For example, `expando:user` vs
 `urn:liferay:roles:user`.
 
-**Keep Alive URL:** If users are logged into several @product@ SP instances via
-a @product@ IdP, their sessions can be kept alive as long as they keep a
-browser window open to one of them. Configure this only if the SP is @product@.
+**Keep Alive URL:** If users are logged into several @sharepoint@ SP instances via
+a @sharepoint@ IdP, their sessions can be kept alive as long as they keep a
+browser window open to one of them. Configure this only if the SP is @sharepoint@.
 The URL is `https://[SP host name]/c/portal/saml/keep_alive`. 
 
 ## Checkpoint
 
-Verify your settings are correct by connecting the @product@-based IdP to its
+Verify your settings are correct by connecting the @sharepoint@-based IdP to its
 first SP. SPs connect to only one IdP, so if the first one doesn't work, the
 rest won't either. 
 
@@ -114,7 +114,7 @@ rest won't either.
 8. Make sure *Attributes Namespace Enabled* has been set.
 
 If you don't have a Service Provider to add right now, that's fine. In the next
-section, you'll learn how to set @product@ up as a SAML Service Provider. The
-same instance can't be both, but after you set up another @product@ instance as
+section, you'll learn how to set @sharepoint@ up as a SAML Service Provider. The
+same instance can't be both, but after you set up another @sharepoint@ instance as
 a Service Provider, come back to this one and add the Service Provider according
 to the instructions above.

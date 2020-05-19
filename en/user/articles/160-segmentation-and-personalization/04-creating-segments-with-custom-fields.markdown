@@ -57,7 +57,7 @@ Next, use a custom field to define another segment.
 
 9.  Click *Save* to save your Segment.
 
-As you can see, segment criteria can be easily defined using @product@'s
+As you can see, segment criteria can be easily defined using @sharepoint@'s
 built-in criteria or your own custom fields. Now, you'll use session data to
 make this Segment definition even more robust.
 

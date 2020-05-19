@@ -78,7 +78,7 @@ to learn more about SLAs and available reports.
 
 The Workflow section of the Control Panel is now a top-level section with its
 own subcategories: Process Builder and Submissions (Metrics, too, if you're a
-DXP subscriber). In @product@ 7.1 Workflow was nested under Control Panel
+DXP subscriber). In @sharepoint@ 7.1 Workflow was nested under Control Panel
 &rarr; Configuration.
 
 ![Figure 3: Workflow has a top-level entry in the Control Panel.](../../images/workflow-menu.png)
@@ -97,7 +97,7 @@ Create your own workflows from scratch or leverage existing workflows.
 ## Embedded Workflows
 
 In addition to the Single Approver definition, there are some workflow
-definitions that ship with @product@ but are not pre-installed, since they're
+definitions that ship with @sharepoint@ but are not pre-installed, since they're
 primarily included for test cases. They can be found in the Liferay source code
 in
 

@@ -37,7 +37,7 @@ the right of each file and folder in the list is a circle icon with three dots.
 Pressing this icon slides open a context menu on the right that lets you move, 
 rename, or delete that item. The screenshots below show these options. Note that 
 you should use **extreme caution** when deleting files or folders. Deleting 
-files or folders in the mobile Sync app also deletes them from @product@ and
+files or folders in the mobile Sync app also deletes them from @sharepoint@ and
 across any synced clients. Accidentally deleted files can be restored from the
 Recycle Bin, which is enabled by default. If the instance or Site administrator
 disables the Recycle Bin, however, recovering deleted files is impossible. 
@@ -48,18 +48,18 @@ app's Settings menu. Doing so removes all downloaded files from your device, but
 preserves them in the instance. If you're on Android, it may be possible to use
 a system file browser app to remove downloaded files manually. 
 
-| **Warning:** Deleting a file in the mobile Sync app deletes it in @product@ 
+| **Warning:** Deleting a file in the mobile Sync app deletes it in @sharepoint@ 
 | and across any synced clients. If you accidentally delete a file, the instance 
 | or Site administrator can restore it from the instance's Recycle Bin. The 
 | Recycle Bin is enabled by default. If the instance or Site administrator 
 | disables the Recycle Bin, however, recovering deleted files is impossible. 
 
 The context menu also provides additional options for files. A small badge on
-the file icon's top-right corner indicates the file's version in the @product@ 
+the file icon's top-right corner indicates the file's version in the @sharepoint@ 
 instance. You can also use the context menu to share files you've downloaded. 
 Pressing the *Share* icon opens a list of your device's apps capable of sharing 
 the file. To close the context menu and return to the list of files and folders, 
 swipe to the right. The following screenshot shows the options available in a 
 file's context menu. 
 
-![Figure 3: The badge on the file's icon shows the file's version in the @product@ instance. You can also share files that you've downloaded.](../../../../images/sync-mobile-file-actions.png)
+![Figure 3: The badge on the file's icon shows the file's version in the @sharepoint@ instance. You can also share files that you've downloaded.](../../../../images/sync-mobile-file-actions.png)

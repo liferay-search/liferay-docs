@@ -33,40 +33,40 @@ headers specify the artifact ID and version:
     Bundle-SymbolicName:  [artifact ID]
     Bundle-Version: [version]
 
-| **Important:** Artifacts in @product@ fix packs override @product@
+| **Important:** Artifacts in @sharepoint@ fix packs override @sharepoint@
 | installation artifacts. Subfolders of a fix pack ZIP file's `binaries` folder
 | hold the artifacts. If an installed fix pack provides an artifact you depend | on, specify the version of that fix pack artifact in your dependency.
 
-This table lists each core @product@ artifact's group ID and artifact ID and
+This table lists each core @sharepoint@ artifact's group ID and artifact ID and
 where to find the artifact's manifest, which lists the artifact version: 
 
-*Core @product@ Artifacts*:
+*Core @sharepoint@ Artifacts*:
 
 | File          | Group ID | Artifact ID | Version | Origin | 
 | :------------ | :--------------- | :-------- | :--------- | :------ |
-| `portal-kernel.jar` | `com.liferay.portal` | `com.liferay.portal.kernel` | (see JAR's `MANIFEST.MF`) | fix pack ZIP, @product@ installation, or @product@ dependencies ZIP |
-| `portal-impl.jar` | `com.liferay.portal` |  `com.liferay.portal.impl` | (see JAR's `MANIFEST.MF`) | fix pack ZIP or @product@ `.war` |
-| `util-bridges.jar` | `com.liferay.portal` | `com.liferay.util.bridges` | (see JAR's `MANIFEST.MF`) |  fix pack ZIP or @product@ `.war` |
-| `util-java.jar` | `com.liferay.portal` |  `com.liferay.util.java` | (see JAR's `MANIFEST.MF`) |  fix pack ZIP or @product@ `.war` |
-| `util-slf4j.jar` | `com.liferay.portal` |  `com.liferay.util.slf4j` | (see JAR's `MANIFEST.MF`) | fix pack ZIP or  @product@ `.war` |
-| `util-taglibs.jar` | `com.liferay.portal` | `com.liferay.util.taglib` | (see JAR's `MANIFEST.MF`) | fix pack ZIP or @product@ `.war` |
-| `com.liferay.*` JAR files | `com.liferay` | (see JAR's `MANIFEST.MF`) | (see JAR's `MANIFEST.MF`) | fix pack ZIP, @product@ installation, @product@ dependencies ZIP, or the OSGi ZIP |
+| `portal-kernel.jar` | `com.liferay.portal` | `com.liferay.portal.kernel` | (see JAR's `MANIFEST.MF`) | fix pack ZIP, @sharepoint@ installation, or @sharepoint@ dependencies ZIP |
+| `portal-impl.jar` | `com.liferay.portal` |  `com.liferay.portal.impl` | (see JAR's `MANIFEST.MF`) | fix pack ZIP or @sharepoint@ `.war` |
+| `util-bridges.jar` | `com.liferay.portal` | `com.liferay.util.bridges` | (see JAR's `MANIFEST.MF`) |  fix pack ZIP or @sharepoint@ `.war` |
+| `util-java.jar` | `com.liferay.portal` |  `com.liferay.util.java` | (see JAR's `MANIFEST.MF`) |  fix pack ZIP or @sharepoint@ `.war` |
+| `util-slf4j.jar` | `com.liferay.portal` |  `com.liferay.util.slf4j` | (see JAR's `MANIFEST.MF`) | fix pack ZIP or  @sharepoint@ `.war` |
+| `util-taglibs.jar` | `com.liferay.portal` | `com.liferay.util.taglib` | (see JAR's `MANIFEST.MF`) | fix pack ZIP or @sharepoint@ `.war` |
+| `com.liferay.*` JAR files | `com.liferay` | (see JAR's `MANIFEST.MF`) | (see JAR's `MANIFEST.MF`) | fix pack ZIP, @sharepoint@ installation, @sharepoint@ dependencies ZIP, or the OSGi ZIP |
 
-Next, you'll learn how to find @product@ app and independent module artifact
+Next, you'll learn how to find @sharepoint@ app and independent module artifact
 attributes. 
 
 ## Finding Liferay App and Independent Artifacts
 
-Independent modules and @product@ app modules aren't part of the  @product@
+Independent modules and @sharepoint@ app modules aren't part of the  @sharepoint@
 core. You must still, however, find their artifact attributes if you  depend on
-them. The resources below provide the  artifact details for @product@'s apps and
+them. The resources below provide the  artifact details for @sharepoint@'s apps and
 independent modules: 
 
 | Resource | Artifact Type |
 | :-------- | :-------------- |
 | [App Manager](#app-manager) | Deployed modules |
-| [Reference Docs](#reference-docs) | @product@ modules (per release) |
-| [Maven Central](#maven-central) | All artifact types: @product@ and third party, module and non-module |
+| [Reference Docs](#reference-docs) | @sharepoint@ modules (per release) |
+| [Maven Central](#maven-central) | All artifact types: @sharepoint@ and third party, module and non-module |
 
 | **Important**: `com.liferay` is the group ID for all of Liferay's apps and
 | independent modules.
@@ -80,7 +80,7 @@ learn about it next.
 knows what's deployed on your Liferay instance. Use it to find deployed module
 attributes. 
 
-1.  In @product@, navigate to *Control Panel* &rarr; *Apps* &rarr; *App 
+1.  In @sharepoint@, navigate to *Control Panel* &rarr; *Apps* &rarr; *App 
     Manager*. 
 
 2.  Search for the module by its display name, symbolic name, or related
@@ -122,19 +122,19 @@ to find it:
 6.  Determine the group ID by matching the `Bundle-Vendor` value from step 3 
     with a group listed that provides the artifact. 
 
-Next, @product@'s reference documentation provides @product@ app artifact
+Next, @sharepoint@'s reference documentation provides @sharepoint@ app artifact
 attributes. 
 
 ### Reference Docs
 
-@product@'s app Javadoc lists each app module's artifact ID, version number, and
-display name. This is the best place to look up @product@ app modules that
-aren't yet deployed to your @product@ instance. 
+@sharepoint@'s app Javadoc lists each app module's artifact ID, version number, and
+display name. This is the best place to look up @sharepoint@ app modules that
+aren't yet deployed to your @sharepoint@ instance. 
 
-| **Note:** To find artifact information on a Core @product@ artifact, refer to
-| the previous section *Finding Core @product@ Artifact Attributes*.
+| **Note:** To find artifact information on a Core @sharepoint@ artifact, refer to
+| the previous section *Finding Core @sharepoint@ Artifact Attributes*.
 
-Follow these steps to find a @product@ app module's attributes in the Javadoc: 
+Follow these steps to find a @sharepoint@ app module's attributes in the Javadoc: 
 
 1.  Navigate to Javadoc for an app module class. If you don't have a link to the
     class's Javadoc, find it by browsing 
@@ -150,7 +150,7 @@ The heading above the package name shows the module's artifact ID, version
 number, and display name. Remember, the group ID for all app modules is 
 `com.liferay`. 
 
-![Figure 5: @product@ app Javadoc overviews list each app module's display name, followed by its group ID, artifact ID, and version number in a colon-separated string. It's a Gradle artifact syntax.](../../../images/intro-configuring-dependencies-module-info-in-javadoc-overview.png)
+![Figure 5: @sharepoint@ app Javadoc overviews list each app module's display name, followed by its group ID, artifact ID, and version number in a colon-separated string. It's a Gradle artifact syntax.](../../../images/intro-configuring-dependencies-module-info-in-javadoc-overview.png)
 
 | **Note**: Module version numbers aren't currently included in any tag library
 | reference docs.

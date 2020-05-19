@@ -64,5 +64,5 @@ required if the templates are modified in the theme:
 The theme templates are updated! If you modified any other FreeMarker theme 
 templates, you can compare them with templates in the 
 [`_unstyled` theme](https://github.com/liferay/liferay-portal/tree/7.2.x/modules/apps/frontend-theme/frontend-theme-unstyled/src/main/resources/META-INF/resources/_unstyled/templates). Next you can learn how 
-to use @product@'s compatibility layer to help ease the transition to Bootstrap 
+to use @sharepoint@'s compatibility layer to help ease the transition to Bootstrap 
 4 and Clay CSS. 

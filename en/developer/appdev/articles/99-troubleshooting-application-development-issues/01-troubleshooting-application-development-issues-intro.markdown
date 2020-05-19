@@ -41,7 +41,7 @@ Click a question to view the answer.
 <div class="ldn-faq-question">
   <span class="ldn-faq-toggle-button" data-show="false" style="font-weight: normal;">How can I connect to a JNDI data source from my module?&nbsp;<span class="icon-caret-right" style="pointer-events:none;"></span></span>
   <div class="hide">  
-    <p>Connecting to an application server's JNDI data sources from Liferay's OSGi environment is almost the same as connecting to them from the Java EE environment. In an OSGi environment, the only difference is that you must <a href="/docs/7-2/appdev/-/knowledge_base/a/connecting-to-data-sources-using-jndi">use @product@'s class loader to load the application server's JNDI classes</a>. </p>
+    <p>Connecting to an application server's JNDI data sources from Liferay's OSGi environment is almost the same as connecting to them from the Java EE environment. In an OSGi environment, the only difference is that you must <a href="/docs/7-2/appdev/-/knowledge_base/a/connecting-to-data-sources-using-jndi">use @sharepoint@'s class loader to load the application server's JNDI classes</a>. </p>
   </div>
 </div>
 
@@ -49,7 +49,7 @@ Click a question to view the answer.
 <div class="ldn-faq-question">
   <span class="ldn-faq-toggle-button" data-show="false" style="font-weight: normal;">My module has an unresolved requirement. What can I do?&nbsp;<span class="icon-caret-right" style="pointer-events:none;"></span></span>
   <div class="hide">  
-    <p>If one of your bundles imports a package that no other bundle in the Liferay OSGi runtime exports, @product@ reports an unresolved requirement:</p>
+    <p>If one of your bundles imports a package that no other bundle in the Liferay OSGi runtime exports, @sharepoint@ reports an unresolved requirement:</p>
     <pre><code>! could not resolve the bundles: ...
     Unresolved requirement: Import-Package: ...
     ...

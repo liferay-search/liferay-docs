@@ -82,7 +82,7 @@ Each of these steps corresponds to a step in the wizard:
     environment. The following service is available: 
 
     **Liferay Instance Activation:** Enabling this lets LCS activate any 
-    @product@ instances that connect to the environment. If you disable this 
+    @sharepoint@ instances that connect to the environment. If you disable this 
     service, you must activate via an XML file from Liferay support, and 
     such instances must run version 5.0.0 or newer of the LCS client app. 
 

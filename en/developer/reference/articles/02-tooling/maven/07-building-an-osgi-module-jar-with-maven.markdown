@@ -8,7 +8,7 @@ header-id: building-an-osgi-module-jar-with-maven
 
 If you have an existing Liferay module built with Maven that you created from
 scratch, or you're upgrading your Maven project from a previous version of
-@product@, your project probably can't generate an executable OSGi JAR. Don't
+@sharepoint@, your project probably can't generate an executable OSGi JAR. Don't
 fret! You can do this by making a few minor configurations in your module's
 POMs.
 
@@ -52,7 +52,7 @@ Continue on to see how this is done.
     The BND Maven plugin prepares all your Maven module's resources (e.g.,
     `MANIFEST.MF`) and inserts them into the generated
     `[Maven Project]/target/classes` folder. This plugin prepares your module to
-    be packaged as an OSGi JAR deployable to @product@.
+    be packaged as an OSGi JAR deployable to @sharepoint@.
 
     | **Note:** Although WABs can be generated using the `bnd-maven-plugin`,
     | this is not supported by Liferay. WABs should be created as a standard WAR
@@ -99,8 +99,8 @@ Continue on to see how this is done.
     ```
 
     Your Maven JAR is generated in your project's `/target` folder. You can
-    deploy it manually into @product@'s `/deploy` folder, or you can configure
-    your project to deploy automatically to @product@ by following the
+    deploy it manually into @sharepoint@'s `/deploy` folder, or you can configure
+    your project to deploy automatically to @sharepoint@ by following the
     [Deploying a Project](/docs/7-2/reference/-/knowledge_base/r/deploying-a-project#maven)
     article.
 

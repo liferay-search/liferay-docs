@@ -7,12 +7,12 @@ header-id: searching-the-index-for-model-entities
 [TOC levels=1-4]
 
 The heart of searching for your model entity documents is querying for what you
-indexed. To do this, contribute search terms to the @product@ search query.
+indexed. To do this, contribute search terms to the @sharepoint@ search query.
 
 The extension points (i.e., the interfaces to implement) on this page are
 provided by the `com.liferay.portal.search.spi` bundle.
 
-Here's the Gradle dependency for @product@ 7.2.0 GA1:
+Here's the Gradle dependency for @sharepoint@ 7.2.0 GA1:
 
 ```groovy
 dependencies {

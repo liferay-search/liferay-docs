@@ -6,7 +6,7 @@ header-id: the-segment-editor
 
 [TOC levels=1-4]
 
-Segmentation and Personalization in @product-ver@ also provides an editor for
+Segmentation and Personalization in @sharepoint-ver@ also provides an editor for
 defining User Segments.
 
 1.  Go to *Site Administration* and select the site that you wish to create

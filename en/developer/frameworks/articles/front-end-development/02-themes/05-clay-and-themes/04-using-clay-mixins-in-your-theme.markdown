@@ -6,7 +6,7 @@ header-id: using-clay-mixins-in-your-theme
 
 [TOC levels=1-4]
 
-Bourbon mixins are deprecated as of @product-ver@ and will be removed in the 
+Bourbon mixins are deprecated as of @sharepoint-ver@ and will be removed in the 
 next major release. We recommend you use Clay mixins instead. Follow these steps 
 to use Clay mixins in your theme:
 

@@ -12,7 +12,7 @@ _Configuring Search_ could mean lots of different things:
 - Reindexing to make sure the search indexes are current with the database
 - Tweaking the search widgets added to pages
 - Creating new Search Pages
-- Configuring the connectors that let @product@ and the search engine
+- Configuring the connectors that let @sharepoint@ and the search engine
   communicate
 
 In fact, _Configuring Search_ means all those things. This is a high level
@@ -165,7 +165,7 @@ for more information.
 
 ### Elasticsearch 6
 
-Configure the connection between @product@ and Elasticsearch 6. See
+Configure the connection between @sharepoint@ and Elasticsearch 6. See
 [here](/docs/7-2/deploy/-/knowledge_base/d/configuring-the-liferay-elasticsearch-connector)
 for more information on these properties:
 

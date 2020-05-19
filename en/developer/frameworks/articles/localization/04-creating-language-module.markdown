@@ -64,13 +64,13 @@ Follow these steps to create a language module:
                             Language_es.properties
                             ...
 
-On building the language module, @product@'s 
+On building the language module, @sharepoint@'s 
 `ResourceBundleLoaderAnalyzerPlugin` detects the module's `Language.properties` 
 file and adds a resource bundle 
 [capability](http://blog.osgi.org/2015/12/using-requirements-and-capabilities.html) 
 to the module. A capability is a contract a module declares to the OSGi 
 framework. Capabilities let you associate services with modules that provide 
-them. In this case, @product@ registers a 
+them. In this case, @sharepoint@ registers a 
 [ResourceBundleLoader](@platform-ref@/7.2-latest/javadocs/portal-kernel/com/liferay/portal/kernel/util/ResourceBundleLoader.html) 
 service for the resource bundle capability. 
 

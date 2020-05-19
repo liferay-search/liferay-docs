@@ -59,7 +59,7 @@ all works, it's time to test it.
 
 3.  Look for the STARTED messages from the console. 
 
-4.  Go to your @product@ instance at `localhost:8080` in your browser to test 
+4.  Go to your @sharepoint@ instance at `localhost:8080` in your browser to test 
     your updated application. 
 
 5.  Like you did before, use your administrative account to remove the Guestbook
@@ -77,7 +77,7 @@ all works, it's time to test it.
 
 ## What's Next?
 
-You've created a working web application and deployed it on @product@. If you've 
+You've created a working web application and deployed it on @sharepoint@. If you've 
 created web applications before, though, you know that it's missing some 
 important features: security, front-end validation, and an interface for 
 administrators to create multiple guestbooks per portlet. In the next section, 

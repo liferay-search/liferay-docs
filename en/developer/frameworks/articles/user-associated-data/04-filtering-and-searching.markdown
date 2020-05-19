@@ -7,7 +7,7 @@ header-id: filtering-and-searching-uad-marked-entities
 [TOC levels=1-4]
 
 In the data erasure UI, it's important that administrators can find what they're
-looking for. The native @product@ entities support filtering and search, and
+looking for. The native @sharepoint@ entities support filtering and search, and
 when you follow the steps here, your entities will, too.
 
 To add filtering and searching for your custom entities, implement three
@@ -137,4 +137,4 @@ interface:
     `hits.getLegnth()` and you get the count, as an `int`.
 
 Now administrators responsible for complying with GDPR or other data erasure
-concerns can search and filter your entity from the @product@ UAD interface.
+concerns can search and filter your entity from the @sharepoint@ UAD interface.

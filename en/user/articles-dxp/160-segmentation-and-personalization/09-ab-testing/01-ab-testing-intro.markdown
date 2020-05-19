@@ -8,7 +8,7 @@ header-id: a-b-testing
 
 | **Note:** A/B Testing is available for Liferay DXP 7.2 SP1+.
 
-@product@ can help you hone your messages to customers by periodically testing
+@sharepoint@ can help you hone your messages to customers by periodically testing
 different UX and messaging schemes. You can show different versions of your site
 to different users to see which is more effective. 
 

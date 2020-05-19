@@ -2,7 +2,7 @@
 header-id: logging-into-liferay
 ---
 
-# Logging into @product@
+# Logging into @sharepoint@
 
 [TOC levels=1-4]
 
@@ -12,7 +12,7 @@ logging into a university portal should not be able to access the same resources
 a professor can. A patient logging into a health care portal should not be able
 to access a doctor's resources. Some content (at least a login page) should be
 available to everybody, including unauthenticated users (called *guest* users).
-To learn more about how @product@ restricts access to portal resources to
+To learn more about how @sharepoint@ restricts access to portal resources to
 different users, please see the 
 [Roles and Permissions](/docs/7-2/user/-/knowledge_base/u/roles-and-permissions) 
 documentation. 

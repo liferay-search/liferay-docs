@@ -21,7 +21,7 @@ steps to create and configure the OSGi module:
 
 2.  Open the portlet's `build.gradle` file and update the 
     `com.liferay.portal.kernel` `version` to `4.13.1`. This is the version 
-    bundled with the @product@ release.
+    bundled with the @sharepoint@ release.
 
 3.  Open the portlet class you created in step one (`MyEditorConfigContributor`) 
     and add the following imports:

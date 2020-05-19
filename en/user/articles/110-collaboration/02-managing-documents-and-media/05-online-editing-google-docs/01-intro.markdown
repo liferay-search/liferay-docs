@@ -10,7 +10,7 @@ Although you can
 [add](/docs/7-2/user/-/knowledge_base/u/adding-files-to-a-document-library#using-the-add-menu) 
 and 
 [edit](/docs/7-2/user/-/knowledge_base/u/checking-out-and-editing-files) 
-Documents and Media files via upload and download, @product@ doesn't contain a 
+Documents and Media files via upload and download, @sharepoint@ doesn't contain a 
 UI that lets you author or edit documents directly. You can, however, create and
 edit Documents and Media files online in Google Docs&trade;, Google
 Sheets&trade;, and Google Slides&trade;. 

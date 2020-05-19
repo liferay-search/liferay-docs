@@ -7,7 +7,7 @@ header-id: enabling-cluster-link
 [TOC levels=1-4]
 
 Enabling Cluster Link automatically activates distributed caching.  The cache is
-distributed across multiple @product@ nodes running concurrently. Cluster Link
+distributed across multiple @sharepoint@ nodes running concurrently. Cluster Link
 does
 [Ehcache](http://www.ehcache.org)
 replication. The Ehcache global settings are in the
@@ -23,7 +23,7 @@ retrieve a new entity on a node which doesn't have that entity cached results in
 a cache *miss*. The miss triggers the node to retrieve the entity from the
 database and store it in its local cache. 
 
-![Figure 1: @product@'s cache algorithm is extremely efficient. ](../../../images/clustering-cache-efficient-algorithm.png)
+![Figure 1: @sharepoint@'s cache algorithm is extremely efficient. ](../../../images/clustering-cache-efficient-algorithm.png)
 
 Here are the Cluster Link topics: 
 
@@ -79,8 +79,8 @@ UDP multicast, but unicast and TCP are also available.
 
 ## Multicast Over UDP
 
-When you enable Cluster Link, @product@'s default clustering configuration is
-enabled. This configuration defines IP multicast over UDP. @product@ uses two
+When you enable Cluster Link, @sharepoint@'s default clustering configuration is
+enabled. This configuration defines IP multicast over UDP. @sharepoint@ uses two
 groups of [channels from
 JGroups](http://www.jgroups.org/manual4/index.html#_channel) to implement this:
 a control group and a transport group. If you want to customize the [channel
@@ -115,7 +115,7 @@ cluster.link.bind.addr["cluster-link-udp"]=localhost
 
 In some configurations, however, `localhost` is bound to the internal loopback
 network (`127.0.0.1` or `::1`), rather than the host's real address. If for some
-reason you need this configuration, you can make @product@ auto detect its real
+reason you need this configuration, you can make @sharepoint@ auto detect its real
 address with this property: 
 
 ```properties

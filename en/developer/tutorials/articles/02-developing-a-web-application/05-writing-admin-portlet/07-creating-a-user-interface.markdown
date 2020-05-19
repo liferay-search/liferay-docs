@@ -102,7 +102,7 @@ the JSP file that should be displayed: `guestbook_actions.jsp`.
 
 Finally, the `<liferay-ui:search-iterator />` tag iterates through and 
 displays the list of guestbooks. Using Liferay's search container makes the 
-Guestbook Admin portlet look like a native @product@ portlet. It also 
+Guestbook Admin portlet look like a native @sharepoint@ portlet. It also 
 provides built-in pagination so that your portlet can automatically display 
 large numbers of guestbooks on one Site. 
 

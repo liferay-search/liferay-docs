@@ -10,7 +10,7 @@ header-id: defining-permissions
     <p id="stepTitle">Implementing Permissions</p><p>Step 1 of 5</p>
 </div>
 
-@product@'s permissions framework is configured declaratively, like Service 
+@sharepoint@'s permissions framework is configured declaratively, like Service 
 Builder. You define all your permissions in an XML file that by convention is 
 called `default.xml` (but you could really call it whatever you want). Then you 
 implement permissions checks in the following places in your code: 

@@ -126,7 +126,7 @@ matter your app's current scope. For an example of using this method, see
 If you must ever do data processing outside the scope of the web's
 request/response, look no further than the Message Bus. It's conceptually
 similar to Java Messaging Service (JMS) Topics, but sacrifices transactional,
-reliable delivery capabilities, making it much lighter-weight. @product@ uses
+reliable delivery capabilities, making it much lighter-weight. @sharepoint@ uses
 Message Bus in many places: 
 
 - Auditing

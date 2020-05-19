@@ -36,9 +36,9 @@ locale automatically, without requiring you to access
     ```
 
 3.  Configure your app's resource bundle and the locales you're supporting. The 
-    locales your @product@ instance supports are specified in its [portal
+    locales your @sharepoint@ instance supports are specified in its [portal
     properties](/docs/7-2/deploy/-/knowledge_base/d/portal-properties) file
-    (here are @product@'s [default
+    (here are @sharepoint@'s [default
     locales]((@platform-ref@/7.2-latest/propertiesdoc/portal.properties.html#Languages%20and%20Time%20Zones)).
     For example, these configurations support translations for English and
     Spanish locales: 
@@ -125,4 +125,4 @@ for using language keys across applications.
 
 [Using Language Modules](/docs/7-2/frameworks/-/knowledge_base/f/using-a-language-module)
 
-[Using @product@'s Language Settings](/docs/7-2/frameworks/-/knowledge_base/f//docs/7-1/tutorials/-/knowledge_base/t/using-liferays-language-settings)
+[Using @sharepoint@'s Language Settings](/docs/7-2/frameworks/-/knowledge_base/f//docs/7-1/tutorials/-/knowledge_base/t/using-liferays-language-settings)

@@ -10,7 +10,7 @@ The asset framework transforms entities into a common format that can be
 published anywhere in your Site. Web content articles, blog posts, wiki
 articles, and documents are some asset-enabled entities that come
 out-of-the-box. By asset-enabling your own applications, you can take advantage
-of @product@'s functionality for publishing your application's data across your
+of @sharepoint@'s functionality for publishing your application's data across your
 Site in the form of asset publisher entries, notifications, social activities,
 and more. 
 

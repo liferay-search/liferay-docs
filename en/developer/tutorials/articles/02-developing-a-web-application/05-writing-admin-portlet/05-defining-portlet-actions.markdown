@@ -14,7 +14,7 @@ The Guestbook Admin portlet now needs action methods for adding, updating, and
 deleting guestbooks. As with the Guestbook portlet, action methods call the
 corresponding service methods. Note that since your services all run in the same
 container, any application can call the Guestbook services. This is an advantage
-of @product@'s OSGi-based architecture: different applications or modules can
+of @sharepoint@'s OSGi-based architecture: different applications or modules can
 call services published by other modules. If a service is published, it can be
 used via `@Reference`. You'll take advantage of this here in the Guestbook Admin
 portlet to consume one of the same services consumed by the Guestbook portlet

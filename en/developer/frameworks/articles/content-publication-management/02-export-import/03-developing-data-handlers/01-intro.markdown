@@ -124,7 +124,7 @@ The `doImportData` method queries for entity data in the imported LAR file
 that should be added to the database. This is done by extracting XML elements
 from the LAR file by using utility methods in the
 [`StagedModelDataHandlerUtil`](@platform-ref@/7.2-latest/javadocs/portal-kernel/com/liferay/exportimport/kernel/lar/StagedModelDataHandlerUtil.html)
-class. The extracted elements tell @product@ what data to import from the LAR
+class. The extracted elements tell @sharepoint@ what data to import from the LAR
 file.
 
 The `doPrepareManifestSummary` method calculates the number of affected

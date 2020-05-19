@@ -16,7 +16,7 @@ is an example of embedding a Language widget in FreeMarker:
 
 | **Warning:** The `theme` variable is no longer injected into the FreeMarker
 | context. For more information about why the theme variable was removed for
-| @product@ 7.0 and suggestions for updating your code, visit the
+| @sharepoint@ 7.0 and suggestions for updating your code, visit the
 | [Taglibs Are No Longer Accessible via the theme Variable in FreeMarker](/docs/7-0/reference/-/knowledge_base/r/breaking-changes#taglibs-are-no-longer-accessible-via-the-theme-variable-in-freemarker)
 | breaking change entry.
 

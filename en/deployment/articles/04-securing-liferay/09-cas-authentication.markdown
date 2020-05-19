@@ -7,19 +7,19 @@ header-id: cas-central-authentication-service-single-sign-on-authentication
 [TOC levels=1-4]
 
 CAS is an authentication system originally created at Yale University. It is a
-widely used open source single sign-on solution and was the first SSO product to
-be supported by @product@. @product@'s CAS module includes the CAS client, so
+widely used open source single sign-on solution and was the first SSO sharepoint to
+be supported by @sharepoint@. @sharepoint@'s CAS module includes the CAS client, so
 there's no need to install it separately.
 
-| **Note:** @product@ supports CAS 3.3.x. If you use a later version of CAS, it
+| **Note:** @sharepoint@ supports CAS 3.3.x. If you use a later version of CAS, it
 | is best to use CAS's support for standards such as OpenID Connect or SAML to
-| interface with @product@.
+| interface with @sharepoint@.
 
 The CAS Server application requires your server to have a properly configured
 Secure Socket Layer (SSL) certificate. To generate one yourself, use the
 `keytool` utility that comes with the JDK. First generate the key, then export
 the key into a file. Finally, import the key into your local Java key store. For
-public, Internet-based production environments, you must purchase a signed key
+public, Internet-based sharepointion environments, you must purchase a signed key
 from a recognized certificate authority or have your key signed by a recognized
 certificate authority. For Intranets, you should have your IT department
 pre-configure users' browsers to accept the certificate so they don't get
@@ -51,7 +51,7 @@ keytool -import -alias tomcat -file server.cert -keypass changeit -keystore $JAV
 If you are on a Windows system, replace `$JAVA_HOME` above with `%JAVA_HOME%`.
 Of course, all of this must be done on the system where CAS is running.
 
-Once your CAS server is up and running, configure @product@ to use it.
+Once your CAS server is up and running, configure @sharepoint@ to use it.
 CAS configuration can be applied either at the system scope or at the scope of
 a portal instance. To configure the CAS SSO module at the system or instance
 scope, navigate to the Control Panel, click on *Configuration* &rarr; *System
@@ -63,13 +63,13 @@ to your CAS server.
 **Enabled:** Check this box to enable CAS single sign-on.
 
 **Import from LDAP:** A user may be authenticated from CAS and not yet exist in
-@product@. Select this to automatically import users from LDAP if they do not
-exist in @product@. For this to work, LDAP must be enabled.
+@sharepoint@. Select this to automatically import users from LDAP if they do not
+exist in @sharepoint@. For this to work, LDAP must be enabled.
 
 The rest of the settings are various URLs with defaults included. Change
 *localhost* in the default values to point to your CAS server. When you are
 finished, click *Save*. After this, when users click the *Sign In* link, they
-are directed to the CAS server to sign in to @product@.
+are directed to the CAS server to sign in to @sharepoint@.
 
 For some situations, it might be more convenient to specify the system
 configuration via files on the disk. To do so, create the following
@@ -85,13 +85,13 @@ value.
 Property Label | Property Key | Description | Type
 ----- | ----- | ----- | -----
 **Enabled** | `enabled` | Check this box to enable CAS SSO authentication. | `boolean`
-**Import from LDAP** | `importFromLDAP` | Users authenticated from CAS that do not exist in @product@ are imported from LDAP. LDAP must be enabled separately. | `boolean`
+**Import from LDAP** | `importFromLDAP` | Users authenticated from CAS that do not exist in @sharepoint@ are imported from LDAP. LDAP must be enabled separately. | `boolean`
 **Login URL** | `loginURL` | Set the CAS server login URL. | `String`
 **Logout on session expiration** | `logoutOnSessionExpiration` | If checked, browsers with expired sessions are redirected to the CAS logout URL. | `boolean`
-**Logout URL** | `logoutURL` | The CAS server logout URL. Set this if you want @product@'s logout function to trigger a CAS logout | `String`
-**Server Name** | `serverName` | The name of the @product@ instance (e.g., `liferay.com`). If the provided name includes the protocol (`https://`, for example) then this will be used together with the path `/c/portal/login` to construct the URL to which the CAS server will provide tickets. If no scheme is provided, the scheme normally used to access the @product@ login page will be used. | `String`
+**Logout URL** | `logoutURL` | The CAS server logout URL. Set this if you want @sharepoint@'s logout function to trigger a CAS logout | `String`
+**Server Name** | `serverName` | The name of the @sharepoint@ instance (e.g., `liferay.com`). If the provided name includes the protocol (`https://`, for example) then this will be used together with the path `/c/portal/login` to construct the URL to which the CAS server will provide tickets. If no scheme is provided, the scheme normally used to access the @sharepoint@ login page will be used. | `String`
 **Server URL** | `serviceURL` | If provided, this will be used as the URL to which the CAS server provides tickets. This overrides any URL constructed based on the Server Name as above. | `String`
-**No Such User Redirect URL** | `noSuchUserRedirectURL` | Set the URL to which to redirect the user if the user can authenticate with CAS but cannot be found in @product@. If import from LDAP is enabled, the user is redirected if the user could not be found or could not be imported from LDAP. | `String`
+**No Such User Redirect URL** | `noSuchUserRedirectURL` | Set the URL to which to redirect the user if the user can authenticate with CAS but cannot be found in @sharepoint@. If import from LDAP is enabled, the user is redirected if the user could not be found or could not be imported from LDAP. | `String`
 
 To override system defaults for a particular portal instance, navigate to the
 Control Panel, click on *Configuration* &rarr; *Instance Settings*, click on

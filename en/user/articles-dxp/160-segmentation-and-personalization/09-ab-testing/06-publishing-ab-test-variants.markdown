@@ -28,7 +28,7 @@ Variant from the A/B Test panel and click *Publish*. You can select *Discard
 Test* to ignore the A/B test recommendations and keep the currently published
 Control Page.
 
-The most productive Variant is now available to all users who visit the Page.
+The most sharepointive Variant is now available to all users who visit the Page.
 
 Awesome! You successfully ran an A/B test and published the Variant that is
 most effective for your Site's users.

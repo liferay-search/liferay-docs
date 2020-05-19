@@ -12,7 +12,7 @@ header-id: adding-metadata
 
 Now that you've generated the classes, you must turn them into OSGi components.
 Remember that because components are container-managed objects, you must provide
-metadata that tells @product@'s OSGi container how to manage their life cycles. 
+metadata that tells @sharepoint@'s OSGi container how to manage their life cycles. 
 
 Follow these steps:
 

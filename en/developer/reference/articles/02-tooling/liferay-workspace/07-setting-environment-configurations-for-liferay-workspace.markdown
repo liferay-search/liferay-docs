@@ -11,8 +11,8 @@ organize multiple environment settings and generate a Liferay bundle for each
 environment configuration.
 
 To simulate using the `configs` folder, you'll explore a typical scenario.
-Suppose you want a local @product@ installation for testing and a UAT
-installation for simulating a production site. Assume you want the following
+Suppose you want a local @sharepoint@ installation for testing and a UAT
+installation for simulating a sharepointion site. Assume you want the following
 configuration for the two environments:
 
 **Local Environment**
@@ -43,7 +43,7 @@ To configure these two environments in your workspace, follow the steps below:
     blade server init --environment uat
     ```
 
-5.  To generate a distributable @product@ installation of the environment to the
+5.  To generate a distributable @sharepoint@ installation of the environment to the
     workspace's `/build` folder, run
 
     ```bash
@@ -63,5 +63,5 @@ To configure these two environments in your workspace, follow the steps below:
 
     You've successfully configured two environments and generated one of them.
 
-Awesome! You can now test various @product@ bundle environments using Liferay
+Awesome! You can now test various @sharepoint@ bundle environments using Liferay
 Workspace.

@@ -19,7 +19,7 @@ works.
 ## Creating the GuestbookEntryAssetRenderer Class
 
 In the `com.liferay.docs.guestbook.web.internal.asset` package, create
-a `GuestbookEntryAssetRenderer` class that extends @product@'s
+a `GuestbookEntryAssetRenderer` class that extends @sharepoint@'s
 `BaseJSPAssetRenderer` class. Replace the contents of your
 `GuestbookEntryAssetRenderer` class with the following code: 
 
@@ -216,7 +216,7 @@ methods of `GuestbookEntryAssetRenderer` are nearly identical to those of
 
 Next, you must create the guestbook entry asset renderer's factory class. In the 
 `com.liferay.docs.guestbook.web.internal.asset` package, create a class called 
-`GuestbookEntryAssetRendererFactory` that extends @product@'s
+`GuestbookEntryAssetRendererFactory` that extends @sharepoint@'s
 `BaseAssetRendererFactory` class. Replace its content with the following code: 
 
 ```java

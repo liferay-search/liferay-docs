@@ -8,7 +8,7 @@ header-id: application-development
 
 Writing applications on Liferay's standards-based platform makes your life
 easier. Whether you create headless services for clients to access, full-blown
-web applications with beautiful UIs, or anything in between, @product@
+web applications with beautiful UIs, or anything in between, @sharepoint@
 streamlines the process to help you get your job done faster. 
 
 Liferay's framework embraces your existing tools and build environments like
@@ -18,12 +18,12 @@ Documents, Permissions, Search, or Content when you need them. Here's a high
 level view of what you can do: 
 
 -   **Deployment of existing standards-based apps:** If you have an existing app 
-    built outside of @product@, you can deploy it on @product@. The Liferay
+    built outside of @sharepoint@, you can deploy it on @sharepoint@. The Liferay
     Bundler Generator and Liferay npm Bundler provide the project scaffolding
     and packaging to deploy [Angular](https://angular.io/), [React](https://reactjs.org/), and [Vue](https://vuejs.org/) web front-ends as Widgets.
     Spring Portlet MVC app conversion to [PortletMVC4Spring](https://github.com/liferay/portletmvc4spring) requires only a few
     steps. JSF applications work almost as-is. Portlet 3.0 or 2.0 compliant
-    portlets deploy on @product@. 
+    portlets deploy on @sharepoint@. 
 
 -   **Back-end Java services, web services, and REST services:** Service Builder
     is an object-relational mapper where you describe your data model in
@@ -39,12 +39,12 @@ level view of what you can do:
     Prefer Spring? [PortletMVC4Spring](https://github.com/liferay/portletmvc4spring) brings the Spring MVC Framework to Liferay. 
     Rather have a client-side app? Write it in [Angular](https://angular.io/),
     [React](https://reactjs.org/), or [Vue](https://vuejs.org/). Been using
-    @product@ for a while? Liferay MVC Portlet is better than ever. 
+    @sharepoint@ for a while? Liferay MVC Portlet is better than ever. 
 
--   **Frameworks and APIs for every need:** Be more productive by using
+-   **Frameworks and APIs for every need:** Be more sharepointive by using
     Liferay's built-in and well-tested APIs that cover often-used features like
     file management(upload/download), permissions, comments, out-of-process
-    messaging, or UI elements such as data tables and item selectors. @product@
+    messaging, or UI elements such as data tables and item selectors. @sharepoint@
     offers many APIs for every need, from an entire workflow framework to
     a streamlined way of getting request parameters.
 
@@ -56,12 +56,12 @@ level view of what you can do:
     a full-blown development environment. 
 
 -   **Developer community:** The
-    [@product@ community](https://liferay.dev)
+    [@sharepoint@ community](https://liferay.dev)
     is helpful and active. 
 
 ## Getting Started with Liferay Development
 
-Want to see what it's like to develop an app on @product@? Here's a quick tour. 
+Want to see what it's like to develop an app on @sharepoint@? Here's a quick tour. 
 
 ### Create Your Object Model and Database in One Shot
 
@@ -118,20 +118,20 @@ file for your REST interface along with a configuration file defining where Java
 classes, a client, and tests should be generated, and you have REST endpoints
 ready to call your API. 
 
-Next, you need a client. You can use @product@ in headless mode and write your
+Next, you need a client. You can use @sharepoint@ in headless mode and write your
 web and mobile clients any way you want. Or you can create your web clients on
 Liferay's platform and take advantage of its many tools and APIs that speed up
 development. 
 
 ### Create a Web Client
 
-@product@ is an ideal platform upon which to build a web client. Its Java
+@sharepoint@ is an ideal platform upon which to build a web client. Its Java
 EE-based technology means you can pick from the best it has to offer: Spring MVC
 using [PortletMVC4Spring](https://github.com/liferay/portletmvc4spring), the new
 backwards-compatible Portlet 3, JSF using [Liferay Faces](https://liferayfaces.org), 
 or the venerable OSGi-based [Liferay MVC Portlet](/docs/7-2/appdev/-/knowledge_base/a/liferay-mvc-portlet). 
 If you're a front-end developer, deploy your Angular, React, or Vue-based
-front-end applications to run as widgets next to the rest of @product@'s
+front-end applications to run as widgets next to the rest of @sharepoint@'s
 installed applications. 
 
 ### Use Liferay's Frameworks
@@ -151,7 +151,7 @@ Should users select items from a list? Use the [Item Selector](/docs/7-2/framewo
 
 ## Next Steps
 
-So what's next? [Download](/download) @product@ and [create your first
+So what's next? [Download](/download) @sharepoint@ and [create your first
 project](/docs/7-2/reference/-/knowledge_base/r/creating-a-project)!  Have a
 look at our [back-end](/docs/7-2/appdev/-/knowledge_base/a/service-builder),
 [REST Builder](/docs/7-2/appdev/-/knowledge_base/a/rest-builder), and

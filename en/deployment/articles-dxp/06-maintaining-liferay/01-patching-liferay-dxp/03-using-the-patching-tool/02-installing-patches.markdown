@@ -9,7 +9,7 @@ header-id: installing-patches
 Before installing any patches, you must shut down your server. On Windows
 operating systems, files in use are locked by the OS, and can't be patched. On
 Unix-style systems, you can usually replace files that are running, but the old
-ones reside in memory. For these reasons, it is best to shut down @product@
+ones reside in memory. For these reasons, it is best to shut down @sharepoint@
 before installing patches. 
 
 Liferay distributes all patches (fix packs and hotfixes) as ZIP files. When you
@@ -60,7 +60,7 @@ patching-tool index-info
 
 Since there's no database connection at patching time, the indexes must be
 created at portal startup. If the server has permissions to modify the database
-indexes, instruct @product@ to create the indexes automatically at startup by
+indexes, instruct @sharepoint@ to create the indexes automatically at startup by
 adding this setting to your `portal-ext.properties` file:
 
 ```properties
@@ -79,10 +79,10 @@ verify them.
 
 During the installation, `patching-backup-deps.zip` and `patching-backup.zip`
 files are created and stored in the web application's `WEB-INF` folder. These
-files are required to restore the @product@'s original state; removing them
+files are required to restore the @sharepoint@'s original state; removing them
 disables patching. 
 
-| **Note:** When installing patches, @product@'s `web.xml` is always overwritten
+| **Note:** When installing patches, @sharepoint@'s `web.xml` is always overwritten
 | by the one contained in the patch. If you've customized `web.xml`, you must
 | re-implement your customizations after installing a patch.
 
@@ -119,7 +119,7 @@ in the `patches` folder, the Patching Tool installs them.
 When a patch you're trying to install requires a Patching Tool update, the
 Patching Tool tells you. To update the Patching Tool, download the latest one
 from the
-[Customer Portal](https://customer.liferay.com/downloads?p_p_id=com_liferay_osb_customer_downloads_display_web_DownloadsDisplayPortlet&_com_liferay_osb_customer_downloads_display_web_DownloadsDisplayPortlet_productAssetCategoryId=118191019&_com_liferay_osb_customer_downloads_display_web_DownloadsDisplayPortlet_fileTypeAssetCategoryId=118191066).
+[Customer Portal](https://customer.liferay.com/downloads?p_p_id=com_liferay_osb_customer_downloads_display_web_DownloadsDisplayPortlet&_com_liferay_osb_customer_downloads_display_web_DownloadsDisplayPortlet_sharepointAssetCategoryId=118191019&_com_liferay_osb_customer_downloads_display_web_DownloadsDisplayPortlet_fileTypeAssetCategoryId=118191066).
 Overwrite the existing Patching Tool by unzipping the new one to the
 `patching-tool` folder's parent folder. 
 
@@ -127,7 +127,7 @@ Overwrite the existing Patching Tool by unzipping the new one to the
 
 After you've performed your patching procedure (whether you've installed or
 [removed patches](/docs/7-2/deploy/-/knowledge_base/d/working-with-patches#uninstalling-patches)),
-it's important to clean up @product@'s cache of deployed code. This ensures that
+it's important to clean up @sharepoint@'s cache of deployed code. This ensures that
 you're using the revision you've just installed the patches for when you start
 the server. This is really easy to do. 
 

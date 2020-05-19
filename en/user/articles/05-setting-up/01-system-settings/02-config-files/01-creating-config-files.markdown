@@ -10,7 +10,7 @@ System Settings provides an
 [*Export*](/docs/7-2/user/-/knowledge_base/u/system-settings#exporting-and-importing-configurations)
 option that becomes available once you modify a configuration entry. Exporting
 is the recommended way to create `.config` files: you download a `.config` file
-containing the entry's settings in a `key=value` format. @product@ exports an
+containing the entry's settings in a `key=value` format. @sharepoint@ exports an
 entry's total available configuration keys and values, even if only one value
 was changed. You can export a single configuration entry or the entire set of
 modified configurations. 
@@ -93,7 +93,7 @@ after deployment.
 ## Typed Values
 
 The `.config` file format supports specifying the type of a configuration value
-by inserting a special type marker character. Because @product@ already knows
+by inserting a special type marker character. Because @sharepoint@ already knows
 the correct type for each configuration property, the type characters are only
 useful for informational purposes. For example, a configuration with a boolean
 type has *B* just before the value to mark it as a boolean type:

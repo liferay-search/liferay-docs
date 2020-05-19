@@ -6,7 +6,7 @@ header-id: using-audit-events
 
 [TOC levels=1-4]
 
-The Audit app shows activities in your @product@ installation. Access it by
+The Audit app shows activities in your @sharepoint@ installation. Access it by
 navigating to *Control Panel* &rarr; *Configuration* &rarr; *Audit*. The app
 displays a searchable list of captured events. You can browse the list, but
 searching it is typically faster. 
@@ -31,7 +31,7 @@ punishment, add this property to your `portal-ext.properties` file:
 audit.message.com.liferay.portal.kernel.model.Layout.VIEW=true
 ```
 
-@product@'s code refers to pages as *layouts*. Setting this property to `true`
+@sharepoint@'s code refers to pages as *layouts*. Setting this property to `true`
 therefore records audit events for page views. It's turned off by default
 because this is too fine-grained for most installations.
 
@@ -69,7 +69,7 @@ of these: `add`, `assign`, `delete`, `impersonate`, `login`, `login_failure`,
 `logout`, `unassign`, or `update`.
 
 **Session ID:** The session ID to search for. You can use this to correlate 
-a session ID from your web server logs with activity in @product@. 
+a session ID from your web server logs with activity in @sharepoint@. 
 
 **Client IP:** The IP address of the client that performed the activity you 
 wish to audit. 

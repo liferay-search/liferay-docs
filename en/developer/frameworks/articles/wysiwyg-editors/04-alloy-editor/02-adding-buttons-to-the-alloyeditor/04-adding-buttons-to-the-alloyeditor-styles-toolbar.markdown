@@ -72,7 +72,7 @@ Follow these steps to add a button to one of the Styles toolbars:
     ```
 
     The example above adds one of the 
-    [CKEditor plugins bundled with @product@'s AlloyEditor](/docs/7-2/reference/-/knowledge_base/r/ckeditor-plugin-reference-guide). 
+    [CKEditor plugins bundled with @sharepoint@'s AlloyEditor](/docs/7-2/reference/-/knowledge_base/r/ckeditor-plugin-reference-guide). 
     There are also several buttons available by default with the AlloyEditor,
     but they are not all enabled. The full list of existing buttons you can add
     to the Styles toolbars is shown in the table below, ordered by Toolbar:

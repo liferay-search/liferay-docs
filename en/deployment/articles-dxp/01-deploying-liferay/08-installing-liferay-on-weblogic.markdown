@@ -2,15 +2,15 @@
 header-id: installing-liferay-dxp-on-weblogic-12c-r2
 ---
 
-# Installing @product@ on WebLogic 12c R2
+# Installing @sharepoint@ on WebLogic 12c R2
 
 [TOC levels=1-4]
 
-Although you can install @product@ in a WebLogic Admin Server, this isn't
-recommended. It's a best practice to install web apps, including @product@, in
+Although you can install @sharepoint@ in a WebLogic Admin Server, this isn't
+recommended. It's a best practice to install web apps, including @sharepoint@, in
 a WebLogic Managed server. Deploying to a Managed Server lets you start or shut
-down @product@ more quickly and facilitates transitioning into a cluster
-configuration. This article therefore focuses on installing @product@ in
+down @sharepoint@ more quickly and facilitates transitioning into a cluster
+configuration. This article therefore focuses on installing @sharepoint@ in
 a Managed Server.
 
 Before getting started, create your Admin and Managed Servers. See
@@ -20,10 +20,10 @@ for instructions on setting up and configuring Admin and Managed Servers.
 Also familiarize yourself with [preparing for
 install](/docs/7-2/deploy/-/knowledge_base/d/preparing-for-install). 
 
-Now, [download the @product@ WAR and Dependency
-JARs](/docs/7-2/deploy/-/knowledge_base/d/obtaining-product#downloading-the-liferay-war-and-dependency-jars):
+Now, [download the @sharepoint@ WAR and Dependency
+JARs](/docs/7-2/deploy/-/knowledge_base/d/obtaining-sharepoint#downloading-the-liferay-war-and-dependency-jars):
 
--   @product@ WAR file
+-   @sharepoint@ WAR file
 -   Dependencies ZIP file
 -   OSGi Dependencies ZIP file
 
@@ -53,7 +53,7 @@ The following folders should be present within the `/liferay/osgi` folder:
 3. `Marketplace`
 4. `War`
 
-Without any further ado, get ready to install @product@ in WebLogic! 
+Without any further ado, get ready to install @sharepoint@ in WebLogic! 
 
 ## Configuring WebLogic's Node Manager
 
@@ -92,12 +92,12 @@ if you're on Windows.
     export USER_MEM_ARGS="-Xmx2560m -Xms2560m"
     ```
 
-    | **Important:** For @product@ to work properly, the application server JVM
+    | **Important:** For @sharepoint@ to work properly, the application server JVM
     | must use the `GMT` time zone and `UTF-8` file encoding.
     
     The `DERBY_FLAG` setting disables the Derby server built in to WebLogic, as
-    @product@ doesn't require this server. The remaining settings support
-    @product@'s  memory requirements, UTF-8 requirement, Lucene usage, and
+    @sharepoint@ doesn't require this server. The remaining settings support
+    @sharepoint@'s  memory requirements, UTF-8 requirement, Lucene usage, and
     Aspect Oriented  Programming via AspectJ. Also make sure to set `MW_HOME` to
     the directory  containing your WebLogic server on your machine. For example: 
 
@@ -132,9 +132,9 @@ if you're on Windows.
     JAVA_PROPERTIES="-Dfile.encoding=UTF-8 ${JAVA_PROPERTIES} ${CLUSTER_PROPERTIES}"
     ```
 
-5.  You must also ensure that the Node Manager sets @product@'s memory
+5.  You must also ensure that the Node Manager sets @sharepoint@'s memory
     requirements when starting the Managed Server. In the Admin Server's console
-    UI, navigate to the Managed Server you want to deploy @product@ to and
+    UI, navigate to the Managed Server you want to deploy @sharepoint@ to and
     select the *Server Start* tab. Enter the following parameters into the
     *Arguments* field: 
 
@@ -144,15 +144,15 @@ if you're on Windows.
 
     Click *Save* when you're finished. 
 
-Next, you'll set some @product@-specific properties for your @product@ installation. 
+Next, you'll set some @sharepoint@-specific properties for your @sharepoint@ installation. 
 
-## Setting @product@ Properties
+## Setting @sharepoint@ Properties
 
-Before installing @product@, you must set the  [*Liferay
+Before installing @sharepoint@, you must set the  [*Liferay
 Home*](/docs/7-2/deploy/-/knowledge_base/d/liferay-home) folder's location via
 the `liferay.home` property in a
 [`portal-ext.properties`](/docs/7-2/deploy/-/knowledge_base/d/portal-properties)
-file. You can also use this file to override [other @product@
+file. You can also use this file to override [other @sharepoint@
 properties](@platform-ref@/7.2-latest/propertiesdoc/portal.properties.html)
 that you may need. 
 
@@ -169,22 +169,22 @@ Remember to change this file path to the location on your machine that you want
 to serve as Liferay Home. 
 
 Now that you've created your `portal-ext.properties` file, you must put it
-inside the @product@ WAR file. Expand the @product@ WAR file and place
+inside the @sharepoint@ WAR file. Expand the @sharepoint@ WAR file and place
 `portal-ext.properties` in the `WEB-INF/classes` folder. Later, you can deploy
 the expanded archive to WebLogic. Alternatively, you can re-WAR the expanded
-archive for later deployment. In either case, @product@ reads your property
+archive for later deployment. In either case, @sharepoint@ reads your property
 settings once it starts up. 
 
-If you need to make any changes to `portal-ext.properties` after @product@ 
+If you need to make any changes to `portal-ext.properties` after @sharepoint@ 
 deploys, you can find it in your domain's `autodeploy/ROOT/WEB-INF/classes` 
-folder. Note that the `autodeploy/ROOT` folder contains the @product@ 
+folder. Note that the `autodeploy/ROOT` folder contains the @sharepoint@ 
 deployment. 
 
-Next, you'll install @product@'s dependencies. 
+Next, you'll install @sharepoint@'s dependencies. 
 
-## Installing @product@ Dependencies
+## Installing @sharepoint@ Dependencies
 
-You must now install @product@'s dependencies. Recall that earlier you 
+You must now install @sharepoint@'s dependencies. Recall that earlier you 
 downloaded two ZIP files containing these dependencies. Install their contents 
 now: 
 
@@ -196,7 +196,7 @@ now:
 
 You must also add your database's driver JAR file to your domain's `lib` folder.
 Note that although Hypersonic is fine for testing purposes, you **should not**
-use it for production @product@ instances. 
+use it for sharepointion @sharepoint@ instances. 
 
 **Checkpoint**
 
@@ -235,7 +235,7 @@ Next, you'll configure your database.
 
 ## Database Configuration
 
-Use the following procedure if you want WebLogic to manage your [database](/docs/7-2/deploy/-/knowledge_base/d/preparing-for-install#using-the-built-in-data-source) for @product@. You can skip this section if you want to use @product@'s built-in 
+Use the following procedure if you want WebLogic to manage your [database](/docs/7-2/deploy/-/knowledge_base/d/preparing-for-install#using-the-built-in-data-source) for @sharepoint@. You can skip this section if you want to use @sharepoint@'s built-in 
 Hypersonic database. 
 
 1.  Log in to your AdminServer console.
@@ -258,7 +258,7 @@ Hypersonic database.
 
 7.  Select the target for the data source and click *Finish*. 
 
-8.  You must now tell @product@ about the JDBC data source. Create a 
+8.  You must now tell @sharepoint@ about the JDBC data source. Create a 
     `portal-ext.propreties` file in your Liferay Home directory, and add the
     line:
 
@@ -300,7 +300,7 @@ section.
     [WebLogic documentation](http://docs.oracle.com/middleware/1221/wls/FMWCH/pagehelp/Mailcreatemailsessiontitle.html)
     for more information on these fields. Click *Next* when you're done. 
 
-5.  Choose the Managed Server that you'll install @product@ on, and click
+5.  Choose the Managed Server that you'll install @sharepoint@ on, and click
     *Finish*. Then shut down your Managed and Admin Servers. 
 
 6.  With your Managed and Admin servers shut down, add the following property to
@@ -310,34 +310,34 @@ section.
     mail.session.jndi.name=mail/MailSession
     ```
 
-@product@ references your WebLogic mail session via this property setting. If
-you've already deployed @product@, you can find your `portal-ext.properties`
+@sharepoint@ references your WebLogic mail session via this property setting. If
+you've already deployed @sharepoint@, you can find your `portal-ext.properties`
 file in your domain's `autodeploy/ROOT/WEB-INF/classes` folder. 
 
 Your changes take effect upon restarting your Managed and Admin servers. 
 
-## Deploying @product@
+## Deploying @sharepoint@
 
-As mentioned earlier, although you can deploy @product@ to a WebLogic Admin 
+As mentioned earlier, although you can deploy @sharepoint@ to a WebLogic Admin 
 Server, you should instead deploy it to a WebLogic Managed Server. Dedicating 
 the Admin Server to managing other servers that run your apps is a best 
 practice. 
 
-Follow these steps to deploy @product@ to a Managed Server: 
+Follow these steps to deploy @sharepoint@ to a Managed Server: 
 
-1.  Make sure the Managed Server you want to deploy @product@ to is shut down. 
+1.  Make sure the Managed Server you want to deploy @sharepoint@ to is shut down. 
 
 2.  In your Admin Server's console UI, select *Deployments* from the *Domain 
     Structure* box on the left hand side. Then click *Install* to start a new
     deployment. 
 
-3.  Select the @product@ WAR file or its expanded contents on your file system.
+3.  Select the @sharepoint@ WAR file or its expanded contents on your file system.
     Alternatively, you can upload the WAR file by clicking the *Upload your
     file(s)* link. Click *Next*. 
 
 4.  Select *Install this deployment as an application* and click *Next*.
 
-5.  Select the Managed Server you want to deploy @product@ to and click *Next*. 
+5.  Select the Managed Server you want to deploy @sharepoint@ to and click *Next*. 
 
 6.  If the default name is appropriate for your installation, keep it.
     Otherwise, give it a name of your choosing and click *Next*. 
@@ -345,12 +345,12 @@ Follow these steps to deploy @product@ to a Managed Server:
 7.  Click *Finish*. After the deployment finishes, click *Save* if you want to
     save the configuration. 
 
-8.  Start the Managed Server where you deployed @product@. @product@ precompiles
+8.  Start the Managed Server where you deployed @sharepoint@. @sharepoint@ precompiles
     all the JSPs and then launches. 
 
-Nice work! Now you're running @product@ on WebLogic. 
+Nice work! Now you're running @sharepoint@ on WebLogic. 
 
-| After deploying @product@, you may see excessive warnings and log messages, 
+| After deploying @sharepoint@, you may see excessive warnings and log messages, 
 | such as the ones below, involving `PhaseOptimizer`. These are benign and can
 | be ignored. Make sure to adjust your app server's logging level or log filters
 | to avoid excessive benign log messages.

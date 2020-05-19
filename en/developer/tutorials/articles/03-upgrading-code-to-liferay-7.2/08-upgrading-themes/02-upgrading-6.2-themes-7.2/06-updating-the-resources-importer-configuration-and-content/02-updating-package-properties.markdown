@@ -19,7 +19,7 @@ Follow these steps to update the Lunar Resort Theme's
 
 1.  Open the `src\WEB-INF\liferay-plugin-package.properties` file and remove the 
     `required-deployment-contexts` property. This is no longer needed since the 
-    Resources Importer is bundled with @product@.
+    Resources Importer is bundled with @sharepoint@.
 
 2.  The group model class's fully-qualified class name has changed. Replace the 
     `resources-importer-target-class-name` property's value with the updated one 

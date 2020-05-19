@@ -17,7 +17,7 @@ for you to share widgets from your server with other sites, such as
 [ighome.com](http://ighome.com) or
 [igoogleportal.com](http://igoogleportal.com). 
 These sites let users customize their own pages with gadgets. Users can share 
-@product@ widgets on any OpenSocial-compatible site. @product@ does this by 
+@sharepoint@ widgets on any OpenSocial-compatible site. @sharepoint@ does this by 
 sharing the widget's URL with the OpenSocial platform. This URL is unique to the 
 user's specific widget instance. Users can therefore share multiple instances of 
 the same widget as different OpenSocial gadgets. 

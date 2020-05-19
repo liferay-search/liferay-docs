@@ -15,9 +15,9 @@ selecting a title would cause the full article to display on a connected mobile
 device. The same Content Set could be displayed in a web browser with the full 
 content of each article.
 
-| **Note:** In previous versions of @product@, you used the Asset Publisher to 
+| **Note:** In previous versions of @sharepoint@, you used the Asset Publisher to 
 | define and display either static lists of assets or dynamic lists based on 
-| criteria like tags, categories, or asset type. In @product-ver@ Content Sets 
+| criteria like tags, categories, or asset type. In @sharepoint-ver@ Content Sets 
 | take the core idea of defining different types of asset lists and expands it. 
 | Content Lists are created outside of the context of a specific application or 
 | widget and can be used and re-used across different channels and applications.
@@ -34,7 +34,7 @@ and
 
 ## Content Set Personalization
 
-Content Sets can have variations driven by @product@'s Personalization engine. 
+Content Sets can have variations driven by @sharepoint@'s Personalization engine. 
 After you create a Content Set, if you have at least one User Segment created, 
 you can create a personalized experience of the Content Set for that Segment.
 To learn to harness the power of experience personalization for Content Sets, 

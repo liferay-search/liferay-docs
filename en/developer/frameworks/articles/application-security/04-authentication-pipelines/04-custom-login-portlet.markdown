@@ -18,7 +18,7 @@ authenticates the user. You'll learn how to call the
 [authentication pipeline](/docs/7-2/frameworks/-/knowledge_base/f/password-based-authentication-pipelines) 
 and then redirect the user to a location of your choice. 
 
-## Authenticating to @product@
+## Authenticating to @sharepoint@
 
 | **Note:** When developing a login portlet, set the session timeout portal
 | property like this:
@@ -134,7 +134,7 @@ public class MyLoginMVCActionCommand extends BaseMVCActionCommand {
 ```
 
 The only tricky/unusual code here is the need to grab the `HttpServletRequest` 
-and the `HttpServletResponse`. This is necessary to call @product@'s API for 
+and the `HttpServletResponse`. This is necessary to call @sharepoint@'s API for 
 authentication. At the end of the Action Command, the portlet sends a redirect 
 that sends the user to the same page. You can of course make this any page you 
 want. 

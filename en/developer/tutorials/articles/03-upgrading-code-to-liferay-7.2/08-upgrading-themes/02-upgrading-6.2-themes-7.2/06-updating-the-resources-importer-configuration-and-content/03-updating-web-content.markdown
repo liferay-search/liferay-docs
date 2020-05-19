@@ -34,7 +34,7 @@ Follow these steps to update the theme's web content:
     inside called `BASIC_WEB_CONTENT.json`. The structure name **must match** 
     the folder names created in the previous steps. To ensure the syntax is 
     correct for web content articles that used a structure and template before, 
-    we recommend that you recreate the structure and template in @product@. 
+    we recommend that you recreate the structure and template in @sharepoint@. 
 
 4.  Add the JSON structure below to the `BASIC_WEB_CONTENT.json` file. This 
     provides the required metadata to render standard web content articles 
@@ -103,7 +103,7 @@ Follow these steps to update the theme's web content:
     </root>
     ```
 
-7.  @product-ver@'s updated Bootstrap requires that you replace all 
+7.  @sharepoint-ver@'s updated Bootstrap requires that you replace all 
     `span[number]` classes with the updated `col-[device-size]-[number]` syntax.
     `[device-size]` can be `xs`, `sm`, `md`, or `lg`. See Bootstrap's 
     [documentation](https://getbootstrap.com/docs/4.0/layout/grid/) for more 

@@ -77,7 +77,7 @@ you'd want to give the team all the permissions they'd need.
 That's it! It's easy to give groups of Site Users permissions to perform their
 tasks. 
 
-These tutorials have introduced you to @product@ Site management. You've learned
-how to use @product@ to create multiple Sites with different membership types.
+These tutorials have introduced you to @sharepoint@ Site management. You've learned
+how to use @sharepoint@ to create multiple Sites with different membership types.
 You've also seen how easy it is to create and manage Sites and to create and
 manage pages within Sites. Next, you'll begin working with web content.

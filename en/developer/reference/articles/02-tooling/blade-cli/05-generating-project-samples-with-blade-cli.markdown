@@ -8,7 +8,7 @@ header-id: generating-project-samples-with-blade-cli
 
 Liferay provides many useful 
 [sample projects](https://github.com/liferay/liferay-blade-samples) for those
-interested in learning best practices for @product@ projects. You can learn more
+interested in learning best practices for @sharepoint@ projects. You can learn more
 about these samples by visiting 
 [Sample Projects](/docs/7-2/reference/-/knowledge_base/r/sample-projects).
 
@@ -41,7 +41,7 @@ CLI for convenience.
     The sample is generated in the current folder.
 
 | **Note:** Interested in generating legacy versions of Blade samples? Pass in the
-| `-v` param followed by the @product@ version to target. For example,
+| `-v` param followed by the @sharepoint@ version to target. For example,
 | 
 | ```bash
 | blade samples -v 7.0 ds-portlet

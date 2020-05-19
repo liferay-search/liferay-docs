@@ -11,7 +11,7 @@ header-id: updating-6-2-init-custom-theme-template
 </div>
 
 The Lunar Resort theme has a couple theme settings defined in `init_custom.ftl`. 
-The syntax has changed slightly in @product-ver@. Follow these steps to update 
+The syntax has changed slightly in @sharepoint-ver@. Follow these steps to update 
 the theme setting syntax:
 
 1.  Replace the `getterUtil.getBoolean(theme_settings` method with 

@@ -6,7 +6,7 @@ header-id: rest-builder
 
 [TOC levels=1-4]
 
-REST Builder is @product@'s tool to build REST and GraphQL APIs. It's based
+REST Builder is @sharepoint@'s tool to build REST and GraphQL APIs. It's based
 on OpenAPI, following an 
 [API-first approach](/docs/7-2/frameworks/-/knowledge_base/f/headless-rest-apis). 
 

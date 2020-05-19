@@ -44,7 +44,7 @@ renderer factory.
 
     There are a few annotation elements you should set:
 
-    - The `immediate` element directs the factory to start in @product@ when
+    - The `immediate` element directs the factory to start in @sharepoint@ when
       its module starts.
     - The `property` element sets the portlet that is associated with the asset.
       The Blogs portlet is specified, since this is the Blogs asset renderer
@@ -152,7 +152,7 @@ renderer factory.
     factory resides in.
 
     c. The asset renderer `type` integer is set for the asset renderer, but why
-       an integer? @product@ needs to differentiate when it should display the
+       an integer? @sharepoint@ needs to differentiate when it should display the
        latest *approved* version of the asset, or the latest version, even if
        it's unapproved (e.g., unapproved versions would be displayed for
        reviewers of the asset in a workflow). For these situations, the asset

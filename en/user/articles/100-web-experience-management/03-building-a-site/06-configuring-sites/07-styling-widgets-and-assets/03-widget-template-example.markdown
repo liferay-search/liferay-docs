@@ -34,5 +34,5 @@ templates can be for your Liferay instance.
 	templates have that kind of power to transform your site into an enjoyable and
 	convenient home for users.
 
-Customizing the user interface of @product@'s bundled widgets provides the 
+Customizing the user interface of @sharepoint@'s bundled widgets provides the 
 ultimate customization experience for Liferay users.

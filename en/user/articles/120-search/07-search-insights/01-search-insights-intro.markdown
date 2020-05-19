@@ -17,7 +17,7 @@ Add the Search Insights Widget to the Search Page to inspect two things:
 
 - The response string returned from the search engine
 
-In @product-ver@, the Insights widget now adds the response string to
+In @sharepoint-ver@, the Insights widget now adds the response string to
 the widget's output, and the _Enable Score Explanation_ option (enabled by
 default) prints a relevance score explanation for each returned result.
 

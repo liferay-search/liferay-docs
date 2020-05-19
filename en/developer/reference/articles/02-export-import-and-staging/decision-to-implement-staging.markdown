@@ -7,7 +7,7 @@ header-id: decision-to-implement-staging
 [TOC levels=1-4]
 
 Staging is an advanced publication tool that lets you create or modify your site
-before releasing it to the public. Most of @product@'s included applications
+before releasing it to the public. Most of @sharepoint@'s included applications
 (e.g., Web Content, Bookmarks, etc.) support Staging. Implementing Staging in
 your own application can be beneficial, but how do you know if it's the right
 move?
@@ -18,7 +18,7 @@ important question to consider during the decision process is
 *What part of your application are you primarily focused on using Staging for?*
 
 When Staging is enabled, all pages and applications are staged automatically.
-@product@'s architecture separates the application and its configuration from
+@sharepoint@'s architecture separates the application and its configuration from
 the actual content, meaning that content can exist without any application to
 display it and vice versa. Although Staging supports all applications and their
 configurations by default, not all applications' content is supported by
@@ -33,7 +33,7 @@ Staging in your application. Here are a few other scenarios where you should
 implement Staging in your application:
 
 - You're using remote staging. When publishing to a remote live site, your
-  content must be transferred to a different @product@ installation. Therefore,
+  content must be transferred to a different @sharepoint@ installation. Therefore,
   Staging must be able to recognize the content to facilitate the transfer.
 - You want a space where you can freely edit and test your content before
   publishing it to a live audience.

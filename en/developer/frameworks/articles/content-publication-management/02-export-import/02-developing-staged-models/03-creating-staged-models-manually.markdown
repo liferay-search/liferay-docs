@@ -14,7 +14,7 @@ Make sure to read the
 section to determine if creating staged models manually is beneficial for your
 use case.
 
-In this tutorial, you'll explore how the Asset Link framework (a @product@
+In this tutorial, you'll explore how the Asset Link framework (a @sharepoint@
 framework used for
 [relating assets](/docs/7-2/user/-/knowledge_base/u/defining-content-relationships))
 manually creates staged models. This framework is separate from Export/Import

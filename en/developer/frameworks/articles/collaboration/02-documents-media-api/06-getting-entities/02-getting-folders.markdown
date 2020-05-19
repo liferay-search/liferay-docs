@@ -56,7 +56,7 @@ Follow these steps to call a `getFolders` method:
     ```
 
     Note that getting the parent folder ID isn't necessary because this example 
-    uses the root folder, for which @product@ provides a constant. Also, the 
+    uses the root folder, for which @sharepoint@ provides a constant. Also, the 
     boolean value can be provided directly---it doesn't need to be retrieved 
     from somewhere. 
 

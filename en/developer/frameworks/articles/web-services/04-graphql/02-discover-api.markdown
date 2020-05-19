@@ -9,16 +9,16 @@ header-id: get-started-discover-the-api
 To begin consuming the GraphQL APIs, you must first know where they are, what
 operations you can invoke, and how to invoke them. 
 
-Because @product@'s GraphQL APIs leverage the 
+Because @sharepoint@'s GraphQL APIs leverage the 
 [official specification](https://graphql.github.io/graphql-spec/June2018/), you don't need
 a service catalog. You only need to know the URL from which to discover the rest
 of the API. 
 
-@product@'s GraphQL APIs are available here: 
+@sharepoint@'s GraphQL APIs are available here: 
 
     http://[host]:[port]/o/graphql
  
-For example, if you're running @product@ locally on port `8080`, the URL 
+For example, if you're running @sharepoint@ locally on port `8080`, the URL 
 for discovering the GraphQL API is 
 
     http://localhost:8080/o/graphql
@@ -35,7 +35,7 @@ GraphQL APIs (explained [here](/docs/7-2/frameworks/-/knowledge_base/f/authentic
 but the simplest way to test APIs locally is to use Basic Authentication,
 setting an `Authorization` header in Altair (first icon on the left). Remember
 that Basic Auth is a BASE64 transformation of `user`:`password`. This means it's
-insecure, and should never be used in production. 
+insecure, and should never be used in sharepointion. 
 
 Most tools that introspect the GraphQL schema can autocomplete your query or
 fill all the fields in for you. 
@@ -52,7 +52,7 @@ In contrast with the REST APIs, where endpoints are deployed by suite
 the same endpoint (/o/graphql). That way we can easily add relationships between
 entities to leverage GraphQL's powerful request characteristics.
 
-@product@'s GraphQL APIs also expose the latest published version of all
+@sharepoint@'s GraphQL APIs also expose the latest published version of all
 entities available. If several versions of the same entity are deployed, only
 the latest one is exposed under the `/o/graphql` endpoint (REST APIs use different
 endpoints for different versions). This strategy follows GraphQL standards to

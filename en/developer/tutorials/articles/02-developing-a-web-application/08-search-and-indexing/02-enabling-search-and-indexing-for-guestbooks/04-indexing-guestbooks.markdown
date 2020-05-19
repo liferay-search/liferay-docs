@@ -60,7 +60,7 @@ public class GuestbookModelDocumentContributor
 }
 ```
 
-Because @product@ supports localization, you should too. The above code gets 
+Because @sharepoint@ supports localization, you should too. The above code gets 
 the default locale from the Site by passing the `Guestbook`'s group ID to 
 the `getSiteDefaultLocale` method, then using it to get the localized name
 of the Guestbook's title field. The retrieved Site locale is appended to the

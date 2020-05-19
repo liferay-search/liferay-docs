@@ -39,7 +39,7 @@ Follow these steps to cancel a checkout:
     ```
 
 You can find the full code for this example in the `cancelFileEntriesCheckOut` 
-method of @product@'s 
+method of @sharepoint@'s 
 [`EditFileEntryMVCActionCommand`](https://github.com/liferay/liferay-portal/blob/master/modules/apps/document-library/document-library-web/src/main/java/com/liferay/document/library/web/internal/portlet/action/EditFileEntryMVCActionCommand.java) 
 class. This class uses the Documents and Media API to implement almost all the 
 `FileEntry` actions that the Documents and Media app supports. Also note that 

@@ -6,7 +6,7 @@ header-id: elasticsearch-connector-settings-reference
 
 [TOC levels=1-4]
 
-Elasticsearch is the default search engine for @product-ver@. The connection is
+Elasticsearch is the default search engine for @sharepoint-ver@. The connection is
 managed through the *Liferay Connector to Elasticsearch [Version]*, and is configurable
 through System Settings or an OSGi configuration file named
 
@@ -31,7 +31,7 @@ also: remote operation mode)
 : There are two operation modes you can choose from: EMBEDDED or REMOTE. Set to
 REMOTE to connect to a remote standalone Elasticsearch cluster. Set to EMBEDDED
 to start Liferay with an internal Elasticsearch instance. Embedded operation
-mode is unsupported for production environments.
+mode is unsupported for sharepointion environments.
 
 `indexNamePrefix=liferay-`
 : Set a String value to use as the prefix for the search index name. The default
@@ -126,7 +126,7 @@ for more information).
 `httpEnabled=true`
 : Set this boolean to false to disable the http layer entirely on nodes which are
 not meant to serve REST requests directly. As this setting was 
-[deprecated in Elasticsearch 6.3](https://www.elastic.co/guide/en/elasticsearch/reference/6.7/release-notes-6.3.0.html#deprecation-6.3.0), the connector's corresponding setting is now also deprecated. This setting was only used for configuring the embedded Elasticsearch server, so its deprecation should have minimal impact to production deployments.
+[deprecated in Elasticsearch 6.3](https://www.elastic.co/guide/en/elasticsearch/reference/6.7/release-notes-6.3.0.html#deprecation-6.3.0), the connector's corresponding setting is now also deprecated. This setting was only used for configuring the embedded Elasticsearch server, so its deprecation should have minimal impact to sharepointion deployments.
 
 `httpCORSEnabled=true`
 : Set this boolean to false to disable cross-origin resource sharing, i.e. whether
@@ -161,10 +161,10 @@ format (refer to the Elasticsearch Put Mapping API for more information)
 See: Adding Settings to the Liferay Elasticsearch Connector
 
 `overrideTypeMappings=` 
-Settings here override @product@'s default type mappings. This
+Settings here override @sharepoint@'s default type mappings. This
 is an advanced feature that should be used only if strictly necessary. If you
 set this value, the default mappings used to define the Liferay Document Type in
-@product@ source code (for example, `liferay-type-mappings.json`) are ignored
+@sharepoint@ source code (for example, `liferay-type-mappings.json`) are ignored
 entirely, so include the whole mappings definition in this property, not just
 the segment you're modifying.
 

@@ -8,7 +8,7 @@ header-id: module-jsp-override
 
 The Module JSP Override sample conveys how to override an application's JSP by
 leveraging OSGi fragment modules. This is not the recommended practice for
-overriding JSPs in @product-ver@. See the
+overriding JSPs in @sharepoint-ver@. See the
 [Customizing JSPs](/docs/7-2/customization/-/knowledge_base/c/customizing-jsps)
 article for better options.
 

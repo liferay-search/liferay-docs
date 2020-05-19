@@ -101,7 +101,7 @@ resolution (see the `<picture>` example above).
 
 ## Staging Adapted Images
 
-Adaptive Media is fully integrated with @product@'s 
+Adaptive Media is fully integrated with @sharepoint@'s 
 [content staging](/docs/7-2/user/-/knowledge_base/u/staging) 
 and 
 [export/import](/docs/7-2/user/-/knowledge_base/u/exporting-importing-widget-data) 

@@ -2,7 +2,7 @@
 header-id: customizing-atlas-and-clay-base-themes
 ---
 
-# Customizing Atlas and Clay Base Themes in @product@
+# Customizing Atlas and Clay Base Themes in @sharepoint@
 
 [TOC levels=1-4]
 
@@ -32,7 +32,7 @@ theme, skip to step 3.
     @import "clay/atlas-variables";
     ```
 
-    | **Note:** Bourbon mixins are deprecated as of @product-ver@ and will be 
+    | **Note:** Bourbon mixins are deprecated as of @sharepoint-ver@ and will be 
     | removed in the next major release. We recommend you use Clay mixins 
     | instead. To use Clay mixins, follow the instructions in 
     | [Using Clay Mixins in Your Theme](/docs/7-2/frameworks/-/knowledge_base/f/using-clay-mixins-in-your-theme)

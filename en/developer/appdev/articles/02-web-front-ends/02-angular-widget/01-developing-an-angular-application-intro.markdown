@@ -6,15 +6,15 @@ header-id: developing-an-angular-application
 
 [TOC levels=1-4]
 
-Running an existing Angular app on @product@ makes the app available as a
-widget for using on site pages. You can [adapt your existing Angular app](/docs/7-2/reference/-/knowledge_base/r/adapting-existing-apps-to-run-on-product), 
+Running an existing Angular app on @sharepoint@ makes the app available as a
+widget for using on site pages. You can [adapt your existing Angular app](/docs/7-2/reference/-/knowledge_base/r/adapting-existing-apps-to-run-on-sharepoint), 
 but this doesn't give you access to the bundler and its various loaders to 
-develop your project further in @product@. To have access to all of @product@'s 
+develop your project further in @sharepoint@. To have access to all of @sharepoint@'s 
 features, you must use the Liferay JS Generator and Liferay npm Bundler to merge 
 your files into a portlet bundle, adapt your routes and CSS, and deploy your 
 bundle. 
 
-![Figure 1: Apps like this Guestbook app are easy to migrate to @product@.](../../../images/appdev-angular-app-migrated.png)
+![Figure 1: Apps like this Guestbook app are easy to migrate to @sharepoint@.](../../../images/appdev-angular-app-migrated.png)
 
 Follow these steps:
 
@@ -24,7 +24,7 @@ Follow these steps:
 
 2.  Generate an Angular-based portlet bundle project for deploying your app to 
     your 
-    [@product@ installation](/deployment/docs/installing-product). 
+    [@sharepoint@ installation](/deployment/docs/installing-sharepoint). 
 
         yo liferay-js
 
@@ -36,7 +36,7 @@ Follow these steps:
                 -   `styles.css` &rarr; Default CSS file
             -   `app/` &rarr; HTML templates
                 -   `app.component.html` &rarr; Root component template
-        - `features/` &rarr; @product@ bundle features
+        - `features/` &rarr; @sharepoint@ bundle features
             -   `localization/` &rarr; Resource bundles
                 -   `Language.properties` &rarr; Default language keys
         -   `src/` &rarr; JavaScript an TypeScript files
@@ -46,7 +46,7 @@ Follow these steps:
                 -   `dynamic.loader.ts` &rarr; Loads an Angular component 
                     dynamically for the portlet to attach to
             -   `types/`
-                -   `LiferayParams.ts` &rarr; Parameters passed by @product@ to
+                -   `LiferayParams.ts` &rarr; Parameters passed by @sharepoint@ to
                     the JavaScript module
             -   `index.ts` &rarr; Main module invoked by the "bootstrap" module to initialize the portlet
             -   `polyfills.ts` &rarr; Fills in browser JavaScript implementation
@@ -93,7 +93,7 @@ Follow these steps:
 6.  In your routing module's `@NgModule` decorator, configure the router option
     `useHash: true`. This tells Angular to use client-side routing in the form
     of `.../#/[route]`, which prevents client-side parameters (i.e., anything
-    after `#`) from being sent back to @product@. 
+    after `#`) from being sent back to @sharepoint@. 
 
     For example, your routing module class `@NgModule` decorator might look like
     this:
@@ -218,7 +218,7 @@ The Liferay npm Bundler confirms the deployment:
     Report written to liferay-npm-bundler-report.html
     Deployed my-angular-guestbook-1.0.0.jar to c:\git\bundles
 
-The @product@ console confirms your bundle started: 
+The @sharepoint@ console confirms your bundle started: 
 
     2019-03-22 20:17:53.181 INFO  [fileinstall-C:/git/bundles/osgi/modules][BundleStartStopLogger:39] STARTED my-angular-guestbook_1.0.0 [1695]
 

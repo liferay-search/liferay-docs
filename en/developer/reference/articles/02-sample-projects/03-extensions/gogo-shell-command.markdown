@@ -7,17 +7,17 @@ header-id: gogo-shell-command
 [TOC levels=1-4]
 
 The Gogo Shell Command sample demonstrates adding a custom command to
-@product@'s Gogo shell environment. All @product@ installations have a Gogo
-shell environment, which lets system administrators interact with @product@'s
+@sharepoint@'s Gogo shell environment. All @sharepoint@ installations have a Gogo
+shell environment, which lets system administrators interact with @sharepoint@'s
 module framework on a local server machine.
 
 This example adds a new custom Gogo shell command called `usercount` under the
-`blade` scope. It prints out the number of registered users on your @product@
+`blade` scope. It prints out the number of registered users on your @sharepoint@
 installation.
 
 To test this sample, follow the instructions below:
 
-1.  Start a @product@ installation.
+1.  Start a @sharepoint@ installation.
 2.  Navigate to the Control Panel &rarr; *Configuration* &rarr; *Gogo Shell*.
 3.  Execute `help` to view all the available commands. The sample Gogo shell
     command is listed.

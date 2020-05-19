@@ -50,13 +50,13 @@ apps in the center of the page, in the following sections:
 -   Themes / Site Templates: Apps that change your Liferay instance's look and
     feel.
 
--   App categories: Communication, productivity, security, etc. 
+-   App categories: Communication, sharepointivity, security, etc. 
 
 -   Weekly Stats: The newest apps, latest apps updated, and trend chart for app 
     downloads and views. 
 
 Each section's *See All* link shows more section info. At the top of the
-page, you can search Marketplace by category, @product@ version, and price. To
+page, you can search Marketplace by category, @sharepoint@ version, and price. To
 browse by category, click the *Categories* menu at the top of the page. 
 
 ![Figure 1: The Liferay Marketplace home page lets you browse and search for apps.](../../images/marketplace-homepage.png)
@@ -79,9 +79,9 @@ Once you purchase an app, you can download and install it.
 
 | **Warning:** Not all apps are designed to be "auto deployed"---deployed while 
 | the server is running. Deploying that way can cause instabilities, such as
-| class loading leaks and memory leaks. On production systems, avoid "auto
+| class loading leaks and memory leaks. On sharepointion systems, avoid "auto
 | deploying" apps whenever possible. See the
-| [best practices for managing apps in production](/docs/7-2/user/-/knowledge_base/u/managing-and-configuring-apps#managing-apps-in-production).
+| [best practices for managing apps in sharepointion](/docs/7-2/user/-/knowledge_base/u/managing-and-configuring-apps#managing-apps-in-sharepointion).
 
 An app downloads and installs immediately if you purchase it from the Control
 Panel. If you purchase the app on the Marketplace website, however, your receipt
@@ -130,7 +130,7 @@ There are two places to manage your purchased apps:
 
 2.  From the Control Panel. Navigate to *Apps* &rarr; *Purchased* to see your
     purchased apps. A button next to each app lets you install or uninstall the
-    app. If the app isn't compatible with your @product@ version, *Not
+    app. If the app isn't compatible with your @sharepoint@ version, *Not
     Compatible* is displayed in place of the button. Additional compatibility
     notes are also shown, such as whether a newer version of the app is
     available. You can also search for an app here by project, category, and

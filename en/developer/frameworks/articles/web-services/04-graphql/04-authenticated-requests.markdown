@@ -14,7 +14,7 @@ There are three authentication mechanisms available when invoking web APIs:
 password pair. This is the simplest authentication protocol (available since
 HTTP/1.0), but should be used only for development purposes, as it's insecure. 
 
-**OAuth 2.0:** In @product-ver@, you can use OAuth 2.0 for authorization. See
+**OAuth 2.0:** In @sharepoint-ver@, you can use OAuth 2.0 for authorization. See
 the [OAuth 2.0 documentation](/docs/7-2/deploy/-/knowledge_base/d/oauth-2-0) for
 more information. 
 
@@ -68,9 +68,9 @@ request receives. For more information on the response's structure, see
 
 ## OAuth 2.0 Authorization
 
-@product-ver@ supports authorization via OAuth 2.0, which is a token-based
+@sharepoint-ver@ supports authorization via OAuth 2.0, which is a token-based
 authorization mechanism. For more details, see 
-[@product@'s OAuth 2.0 documentation](/docs/7-2/deploy/-/knowledge_base/d/oauth-2-0). The following
+[@sharepoint@'s OAuth 2.0 documentation](/docs/7-2/deploy/-/knowledge_base/d/oauth-2-0). The following
 sections show you how to use OAuth 2.0 to authenticate web API requests. 
 
 ### Obtaining the OAuth 2.0 Token
@@ -110,10 +110,10 @@ and there is scope disabling all request except `GET`, you see a 403.
 ## Using Cookie Authentication or doing a request from the portal
 
 You can call the GraphQL APIs using the existing session from outside the
-@product@ by passing the session identifier (the cookie reference) and the
+@sharepoint@ by passing the session identifier (the cookie reference) and the
 Liferay Auth Token (a CSRF---Cross-Site Request Forgery---token).
 
-To make an unauthenticated request from outside the @product@ you must
+To make an unauthenticated request from outside the @sharepoint@ you must
 provide the `Cookie` identifier in the header: 
 
 ```bash
@@ -130,13 +130,13 @@ Here's a sample cURL request with the cookie and CSRF token:
 curl -H 'Cookie: JSESSIONID=27D7C95648D7CDBE3347601FC4543F5D' http://localhost:8080/o/graphql?p_auth=O4dCU1Mj
 ```
  
-To do an unauthenticated request from inside the @product@, from JavaScript code
+To do an unauthenticated request from inside the @sharepoint@, from JavaScript code
 or a Java method, you don't need the session identifier. You must only provide
 the CRSF token or add the API to the whitelist of CSRF allowed URLs.
 
 ## Making Unauthenticated Requests
 
-Unauthenticated requests are disabled by default in @product@'s GraphQL APIs. As
+Unauthenticated requests are disabled by default in @sharepoint@'s GraphQL APIs. As
 all GraphQL APIs share the same endpoint, you cannot have the same level of
 granularity with Service Access Policies as in REST APIs. For that reason, we do
 not recommend disabling the security of the GraphQL APIs.

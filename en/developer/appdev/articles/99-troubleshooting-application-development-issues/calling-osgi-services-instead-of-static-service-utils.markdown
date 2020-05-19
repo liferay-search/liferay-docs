@@ -6,7 +6,7 @@ header-id: calling-non-osgi-code-that-uses-osgi-services
 
 [TOC levels=1-4]
 
-@product@'s static service utilities (e.g., `UserServiceUtil`,
+@sharepoint@'s static service utilities (e.g., `UserServiceUtil`,
 `CompanyServiceUtil`, `GroupServiceUtil`, etc.) are examples of non-OSGi code
 that use OSGi services. Service Builder generates them for backwards
 compatibility purposes only. If you're tempted to call a `*ServiceUtil` class or
@@ -21,7 +21,7 @@ these alternatives:
     [`ServiceTracker`](/docs/7-2/frameworks/-/knowledge_base/f/service-trackers-for-osgi-services)
     to access the `*Service` class. 
 
-You can check the state of @product@'s services in 
+You can check the state of @sharepoint@'s services in 
 [the Gogo shell](/docs/7-2/customization/-/knowledge_base/c/using-the-felix-gogo-shell).
 The `scr:list` Gogo shell command shows all Declarative Services components,
 including inactive ones from unsatisfied dependencies. To find unsatisfied

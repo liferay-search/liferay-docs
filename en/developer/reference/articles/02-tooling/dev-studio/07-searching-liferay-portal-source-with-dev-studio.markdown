@@ -1,12 +1,12 @@
 ---
-header-id: searching-product-source-in-dev-studio
+header-id: searching-sharepoint-source-in-dev-studio
 ---
 
-# Searching @product@ Source in Dev Studio
+# Searching @sharepoint@ Source in Dev Studio
 
 [TOC levels=1-4]
 
-In Liferay Dev Studio, you can search through @product@'s source code to aid in
+In Liferay Dev Studio, you can search through @sharepoint@'s source code to aid in
 the development of your project. Liferay provides great resources to help with
 development (e.g., official documentation,
 [docs.liferay.com](https://docs.liferay.com/),
@@ -15,12 +15,12 @@ etc.), but sometimes searching through Liferay's codebase (i.e., platform and
 official apps) for patterns is just as useful. For example, if you're creating
 an application that extends a class provided in Liferay's `portal-kernel` JAR,
 you can inspect that class and research how it's used in other areas of
-@product@'s codebase.
+@sharepoint@'s codebase.
 
 To do this, you must be developing in a
 [Liferay Workspace](/docs/7-2/reference/-/knowledge_base/r/liferay-workspace).
 Liferay Workspace is able to provide this functionality by targeting a specific
-@product@ version, which indexes the configured @product@ source code to provide
+@sharepoint@ version, which indexes the configured @sharepoint@ source code to provide
 advanced search. See the
 [Managing the Target Platform in Liferay Workspace](/docs/7-2/reference/-/knowledge_base/r/managing-the-target-platform)
 tutorial for more information on how this works.
@@ -92,13 +92,13 @@ where that method was overridden.
 
 ## Search Annotation References
 
-Annotations used in @product@'s source code can sometimes be cryptic. You can
+Annotations used in @sharepoint@'s source code can sometimes be cryptic. You can
 find out how they can be used in your own application by searching for where
 these types of annotations exist in Liferay's target platform.
 
 For example, you may find some documentation on using the `@Reference`
 annotation in an OSGi module and implement it in your custom app. It could be
-useful to reference real world examples in @product@'s apps to check how it was
+useful to reference real world examples in @sharepoint@'s apps to check how it was
 used elsewhere. You can complete this search like this:
 
 1.  Right-click the `@Reference` annotation in a class.

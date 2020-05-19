@@ -26,7 +26,7 @@ them like so:
     Import-Package: javax.portlet,com.liferay.portal.kernel.util
 
 Import packages must sometimes be specified manually, but not always.
-Conveniently, @product@
+Conveniently, @sharepoint@
 [project templates](/docs/7-2/reference/-/knowledge_base/r/project-templates)
 and
 [tools](/docs/7-2/reference/-/knowledge_base/r/tooling)
@@ -159,10 +159,10 @@ type:
 | [WAB Generator](/docs/7-2/customization/-/knowledge_base/c/deploying-wars-wab-generator)
 | refrains from adding WAR project embedded
 | third-party JARs to a WAB if
-| [@product@ already exports the JAR's packages](/docs/7-2/customization/-/knowledge_base/c/understanding-excluded-jars).
+| [@sharepoint@ already exports the JAR's packages](/docs/7-2/customization/-/knowledge_base/c/understanding-excluded-jars).
 | 
 | If your WAR requires a different version of a third-party package that
-| @product@ exports, specify that package in your `Import-Package:` list. Then 
+| @sharepoint@ exports, specify that package in your `Import-Package:` list. Then 
 | if the package provider is an OSGi module, publish its exported packages by
 | deploying the module. If the package provider is not an OSGi module, follow  
 | the instructions for

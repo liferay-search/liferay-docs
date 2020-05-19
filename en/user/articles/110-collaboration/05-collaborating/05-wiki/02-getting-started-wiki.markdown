@@ -84,10 +84,10 @@ pages, delete pages, import pages, set permissions on the wiki node, subscribe
 to modifications, update existing pages, and view the wiki node. 
 
 **Import Pages**: Import data from other wikis. This lets you migrate from
-another wiki application to the @product@ wiki. You might want to do this if
+another wiki application to the @sharepoint@ wiki. You might want to do this if
 you're migrating your site from a set of disparate applications (i.e.,
 a separate forum, a separate wiki, a separate content management system) to
-@product@, which provides all of these features. Currently, MediaWiki is the
+@sharepoint@, which provides all of these features. Currently, MediaWiki is the
 only supported wiki.
 
 **RSS**: Subscribe to an RSS feed using Live Bookmarks, Yahoo, Microsoft

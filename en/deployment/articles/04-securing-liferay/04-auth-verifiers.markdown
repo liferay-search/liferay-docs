@@ -7,7 +7,7 @@ header-id: authentication-verifiers
 [TOC levels=1-4]
 
 The Authentication Verification Layer is a centralized and extensible way to
-authenticate remote invocations of @product@'s API.
+authenticate remote invocations of @sharepoint@'s API.
 
 The main responsibilities of the authentication verification layer are to
 
@@ -18,7 +18,7 @@ The main responsibilities of the authentication verification layer are to
 If no available `AuthVerifier` can verify request credentials, an authorization
 context supporting non-authenticated access is created for a guest user. This
 allows each API to expose only a single API endpoint. In contrast, legacy (prior
-to 6.2) versions of @product@ exposed two API endpoints for each API: the
+to 6.2) versions of @sharepoint@ exposed two API endpoints for each API: the
 `/api/endpoint` URI was for non-authenticated access and the URI
 `/api/secure/endpoint` was for authenticated access.
 
@@ -56,7 +56,7 @@ credentials.
 
 **Step 2: Create an Authorization Context**
 
-When a request is processed by all matching `AuthVerifier`s, @product@ creates an
+When a request is processed by all matching `AuthVerifier`s, @sharepoint@ creates an
 authorization context for the resolved user.
 
 This encompasses setting the `HttpServletRequest` `remoteUser` to return the
@@ -69,7 +69,7 @@ credentials.
 long as they're registered in the OSGi runtime. Each Auth Verifier gets its own
 configuration in *Control Panel* &rarr; *System Settings* &rarr; *Security*
 &rarr; *API Authentication*. Configuration for Auth Verifiers that ship with 
-the product include
+the sharepoint include
 
 - Basic Auth Header 
 - Digest Authentication 
@@ -128,7 +128,7 @@ technologies.
 ## Image Request Authentication Verifier
 
 When connected to LibreOffice/OpenOffice, the Office process must download
-images from @product@ to render docs with images. To do this, a 
+images from @sharepoint@ to render docs with images. To do this, a 
 [JWT Token](https://jwt.io) is created to access the images securely. 
 
 Configure this by setting the Hosts Allowed, URLs included, and URLs excluded if

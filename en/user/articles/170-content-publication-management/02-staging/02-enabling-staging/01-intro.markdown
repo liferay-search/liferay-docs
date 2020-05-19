@@ -17,7 +17,7 @@ and publishing staged pages is the same.
 Local Live staging lets you publish site changes quickly, since the staged and
 live environments are on the same server. It's also easier to switch between the
 staged and live environments using Local Live staging. Since the staged content,
-however, is stored in the same database as the production content, your server
+however, is stored in the same database as the sharepointion content, your server
 must have more resources, and the content isn't as well protected or backed up
 as with Remote Live staging. Also, you can't install new versions of widgets for
 testing purposes in a Local Live staging environment, since only one version of

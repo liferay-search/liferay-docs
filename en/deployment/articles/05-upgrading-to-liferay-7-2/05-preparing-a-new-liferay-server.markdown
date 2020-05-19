@@ -1,21 +1,21 @@
 ---
-header-id: preparing-a-new-product-server-for-data-upgrade
+header-id: preparing-a-new-sharepoint-server-for-data-upgrade
 ---
 
-# Preparing a New @product@ Server for Data Upgrade
+# Preparing a New @sharepoint@ Server for Data Upgrade
 
 [TOC levels=1-4]
 
-To upgrade your @product@ database, prepare a new server for hosting
-@product-ver@. You'll use this server to run the database upgrade and run
-@product-ver@. Then you can run your production server while you're configuring
-a new server to host @product-ver@ exactly the way you want. 
+To upgrade your @sharepoint@ database, prepare a new server for hosting
+@sharepoint-ver@. You'll use this server to run the database upgrade and run
+@sharepoint-ver@. Then you can run your sharepointion server while you're configuring
+a new server to host @sharepoint-ver@ exactly the way you want. 
 
 | **Note:** these steps can be done in parallel with any of the upgrade 
 | preparation steps: planning for deprecated apps, testing upgrades on a 
-| @product@ backup copy, or preparing to upgrade the @product@ database. 
+| @sharepoint@ backup copy, or preparing to upgrade the @sharepoint@ database. 
 
-Get the latest fixes for @product-ver@ by requesting an upgrade patch. 
+Get the latest fixes for @sharepoint-ver@ by requesting an upgrade patch. 
 
 ## Request an Upgrade Patch from Liferay Support (Liferay DXP only)
 
@@ -25,12 +25,12 @@ data upgrade.
 
 ## Install Liferay
 
-[Install @product@ on your application server](/docs/7-2/deploy/-/knowledge_base/d/deploying-product)
+[Install @sharepoint@ on your application server](/docs/7-2/deploy/-/knowledge_base/d/deploying-sharepoint)
 or
-[use @product@ bundled with your application server of choice](/docs/7-2/deploy/-/knowledge_base/d/installing-product). 
+[use @sharepoint@ bundled with your application server of choice](/docs/7-2/deploy/-/knowledge_base/d/installing-sharepoint). 
 
 | **Important:** Do not start your application server. It's not ready to start 
-| until after the @product@ database upgrade. 
+| until after the @sharepoint@ database upgrade. 
 
 ## Install the Latest Upgrade Patch or Fix Pack (Liferay DXP only)
 
@@ -48,11 +48,11 @@ folder.
 
 It is likely that you have overridden portal properties to customize your
 installation. If so, you must update the properties files (e.g.,
-`portal-setup-wizard.properties` and `portal-ext.properties`) to @product-ver@.
+`portal-setup-wizard.properties` and `portal-ext.properties`) to @sharepoint-ver@.
 For features that use OSGi Config Admin, you must convert your properties to
 OSGi configurations. As you do this, you must account for property changes in
-all versions of @product@ since your current version up to and including
-@product-ver@. Start with updating your portal properties. 
+all versions of @sharepoint@ since your current version up to and including
+@sharepoint-ver@. Start with updating your portal properties. 
 
 ### Update Your Portal Properties 
 
@@ -84,7 +84,7 @@ property-related updates:
 | **Note:** You can build image sprites using any framework you like and deploy
 | them in your plugins. 
 
-When a new version of @product@ is released, there are often changes to default
+When a new version of @sharepoint@ is released, there are often changes to default
 settings, and this release is no different. If you rely on the defaults from
 your old version, you should review the changes and decide to keep the defaults
 from your old version or accept the defaults of the new. 
@@ -160,7 +160,7 @@ changed for document storage:
 
 -   Store implementation class package names changed from 
     `com.liferay.portlet.documentlibrary.store.*` in Liferay Portal 6.2 to
-    `com.liferay.portal.store.*` in @product@ 7.0+. Make sure your
+    `com.liferay.portal.store.*` in @sharepoint@ 7.0+. Make sure your
     `portal-ext.properties` file sets `dl.store.impl` in one of these ways:
 
     ```properties
@@ -170,7 +170,7 @@ changed for document storage:
     dl.store.impl=com.liferay.portal.store.s3.S3Store
     ```
 
--   JCR Store was deprecated in @product@ 7.0. The
+-   JCR Store was deprecated in @sharepoint@ 7.0. The
     [Document Repository
     Configuration](/docs/7-2/deploy/-/knowledge_base/d/document-repository-configuration)
     documentation describes other store options. [Migrate to a supported
@@ -178,13 +178,13 @@ changed for document storage:
     before upgrading your data. 
 
 -   CMIS Store was deprecated since 7.0.10 Fix Pack 14 and was removed in 
-    @product@ 7.2. The [Document Repository
+    @sharepoint@ 7.2. The [Document Repository
     Configuration](/docs/7-2/deploy/-/knowledge_base/d/document-repository-configuration)
     documentation describes other store options. [Migrate to a supported
     document store](/docs/7-2/user/-/knowledge_base/u/server-administration)
     before upgrading your data. 
 
--   Since @product@ 7.0, document store type-specific configuration (e.g., 
+-   Since @sharepoint@ 7.0, document store type-specific configuration (e.g., 
     specific to Simple File Store, Advanced File Store, S3, etc.) is done in the
     Control Panel at *Configuration &rarr; System Settings &rarr; File Storage*
     or using OSGi configuration files (`.config` files). Type specific
@@ -217,7 +217,7 @@ provides more document store configuration details.
 ## Configure Kerberos in place of NTLM 
 
 If you're using NTLM to authenticate Microsoft Windows &trade; accounts with
-@product@, switch to using
+@sharepoint@, switch to using
 [Kerberos](/docs/7-2/deploy/-/knowledge_base/d/authenticating-with-kerberos).
 Security vulnerabilities persist with NTLM. NTLM has been deprecated and removed
 from the bundle, but you can still [build and deploy the module](https://github.com/liferay/liferay-portal/tree/7.2.x/modules/apps/portal-security-sso-ntlm).
@@ -239,4 +239,4 @@ indexReadOnly="true"
 After you complete the upgrade, re-enable indexing by removing the `.config`
 file or setting `indexReadOnly="false"`. 
 
-Your new @product-ver@ server is ready for upgrading your database. 
+Your new @sharepoint-ver@ server is ready for upgrading your database. 

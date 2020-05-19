@@ -39,5 +39,5 @@ Follow these steps:
     [node-gyp and Python](https://github.com/nodejs/node-gyp#installation).
 
 Nice job! Your npm environment is set up and the Liferay Theme Generator and 
-dependencies are installed. Next, you can import the @product@ 6.2 theme to use 
+dependencies are installed. Next, you can import the @sharepoint@ 6.2 theme to use 
 the Liferay JS Theme Toolkit. 

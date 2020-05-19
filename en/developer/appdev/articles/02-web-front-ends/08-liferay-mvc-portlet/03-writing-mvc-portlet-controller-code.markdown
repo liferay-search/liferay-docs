@@ -164,7 +164,7 @@ passes the render request and render response objects to the base class via its
 
 | **Note:** Are you wondering how to call
 | [Service Builder services](/docs/7-2/appdev/-/knowledge_base/a/service-builder)
-| in @product-ver@? In short, obtain a reference to the service by annotating
+| in @sharepoint-ver@? In short, obtain a reference to the service by annotating
 | one of  your fields of that service type with the `@Reference`
 | [Declarative Services](/docs/7-2/frameworks/-/knowledge_base/f/declarative-services)
 | annotation.

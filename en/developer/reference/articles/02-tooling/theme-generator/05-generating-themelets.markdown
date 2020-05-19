@@ -9,7 +9,7 @@ header-id: creating-themelets-with-the-themes-generator
 This steps below show how to use the Liferay Theme Generator's Themelets 
 sub-generator to create a themelet. 
 
-![Figure 1: Themelets can be used to modify one aspect of the UI, that you can then reuse in your other themes.](../../../images/product-menu-animation-themelet.png)
+![Figure 1: Themelets can be used to modify one aspect of the UI, that you can then reuse in your other themes.](../../../images/sharepoint-menu-animation-themelet.png)
 
 Your first step in creating a themelet is installing the 
 [Liferay Theme Generator](/docs/7-2/reference/-/knowledge_base/r/installing-the-theme-generator-and-creating-a-theme) 

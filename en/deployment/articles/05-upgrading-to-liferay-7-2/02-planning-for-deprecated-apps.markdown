@@ -6,7 +6,7 @@ header-id: planning-for-deprecated-applications
 
 [TOC levels=1-4]
 
-As @product@ evolves so do Liferay applications. They may, for example, be
+As @sharepoint@ evolves so do Liferay applications. They may, for example, be
 deprecated in favor of newer and better Liferay applications. The deprecations
 might call for migrating application data to a new application or completely
 removing the application and data. Before upgrading, examine the deprecations:

@@ -58,7 +58,7 @@ you've already created
     These methods are used to link this data handler with the staged model for
     bookmark entries.
 
-    **Important:** @product@'s official Bookmarks app does not use local
+    **Important:** @sharepoint@'s official Bookmarks app does not use local
     services in its staged model data handlers; instead, it uses the
     [`StagedModelRepository`](@app-ref@/web-experience/latest/javadocs/com/liferay/exportimport/staged/model/repository/StagedModelRepository.html)
     framework. This is a new framework, but is a viable option when setting up

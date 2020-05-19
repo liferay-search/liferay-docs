@@ -59,7 +59,7 @@ Follow these steps to create a file shortcut with the `DLAppService` method
     variable for later use. Note, however, that you don't have to do this. 
 
 You can find the full code for this example in the `updateFileShortcut` method 
-of @product@'s 
+of @sharepoint@'s 
 [`EditFileShortcutMVCActionCommand`](https://github.com/liferay/liferay-portal/blob/master/modules/apps/document-library/document-library-web/src/main/java/com/liferay/document/library/web/internal/portlet/action/EditFileShortcutMVCActionCommand.java) 
 class. This class uses the Documents and Media API to implement almost all the 
 `FileShortcut` actions that the Documents and Media app supports. Also note that 

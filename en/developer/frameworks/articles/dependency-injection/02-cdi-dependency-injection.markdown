@@ -29,7 +29,7 @@ beans and Portlet Predefined Beans:
     | [OSGi CDI Integration](/docs/7-2/frameworks/-/knowledge_base/f/osgi-cdi-integration). 
 
     | **Note:**
-    | @product@ exports the packages provided by the Portlet API and CDI API.
+    | @sharepoint@ exports the packages provided by the Portlet API and CDI API.
     | Liferay project templates typically include them as transitive 
     | dependencies. If you must explicitly depend on the portlet API and CDI 
     | artifacts, add them as `compileOnly` (Gradle) or `provided` (Maven) 
@@ -77,7 +77,7 @@ beans and Portlet Predefined Beans:
 6.  Use the [JSR 330](https://jcp.org/en/jsr/detail?id=330)
     [`@Inject`](https://docs.oracle.com/javaee/7/api/javax/inject/Inject.html)
     annotation in a CDI bean to inject another CDI bean into it. For example,
-    this code informs @product@'s CDI bean container to inject a `GuestBook` CDI
+    this code informs @sharepoint@'s CDI bean container to inject a `GuestBook` CDI
     bean into this `guestbook` field. 
 
     ```java

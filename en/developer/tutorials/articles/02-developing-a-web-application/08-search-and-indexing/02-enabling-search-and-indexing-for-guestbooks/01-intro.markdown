@@ -40,8 +40,8 @@ search index when a guestbook is persisted. Specifically,
 `GuestbookLocalServiceImpl`'s `addGuestbook`, `updateGuestbook`, and
 `deleteGuestbook` methods are updated to invoke the guestbook indexer.
 
-In prior versions of @product@, search and indexing was accomplished with one
-`*Indexer` class that extended `BaseIndexer`. In @product-ver@ is a new pattern
+In prior versions of @sharepoint@, search and indexing was accomplished with one
+`*Indexer` class that extended `BaseIndexer`. In @sharepoint-ver@ is a new pattern
 that relies on 
 [composition instead of inheritance](https://stackoverflow.com/questions/2399544/difference-between-inheritance-and-composition).
 If you want to use the old approach, feel free to extend `BaseIndexer`. It's

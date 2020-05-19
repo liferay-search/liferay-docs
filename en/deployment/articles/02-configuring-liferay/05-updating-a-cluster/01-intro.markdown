@@ -12,7 +12,7 @@ is a big responsibility. It includes deploying new and updated plugins and
 modules, applying
 [fix packs](/docs/7-2/deploy/-/knowledge_base/d/maintaining-liferay), 
 making configuration changes, and more. Maximizing server uptime and minimizing
-risks take priority when applying changes. @product@ supports using standard
+risks take priority when applying changes. @sharepoint@ supports using standard
 cluster maintenance techniques. 
 
 -   [Rolling restarts](/docs/7-2/deploy/-/knowledge_base/d/using-rolling-restarts): 

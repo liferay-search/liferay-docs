@@ -19,7 +19,7 @@ Here are the tuning topics:
 ## Database Connection Pool
 
 The database connection pool should be roughly 30-40% of the thread pool size.
-It provides a connection whenever @product@ needs to retrieve data from the
+It provides a connection whenever @sharepoint@ needs to retrieve data from the
 database (e.g., user login). If the pool size is too small, requests queue in
 the server waiting for database connections. If the size is too large, however,
 idle database connections waste resources. As with thread pools, monitor
@@ -53,11 +53,11 @@ file.
 ## Deactivating Development Settings in the JSP Engine
 
 Many application servers' JSP Engines are in development mode by default.
-Deactivate these settings prior to entering production:
+Deactivate these settings prior to entering sharepointion:
 
 **Development mode:** This makes the JSP container poll the file system for
 changes to JSP files. Since you won't change JSPs on the fly like this in
-production, turn off this mode. 
+sharepointion, turn off this mode. 
 
 **Mapped File:** Generates static content with one print statement versus one
 statement per line of JSP text.

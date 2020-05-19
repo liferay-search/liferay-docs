@@ -93,11 +93,11 @@ define information about your entry. This takes only two steps:
     service.
 
 2.  Implement the `PanelCategory` interface. See the
-    [`PanelCategory` Interface](/docs/7-2/customization/-/knowledge_base/c/customizing-the-product-menu#panelcategory-interface)
+    [`PanelCategory` Interface](/docs/7-2/customization/-/knowledge_base/c/customizing-the-sharepoint-menu#panelcategory-interface)
     section for more details. Extending one of the provided base classes
-    ([BasePanelCategory](/docs/7-2/customization/-/knowledge_base/c/customizing-the-product-menu#basepanelcategory)
+    ([BasePanelCategory](/docs/7-2/customization/-/knowledge_base/c/customizing-the-sharepoint-menu#basepanelcategory)
     or
-    [BaseJSPPanelCategory](/docs/7-2/customization/-/knowledge_base/c/customizing-the-product-menu#basejsppanelcategory))
+    [BaseJSPPanelCategory](/docs/7-2/customization/-/knowledge_base/c/customizing-the-sharepoint-menu#basejsppanelcategory))
     is a popular way to implement the `PanelCategory` interface.
 
 3.  If you elect to leverage JSPs, you must also specify the servlet context

@@ -36,7 +36,7 @@ then restore it. You'll run through two different methods of restoring the file.
     (![Actions](../../../images/icon-actions.png)) and click
     *Move to the Recycle Bin*.
 
-	Note that the *Delete* button is not listed. @product@ avoids the risk of
+	Note that the *Delete* button is not listed. @sharepoint@ avoids the risk of
 	accidental deletion of your files by funneling the content through the
 	Recycle Bin.
 

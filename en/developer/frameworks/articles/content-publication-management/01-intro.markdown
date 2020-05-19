@@ -42,7 +42,7 @@ to back up your content.
 
 ![Figure 1: Leveraging the Export/Import feature in your app is useful for sharing content.](../../images/export-import-preview.png)
 
-Export/Import is a default feature for many of @product@'s out-of-the-box apps.
+Export/Import is a default feature for many of @sharepoint@'s out-of-the-box apps.
 It offers an intuitive GUI for managing export/import processes and tracking the
 history of previous export/imports. You can also easily pick subsets of data to
 export based on content type, date range, and configurations. Importing content

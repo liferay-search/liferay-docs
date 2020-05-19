@@ -8,7 +8,7 @@ header-id: creating-page-fragments
 
 Fragments enable you to create rich content. With all of the included Fragments
 and Collections, many projects can be completed using just what ships with
-@product@. Sometimes, though, you must create your own Fragments. Fragments are
+@sharepoint@. Sometimes, though, you must create your own Fragments. Fragments are
 built using HTML, CSS, and JavaScript. For a deeper dive into creating a custom
 Fragment, see [Developing Fragments](/docs/7-2/frameworks/-/knowledge_base/f/creating-fragments).
 
@@ -31,7 +31,7 @@ To navigate to the Page Fragments interface,
     | Create the
     | `com.liferay.fragment.web.internal.configuration.FragmentGlobalPanelAppConfiguration.config`
     | file and add the `enabled=B"true"` property. Then copy it to your
-    | @product@ instance's `osgi/configs` folder.
+    | @sharepoint@ instance's `osgi/configs` folder.
 
 2.  Select *Site Builder* &rarr; *Page Fragments*
 

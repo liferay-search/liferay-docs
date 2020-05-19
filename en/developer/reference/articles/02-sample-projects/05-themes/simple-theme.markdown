@@ -19,7 +19,7 @@ tutorial.
 
 ## What API(s) and/or code components does this sample highlight?
 
-This sample demonstrates a way to create a simple theme in @product@.
+This sample demonstrates a way to create a simple theme in @sharepoint@.
 
 ## How does this sample leverage the API(s) and/or code component?
 

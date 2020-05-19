@@ -14,7 +14,7 @@ a portal interface.
 Workflow is flexible, in that you can design workflow processes in XML to suit
 your business needs.
 
-In @product@ version 7.2, a new set of workflow features was introduced around
+In @sharepoint@ version 7.2, a new set of workflow features was introduced around
 the concept of
 [Workflow Metrics](/docs/7-2/customization/-/knowledge_base/c/creating-sla-calendars).
 

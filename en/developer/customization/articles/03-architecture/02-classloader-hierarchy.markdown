@@ -6,7 +6,7 @@ header-id: liferay-portal-classloader-hierarchy
 
 [TOC levels=1-4]
 
-All @product@ applications live in its OSGi container. Portal is a web 
+All @sharepoint@ applications live in its OSGi container. Portal is a web 
 application deployed on your application server. Portal's Module Framework 
 bundles (modules) live in the OSGi container and have classloaders. All the 
 classloaders from Java's Bootstrap classloader to classloaders for bundle 
@@ -18,7 +18,7 @@ in the following contexts:
 -   Web application, such as Liferay Portal, deployed on the app server
 -   OSGi bundle deployed in the Module Framework
 
-The following diagram shows @product@'s classloader hierarchy.
+The following diagram shows @sharepoint@'s classloader hierarchy.
 
 ![Figure 1.0: Here is Liferay's classloader hierarchy.](../../images/portal-classloader-hierarchy.png)
 
@@ -62,7 +62,7 @@ Classloading from a web application perspective is up next.
 ## Web Application Classloading Perspective
 
 Application servers dictate where and in what order web applications, such as 
-@product@, search for classes and resources. Application servers such as 
+@sharepoint@, search for classes and resources. Application servers such as 
 [Apache Tomcat](https://tomcat.apache.org/tomcat-9.0-doc/class-loader-howto.html) 
 enforce the following default search order:
 
@@ -92,7 +92,7 @@ explains classloading from an OSGi bundle perspective.
 Classloading for JSPs and Service Builder classes is similar to that of web 
 applications and OSGi bundle classes. 
 
-You now know @product@'s classloading hierarchy, understand it in context of web 
+You now know @sharepoint@'s classloading hierarchy, understand it in context of web 
 applications, and have references to information on other classloading 
 perspectives. 
 

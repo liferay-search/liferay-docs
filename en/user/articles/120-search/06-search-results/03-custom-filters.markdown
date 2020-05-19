@@ -7,11 +7,11 @@ header-id: filtering-search-results-with-the-custom-filter-widget
 [TOC levels=1-4]
 
 You often need to exert control over the displayed search results. One viable
-approach is to develop your own search portlets using the @product@ APIs. That
+approach is to develop your own search portlets using the @sharepoint@ APIs. That
 can be overkill if you just want to make a slight modification to how the search
 is executed, so many of the out-of-the-box search widgets give you this type of
 control without coding anything (Search Options, Custom Facet, and more). In
-@product-ver@, new widgets have been added: Sort and Custom Filter.
+@sharepoint-ver@, new widgets have been added: Sort and Custom Filter.
 
 With Custom Filters, you can contribute queries to the main search query,
 exerting control over the search results. Make the filter widgets visible or
@@ -113,7 +113,7 @@ be re-enabled later.
 
 **Federated Search Key (text)**
 : Enter the key of an alternate Search this widget is participating on. If it's
-set, be aware that the default @product@ index isn't searched at all. If not
+set, be aware that the default @sharepoint@ index isn't searched at all. If not
 set, this widget participates on the default search. Values in this field
 typically match the name of an application-defined index.
 

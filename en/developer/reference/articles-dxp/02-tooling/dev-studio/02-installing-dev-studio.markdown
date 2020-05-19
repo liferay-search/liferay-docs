@@ -27,7 +27,7 @@ update sites in the *Window* &rarr; *Preferences* &rarr; *Install/Update* &rarr;
 
 1.  Download and install [Java](http://java.oracle.com). Liferay runs on Java,
     so you'll need it to run everything else. Because you'll be developing apps
-    for @product@ in Dev Studio, the Java Development Kit (JDK) is required. It
+    for @sharepoint@ in Dev Studio, the Java Development Kit (JDK) is required. It
     is an enhanced version of the Java Environment used for developing new Java
     technology. You can download the Java SE JDK from the Java
     [Downloads](http://www.oracle.com/technetwork/java/javase/downloads/index.html)

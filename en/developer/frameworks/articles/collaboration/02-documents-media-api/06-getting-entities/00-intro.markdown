@@ -55,7 +55,7 @@ of the specified MIME types. You can specify MIME types via the constants in
 [`ContentTypes`](@platform-ref@/7.2-latest/javadocs/portal-kernel/com/liferay/portal/kernel/util/ContentTypes.html). 
 
 Note that the `obc` parameter must be an implementation of `OrderByComparator`. 
-Although you can implement your own comparators, @product@ already contains a 
+Although you can implement your own comparators, @sharepoint@ already contains a 
 few useful implementations in the package 
 [`com.liferay.document.library.kernel.util.comparator`](@platform-ref@/7.2-latest/javadocs/portal-kernel/com/liferay/document/library/kernel/util/comparator/package-summary.html): 
 

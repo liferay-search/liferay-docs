@@ -43,7 +43,7 @@ Regarding CSS files, you should only modify `_clay_custom.scss`,
 `_clay_variables.scss`, `_custom.scss`, and `_liferay_variables_custom.scss`.
 
 You can of course overwrite any CSS file you want, but if you modify any other
-files, you're removing styling that @product-ver@ needs to work properly.
+files, you're removing styling that @sharepoint-ver@ needs to work properly.
 
 ## Theme Files
 

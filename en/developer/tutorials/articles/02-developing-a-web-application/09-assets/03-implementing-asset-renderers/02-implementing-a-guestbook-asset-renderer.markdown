@@ -10,7 +10,7 @@ header-id: implementing-a-guestbook-asset-renderer
     <p id="stepTitle">Implementing Asset Renderers</p><p>Step 1 of 2</p>
 </div>
 
-@product@'s asset renderers follow the factory pattern, so you must create a 
+@sharepoint@'s asset renderers follow the factory pattern, so you must create a 
 `GuestbookAssetRendererFactory` that instantiates the `GuestbookAssetRenderer`'s
 private guestbook object. Here, you'll create both classes. 
 
@@ -22,7 +22,7 @@ Follow these steps to create the `GuestbookAssetRenderer` class:
 
 1.  Create a new package called `com.liferay.docs.guestbook.web.internal.asset`
     in the `guestbook-web` module's `src/main/java` folder. In this package,
-    create a `GuestbookAssetRenderer` class that extends @product@'s
+    create a `GuestbookAssetRenderer` class that extends @sharepoint@'s
     `BaseJSPAssetRenderer` class. Extending this class gives you a head-start on
     implementing the `AssetRenderer` interface: 
 
@@ -257,7 +257,7 @@ Next you can create the `AssetRendererFactory` class.
 Follow these steps to create the `GuestbookAssetRendererFactory`:
 
 1.  In the `com.liferay.docs.guestbook.web.internal.asset` package, create
-    a class called `GuestbookAssetRendererFactory` that extends @product@'s
+    a class called `GuestbookAssetRendererFactory` that extends @sharepoint@'s
     `BaseAssetRendererFactory` class, and overwrite the generated constructor
     and class variables with this: 
 

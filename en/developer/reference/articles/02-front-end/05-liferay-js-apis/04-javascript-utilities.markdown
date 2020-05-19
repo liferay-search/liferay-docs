@@ -2,7 +2,7 @@
 header-id: javascript-utilities
 ---
 
-# @product@ JavaScript Utilities
+# @sharepoint@ JavaScript Utilities
 
 [TOC levels=1-4]
 

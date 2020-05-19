@@ -6,7 +6,7 @@ header-id: portlets
 
 [TOC levels=1-4]
 
-@product@ started off as a portal server, designed to serve Java-based web
+@sharepoint@ started off as a portal server, designed to serve Java-based web
 applications called *portlets* (see [JSR 168](https://jcp.org/en/jsr/detail?id=168), 
 [JSR-286](https://jcp.org/en/jsr/detail?id=286), and 
 [JSR-362](https://jcp.org/en/jsr/detail?id=362)). 
@@ -66,7 +66,7 @@ have direct access to the `javax.servlet.ServletRequest`, they can't read query
 parameters directly from a URL. Portlets instead access a
 `javax.portlet.PortletRequest` object. The portlet specification provides a
 mechanism for a portlet to read only its own URL parameters or those declared as
-public render parameters. @product@ does, however, provide utility methods that
+public render parameters. @sharepoint@ does, however, provide utility methods that
 can access the `ServletRequest` and query parameters. Portlets also have a
 *portlet filter* available for each phase in the portlet lifecycle. Portlet
 filters are similar to servlet filters in that they allow request and response
@@ -94,7 +94,7 @@ Window states mimic window behavior in a traditional desktop environment:
 
 All of the
 [ways to develop web front-ends](/docs/7-2/appdev/-/knowledge_base/a/web-front-ends)
-on @product@ involve portlets. The JavaScript-based widgets use Liferay's JS
+on @sharepoint@ involve portlets. The JavaScript-based widgets use Liferay's JS
 Portlet Extender behind the scenes and the Java-based web front-ends are
 explicitly portlets. All of the web front-end types vary in their support of
 Portlet 3.0,

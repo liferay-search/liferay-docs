@@ -12,10 +12,10 @@ header-id: upgrading-a-struts-1-portlet
 
 Struts is a stable, widely adopted framework that implements the Model View
 Controller (MVC) design pattern. If you have a Struts portlet for previous
-versions of Liferay Portal, you can upgrade it to @product-ver@.
+versions of Liferay Portal, you can upgrade it to @sharepoint-ver@.
 
-Upgrading Struts portlets to @product-ver@ is easier than you might think.
-@product@ lets you continue working with Struts portlets as Java EE web
+Upgrading Struts portlets to @sharepoint-ver@ is easier than you might think.
+@sharepoint@ lets you continue working with Struts portlets as Java EE web
 applications.
 
 This tutorial demonstrates how to upgrade a portlet that uses the Struts 1
@@ -27,7 +27,7 @@ Here's a sample Struts portlet's folder structure with file/folder descriptions:
     -   `docroot/`
         -   `html/portlet/sample_struts_portlet/` &rarr; JSPs
         -   `WEB-INF/`
-            -   `lib/` &rarr; Required third-party libraries unavailable in the @product@ system
+            -   `lib/` &rarr; Required third-party libraries unavailable in the @sharepoint@ system
             -   `src/`
                 -   `com/liferay/samplestruts/model/` &rarr; Model classes
                 -   `com/liferay/samplestruts/servlet/` &rarr; Test servlet and servlet context listener
@@ -53,7 +53,7 @@ Here's a sample Struts portlet's folder structure with file/folder descriptions:
 
 Upgrading a Struts 1 portlet involves these steps:
 
-1.  Adapt the portlet to @product-ver@'s API using the Liferay Upgrade Planner.
+1.  Adapt the portlet to @sharepoint-ver@'s API using the Liferay Upgrade Planner.
     When running the planner's *Fix Upgrade Problems* step, many of the existing
     issues are autocorrected. For remaining issues, the planner identifies code
     affected by the new API and ways to adapt it.
@@ -78,7 +78,7 @@ You've resolved the Sample Struts portlet's dependencies. It's ready to deploy.
 | ```
 
 On [deploying](/docs/7-2/reference/-/knowledge_base/r/deploying-a-project) a
-Struts portlet Web Application aRchive (WAR), @product@'s Web Application Bundle
+Struts portlet Web Application aRchive (WAR), @sharepoint@'s Web Application Bundle
 (WAB) Generator creates an OSGi module (bundle) for the portlet and installs it
 to Liferay's OSGi framework. The server prints messages indicating the following
 portlet status:
@@ -87,7 +87,7 @@ portlet status:
 -   WAB startup
 -   Availability to users
 
-The Struts portlet is now available on your @product@ instance. The Struts
-portlet behaves just as it did on previous versions on your @product-ver@ site.
+The Struts portlet is now available on your @sharepoint@ instance. The Struts
+portlet behaves just as it did on previous versions on your @sharepoint-ver@ site.
 
-Congratulations on upgrading your Struts portlet to @product-ver@!
+Congratulations on upgrading your Struts portlet to @sharepoint-ver@!

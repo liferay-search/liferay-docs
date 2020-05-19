@@ -19,7 +19,7 @@ theme and provides additional styles.
 Follow these steps to generate and configure the theme:
 
 1.  Install the Theme Generator. Since you're developing a theme for 
-    @product-ver@, install v9.x.x if it's not installed already. Run the command 
+    @sharepoint-ver@, install v9.x.x if it's not installed already. Run the command 
     below:
 
     ```bash    

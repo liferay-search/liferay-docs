@@ -12,7 +12,7 @@ folder in your Documents and Media library for sharing some requirements
 documentation. Sitting down at your desk, you navigate to the repository and
 attempt to create the folder.
 
-*You do not have permission to perform this action*, @product@ helpfully tells
+*You do not have permission to perform this action*, @sharepoint@ helpfully tells
 you. 
 
 "*What?*" you blurt in surprise. "This is *my* project!" 

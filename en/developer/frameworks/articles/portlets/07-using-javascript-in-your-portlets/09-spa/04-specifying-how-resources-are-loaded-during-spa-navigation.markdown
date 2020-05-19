@@ -6,7 +6,7 @@ header-id: specifying-how-resources-are-loaded-during-navigation
 
 [TOC levels=1-4]
 
-By default, @product@ unloads CSS resources from the `<head>` element on 
+By default, @sharepoint@ unloads CSS resources from the `<head>` element on 
 navigation. JavaScript resources in the `<head>`, however, are not removed on 
 navigation. This functionality can be customized by setting the resource's 
 `data-senna-track` attribute. Follow these steps to customize your resources:

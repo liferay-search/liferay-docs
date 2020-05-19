@@ -91,9 +91,9 @@ implementation-specific options prefixed with the `com.liferay.faces.bridge`
 namespace. 
 
 Liferay Faces Bridge is an essential part of the JSF development process for
-@product@. Visit the
+@sharepoint@. Visit the
 [JSF Portlets with Liferay Faces](/docs/7-1/tutorials/-/knowledge_base/t/jsf-portlets-with-liferay-faces)
-section of tutorials for more information on JSF development for @product@.
+section of tutorials for more information on JSF development for @sharepoint@.
 
 ## Related Topics
 

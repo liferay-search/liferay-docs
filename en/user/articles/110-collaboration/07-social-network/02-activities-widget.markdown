@@ -9,7 +9,7 @@ header-id: using-the-activities-widget
 The core social widget is Activities. It displays information about user
 activity on the Site where you added it. User activities tracked include
 updates to the Documents and Media library, blog posts, message boards posts,
-wiki pages, and bookmarks. @product@ also tracks information about web content
+wiki pages, and bookmarks. @sharepoint@ also tracks information about web content
 but only displays this information if the logged-in user is a Site
 administrator. This widget provides a summary of recent Site activity. You can
 use it on a Site's public or private pages to show what Site members have been

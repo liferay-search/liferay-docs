@@ -17,10 +17,10 @@ for the file, a generic image based on the file type appears.
 
 ## File Preview Apps
 
-Whenever possible, @product@ generates previews of documents added to the
+Whenever possible, @sharepoint@ generates previews of documents added to the
 Document Library. Out of the box, Java-based APIs generate previews. The only
 tool available that is 100% Java and has a compatible license to be distributed
-with @product@ is 
+with @sharepoint@ is 
 [PDFBox](https://pdfbox.apache.org). 
 A separate thread generates a preview for PDFs when uploaded. This process may
 last only a few seconds for a small file. The larger the file, the longer it
@@ -47,7 +47,7 @@ harness the full power of document previews. These tools include:
 After installing these tools, you can configure them via portal properties in 
 the Control Panel's Server Administration screen, or in a 
 `portal-ext.properties` file. To learn how to use these tools, see 
-[Configuring @product@](/docs/7-2/user/-/knowledge_base/u/setting-up). 
+[Configuring @sharepoint@](/docs/7-2/user/-/knowledge_base/u/setting-up). 
 
 With these tools installed and configured, a customized viewer displays 
 Documents and Media content, depending on the content type. For example, you can 

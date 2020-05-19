@@ -1,15 +1,15 @@
 ---
-header-id: depending-on-a-customized-distribution-of-product
+header-id: depending-on-a-customized-distribution-of-sharepoint
 ---
 
-# Depending on a Customized Distribution of @product@
+# Depending on a Customized Distribution of @sharepoint@
 
 [TOC levels=1-4]
 
 To regenerate the target platform's capabilities (distro JAR) based on the
-current workspace's @product@ instance, follow the steps below:
+current workspace's @sharepoint@ instance, follow the steps below:
 
-1.  Start the @product@ instance stored in your workspace. Make sure the
+1.  Start the @sharepoint@ instance stored in your workspace. Make sure the
     platform you want to depend on is installed.
 
 2.  Download the
@@ -25,10 +25,10 @@ current workspace's @product@ instance, follow the steps below:
     Liferay DXP users must replace the `release.portal.distro` artifact name
     with `release.dxp.distro` and use the `7.2.10` version syntax.
 
-    This connects to the newly deployed BND agent running in @product@ and
+    This connects to the newly deployed BND agent running in @sharepoint@ and
     generates a new distro JAR named `custom_distro.jar`. All other capabilities
-    inherit their functionality based on your @product@ instance, so verify the
-    workspace bundle is the version you plan to release in production.
+    inherit their functionality based on your @sharepoint@ instance, so verify the
+    workspace bundle is the version you plan to release in sharepointion.
 
 4.  Navigate to your workspace's root `build.gradle` file and add the following
     dependency:

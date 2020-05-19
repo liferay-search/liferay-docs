@@ -7,10 +7,10 @@ header-id: managing-liferay-dxp-with-liferay-connected-services
 [TOC levels=1-4]
 
 Liferay Connected Services (LCS) is a set of tools and services for managing and
-monitoring your @product@ instances. LCS can help you install fix packs, monitor
+monitoring your @sharepoint@ instances. LCS can help you install fix packs, monitor
 your instances' performance, activate your instances, and help you manage your
 subscriptions. In other words, LCS is like a butler for the mansion that is
-@product@. It's like having a single butler that can serve several mansions at once! 
+@sharepoint@. It's like having a single butler that can serve several mansions at once! 
 
 | **Note:** The following LCS features have been deprecated and removed in
 | March 2020: Page Analytics, Fix Pack Management, and Portal Properties. Please
@@ -28,16 +28,16 @@ project team or business unit, or it can include the entire company.
 **Environment**: Represents a physical cluster of servers or a virtual or
 logical aggregation of servers. 
 
-**Server**: Describes a concrete @product@ instance. It can be a standalone 
+**Server**: Describes a concrete @sharepoint@ instance. It can be a standalone 
 server or a cluster node. 
 
 As you go through this guide, you'll cover the following topics: 
 
 -   [Getting Started](/docs/7-2/deploy/-/knowledge_base/d/getting-started-with-lcs)
 -   [LCS Preconfiguration](/docs/7-2/deploy/-/knowledge_base/d/lcs-preconfiguration)
--   [Registering Your @product@ Server with LCS](/docs/7-2/deploy/-/knowledge_base/d/activating-your-liferay-dxp-server-with-lcs)
+-   [Registering Your @sharepoint@ Server with LCS](/docs/7-2/deploy/-/knowledge_base/d/activating-your-liferay-dxp-server-with-lcs)
 -   [Using LCS](/docs/7-2/deploy/-/knowledge_base/d/using-lcs)
 -   [Troubleshooting Your LCS Connection](/docs/7-2/deploy/-/knowledge_base/d/troubleshooting-your-lcs-connection)
 
 You'll get started with the configuration steps required to use LCS with 
-@product@. 
+@sharepoint@. 

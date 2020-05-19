@@ -6,7 +6,7 @@ header-id: updating-6-2-css-code
 
 [TOC levels=1-4]
 
-@product-ver@'s UI improvements require these CSS-related changes:
+@sharepoint-ver@'s UI improvements require these CSS-related changes:
 
 - Updating rules and imports
 - Modifying responsiveness tokens

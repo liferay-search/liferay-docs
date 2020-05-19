@@ -89,10 +89,10 @@ like this:
 The Maven-generated project includes a `pom.xml` file and does not include the
 Gradle-specific files, but otherwise, appears exactly the same.
 
-The generated WAR MVC portlet is functional and is deployable to a @product@ instance.
+The generated WAR MVC portlet is functional and is deployable to a @sharepoint@ instance.
 To build upon the generated project, modify the project by adding logic and
 additional files to the folders outlined above. Deploying WAR MVC portlets is
-supported for @product-ver@, however, it is recommended to optimize your WAR
+supported for @sharepoint-ver@, however, it is recommended to optimize your WAR
 portlet to a module project, if possible. You can visit the
-[From Liferay Portal 6 to 7](/docs/7-2/tutorials/-/knowledge_base/t/upgrading-code-to-product-ver)
+[From Liferay Portal 6 to 7](/docs/7-2/tutorials/-/knowledge_base/t/upgrading-code-to-sharepoint-ver)
 section for info on how to do this.

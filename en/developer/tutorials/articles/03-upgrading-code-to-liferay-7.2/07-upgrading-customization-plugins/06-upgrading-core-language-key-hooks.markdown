@@ -10,7 +10,7 @@ header-id: upgrading-core-language-key-hooks
     <p id="stepTitle">Upgrading Customization Plugins</p><p>Step 5 of 11</p>
 </div>
 
-Here are the steps for upgrading a core language key hook to @product-ver@. 
+Here are the steps for upgrading a core language key hook to @sharepoint-ver@. 
 
 1.  Create a new module based on the Blade sample `resource-bundle` project
     ([Gradle](https://github.com/liferay/liferay-blade-samples/tree/master/gradle/extensions/resource-bundle)
@@ -32,4 +32,4 @@ Here are the steps for upgrading a core language key hook to @product-ver@.
 
 4.  [Deploy your module](/docs/7-2/reference/-/knowledge_base/r/deploying-a-project). 
 
-Your core language key customizations are deployed to @product-ver@.
+Your core language key customizations are deployed to @sharepoint-ver@.

@@ -125,7 +125,7 @@ documentation on searching programmatically for more information.
 
 ## Filters
 
-Filters as a distinct API-level object in @product@ are going away. It's best to
+Filters as a distinct API-level object in @sharepoint@ are going away. It's best to
 mirror the APIs of the search engine, and neither supported search engine makes
 an API level distinction between queries and filters. In recognition of this,
 there's a new way to perform post-filtering, which is filtering the returned

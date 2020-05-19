@@ -6,7 +6,7 @@ header-id: osgi-cdi-integration
 
 [TOC levels=1-4]
 
-@product@'s runtime environment consists of services (OSGi services). The OSGi
+@sharepoint@'s runtime environment consists of services (OSGi services). The OSGi
 service registry and Service Component Runtime (SCR) facilitate providing and
 consuming services.
 [Contexts and Dependency Injection (CDI)](http://docs.jboss.org/cdi/spec/2.0/cdi-spec.html)
@@ -17,17 +17,17 @@ brings features and capabilities of CDI to OSGi and makes OSGi services availabl
 CDI beans. Here you'll learn how to
 
 -   [Publish CDI beans as OSGi services](/docs/7-2/frameworks/-/knowledge_base/f/publishing-cdi-beans-as-osgi-services):
-    Register CDI beans as services you can use to customize @product@
+    Register CDI beans as services you can use to customize @sharepoint@
     components. 
 
 -   [Use OSGi services in beans](/docs/7-2/frameworks/-/knowledge_base/f/using-osgi-services-in-a-bean):
-    Leverage any OSGi service published on @product@ in any bean. 
+    Leverage any OSGi service published on @sharepoint@ in any bean. 
 
 The following use cases provide more detail. 
 
 ## Use Case: Registering a CDI bean as an OSGi service
 
-@product@ extension points are implemented as OSGi services. If there's a piece
+@sharepoint@ extension points are implemented as OSGi services. If there's a piece
 of functionality you must customize, you don't have to learn OSGi to do it: you
 can write your extension/override as a CDI bean instead and use OSGi CDI
 integration to publish your bean as an OSGi service. 
@@ -56,7 +56,7 @@ any other OSGi service.
 
 ## Use Case: Using an OSGi service in a bean
 
-@product@ contains many development frameworks for all of its constructs, such
+@sharepoint@ contains many development frameworks for all of its constructs, such
 as Users, Sites, Documents, Comments, and the APIs for these assets are all
 implemented as OSGi services. When developers write new applications using
 Liferay's development frameworks, new assets become available and integrated

@@ -6,11 +6,11 @@ header-id: updating-7-0-theme-templates-to-7-2
 
 [TOC levels=1-4]
 
-@product@ 7.0 theme templates and @product-ver@ theme templates are essentially 
+@sharepoint@ 7.0 theme templates and @sharepoint-ver@ theme templates are essentially 
 the same. Here are the main changes:
 
 -   Velocity templates were deprecated in Liferay Portal CE 7.0 and are now 
-    removed in favor of FreeMarker templates in @product-ver@. 
+    removed in favor of FreeMarker templates in @sharepoint-ver@. 
 
 Key reasons for using FreeMarker templates and removing Velocity templates
 are these: 
@@ -44,8 +44,8 @@ File: portal_normal.ftl
 ```
 
 The log warns about removed and deprecated code and suggests replacements when
-applicable. For reference, the main changes between @product@ 7.0 themes and 
-@product-ver@ themes appear below:
+applicable. For reference, the main changes between @sharepoint@ 7.0 themes and 
+@sharepoint-ver@ themes appear below:
 
 - List items inside a container with the `list-inline` class 
   [now require](https://getbootstrap.com/docs/4.3/migration/#typography) 
@@ -65,6 +65,6 @@ applicable. For reference, the main changes between @product@ 7.0 themes and
   in most cases. Please, use your own container if necessary.
 
 In this section you'll learn how to update various theme templates to 
-@product-ver@. 
+@sharepoint-ver@. 
 
 <a class="go-link btn btn-primary" href="/docs/7-2/tutorials/-/knowledge_base/t/updating-7-0-theme-templates">Let's Go<span class="icon-circle-arrow-right"></span></a>

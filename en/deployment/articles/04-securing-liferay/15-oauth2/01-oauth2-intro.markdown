@@ -98,7 +98,7 @@ location.
 ## Creating an Application
 
 When you have an application that can use OAuth 2.0 for authorization, you must
-register that application so @product@ can recognize it. Do this by accessing
+register that application so @sharepoint@ can recognize it. Do this by accessing
 *Control Panel* &rarr; *Configuration* &rarr; *OAuth2 Administration*: 
 
 1.  Click the *Add* (![add](../../../images/icon-add.png)) button. 
@@ -135,7 +135,7 @@ various Client Profiles above.
 After you save the form, it reappears with additional fields: 
 
 **Client ID:** The system generates this for you; it's an identifier for your
-application, so that @product@ knows what application is being authorized to
+application, so that @sharepoint@ knows what application is being authorized to
 access user data. 
 
 **Client Secret:** Click the *pencil* icon to generate a client secret. The
@@ -150,8 +150,8 @@ application. This is displayed on the authorization screen.
 **Privacy Policy URL:** Add a link to your application's privacy policy. 
 
 **Token Introspection:** Allow your application to retrieve metadata from the
-token by requesting it from @product@. This implements 
+token by requesting it from @sharepoint@. This implements 
 [RFC 7662](https://tools.ietf.org/html/rfc7662).
 
 Excellent! Now you know how to add OAuth2 authorization for your application to
-@product@! Next, you must define scopes of user data the application can access.
+@sharepoint@! Next, you must define scopes of user data the application can access.

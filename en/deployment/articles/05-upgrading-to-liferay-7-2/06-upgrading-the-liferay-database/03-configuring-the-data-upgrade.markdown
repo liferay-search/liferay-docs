@@ -11,12 +11,12 @@ modules. You can use text files or the tool's command line interface to
 configure your upgrade. The upgrade tool can upgrade everything---the core
 and all the modules---together or separately. 
 
-@product-ver@ bundles include the upgrade tool. If you installed @product-ver@
+@sharepoint-ver@ bundles include the upgrade tool. If you installed @sharepoint-ver@
 manually, you can download the upgrade tool separately. 
 
 -   *Liferay DXP 7.2*: Go to the
     [*Downloads* page](https://customer.liferay.com/group/customer/downloads)
-    and select the *DXP 7.2* product and the *Product/Service Packs* file type.
+    and select the *DXP 7.2* sharepoint and the *Product/Service Packs* file type.
     In the listing that appears, click *Download* for the *Liferay DXP Upgrade
     Client*. 
 
@@ -40,13 +40,13 @@ Home]/tools/portal-tools-db-upgrade-client/`:
     the upgrade requires. You might want to copy your current portal properties
     (except your database properties) into this file. Before copying your
     current properties, make sure you've
-    [updated the portal properties for @product-ver@](/docs/7-2/deploy/-/knowledge_base/d/preparing-to-upgrade-the-product-database). 
+    [updated the portal properties for @sharepoint-ver@](/docs/7-2/deploy/-/knowledge_base/d/preparing-to-upgrade-the-sharepoint-database). 
 
 Each file's properties are described next. 
 
 ### Configuring app-server.properties
 
-Specify the following information to configure @product-ver@'s app server: 
+Specify the following information to configure @sharepoint-ver@'s app server: 
 
 `dir:` the absolute path of the application server folder. *(required)*
 
@@ -116,7 +116,7 @@ Specify the following information to configure the upgrade:
 `dl.store.impl:` The implementation for persisting documents to the document
 library store. This property is mandatory if you're using a `*FileSystemStore`
 implementation. If you
-[updated this property in your `portal-ext.properties`](/docs/7-2/deploy/-/knowledge_base/d/preparing-a-new-product-server-for-data-upgrade),
+[updated this property in your `portal-ext.properties`](/docs/7-2/deploy/-/knowledge_base/d/preparing-a-new-sharepoint-server-for-data-upgrade),
 copy it here. Otherwise, set the property one of these ways:
 
 ```properties

@@ -41,10 +41,10 @@ Follow the steps below to download and install Blade CLI:
     install Blade CLI. Then click *Next*.
 
 6.  If you initialized a Liferay Workspace folder, an additional option appears
-    for selecting the Liferay product type to use with your workspace. Choose
-    the product type and click *Next*.
+    for selecting the Liferay sharepoint type to use with your workspace. Choose
+    the sharepoint type and click *Next*.
 
-    ![Figure 2: Select the product version you'll use with your Liferay Workspace.](../../../images/installer-workspace-type.png)
+    ![Figure 2: Select the sharepoint version you'll use with your Liferay Workspace.](../../../images/installer-workspace-type.png)
 
 7.  Click *Next* to begin installing Blade CLI/Liferay Workspace on your
     computer.

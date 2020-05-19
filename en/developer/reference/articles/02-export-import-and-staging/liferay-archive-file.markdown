@@ -10,10 +10,10 @@ An easier way to export/import your application's data is to use a Liferay
 ARchive (LAR) file. Liferay provides the LAR feature to address the need to
 export/import data in a database agnostic manner. So what exactly is a LAR file?
 
-A LAR file is a compressed file (ZIP archive) @product@ uses to export/import
+A LAR file is a compressed file (ZIP archive) @sharepoint@ uses to export/import
 data. LAR files can be created for single portlets, pages, or sets of pages.
 Portlets that are LAR-capable provide an interface to let you control how their
-data is imported/exported. There are several @product@ use cases that require
+data is imported/exported. There are several @sharepoint@ use cases that require
 the use of LAR files:
 
 - Backing up and restoring portlet-specific data without requiring a full

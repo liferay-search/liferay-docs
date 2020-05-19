@@ -2,7 +2,7 @@
 header-id: liferay-startup-phases
 ---
 
-# @product@ Startup Phases
+# @sharepoint@ Startup Phases
 
 [TOC levels=1-4]
 
@@ -17,7 +17,7 @@ Startup consists of these main phases:
     a web context. 
 
 2.  **Main Servlet Initialization Phase:** focuses on the portlet container and 
-    the @product@ web application's UI features such as Struts, Themes, and 
+    the @sharepoint@ web application's UI features such as Struts, Themes, and 
     more. 
 
 The Portal Context Initialization Phase sets the stage for the Main Servlet 
@@ -107,11 +107,11 @@ properties and add your own
 [`LifecycleAction`](@platform-ref@/7.2-latest/javadocs/portal-kernel/com/liferay/portal/kernel/events/LifecycleAction.html) 
 classes to the list of action classes to invoke on the events. 
 
-**Global Startup Event** runs once when @product@ initializes. The 
+**Global Startup Event** runs once when @sharepoint@ initializes. The 
 [`global.startup.events` property](@platform-ref@/7.2-latest/propertiesdoc/portal.properties.html#Startup%20Events) 
 defines the event's default actions. 
 
-**Application Startup Events** runs once for each Site instance @product@ 
+**Application Startup Events** runs once for each Site instance @sharepoint@ 
 initializes. The 
 [`application.startup.events` property](@platform-ref@/7.2-latest/propertiesdoc/portal.properties.html#Startup%20Events) 
 defines the event's default actions. 

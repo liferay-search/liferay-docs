@@ -32,7 +32,7 @@ developer key. A link for doing this is provided to you in the Facebook tab.
 You must create the application on Facebook and get the API key and canvas page
 URL from Facebook. Once you've done this, you can copy and paste their values
 into the Facebook tab. Save the configuration and navigate back to the Facebook
-tab in @product@. You're given the Callback URL, which you can copy and paste
+tab in @sharepoint@. You're given the Callback URL, which you can copy and paste
 into Facebook. When opening your app in Facebook, the correct callback URL is
 used to render the application. You can also enable the *Allow users to add
 [application-name] to Facebook*. Then you can navigate to your app's Options
@@ -41,7 +41,7 @@ menu and select *Add to Facebook*.
 ## OpenSocial Gadget
 
 OpenSocial comprises a container and a set of APIs for social networking and
-other web applications. @product@ can serve up applications to be used as 
+other web applications. @sharepoint@ can serve up applications to be used as 
 OpenSocial Gadgets on any OpenSocial-compatible pages.
 
 To serve a Liferay widget on an OpenSocial platform, copy and paste the provided

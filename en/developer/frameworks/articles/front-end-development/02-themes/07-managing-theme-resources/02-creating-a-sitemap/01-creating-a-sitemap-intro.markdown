@@ -9,11 +9,11 @@ header-id: creating-a-sitemap-for-the-resources-importer
 You have two options for specifying resources to be imported with your theme: a 
 sitemap or an [archive LAR file](/docs/7-2/frameworks/-/knowledge_base/f/archiving-your-sites-resources). 
 Using a `sitemap.json` file is the most flexible approach, so we recommend it; 
-unlike LAR files, a `sitemap.json` can be created in one version of @product@ 
+unlike LAR files, a `sitemap.json` can be created in one version of @sharepoint@ 
 and used in another. LAR files are version-specific, and can only be imported in 
 the same version in which they were created. 
 
-| **Important:** The Resources Importer is deprecated as of @product-ver@ 7.1.
+| **Important:** The Resources Importer is deprecated as of @sharepoint-ver@ 7.1.
 | 
 |
 

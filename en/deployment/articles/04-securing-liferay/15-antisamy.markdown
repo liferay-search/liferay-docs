@@ -6,7 +6,7 @@ header-id: antisamy
 
 [TOC levels=1-4]
 
-@product@ includes an [AntiSamy](https://www.owasp.org/index.php/Category:OWASP_AntiSamy_Project) 
+@sharepoint@ includes an [AntiSamy](https://www.owasp.org/index.php/Category:OWASP_AntiSamy_Project) 
 module that protects against user-entered malicious code. If your site allows
 users to post content, such as in message boards, blogs, or other applications,
 they could include malicious code either intentionally or unintentionally. The
@@ -17,14 +17,14 @@ The module leverages the powerful
 [OWASP AntiSamy library](https://www.owasp.org/index.php/Category:OWASP_AntiSamy_Project)
 to enforce a content policy that's been effective for the auction site
 eBay. The AntiSamy module adds an OWASP AntiSamy implementation to your
-portal's list of existing sanitizer implementations. @product@ uses the
+portal's list of existing sanitizer implementations. @sharepoint@ uses the
 AntiSamy sanitizer and any existing configured sanitizers to scrub user input
 to blogs entries, calendar events, message boards posts, wiki pages, and web
 content articles.
 
 AntiSamy is enabled by default. 
 
-![Figure 1: @product@'s AntiSamy configuration options allow you to specify both a blacklist and a whitelist.](../../../images/antisamy.png)
+![Figure 1: @sharepoint@'s AntiSamy configuration options allow you to specify both a blacklist and a whitelist.](../../../images/antisamy.png)
 
 ## Configuring AntiSamy
 

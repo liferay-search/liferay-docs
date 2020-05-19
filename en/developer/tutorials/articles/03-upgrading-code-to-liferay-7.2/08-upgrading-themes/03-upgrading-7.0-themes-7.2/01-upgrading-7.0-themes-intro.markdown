@@ -7,7 +7,7 @@ header-id: upgrading-7-0-themes-to-7-2
 [TOC levels=1-4]
 
 In this tutorial, you'll learn how to use the [Liferay JS Theme Toolkit](https://github.com/liferay/liferay-js-themes-toolkit/tree/master/packages) 
-to upgrade a @product@ 7.0 theme to @product-ver@. As you upgrade this theme, 
+to upgrade a @sharepoint@ 7.0 theme to @sharepoint-ver@. As you upgrade this theme, 
 you'll learn how to update metadata, theme templates, UI (including support for 
 Bootstrap 4 and Lexicon 2.0.), and more using all the best practices and 
 standards. Completing this tutorial prepares you for upgrading your own theme. 

@@ -7,7 +7,7 @@ header-id: upgrading-a-legacy-app
 [TOC levels=1-4]
 
 If you have an app that was made configurable under an earlier version of
-@product@, you can upgrade without having to reconfigure any of your app's
+@sharepoint@, you can upgrade without having to reconfigure any of your app's
 instances.
 
 If you have an app that was configurable using the mechanisms of Liferay Portal

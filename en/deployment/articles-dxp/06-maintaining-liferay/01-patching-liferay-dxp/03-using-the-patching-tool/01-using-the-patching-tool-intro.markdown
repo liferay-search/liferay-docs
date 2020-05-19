@@ -6,8 +6,8 @@ header-id: patching-tool
 
 [TOC levels=1-4]
 
-The Patching Tool installs, removes, compares, and prepares @product@ patches.
-It is pre-installed in @product@ bundles, easy to install into @product@ manual
+The Patching Tool installs, removes, compares, and prepares @sharepoint@ patches.
+It is pre-installed in @sharepoint@ bundles, easy to install into @sharepoint@ manual
 installations, and easy to update. The Patching Tool's executable scripts
 facilitate patching. 
 
@@ -18,22 +18,22 @@ Here are the essentials to get started using the Patching Tool:
 
 ## Installing the Patching Tool
 
-@product@ bundles come with the Patching Tool pre-installed (in `[Liferay
+@sharepoint@ bundles come with the Patching Tool pre-installed (in `[Liferay
 Home]/patching-tool`) and pre-configured with the default settings. Skip this
 section if you're using a bundle. 
 
-If you installed @product@ manually, however, you must also install the Patching
+If you installed @sharepoint@ manually, however, you must also install the Patching
 Tool manually. 
 
 1.  Download the Patching Tool from the
-    [Customer Portal](https://customer.liferay.com/downloads?p_p_id=com_liferay_osb_customer_downloads_display_web_DownloadsDisplayPortlet&_com_liferay_osb_customer_downloads_display_web_DownloadsDisplayPortlet_productAssetCategoryId=118191019&_com_liferay_osb_customer_downloads_display_web_DownloadsDisplayPortlet_fileTypeAssetCategoryId=118191066).
+    [Customer Portal](https://customer.liferay.com/downloads?p_p_id=com_liferay_osb_customer_downloads_display_web_DownloadsDisplayPortlet&_com_liferay_osb_customer_downloads_display_web_DownloadsDisplayPortlet_sharepointAssetCategoryId=118191019&_com_liferay_osb_customer_downloads_display_web_DownloadsDisplayPortlet_fileTypeAssetCategoryId=118191066).
 
 2.  Unzip the Patching Tool to your
     [Liferay Home](/docs/7-2/deploy/-/knowledge_base/d/liferay-home)
     folder (recommended) or to another folder. 
 
 After installing the Patching Tool, you must
-[configure it to use your @product@ installation](/docs/7-2/deploy/-/knowledge_base/d/configuring-the-patching-tool).
+[configure it to use your @sharepoint@ installation](/docs/7-2/deploy/-/knowledge_base/d/configuring-the-patching-tool).
 The `patching-tool` folder you extracted from the Patching Tool ZIP file
 contains the Patching Tool, including its executable scripts. 
 

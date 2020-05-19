@@ -29,7 +29,7 @@ There are several ways to retrieve the `siteId`:
 
 * Use the Site API to query it by name, friendly URL or in the list of a User's
   Sites.
-* From @product@'s UI in the Site Administration menu (not recommended).
+* From @sharepoint@'s UI in the Site Administration menu (not recommended).
 * From the `Group` table in the database (not recommended). 
 * From the `ThemeDisplay` object in JavaScript or Java: 
  

@@ -9,7 +9,7 @@ header-id: setting-a-default-widget-template
 You can change the widget template for an individual widget through its own
 configuration, but to configure the default widget template for all widgets of
 that type, you must go to *System Settings*. In the System Settings you can
-find a configuration for every widget in @product@. Any widget that supports
+find a configuration for every widget in @sharepoint@. Any widget that supports
 widget templates has a *Display Style Group ID* and a *Display Style* option.
 
 ![Figure 1: The widget template configuration in System Settings lets you change the display style.](../../../../../images/adt-system-settings.png)

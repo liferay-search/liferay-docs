@@ -6,7 +6,7 @@ header-id: solr-connector-settings
 
 [TOC levels=1-4]
 
-Solr can be configured for use with @product-ver@. Liferay Marketplace includes
+Solr can be configured for use with @sharepoint-ver@. Liferay Marketplace includes
 a Solr connector app called the Liferay Connector to Solr 7. The connector is
 configurable through System Settings or an OSGi configuration file named
 `com.liferay.portal.search.solr7.configuration.SolrConfiguration.config` and

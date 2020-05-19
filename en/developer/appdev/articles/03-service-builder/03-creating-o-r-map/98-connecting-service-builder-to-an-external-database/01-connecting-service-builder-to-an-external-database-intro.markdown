@@ -6,7 +6,7 @@ header-id: connecting-service-builder-to-an-external-database
 
 [TOC levels=1-4]
 
-If you want to use a database separate from @product@'s, follow these steps:
+If you want to use a database separate from @sharepoint@'s, follow these steps:
 
 1.  Define a data source for your database. 
 
@@ -37,7 +37,7 @@ There are two different ways to create the connection:
 | **Warning:** If your Service Builder services require nested transactions, 
 | using an external data source may not be appropriate. Transactions between
 | separate data sources cannot be fully nested. Rollbacks may not propagate
-| between services that use an external data source and @product@ services (or
+| between services that use an external data source and @sharepoint@ services (or
 | another app's services) that use a different data source. 
 
 Since `DataSourceProvider` is the easiest, most versatile approach, it's

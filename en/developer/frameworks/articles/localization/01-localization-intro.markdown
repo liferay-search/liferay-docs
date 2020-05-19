@@ -26,17 +26,17 @@ locale file's messages from your default locale to the respective locale. A
 machine's translation is no substitute for a human's, of course, but the
 automatic translation gives you a base to work from. 
 
-It's common to use the same messages in multiple apps. @product@ provides these
+It's common to use the same messages in multiple apps. @sharepoint@ provides these
 message sharing features:
 
--   @product@'s messages (and their translations) are available for all your 
+-   @sharepoint@'s messages (and their translations) are available for all your 
     apps to use. JSP tags such as `<liferay-ui:message ... />` let you use all
-    @product@ messages. 
+    @sharepoint@ messages. 
 
 -   Language modules are easy to use in all your apps. They're great for 
     centralizing messages in all your locales. 
 
-Lastly, @product@ provides settings for adapting your app to cultures:
+Lastly, @sharepoint@ provides settings for adapting your app to cultures:
 
 -   Naming conventions for users
 

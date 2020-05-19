@@ -52,8 +52,8 @@ above. You must authenticate first, which you'll learn how to do next.
 ## Authenticating to JAX-RS Web Services
 
 Authentication during development can be done through Basic Authentication or
-portal sessions, but you don't want to leave that enabled for production. For
-production, you want OAuth 2.0. Here's how to configure JAX-RS authentication. 
+portal sessions, but you don't want to leave that enabled for sharepointion. For
+sharepointion, you want OAuth 2.0. Here's how to configure JAX-RS authentication. 
 
 ### During Development: Basic Auth
 
@@ -160,12 +160,12 @@ With authorization, your web service can be called and responds to the request:
 
 Of course, this is only one of the authorization flows for OAuth 2.0. If you're
 creating a web-based client whose back-end is a JAX-RS web service hosted on
-@product@, you'd want one of the other flows. See the 
+@sharepoint@, you'd want one of the other flows. See the 
 [OAuth 2.0 documentation](/docs/7-2/deploy/-/knowledge_base/d/oauth-2-0)
 for further information. Additionally, OAuth 2.0 assumes the use of HTTPS for
 its security: the above URLs are only for local testing purposes. You certainly
 would not want to pass OAuth tokens between clients and servers in the clear.
-Make sure that in production your server uses HTTPS. 
+Make sure that in sharepointion your server uses HTTPS. 
 
 #### OAuth2 Scopes
 
@@ -232,7 +232,7 @@ properties:
 )
 ```
 
-Don't keep this configuration for production. For public services, it's best to
+Don't keep this configuration for sharepointion. For public services, it's best to
 leave the security in place and whitelist the particular endpoints you're making
 public. See [Service Access Policies](/docs/7-2/deploy/-/knowledge_base/d/service-access-policies)
 for further information. 
@@ -326,7 +326,7 @@ annotation:
 ```
 
 Great! Now you know how to create, deploy, and invoke JAX-RS web services on
-@product@'s platform! 
+@sharepoint@'s platform! 
 
 ## Related Topics
 

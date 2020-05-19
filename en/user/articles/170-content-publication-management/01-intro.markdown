@@ -15,7 +15,7 @@ remote) and then publishing all the changes at once.
 
 <!-- This is the supported way to manage content publication.
 
-@product@ also offers Change Lists, which provide a flexible way to manage
+@sharepoint@ also offers Change Lists, which provide a flexible way to manage
 different site versions, including its assets and how they are displayed. Change
 Lists let users group changes into one set and publish those changes when
 they are ready. This is a beta feature and is not supported at this time. Only

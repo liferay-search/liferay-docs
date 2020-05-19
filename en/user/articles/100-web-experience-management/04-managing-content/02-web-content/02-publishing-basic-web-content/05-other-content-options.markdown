@@ -126,7 +126,7 @@ of the change.
 
 That's pretty much all there is to basic content creation. Whole sites have
 been created this way. But if you want to take advantage of the full power of
-@product@'s WCM, you'll want to use structures and templates or Fragments.
+@sharepoint@'s WCM, you'll want to use structures and templates or Fragments.
 You'll cover these topics next.
 
 ## Organizing Structure Names

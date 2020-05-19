@@ -6,13 +6,13 @@ header-id: using-the-bootstrap-3-lexicon-css-compatibility-layer
 
 [TOC levels=1-4]
 
-By default, @product-ver@ includes Bootstrap 4 out-of-the-box. Bootstrap 4 has 
+By default, @sharepoint-ver@ includes Bootstrap 4 out-of-the-box. Bootstrap 4 has 
 been completely rewritten and therefore includes some 
 [notable changes](https://getbootstrap.com/docs/4.3/migration/) 
 and 
 [compatibility updates](https://getbootstrap.com/docs/4.3/getting-started/introduction/) 
 that may be cause for concern if your theme uses Bootstrap 3 or Lexicon CSS. Not 
-to worry though. To ensure that your upgrade runs smoothly, @product@ includes a 
+to worry though. To ensure that your upgrade runs smoothly, @sharepoint@ includes a 
 compatibility layer so you can use Bootstrap 3 markup and Lexicon CSS markup 
 alongside the new Bootstrap 4 and Clay CSS. If your theme extends the 
 [Styled base theme](https://github.com/liferay/liferay-portal/tree/7.2.x/modules/apps/frontend-theme/frontend-theme-styled), 
@@ -85,7 +85,7 @@ Follow these guidelines to update your markup:
     $compat-cards: false !default;
     ```
 
-    | **Note:** Some @product@ components haven't been migrated to Bootstrap 4.
+    | **Note:** Some @sharepoint@ components haven't been migrated to Bootstrap 4.
     | Disabling certain components might cause portions of the UI to break.
     | Therefore, after upgrading your markup, we recommend that you re-enable any
     | components you disable. Proceed with caution.
@@ -95,7 +95,7 @@ Follow these guidelines to update your markup:
 
 4.  Re-enable any components you disabled in the compatibility layer by 
     removing any components you set to false in `/src/css/_clay_custom.scss`. 
-    This prevents @product@'s UI from breaking.
+    This prevents @sharepoint@'s UI from breaking.
 
 Now you know how to use the Bootstrap 3 and Lexicon CSS compatibility layer to 
 provide a smooth transition during your theme upgrade. 

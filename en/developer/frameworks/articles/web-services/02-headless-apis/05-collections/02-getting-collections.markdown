@@ -27,7 +27,7 @@ The response (below) has two main parts:
     response. This lets clients know how to use the collection. 
 
 This response is in JSON, which is the default response format for web APIs in 
-@product@. For information on specifying other response formats, see 
+@sharepoint@. For information on specifying other response formats, see 
 [API Formats and Content Negotiation](/docs/7-2/frameworks/-/knowledge_base/f/api-formats-and-content-negotiation). 
 
 ```json

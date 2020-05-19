@@ -6,22 +6,22 @@ header-id: tuning-for-the-data-upgrade
 
 [TOC levels=1-4]
 
-Upgrading impacts the database differently from daily running in production.
+Upgrading impacts the database differently from daily running in sharepointion.
 Because of this, you should tune your database for the upgrade process before
-you run it, and then re-apply your production settings after the upgrade
+you run it, and then re-apply your sharepointion settings after the upgrade
 completes. 
 
 -   Data upgrades execute many more update statements (`INSERT`, `UPDATE`, and
-    `DELETE`) and less `SELECT` statements than production instances. When
+    `DELETE`) and less `SELECT` statements than sharepointion instances. When
     upgrading, tune your database for executing updates. 
 
 -   Data upgrades should be done in safe environments completely separate from 
-    production servers and should use database backup copies. If upgrade errors
-    occur or you make mistakes, they don't impact production, and you can always
+    sharepointion servers and should use database backup copies. If upgrade errors
+    occur or you make mistakes, they don't impact sharepointion, and you can always
     restart using your database backup copy. 
 
 The data upgrade tuning instructions given here are a starting point for tuning
-your @product@ data upgrade. They account for data upgrade activities and a safe
+your @sharepoint@ data upgrade. They account for data upgrade activities and a safe
 data upgrade environment: 
 
 -   Deactivate data integrity measures that impact performance. Restore the 
@@ -40,8 +40,8 @@ data upgrade environment:
 
 | **Important:** Test your database configuration to determine tuning that's 
 | best for your system, and consult your DBA as appropriate. **Never** use
-| database upgrade configurations in production. Always restore your production
-| database settings before starting your @product@ server for production use 
+| database upgrade configurations in sharepointion. Always restore your sharepointion
+| database settings before starting your @sharepoint@ server for sharepointion use 
 | with the database. 
 
 | **Warning:** Some database properties and configurations are global and affect
@@ -95,7 +95,7 @@ It's time to tune your database transaction engine.
 
 ## Tuning the Database Transaction Engine for Executing Updates 
 
-Many more update statements are executed during data upgrade than in production.
+Many more update statements are executed during data upgrade than in sharepointion.
 Here's how to optimize each database's transaction engine for the updates. 
 
 ### IBM DB2 
@@ -130,7 +130,7 @@ commits](https://www.postgresql.org/docs/10/wal-async-commit.html).
 
 ## Tuning the Database Transaction Log
 
-In production, transaction logs mark safe states to roll back to. In data
+In sharepointion, transaction logs mark safe states to roll back to. In data
 upgrades, however, the safe state is the original data backup. Since transaction
 logging is insignificant for data upgrades, it should be disabled or minimized.
 Here are log tuning instructions for each database. 
@@ -165,8 +165,8 @@ In addition to the default database configuration, Set the [write ahead log
 writer delay](https://www.postgresql.org/docs/10/wal-async-commit.html) to
 `1000` milliseconds. 
 
-Congratulations! You have a starting point to plan your own @product@ data
+Congratulations! You have a starting point to plan your own @sharepoint@ data
 upgrade project. Remember, optimal tuning depends on your data, infrastructure
 conditions, and database vendor. Analyze your data, tune for upgrade, and time
 your test upgrades. Use this information to determine the best database and Java
-process configuration for your @product@ data upgrade. 
+process configuration for your @sharepoint@ data upgrade. 

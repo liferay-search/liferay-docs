@@ -13,7 +13,7 @@ data schema removes a field your software expects, the schema breaks
 compatibility. But if a new schema's changes are non-breaking (e.g., adds a new
 field), the schema is compatible and can be used with existing software.
 
-Since @product@ 7.1, Liferay uses a meaningful schema version convention
+Since @sharepoint@ 7.1, Liferay uses a meaningful schema version convention
 (similar to
 [Semantic Versioning](http://semver.org))
 to define new

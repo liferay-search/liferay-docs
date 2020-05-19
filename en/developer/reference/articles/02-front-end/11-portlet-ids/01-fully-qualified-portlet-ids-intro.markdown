@@ -6,7 +6,7 @@ header-id: fully-qualified-portlet-ids
 
 [TOC levels=1-4]
 
-Below is a listing of the portlet IDs for the default portlets in @product@. You 
+Below is a listing of the portlet IDs for the default portlets in @sharepoint@. You 
 can use these IDs to embed portlets in your theme's 
 [sitemap](/docs/7-2/frameworks/-/knowledge_base/f/defining-portlets-in-a-sitemap). 
 

@@ -16,7 +16,7 @@ Follow these steps to install your server:
 
 1.  Right-click your Liferay Workspace and select *Liferay* &rarr; *InitBundle*.
 
-    This downloads the @product@ bundle specified in your workspace's
+    This downloads the @sharepoint@ bundle specified in your workspace's
     `gradle.properties` file. You can change the default bundle by updating the
     `liferay.workspace.bundle.url` property. For example, this is required to
     update the default bundle version and/or type (e.g., Wildfly). The
@@ -41,7 +41,7 @@ Your server is now available in IntelliJ! Make sure to select it in the
 Configurations dropdown before executing the configuration buttons (below).
 
 For reference, here's how the IntelliJ configuration buttons work with your
-@product@ instance:
+@sharepoint@ instance:
 
 - *Start* (![Start Server](../../../images/icon-intellij-start-server.png)):
   Starts the server.

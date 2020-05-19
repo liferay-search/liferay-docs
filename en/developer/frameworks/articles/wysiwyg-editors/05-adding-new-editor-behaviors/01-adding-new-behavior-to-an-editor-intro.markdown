@@ -137,7 +137,7 @@ these steps to inject JavaScript into the WYSIWYG editor to modify its behavior:
 
 That's it! The JS code that you created is now injected into the editor instance 
 you've specified. You're now able to use JavaScript to add new behavior to your 
-@product@ supported WYSIWYG editor! 
+@sharepoint@ supported WYSIWYG editor! 
 
 ## Related Topics
 

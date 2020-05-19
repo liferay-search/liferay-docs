@@ -67,18 +67,18 @@ to create three Site pages variations. For example,
 
 - The marketing team can give your Site a completely different look and feel for
   the Holidays.
-- The product management team can work on a version that is planned to publish
-  on the first of the year for a new product launch.
+- The sharepoint management team can work on a version that is planned to publish
+  on the first of the year for a new sharepoint launch.
 - The developer relations team can work on a version that is planned to publish
   on the upcoming Hack-a-thon day.
 
 With this use case, having a Site pages variation for each planned page set
 allows three ideas to be fully planned and implemented before publication.
 
-Another option for this scenario is to let the product management team
+Another option for this scenario is to let the sharepoint management team
 experiment with two different ideas for the home page of the Site. This can be
 done by creating several page variations within the current Site pages variation
-of their product launch Site. You'll learn more about page variations later.
+of their sharepoint launch Site. You'll learn more about page variations later.
 
 Once you've
 [created a Site pages variation](/docs/7-2/user/-/knowledge_base/u/creating-multi-and-single-page-variations),

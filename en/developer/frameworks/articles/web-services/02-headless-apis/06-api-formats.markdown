@@ -7,7 +7,7 @@ header-id: rest-api-formats-and-content-negotiation
 [TOC levels=1-4]
 
 The responses in the preceding examples use a standard JSON format, which is the 
-default response format for @product@'s headless REST APIs. You can also use 
+default response format for @sharepoint@'s headless REST APIs. You can also use 
 other formats like XML. Formats typically differ in the resource metadata's 
 structure or semantics. There's no best format; use the one that best fits your 
 use case. 

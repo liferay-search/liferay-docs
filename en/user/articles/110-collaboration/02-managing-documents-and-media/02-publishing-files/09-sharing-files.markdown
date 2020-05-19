@@ -6,7 +6,7 @@ header-id: sharing-files
 
 [TOC levels=1-4]
 
-@product@'s 
+@sharepoint@'s 
 [role-based permissions system](/docs/7-2/user/-/knowledge_base/u/roles-and-permissions) 
 defines which actions users can take on assets, including 
 [files](/docs/7-2/user/-/knowledge_base/u/adding-files-to-a-document-library#granting-file-permissions-and-roles). 
@@ -21,7 +21,7 @@ or manage Roles. Also, if a user wants to share a file with one other user, it's
 not practical for an administrator to create and manage a Role for only two 
 users. 
 
-@product@'s sharing feature solves these problems by letting users share 
+@sharepoint@'s sharing feature solves these problems by letting users share 
 files directly with each other, without involving an administrator. This saves 
 time and effort for everyone. After all, sharing is caring. 
 

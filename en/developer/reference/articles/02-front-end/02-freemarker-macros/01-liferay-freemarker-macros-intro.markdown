@@ -1,20 +1,20 @@
 ---
-header-id: product-freemarker-macros
+header-id: sharepoint-freemarker-macros
 ---
 
-# @product@ FreeMarker Macros
+# @sharepoint@ FreeMarker Macros
 
 [TOC levels=1-4]
 
-@product@ defines several 
+@sharepoint@ defines several 
 [macros](https://freemarker.apache.org/docs/ref_directive_macro.html) in 
 [`FTL_Liferay.ftl` template](https://github.com/liferay/liferay-portal/blob/7.2.x/modules/apps/portal-template/portal-template-freemarker/src/main/resources/FTL_liferay.ftl) 
 that you can use in your theme templates to include theme resources, standard 
-portlets, and more. @product@ also exposes its taglibs as FreeMarker 
+portlets, and more. @sharepoint@ also exposes its taglibs as FreeMarker 
 macros. See each 
 [taglib's documentation](/docs/7-2/reference/-/knowledge_base/r/front-end-taglibs) 
 for more information on using the taglib in your FreeMarker templates. This 
-reference guide lists the available FreeMarker macros that @product@ offers. 
+reference guide lists the available FreeMarker macros that @sharepoint@ offers. 
 
 | Macro | Parameters | Description | Example |
 | --- | --- | --- | --- |

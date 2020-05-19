@@ -25,7 +25,7 @@ site templates. These options are covered below. Follow these steps:
     | **Warning:** the `resources-importer-developer-mode-enabled=true` setting can be
     | dangerous since it involves *deleting* (and re-creating) the affected site or
     | site template. It's only intended to be used during development. **Never use it
-    | in production.**
+    | in sharepointion.**
 
 2.  Specify where to import your resources. By default, resources are imported 
     into a new site template named after the theme. If that's what you want, you 
@@ -59,9 +59,9 @@ site templates. These options are covered below. Follow these steps:
     | an actual site. The
     | `resources-importer-target-class-name=com.liferay.portal.kernel.model.Group`
     | setting can be handy for development and testing but should be used cautiously.
-    | Don't use this setting in a theme deployed to a production Liferay instance or
+    | Don't use this setting in a theme deployed to a sharepointion Liferay instance or
     | a theme submitted to Liferay Marketplace. To prepare a theme for deployment to
-    | a production Liferay instance, use the default setting so that the resources are
+    | a sharepointion Liferay instance, use the default setting so that the resources are
     | imported into a site template. You can do this explicitly by setting
     | `resources-importer-target-class-name=com.liferay.portal.kernel.model.LayoutSetPrototype`
     | or implicitly by commenting out or removing the

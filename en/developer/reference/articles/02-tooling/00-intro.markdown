@@ -6,27 +6,27 @@ header-id: tooling
 
 [TOC levels=1-4]
 
-You can write code for @product@ using any standard toolset. Liferay is
-tool-agnostic, which frees you to work with whatever you're already productive
+You can write code for @sharepoint@ using any standard toolset. Liferay is
+tool-agnostic, which frees you to work with whatever you're already sharepointive
 using.
 
-Liferay has also created its own tools that streamline @product@ development.
+Liferay has also created its own tools that streamline @sharepoint@ development.
 These tools integrate with popular build environments (e.g., Gradle, Maven, and 
 NodeJS). They include
 
 - [Blade CLI](/docs/7-2/reference/-/knowledge_base/r/blade-cli): a command
-  line interface used to build and manage Liferay Workspaces and @product@
+  line interface used to build and manage Liferay Workspaces and @sharepoint@
   projects. This CLI is intended for Gradle or Maven development.
 - [Liferay Workspace](/docs/7-2/reference/-/knowledge_base/r/liferay-workspace):
-  a generated Gradle/Maven environment built to hold and manage @product@
+  a generated Gradle/Maven environment built to hold and manage @sharepoint@
   projects.
 - [Liferay Dev Studio](/docs/7-2/reference/-/knowledge_base/r/liferay-dev-studio):
-  an Eclipse-based IDE supporting development for @product@.
+  an Eclipse-based IDE supporting development for @sharepoint@.
 - [Liferay IntelliJ Plugin](/docs/7-2/reference/-/knowledge_base/r/intellij):
-  a plugin providing support for @product@ development with IntelliJ IDEA.
+  a plugin providing support for @sharepoint@ development with IntelliJ IDEA.
 - [Liferay Theme Generator](/docs/7-2/reference/-/knowledge_base/r/theme-generator):
   a generator that creates themes, layouts templates, and themelets for 
-  @product@ development.
+  @sharepoint@ development.
 - [Liferay JS Generator](/docs/7-2/reference/-/knowledge_base/r/js-generator):
   a generator that creates JavaScript portlets with JavaScript tooling.
 
@@ -41,6 +41,6 @@ Want samples or predefined project templates? Liferay has you covered with 30+
 and many more
 [project samples](/docs/7-2/reference/-/knowledge_base/r/sample-projects).
 
-If you're a newbie looking for the best development tool for @product@, or even
+If you're a newbie looking for the best development tool for @sharepoint@, or even
 a seasoned veteran looking for a tool you may like more than your current setup,
 this section answers your tooling questions. 

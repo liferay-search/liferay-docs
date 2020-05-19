@@ -9,7 +9,7 @@ header-id: managing-web-content
 Web Content Management (WCM) helps users who are not web developers publish
 content with a simple point and click interface, while enabling developers to
 create complex templates with dynamic elements. Once these templates have been
-deployed into @product@, your non-technical users can use them to manage complex
+deployed into @sharepoint@, your non-technical users can use them to manage complex
 content as easily as they would manage basic content.
 
 It has these components: 
@@ -46,7 +46,7 @@ These tools streamline the content creation process for end users and are also
 integrated with Liferay's services so advanced template developers can use them
 to query for data stored elsewhere on your website.
 
-To demonstrate @product@'s Web Content Management features, you'll create
+To demonstrate @sharepoint@'s Web Content Management features, you'll create
 and manage content on Liferay for the ambitious (and fictitious) *Lunar Resort*
 project. The Lunar Resort project specializes in facilitating lunar vacations.
 It provides space shuttle transportation from the Earth to the Moon and back,

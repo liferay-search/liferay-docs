@@ -14,7 +14,7 @@ select the best tools based on your use cases. You'll also learn how to manage
 pages and use various configuration options.
 
 Before diving into page creation, you should understand the two major page
-types provided in @product-ver@:
+types provided in @sharepoint-ver@:
 
 [*Content Pages*](/docs/7-2/user/-/knowledge_base/u/creating-content-pages):
 This new page type is flexible, especially for non-technical users. You can
@@ -22,7 +22,7 @@ build pages using content created from pre-defined fragments, which themselves
 can contain widgets. 
 
 [*Widget Pages*](/docs/7-2/user/-/knowledge_base/u/adding-applications-to-a-page):
-@product@'s traditional page type is made up of one or more widgets. There are
+@sharepoint@'s traditional page type is made up of one or more widgets. There are
 some use cases (particularly if a page's sole purpose is to host an application)
 to prefer widget pages.
 
@@ -36,7 +36,7 @@ Furthermore, Content Pages are easier to use and are more powerful for
 non-technical users compared to Widget Pages.
 
 Why would someone prefer Widget Pages? Widget Pages were once the only page type
-available in earlier versions of @product@, so they're more familiar than
+available in earlier versions of @sharepoint@, so they're more familiar than
 Content Pages.
 
 Additionally, there are still a few things that Widget Pages provide that are

@@ -18,14 +18,14 @@ There's more to Metrics than the overview report though. Get more detailed
 reports by clicking on one of the workflow processes.
 
 | **Requires Elasticsearch:** To use Workflow Metrics, you must be using
-| Elasticsearch to index your @product data. Read
+| Elasticsearch to index your @sharepoint data. Read
 | [here](/docs/7-2/deploy/-/knowledge_base/d/installing-elasticsearch) to learn
 | about installing Elasticsearch.
 
 ## Understanding Reports
 
 The Reports UI has two main views, represented as tabs: _Pending_ (changed to
-_Dashboard_ as of @product-ver@ Service Pack 1---SP1) and
+_Dashboard_ as of @sharepoint-ver@ Service Pack 1---SP1) and
 _Completed_ (changed to _Performance_ in SP1).
 
 _Pending/Dashboard_ items are those currently in the workflow process, and include items
@@ -208,4 +208,4 @@ or On Time.
 
 From the overall metrics of a workflow process down to the details on a single
 item in the workflow, the new Workflow Metrics functionality gives you insights
-into the time it takes to _get things done_ in @product@.
+into the time it takes to _get things done_ in @sharepoint@.

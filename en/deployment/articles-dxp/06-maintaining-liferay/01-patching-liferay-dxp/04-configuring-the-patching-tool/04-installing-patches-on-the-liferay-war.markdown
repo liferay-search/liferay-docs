@@ -2,12 +2,12 @@
 header-id: installing-patches-on-the-liferay-de-war
 ---
 
-# Installing patches on the @product-ver@ WAR
+# Installing patches on the @sharepoint-ver@ WAR
 
 [TOC levels=1-4]
 
 If you
-[installed @product@ manually](/docs/7-1/deploy/-/knowledge_base/d/installing-product-on-tomcat)
+[installed @sharepoint@ manually](/docs/7-1/deploy/-/knowledge_base/d/installing-sharepoint-on-tomcat)
 as a WAR file on a supported application server, you must apply patches to the
 WAR file and supporting files and re-deploy them. This article shows you how to
 do that.
@@ -17,12 +17,12 @@ do that.
 Download the necessary artifacts from the 
 [Customer Portal:](https://customer.liferay.com/downloads)
 
-- @product@ WAR file (`liferay-dxp-[version].war`)
+- @sharepoint@ WAR file (`liferay-dxp-[version].war`)
 - Dependencies ZIP file (`liferay-dxp-dependencies-[version].zip`)
 - OSGi JARs ZIP file (`liferay-dxp-osgi-[version].zip`) 
-- [Latest Patching Tool](https://customer.liferay.com/downloads?p_p_id=com_liferay_osb_customer_downloads_display_web_DownloadsDisplayPortlet&_com_liferay_osb_customer_downloads_display_web_DownloadsDisplayPortlet_productAssetCategoryId=118191019&_com_liferay_osb_customer_downloads_display_web_DownloadsDisplayPortlet_fileTypeAssetCategoryId=118191066)
+- [Latest Patching Tool](https://customer.liferay.com/downloads?p_p_id=com_liferay_osb_customer_downloads_display_web_DownloadsDisplayPortlet&_com_liferay_osb_customer_downloads_display_web_DownloadsDisplayPortlet_sharepointAssetCategoryId=118191019&_com_liferay_osb_customer_downloads_display_web_DownloadsDisplayPortlet_fileTypeAssetCategoryId=118191066)
 
-## Install the patch on the @product@ WAR and artifacts
+## Install the patch on the @sharepoint@ WAR and artifacts
 
 1.  Create an arbitrary folder. Unzip the dependency artifacts and the 
     Patching Tool into it. The folder contents should look like this:
@@ -31,7 +31,7 @@ Download the necessary artifacts from the
         - `liferay-dxp-dependencies-[version]/` &larr; Unzipped Dependencies
         - `osgi/` &larr; Unzipped OSGi JARs
         - `patching-tool/` &larr; Unzipped Patching Tool
-        - `liferay-dxp-[version].war/` &larr; @product@ WAR File
+        - `liferay-dxp-[version].war/` &larr; @sharepoint@ WAR File
 
 2.  Create the default profile configuration file in the Patching Tool folder:
     `patching-home/patching-tool/default.properties`. The contents should look
@@ -64,7 +64,7 @@ module.framework.static.path=/osgi-home/osgi/static
 
 ```bash
 /patching-home/patching-tool> patching-tool info
-Loading product and patch information...
+Loading sharepoint and patch information...
 Product information:
   * installation type: binary
   * build number: 7210
@@ -97,4 +97,4 @@ deployed on any supported Application Server.
 
 [Patching Tool Advanced Configuration](/docs/7-2/deploy/-/knowledge_base/d/patching-tool-advanced-configuration)
 
-[Deploying @product@](/docs/7-2/deploy/-/knowledge_base/d/deploying-product)
+[Deploying @sharepoint@](/docs/7-2/deploy/-/knowledge_base/d/deploying-sharepoint)

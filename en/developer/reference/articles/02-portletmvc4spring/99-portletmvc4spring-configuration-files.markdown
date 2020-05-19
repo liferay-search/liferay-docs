@@ -261,7 +261,7 @@ more developer features. Here's an example:
 This `<portlet/>` element associates an icon with the portlet and indicates
 that name-spaced parameters aren't required. 
 
-The `<role-mapper/>` elements associate the portlet with default @product@ user
+The `<role-mapper/>` elements associate the portlet with default @sharepoint@ user
 roles. 
 
 The
@@ -272,7 +272,7 @@ defines the `liferay-portlet.xml` file.
 
 The `liferay-display.xml` applies display characteristics to the portlet. For
 example, this descriptor associates the portlet with a Widget category in
-@product@'s Add Widget menu. 
+@sharepoint@'s Add Widget menu. 
 
 ```xml
 <?xml version="1.0"?>

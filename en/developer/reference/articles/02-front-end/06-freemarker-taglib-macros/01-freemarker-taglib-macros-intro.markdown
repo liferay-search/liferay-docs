@@ -6,7 +6,7 @@ header-id: freemarker-taglib-macros
 
 [TOC levels=1-4]
 
-@product@'s taglibs are mapped to FreeMarker macros, so you can use them in your 
+@sharepoint@'s taglibs are mapped to FreeMarker macros, so you can use them in your 
 FreeMarker templates. See the 
 [Taglib reference](/docs/7-2/reference/-/knowledge_base/r/front-end-taglibs) 
 for more information on using each taglib in your theme templates. The taglib 
@@ -163,9 +163,9 @@ macros are listed in the table below:
 <td>liferay-adaptive-media.tld</td>
 </tr>
 <tr>
-<td>`liferay_product_navigation`</td>
-<td>liferay-product-navigation</td>
-<td>liferay-product-navigation.tld</td>
+<td>`liferay_sharepoint_navigation`</td>
+<td>liferay-sharepoint-navigation</td>
+<td>liferay-sharepoint-navigation.tld</td>
 </tr>
 </tbody>
 </table>

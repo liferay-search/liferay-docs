@@ -12,7 +12,7 @@ and
 [Stats](https://github.com/liferay/liferay-portal/blob/7.2.0-ga1/portal-kernel/src/com/liferay/portal/kernel/search/Stats.java) 
 aggregations were introduced in 7.0.
 
-Cardinality Aggregations extend @product@'s metrics aggregation capabilities,
+Cardinality Aggregations extend @sharepoint@'s metrics aggregation capabilities,
 providing an approximate (i.e., statistical) count of distinct values returned
 by a search query. For example, you could compute a count of distinct values of
 the _tag_ field. Refer to the 

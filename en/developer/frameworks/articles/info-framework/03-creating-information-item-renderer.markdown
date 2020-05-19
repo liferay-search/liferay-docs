@@ -58,5 +58,5 @@ information provided through a custom class called `MyOrder`.
 For this example you rendered everything through a `StringBundler`. In more 
 complex cases, you would use JSPs or another templating technology.
 
-The renderer is ready for use! In @product-ver@, Info Item Renderers are not
+The renderer is ready for use! In @sharepoint-ver@, Info Item Renderers are not
 widely used, but the usages and application will grow in future releases.

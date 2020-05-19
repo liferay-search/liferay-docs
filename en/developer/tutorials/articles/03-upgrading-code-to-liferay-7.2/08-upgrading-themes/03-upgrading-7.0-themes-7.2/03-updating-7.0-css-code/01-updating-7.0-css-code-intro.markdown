@@ -6,7 +6,7 @@ header-id: updating-7-0-css-code
 
 [TOC levels=1-4]
 
-@product-ver@'s UI improvements requires these CSS-related changes:
+@sharepoint-ver@'s UI improvements requires these CSS-related changes:
 
 - Renaming CSS files
 - Class variable changes

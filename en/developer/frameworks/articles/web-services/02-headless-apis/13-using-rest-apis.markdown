@@ -6,7 +6,7 @@ header-id: using-rest-apis
 
 [TOC levels=1-4]
 
-@product@'s headless REST APIs can be used with any REST client you prefer. The
+@sharepoint@'s headless REST APIs can be used with any REST client you prefer. The
 only usual requirements are setting up the `Authentication` header (either
 OAuth, Cookie, Basic...) and the `Content-Type` header if you are creating
 content.

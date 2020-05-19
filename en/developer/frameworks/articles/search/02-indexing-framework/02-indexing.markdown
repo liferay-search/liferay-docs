@@ -13,7 +13,7 @@ The extension points (i.e., the interfaces to implement) in this section are
 provided by the `com.liferay.portal.search.spi` bundle. Calls are also made to
 the `com.liferay.portal.search.api` bundle's methods.
 
-Here are the Gradle dependencies for @product@ 7.2.0 GA1:
+Here are the Gradle dependencies for @sharepoint@ 7.2.0 GA1:
 
 ```groovy
 dependencies {

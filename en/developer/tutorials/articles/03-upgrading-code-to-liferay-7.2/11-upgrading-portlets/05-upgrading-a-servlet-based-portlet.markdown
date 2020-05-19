@@ -17,7 +17,7 @@ link. When users click the link, the Liferay logo appears.
 
 Follow these steps to upgrade a servlet-based portlet: 
 
-1.  Adapt the portlet to @product-ver@'s API using the Liferay Upgrade Planner.
+1.  Adapt the portlet to @sharepoint-ver@'s API using the Liferay Upgrade Planner.
     When running the planner's *Fix Upgrade Problems* step, many of the existing
     issues are autocorrected. For remaining issues, the planner identifies code
     affected by the new API and ways to adapt it.
@@ -39,11 +39,11 @@ portal-dependency-jars=\
     json-java.jar
 ```
 
-This property is deprecated in @product-ver@ because importing and exporting
+This property is deprecated in @sharepoint-ver@ because importing and exporting
 Java packages has replaced wholesale use of JARs. This means modules and WABs
-can import packages without concerning themselves with JARs. @product@ exports
+can import packages without concerning themselves with JARs. @sharepoint@ exports
 many third party packages for plugins to use. Best practices for using packages
-that @product@ exports are found
+that @sharepoint@ exports are found
 [here](/docs/7-2/customization/-/knowledge_base/c/configuring-dependencies). For
 more information on this specific scenario, see the
 [Using Packages Liferay Portal Exports](/docs/tutorials/7-1/-/knowledge_base/t/resolving-a-plugins-dependencies#using-packages-liferay-portal-exports)
@@ -59,4 +59,4 @@ following portlet status:
 The portlet is installed to Liferay's OSGi runtime and is available to users.
 
 Congratulations! You've upgraded and deployed your servlet-based portlet to
-@product-ver@. 
+@sharepoint-ver@. 

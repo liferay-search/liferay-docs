@@ -13,7 +13,7 @@ may want to increase the limit on how many you can cache.
 
 Liferay's cache configuration framework uses
 [Ehcache](https://www.ehcache.org/).
-It's an independent framework used by @product@'s data access and template
+It's an independent framework used by @sharepoint@'s data access and template
 engine components. It manages two pools: 
 
 **Multi-VM:** Cache is replicated among cluster nodes. `EntityCache` and 
@@ -35,7 +35,7 @@ Start learning the Liferay cache configuration basics here.
 
 ## Cache Types
 
-You can cache any classes you like. Conveniently, @product@ caches
+You can cache any classes you like. Conveniently, @sharepoint@ caches
 [service entities](/docs/7-2/appdev/-/knowledge_base/a/defining-service-entities)
 and
 [service entity finder results](/docs/7-2/appdev/-/knowledge_base/a/defining-service-entity-finder-methods)
@@ -59,7 +59,7 @@ finder parameters. An entity's `fetchByValue`, `findByValue`, `countByValue`,
 
 ## Cache Configuration
 
-@product@ designates separate cache configurations for multi-VM and single-VM
+@sharepoint@ designates separate cache configurations for multi-VM and single-VM
 environments. Default `EntityCache` and `FinderCache` are specified
 programmatically, while Liferay's global cache configuration and custom cache
 configurations are specified via files. All configurations adhere to the
@@ -89,7 +89,7 @@ Modules can configure (add or override) cache using configuration files in their
 -   `module-multi-vm.xml`: Maps to the multi-VM cache manager.
 -   `module-single-vm.xml`: Maps to the single-VM cache manager.
 
-For example, the @product@ Web Experience suite's `com.liferay.journal.service`
+For example, the @sharepoint@ Web Experience suite's `com.liferay.journal.service`
 module uses the following
 [`module-multi-vm.xml`](https://github.com/liferay/liferay-portal/blob/master/modules/apps/journal/journal-service/src/main/resources/META-INF/module-multi-vm.xml)
 to create a cache named `com.liferay.journal.util.JournalContent` in the

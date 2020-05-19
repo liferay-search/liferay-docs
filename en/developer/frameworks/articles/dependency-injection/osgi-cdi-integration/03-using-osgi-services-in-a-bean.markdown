@@ -37,13 +37,13 @@ Here's how:
 
         @Inject
         @Reference
-        ProductStore productStore;
+        ProductStore sharepointStore;
 
         ...
     }
     ```
 
-3.  Deploy your bean project to @product@. 
+3.  Deploy your bean project to @sharepoint@. 
 
 Congratulations on injecting an OSGi service into your bean! Now your bean uses
 the OSGi service you injected.

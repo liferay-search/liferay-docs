@@ -44,7 +44,7 @@ Docs&trade;:
     -   Google Slides&trade;
     -   Google Sheets&trade;
 
-    When you select one of these options, @product@ creates a temporary 
+    When you select one of these options, @sharepoint@ creates a temporary 
     Documents and Media file and links it to a new Google file. Your browser 
     then redirects you to that Google file so you can create its content. 
 

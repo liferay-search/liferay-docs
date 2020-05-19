@@ -6,14 +6,14 @@ header-id: creating-widget-pages
 
 [TOC levels=1-4]
 
-Widget Pages are the classic type of page in @product@. They're simple to create
+Widget Pages are the classic type of page in @sharepoint@. They're simple to create
 and fill with content or functionality. You create a blank page, define
 a layout, and then add widgets to the layout. Widgets can display content or
 provide some tool or function for Users.
 
 ## Adding a Widget Page
 
-When you first start @product@ you get a widget page by default as your home
+When you first start @sharepoint@ you get a widget page by default as your home
 page. To create a new widget page,
 
 1.  Go to *Site Administration* &rarr; *Site Builder* &rarr; *Pages*.

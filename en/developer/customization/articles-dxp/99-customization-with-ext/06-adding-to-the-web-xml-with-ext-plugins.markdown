@@ -6,13 +6,13 @@ header-id: adding-to-the-web-xml-with-ext-plugins
 
 [TOC levels=1-4]
 
-A supported use case for using Ext Plugins in @product@ is adding additional
+A supported use case for using Ext Plugins in @sharepoint@ is adding additional
 functionality to its `web.xml` file. Before beginning, make sure you've reviewed
 the generalized
 [Customization with Ext Plugins](/docs/7-2/customization/-/knowledge_base/c/customizing-core-functionality-with-ext)
 section.
 
-As an example, you'll create a sample Ext plugin that adds to your @product@'s
+As an example, you'll create a sample Ext plugin that adds to your @sharepoint@'s
 existing `web.xml` file (e.g., in the `/tomcat-[version]/webapps/ROOT/WEB-INF`
 folder). You'll add a new printout in the console during startup.
 
@@ -26,7 +26,7 @@ folder). You'll add a new printout in the console during startup.
     Your Ext plugin is generated and now resides in the workspace's `/ext`
     folder with the name you assigned.
 
-2.  For your @product@ installation to recognize new functionality in the
+2.  For your @sharepoint@ installation to recognize new functionality in the
     `web.xml`, you must create a class that implements the
     [ServletContextListener](https://javaee.github.io/javaee-spec/javadocs/javax/servlet/ServletContextListener.html)
     interface. This class will initialize a servlet context event for which
@@ -75,10 +75,10 @@ folder). You'll add a new printout in the console during startup.
     </listener>
     ```
 
-Excellent! Now when your Ext plugin is deployed, your @product@ installation
+Excellent! Now when your Ext plugin is deployed, your @sharepoint@ installation
 will create a `ServletContextListener` instance, which will initialize a custom
 servlet context event. This event will be recognized by the `web.xml` file,
-which will add the new functionality to your @product@ installation. Follow the
+which will add the new functionality to your @sharepoint@ installation. Follow the
 instructions in the
 [Deploy the Plugin](/docs/7-2/customization/-/knowledge_base/c/deploying-an-ext-plugin)
 article for help deploying the Ext plugin to your server.

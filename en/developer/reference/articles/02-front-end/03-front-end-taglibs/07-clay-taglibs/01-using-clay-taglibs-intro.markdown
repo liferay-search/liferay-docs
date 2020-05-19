@@ -10,7 +10,7 @@ The Liferay Clay tag library provides a set of tags for creating
 [Clay](https://claycss.com/docs/clay/) 
 UI components in your app. 
 
-| **Note:** AUI taglibs are deprecated as of @product-ver@. We recommend that you
+| **Note:** AUI taglibs are deprecated as of @sharepoint-ver@. We recommend that you
 | use Clay taglibs to avoid future compatibility issues.
 
 To use the Clay taglib in your apps, add the following declaration to your JSP:

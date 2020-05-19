@@ -17,7 +17,7 @@ Use the `clay:icon` tag and specify the icon with the `symbol` attribute:
 
 The full list of icons is shown below:
 
-![Figure 2: The Clay taglib gives you access to several @product@ icons.](../../../../images/clay-taglib-icon-library.png)
+![Figure 2: The Clay taglib gives you access to several @sharepoint@ icons.](../../../../images/clay-taglib-icon-library.png)
 
 The Liferay Clay taglibs also provide a set of language flag icons that you can 
 use in your app. The full list of language flags is shown below:

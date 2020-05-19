@@ -7,14 +7,14 @@ header-id: customizing-jsps
 [TOC levels=1-4]
 
 There are several different ways to customize JSPs in portlets and the core. 
-@product@'s API provides the safest ways to customize them. If you customize a 
+@sharepoint@'s API provides the safest ways to customize them. If you customize a 
 JSP by other means, new versions of the JSP can render your customization 
 invalid and leave you with runtime errors. It's highly recommended to use one of 
 the API-based ways. 
 
-## Using @product@'s API to Override a JSP
+## Using @sharepoint@'s API to Override a JSP
 
-Here are API-based approaches to overriding JSPs in @product@:
+Here are API-based approaches to overriding JSPs in @sharepoint@:
 
  **Approach** | **Description** | **Cons/Limitations** |
  :----------- | :-------------- | :-------------- |
@@ -22,12 +22,12 @@ Here are API-based approaches to overriding JSPs in @product@:
 [Portlet filters](/docs/7-2/customization/-/knowledge_base/c/jsp-overrides-using-portlet-filters) | Modifies portlet requests and/or responses to simulate a JSP customization. | Although this approach doesn't directly customize a JSP, it achieves the effect of a JSP customization. |
 
 <!-- TODO - Include inlined content approach after getting more info. - Jim
-Inlined content | Some @product@ JSPs include content from other JSPs that you can modify. This "inlines" the content from the other JSPs into specific places in the root JSP. | Limited to JSPs that inline other JSPs. |
+Inlined content | Some @sharepoint@ JSPs include content from other JSPs that you can modify. This "inlines" the content from the other JSPs into specific places in the root JSP. | Limited to JSPs that inline other JSPs. |
 -->
 
-## Overriding a JSP Without Using @product@'s API
+## Overriding a JSP Without Using @sharepoint@'s API
 
-It's strongly recommended to customize JSPs using @product@'s API, as the 
+It's strongly recommended to customize JSPs using @sharepoint@'s API, as the 
 previous section describes. Since overriding a JSP using an OSGi fragment or a 
 Custom JSP Bag is not based on APIs there's no way to guarantee that they'll 
 fail gracefully. Instead, if your customization is buggy (because of your code 
@@ -39,12 +39,12 @@ If you're maintaining a JSP customization that uses one of these approaches, you
 should know how they work. This section describes them and links to their 
 tutorials. 
 
-Here are ways to customize JSPs without using @product@'s API:
+Here are ways to customize JSPs without using @sharepoint@'s API:
 
  **Approach** | **Description** | **Cons/Limitations** |
  :----------- | :-------------- | :-------------- |
 [OSGi fragment](/docs/7-2/customization/-/knowledge_base/c/jsp-overrides-using-osgi-fragments) | Completely overrides a module's JSP using an OSGi fragment | Changes to the original JSP or module can cause runtime errors. |
-[Custom JSP bag](/docs/7-2/customization/-/knowledge_base/c/jsp-overrides-using-custom-jsp-bag) | Completely override a @product@ core JSP or one of its corresponding `-ext.jsp` files. | For @product@ core JSPs only. Changes to the original JSP or module can cause runtime errors. |
+[Custom JSP bag](/docs/7-2/customization/-/knowledge_base/c/jsp-overrides-using-custom-jsp-bag) | Completely override a @sharepoint@ core JSP or one of its corresponding `-ext.jsp` files. | For @sharepoint@ core JSPs only. Changes to the original JSP or module can cause runtime errors. |
 
 All the JSP customization approaches are available to you. It's time to 
 customize some JSPs! 

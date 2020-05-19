@@ -42,24 +42,24 @@ to define information about your entry.
     @Component(
         immediate = true,
         property = {
-            "product.navigation.control.menu.category.key=" + [Control Menu Category],
-            "product.navigation.control.menu.category.order:Integer=[int]"
+            "sharepoint.navigation.control.menu.category.key=" + [Control Menu Category],
+            "sharepoint.navigation.control.menu.category.order:Integer=[int]"
         },
         service = ProductNavigationControlMenuEntry.class
     )
     ```
 
-    The `product.navigation.control.menu.category.key` property specifies your
+    The `sharepoint.navigation.control.menu.category.key` property specifies your
     entry's category. The default Control Menu provides three categories: Sites
     (left portion), Tools (middle portion), and User (right portion).
 
     To specify the category, reference the appropriate key in the
-    [ProductNavigationControlMenuCategoryKeys](@app-ref@/product-navigation/latest/javadocs/com/liferay/product/navigation/control/menu/constants/ProductNavigationControlMenuCategoryKeys.html)
+    [ProductNavigationControlMenuCategoryKeys](@app-ref@/sharepoint-navigation/latest/javadocs/com/liferay/sharepoint/navigation/control/menu/constants/ProductNavigationControlMenuCategoryKeys.html)
     class. For example, this property places your entry in the middle portion of
     the Control Menu:
 
     ```java
-    "product.navigation.control.menu.category.key=" + ProductNavigationControlMenuCategoryKeys.TOOLS
+    "sharepoint.navigation.control.menu.category.key=" + ProductNavigationControlMenuCategoryKeys.TOOLS
     ```
 
     Like Panel Categories, you must specify an integer to place your entry in
@@ -71,11 +71,11 @@ to define information about your entry.
     Finally, your `service` element should specify the
     `ProductNavigationControlMenuEntry.class` service.
 
-2.  Implement the [`ProductNavigationControlMenuEntry`](@app-ref@/product-navigation/latest/javadocs/com/liferay/product/navigation/control/menu/ProductNavigationControlMenuEntry.html)
+2.  Implement the [`ProductNavigationControlMenuEntry`](@app-ref@/sharepoint-navigation/latest/javadocs/com/liferay/sharepoint/navigation/control/menu/ProductNavigationControlMenuEntry.html)
     interface. You can also extend the
-    [`BaseProductNavigationControlMenuEntry`](@app-ref@/product-navigation/latest/javadocs/com/liferay/product/navigation/control/menu/BaseProductNavigationControlMenuEntry.html)
+    [`BaseProductNavigationControlMenuEntry`](@app-ref@/sharepoint-navigation/latest/javadocs/com/liferay/sharepoint/navigation/control/menu/BaseProductNavigationControlMenuEntry.html)
     or
-    [`BaseJSPProductNavigationControlMenuEntry`](@app-ref@/product-navigation/latest/javadocs/com/liferay/product/navigation/control/menu/BaseJSPProductNavigationControlMenuEntry.html)
+    [`BaseJSPProductNavigationControlMenuEntry`](@app-ref@/sharepoint-navigation/latest/javadocs/com/liferay/sharepoint/navigation/control/menu/BaseJSPProductNavigationControlMenuEntry.html)
     abstract classes. See the
     [Customizing the Control Menu](/docs/7-2/customization/-/knowledge_base/c/customizing-the-control-menu)
     article for more information on these classes.

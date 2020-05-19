@@ -19,7 +19,7 @@ business logic of the services published from your application's service module.
 The services, in turn, access the data model using the persistence layer's
 finder classes.
 
-| **Note:** In previous versions of @product@, your finder methods were
+| **Note:** In previous versions of @sharepoint@, your finder methods were
 | accessible via `*FinderUtil` utility classes. Finder methods are now injected
 | into your app's local services, removing the need to call finder utilities.
 

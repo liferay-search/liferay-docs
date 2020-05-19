@@ -6,7 +6,7 @@ header-id: developing-a-fragment-renderer
 
 [TOC levels=1-4]
 
-When creating Fragments through @product@'s provided UI, you're given three
+When creating Fragments through @sharepoint@'s provided UI, you're given three
 front-end languages to leverage: CSS, HTML, and JavaScript. Although you can
 harness a lot of power with these languages alone, they do not provide an easy
 way to retrieve and process information from the database or third party

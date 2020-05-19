@@ -2,57 +2,57 @@
 header-id: backing-up-a-liferay-installation
 ---
 
-# Backing up a @product@ Installation
+# Backing up a @sharepoint@ Installation
 
 [TOC levels=1-4]
 
-Once you have an installation of @product@ running, you should implement a
+Once you have an installation of @sharepoint@ running, you should implement a
 comprehensive backup plan. In case some kind of catastrophic hardware failure
 occurs, you'll be thankful to have backups and procedures for restoring
-@product@ from one of them. @product@ isn't very different from other Java web
+@sharepoint@ from one of them. @sharepoint@ isn't very different from other Java web
 applications that might be running on your application server. Nevertheless,
 there are some specific components you should include in your backup plan.
 
 The recommended backup plan includes backing up these things:
 
 -   Source code
--   @product@'s file System
--   @product@'s database
+-   @sharepoint@'s file System
+-   @sharepoint@'s database
 
 ## Backing up Source Code
 
-If you have extended @product@ or have written any plugins, they should be
+If you have extended @sharepoint@ or have written any plugins, they should be
 stored in a source code repository such as Git, Subversion, or CVS, unless
 you're Linus Torvalds, and then tarballs are okay too (that's a joke). You
 should back up your source code repository on a regular basis to preserve your
 ongoing work. This probably goes without saying in your organization since
 nobody wants to lose source code that's taken months to produce. Thus you should
-include source code in your @product@ backup plan.
+include source code in your @sharepoint@ backup plan.
 
-Next, let's examine the @product@ installation items you should back up.
+Next, let's examine the @sharepoint@ installation items you should back up.
 
-## Backing up @product@'s File System
+## Backing up @sharepoint@'s File System
 
 The
 [Liferay Home folder](/docs/7-2/deploy/-/knowledge_base/d/liferay-home)
-stores @product@'s properties configuration files, such as `portal-setup-
+stores @sharepoint@'s properties configuration files, such as `portal-setup-
 wizard.properties` and `portal-ext.properties`. You should absolutely back them
 up. In fact, it's best to back up your entire application server and Liferay
 Home folder contents.
 
-@product@ stores configuration files, search indexes, and cache information in
+@sharepoint@ stores configuration files, search indexes, and cache information in
 Liferay Home's `/data` folder. If you're using the File System store or the
 Advanced File System store, the documents and media repository is also stored
 here by default. It's always important to back up your `/data` folder.
 
-The files that comprise @product@'s OSGi runtime are stored in Liferay Home's
+The files that comprise @sharepoint@'s OSGi runtime are stored in Liferay Home's
 `/osgi` folder. It contains all of the app and module JAR files deployed to
-@product@. The `/osgi` folder also contains other required JAR files,
+@sharepoint@. The `/osgi` folder also contains other required JAR files,
 configuration files, and log files. It's also important to back up your `/osgi`
 folder.
 
-Liferay Home's `/logs` folder contains @product@'s log files. If a problem
-occurs on @product@, the @product@ log files often provide valuable information
+Liferay Home's `/logs` folder contains @sharepoint@'s log files. If a problem
+occurs on @sharepoint@, the @sharepoint@ log files often provide valuable information
 for determining what went wrong. The `/data`, `/osgi`, and `/logs` folders are
 all contained in the Liferay Home folder. Thus, if you're backing up both your
 application server folder and your Liferay Home folder, you're in good shape.
@@ -60,12 +60,12 @@ application server folder and your Liferay Home folder, you're in good shape.
 Remember that if you've configured the document library to store files to a
 location other than the default location, you should also back up that location.
 
-That covers the @product@ file system locations you should back up. Next, let's
-discuss how to back up @product@'s database.
+That covers the @sharepoint@ file system locations you should back up. Next, let's
+discuss how to back up @sharepoint@'s database.
 
-## Backing up @product@'s Database
+## Backing up @sharepoint@'s Database
 
-@product@'s database is the central repository for all of the portal's
+@sharepoint@'s database is the central repository for all of the portal's
 information. It's the most important component to back up. You can back up the
 database live (if your database allows this) or by exporting (dumping) the
 database into a file and then backing up the exported file. For example, MySQL
@@ -74,10 +74,10 @@ data into a large SQL file. This file can then be backed up. On restoring the
 database you can import this file into the database to recreate the database
 state to that of the time you exported the database.
 
-If you're storing @product@'s Documents and Media Library files to a Jackrabbit
+If you're storing @sharepoint@'s Documents and Media Library files to a Jackrabbit
 JSR-170 repository database, you should back it up. If you've placed your search
 index into a database (not recommended; see the
-[@product@ Clustering](/docs/7-2/deploy/-/knowledge_base/d/liferay-clustering) 
+[@sharepoint@ Clustering](/docs/7-2/deploy/-/knowledge_base/d/liferay-clustering) 
 article for information on using Cluster Link or Solr), you should back up that
 database too. 
 

@@ -66,7 +66,7 @@ explanations of the subfolders:
 
 - `main/webapp/WEB-INF/ext-web/docroot`: Contains the web application's
   configuration files, including `WEB-INF/struts-config-ext.xml`, which lets you
-  customize Liferay's core struts classes. Note that for @product-ver@, there
+  customize Liferay's core struts classes. Note that for @sharepoint-ver@, there
   are very few entities left to override in the `struts-config.xml` file. Any
   JSPs that you're customizing also belong here. 
 
@@ -84,30 +84,30 @@ significant files:
     - `liferay-portlet-ext.xml`: This file is similar to `portlet-ext.xml`, but
      is for additional definition elements specific to Liferay. The
      `liferay-portlet.xml` file contains very few definition elements in
-     @product-ver@ because portlets were modularized and moved out of core. To
+     @sharepoint-ver@ because portlets were modularized and moved out of core. To
      override the remaining definition elements, copy the complete definition of
      the desired portlet from `liferay-portlet.xml` in Liferay's source code,
      then apply the necessary changes.
 
     - `portlet-ext.xml`: Used to overwrite the definition of a build-in portlet.
      The `portlet.xml` file contains very few portlet configurations in
-     @product-ver@ because portlets were modularized and moved out of core. To
+     @sharepoint-ver@ because portlets were modularized and moved out of core. To
      override this file, copy the complete definition of the desired portlet
      from `portlet-custom.xml` in Liferay's source code, then apply the
      necessary changes.
 
     - `struts-config-ext.xml` and `tiles-defs-ext.xml`: These files are used to
      customize the struts actions used by core portlets. Since most portlets
-     were modularized and moved out of core in @product-ver@, the
+     were modularized and moved out of core in @sharepoint-ver@, the
      `struts-config.xml` and `tiles-defs.xml` files are sparsely used.
 
     - `web.xml`: Used to overwrite web application configurations and servlet
-     information for @product-ver@.
+     information for @sharepoint-ver@.
 
 | **Note:** After creating an Ext plugin, remove the files from
 | `docroot/WEB-INF/ext-web/docroot/WEB-INF` that you don't need to customize.
 | Removing files you're not customizing prevents incompatibilities that could
-| manifest from @product@ updates.
+| manifest from @sharepoint@ updates.
 
 Great! Now you're familiar with an Ext plugin's folder structure and its most
 significant files.

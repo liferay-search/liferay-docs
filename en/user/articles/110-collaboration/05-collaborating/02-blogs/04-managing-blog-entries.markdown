@@ -8,7 +8,7 @@ header-id: managing-blog-entries
 
 The Blogs app in Site Administration helps bloggers and blog administrators 
 manage blog entries. To access this app, click the Menu button 
-(![Menu](../../../../images/icon-menu.png)) to open the product menu, then 
+(![Menu](../../../../images/icon-menu.png)) to open the sharepoint menu, then 
 expand the menu for your site and select *Content & Data* &rarr; *Blogs*. The 
 *Entries* tab is selected by default, which lists the site's blog entries. 
 

@@ -38,7 +38,7 @@ Site to different members. This can be done through *Site Roles*, which are
 defined equally for all Sites or *Teams* which are unique for each Site. These
 concepts are discussed later.
 
-@product@ separates Site-scoped information from the Control Panel by placing it
+@sharepoint@ separates Site-scoped information from the Control Panel by placing it
 in the Site menu. From this menu, you can select the specific Site to work on.
 The Site Administration panel is available for your Site, which includes Build,
 Content, Categorization, Recycle Bin, Members, Configuration, and Publishing.

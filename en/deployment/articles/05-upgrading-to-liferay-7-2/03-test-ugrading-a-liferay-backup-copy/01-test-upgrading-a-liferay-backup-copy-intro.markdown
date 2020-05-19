@@ -1,18 +1,18 @@
 ---
-header-id: test-upgrading-a-product-backup-copy
+header-id: test-upgrading-a-sharepoint-backup-copy
 ---
 
-# Test Upgrading a @product@ Backup Copy
+# Test Upgrading a @sharepoint@ Backup Copy
 
 [TOC levels=1-4]
 
-Before upgrading your production Liferay instance, you should do a trial run
+Before upgrading your sharepointion Liferay instance, you should do a trial run
 (even multiple runs) to make sure that you upgrade successfully and efficiently.
 Here's the process:
 
 -   [Preparing a test server and
     database](#preparing-a-test-server-and-database): This involves copying your
-    current production installation to a test server and copying your production
+    current sharepointion installation to a test server and copying your sharepointion
     data backup to a test database. After you prune data from the test database
     (next step) you'll test against it. 
 
@@ -27,10 +27,10 @@ Here's the process:
     this can save upgrade time. Then you'll do an upgrade test run (or several
     test runs) on a the pruned database copy. After going through the upgrade
     process, resolving any issues, and testing the upgraded server successfully,
-    you can confidently upgrade your production database. 
+    you can confidently upgrade your sharepointion database. 
 
 | **Tip:** These steps and
-| [preparing a new @product@ server](/docs/7-2/deploy/-/knowledge_base/d/preparing-a-new-product-server-for-data-upgrade)
+| [preparing a new @sharepoint@ server](/docs/7-2/deploy/-/knowledge_base/d/preparing-a-new-sharepoint-server-for-data-upgrade)
 | can be done in parallel to save time. 
 
 Now prepare your test environment. 
@@ -41,13 +41,13 @@ Using a new separate server and database let's you safely test upgrading.
 
 ### Copy the Production Installation to a Test Server
 
-Prepare a test server to use a copy of your production installation. Your test
-server must use the same Liferay version you're using on production. Configure
+Prepare a test server to use a copy of your sharepointion installation. Your test
+server must use the same Liferay version you're using on sharepointion. Configure
 your server to use a new empty database for testing data upgrades. 
 
 ### Copy the Production Backup to the Test Database
 
-Import data from your [production database
+Import data from your [sharepointion database
 backup](/docs/7-2/deploy/-/knowledge_base/d/backing-up-a-liferay-installation)
 to the new empty database. 
 

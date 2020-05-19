@@ -24,7 +24,7 @@ and it requires the fewest files and steps.
 | **Warning:** If your Service Builder services require nested transactions, 
 | using an external data source may not be appropriate for you. Transactions
 | between separate data sources cannot be fully nested. Rollbacks may not
-| propagate between a module that uses an external data source and @product@
+| propagate between a module that uses an external data source and @sharepoint@
 | services (or another app's services) that use a different data source. 
 
 Here are the steps:

@@ -96,7 +96,7 @@ Roles that should create and manage display templates.
 
 This is done by creating a `default.xml` file in your portlet defining the
 permissions you want to enforce, wiring it up with your portlet, and
-configuring them for use in @product@. You can visit
+configuring them for use in @sharepoint@. You can visit
 [this article](/docs/7-2/customization/-/knowledge_base/c/implementing-widget-templates)
 for step-by-step instructions on how to complete this.
 
@@ -135,7 +135,7 @@ practices you can use to optimize your portlet's performance and security.
  
 First let's talk about security. You may want to hide some classes or packages
 from the template context to limit the operations that Widget Templates can
-perform. @product@ provides some system settings, which can be accessed by
+perform. @sharepoint@ provides some system settings, which can be accessed by
 navigating to *Control Panel* &rarr; *Configuration* &rarr; *System Settings*
 &rarr; *Template Engines* &rarr; *FreeMarker Engine*, to define the restricted
 classes, packages, and variables. In particular, you may want to add
@@ -148,7 +148,7 @@ minimal as possible by focusing on their presentation, while using the existing
 API for complex operations. The best way to make Widget Templates efficient is
 to know your template context well, and understand what you can use from it.
 Fortunately, you don't need to memorize the context information, thanks to
-@product@'s advanced template editor!
+@sharepoint@'s advanced template editor!
 
 To navigate to the template editor for Widget Templates, go to the Site Admin
 menu and select *Configuration* &rarr; *Widget Templates* and then click *Add*

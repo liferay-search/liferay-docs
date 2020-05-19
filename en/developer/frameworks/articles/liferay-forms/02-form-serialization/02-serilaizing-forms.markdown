@@ -63,7 +63,7 @@ do:
 
 All these are done in the default form serializer, `DDMFormJSONSerializer`.
 
-If you have the @product@ source code, you can find the default serializer in
+If you have the @sharepoint@ source code, you can find the default serializer in
 
     modules/apps/dynamic-data-mapping/dynamic-data-mapping-io/src/main/java/com/liferay/dynamic/data/mapping/io/internal/DDMFormJSONSerializer.java
 

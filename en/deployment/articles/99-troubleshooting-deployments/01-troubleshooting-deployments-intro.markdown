@@ -25,14 +25,14 @@ Click a question to view the answer.
 <div class="ldn-faq-question">
   <span class="ldn-faq-toggle-button" data-show="false" style="font-weight: normal;">How can I use files to configure components?&nbsp;<span class="icon-caret-right" style="pointer-events:none;"></span></span>
   <div class="hide">  
-    <p>See <a href="/docs/7-2/deploy/-/knowledge_base/d/using-files-to-configure-product-modules">Using Files to Configure Module Components</a>. </p>
+    <p>See <a href="/docs/7-2/deploy/-/knowledge_base/d/using-files-to-configure-sharepoint-modules">Using Files to Configure Module Components</a>. </p>
   </div>
 </div>
 
 <br/>
 <div class="ldn-faq-question">
-  <span class="ldn-faq-toggle-button" data-show="false" style="font-weight: normal;">The application server and database started, but @product@ failed to connect to the database. What happened and how can I fix this?&nbsp;<span class="icon-caret-right" style="pointer-events:none;"></span></span>
+  <span class="ldn-faq-toggle-button" data-show="false" style="font-weight: normal;">The application server and database started, but @sharepoint@ failed to connect to the database. What happened and how can I fix this?&nbsp;<span class="icon-caret-right" style="pointer-events:none;"></span></span>
   <div class="hide">  
-    <p>@product@ initialization can fail while attempting to connect to a database server that isn't ready. <a href="/docs/7-2/deploy/-/knowledge_base/d/portal-failed-to-initialize-because-the-database-wasnt-ready">Configuring startup to retry JDBC connections</a> facilitates connecting @product@ to databases. </p>
+    <p>@sharepoint@ initialization can fail while attempting to connect to a database server that isn't ready. <a href="/docs/7-2/deploy/-/knowledge_base/d/portal-failed-to-initialize-because-the-database-wasnt-ready">Configuring startup to retry JDBC connections</a> facilitates connecting @sharepoint@ to databases. </p>
   </div>
 </div>

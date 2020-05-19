@@ -6,7 +6,7 @@ header-id: upgrading-7-1-themes-to-7-2
 
 [TOC levels=1-4]
 
-You can upgrade a Liferay Portal 7.1 theme to @product-ver@, regardless of the
+You can upgrade a Liferay Portal 7.1 theme to @sharepoint-ver@, regardless of the
 development environment you use. This tutorial uses the Liferay JS Theme 
 Toolkit's Gulp `upgrade` task to automate much of the steps. This requires 
 v9.x.x of the Liferay Theme Generator and liferay theme tasks. 
@@ -49,4 +49,4 @@ Follow these steps to upgrade the theme:
 5.  Run `gulp init` from the theme's root directory to update the path of the 
     app server to point to the new 7.2 app server. 
 
-There you have it! The theme is ready to run on @product-ver@. 
+There you have it! The theme is ready to run on @sharepoint-ver@. 

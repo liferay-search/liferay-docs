@@ -16,7 +16,7 @@ It's recommended to create and develop your Ext module in a
 [Liferay Workspace](/docs/7-2/reference/-/knowledge_base/r/liferay-workspace).
 Workspace is preconfigured with an `ext` folder, which applies important
 settings (via the `LiferayOSGiExtPlugin`) to your Ext module when it's deployed
-to @product@. You'll learn more about this in the next section.
+to @sharepoint@. You'll learn more about this in the next section.
 
 You can also create an Ext module leveraging the `modules-ext` project template
 in Dev Studio or IntelliJ. 
@@ -64,4 +64,4 @@ To create an Ext module in IntelliJ,
 
 Great! You know how to create an Ext module and are familiar with its folder
 structure and most significant files. Next, you'll learn how to develop your Ext
-module to customize @product@. 
+module to customize @sharepoint@. 

@@ -11,13 +11,13 @@ how Java works to write one. This can be quite the hurdle for front-end
 developers who want to use JavaScript frameworks in their widgets. Thanks to 
 the Liferay JS Generator and 
 [liferay-npm-bundler](/docs/7-2/reference/-/knowledge_base/r/liferay-npm-bundler), 
-developers can easily create and develop JavaScript widgets in @product@ using 
+developers can easily create and develop JavaScript widgets in @sharepoint@ using 
 pure JavaScript tooling. The Liferay JS Generator generates JavaScript widgets 
-for @product@. It is just one of Liferay JS Toolkit's 
+for @sharepoint@. It is just one of Liferay JS Toolkit's 
 [tools](https://github.com/liferay/liferay-npm-build-tools/tree/master/packages). 
 
 | **Note:** To use the Liferay JS Generator, you must have the Liferay JS 
-| Portlet Extender activated in your @product@ instance. It's activated by 
+| Portlet Extender activated in your @sharepoint@ instance. It's activated by 
 | default. You can confirm this by opening the Control Menu, navigating to the 
 | *App Manager*, and searching for `com.liferay.frontend.js.portlet.extender`. 
 

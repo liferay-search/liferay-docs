@@ -10,7 +10,7 @@ header-id: upgrading-service-builder
     <p id="stepTitle">Upgrading Frameworks and Features</p><p>Step 3 of 4</p>
 </div>
 
-@product-ver@ continues to use 
+@sharepoint-ver@ continues to use 
 [Service Builder](/docs/7-2/appdev/-/knowledge_base/a/service-builder), so
 you can focus on your application's business logic instead of its persistence
 details. It still generates model classes, local and remote services, and
@@ -18,15 +18,15 @@ persistence.
 
 Upgrading most Service Builder portlets involves these steps: 
 
-1.  [Adapt the code to @product-ver@'s API](#step-1-adapt-the-code-to-product-vers-api)
+1.  [Adapt the code to @sharepoint-ver@'s API](#step-1-adapt-the-code-to-sharepoint-vers-api)
 2.  [Resolve dependencies](#step-2-resolve-dependencies)
 3.  [Build the services](#step-3-build-the-services)
 
 Start by adapting the code. 
 
-## Step 1: Adapt the Code to @product-ver@'s API
+## Step 1: Adapt the Code to @sharepoint-ver@'s API
 
-Adapt the portlet to @product-ver@'s API using the Upgrade Planner. When
+Adapt the portlet to @sharepoint-ver@'s API using the Upgrade Planner. When
 running the planner's *Fix Upgrade Problems* step, many of the existing issues
 are autocorrected. For remaining issues, the planner identifies code affected by
 the new API and ways to adapt it.
@@ -38,7 +38,7 @@ For example, consider an example portlet with the following compilation error:
 ```
 
 The `view.jsp` file specifies a tag library attribute `total` that doesn't exist
-in @product-ver@'s `liferay-ui` tag library. Notice the second attribute
+in @sharepoint-ver@'s `liferay-ui` tag library. Notice the second attribute
 `total`. 
 
 ```markup
@@ -92,7 +92,7 @@ names in `exception` elements like this:
 ```
 
 In Liferay Portal 6.2, Service Builder generates exception classes to the path
-attribute `package-path` specifies. In @product-ver@, Service Builder generates
+attribute `package-path` specifies. In @sharepoint-ver@, Service Builder generates
 them to `[package-path]/exception`. 
 
 Old path:
@@ -122,7 +122,7 @@ Once your Service Builder portlet is upgraded,
 | **Note:** Service Builder portlets automatically migrated to Liferay Workspace
 | using the Upgrade Planner or Blade CLI's `convert` command automatically
 | has its Service Builder logic converted to API and implementation modules.
-| This is a best practice for @product-ver@.
+| This is a best practice for @sharepoint-ver@.
 
-The portlet is now available on @product@. Congratulations on upgrading a
+The portlet is now available on @sharepoint@. Congratulations on upgrading a
 portlet that uses Service Builder!

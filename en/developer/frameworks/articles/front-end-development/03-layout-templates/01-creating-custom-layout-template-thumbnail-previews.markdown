@@ -24,7 +24,7 @@ steps to provide a thumbnail preview for your layout template:
 3.  Deploy your layout template to your app server to use it. If your layout 
     template is [bundled with a theme](/docs/7-2/frameworks/-/knowledge_base/f/including-layout-templates-with-a-theme), 
     it deploys when the theme is deployed. Now you know how to create a custom 
-    thumbnail preview for your @product@ layout templates! 
+    thumbnail preview for your @sharepoint@ layout templates! 
 
 ## Related topics
 

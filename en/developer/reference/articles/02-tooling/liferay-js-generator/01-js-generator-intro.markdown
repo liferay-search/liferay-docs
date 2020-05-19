@@ -8,7 +8,7 @@ header-id: js-generator
 
 The Liferay JS Generator generates JavaScript widgets using pure JavaScript 
 tooling. You don't have to have a deep understanding of Java to write a widget 
-for @product@. See the [Liferay JS Generator developer documentation](/docs/7-2/frameworks/-/knowledge_base/f/creating-and-bundling-javascript-widgets-with-javascript-tooling) 
+for @sharepoint@. See the [Liferay JS Generator developer documentation](/docs/7-2/frameworks/-/knowledge_base/f/creating-and-bundling-javascript-widgets-with-javascript-tooling) 
 for more information on configuring generated JavaScript widgets. This section 
 covers these reference topics for the Liferay JS Generator:
 
@@ -29,9 +29,9 @@ listed below:
 
 | Command | Description |
 | --- | --- |
-| `npm run build` | Places the output of liferay-npm-bundler in the designated output folder. The standard output is a JAR file that can be deployed manually to @product@. |
+| `npm run build` | Places the output of liferay-npm-bundler in the designated output folder. The standard output is a JAR file that can be deployed manually to @sharepoint@. |
 | `npm run deploy` | Deploys the application to the configured server. |
-| `npm run start` | Tests the application in a local webpack installation instead of a @product@ server. This speeds up development because you can see live changes without the need to deploy. Note, however, that because it's outside a Liferay instance, you don't have access to Liferay's APIs. |
+| `npm run start` | Tests the application in a local webpack installation instead of a @sharepoint@ server. This speeds up development because you can see live changes without the need to deploy. Note, however, that because it's outside a Liferay instance, you don't have access to Liferay's APIs. |
 | `npm run translate` | Runs the translation features for your bundle. Note that this feature requires Microsoft Translator credentials. See [Using Translation Features in Your Widget](/docs/7-2/frameworks/-/knowledge_base/f/using-translation-features-in-your-widget) for more information. |
 
 | **Note:** By default, the webpack server uses port 8080, which conflicts with

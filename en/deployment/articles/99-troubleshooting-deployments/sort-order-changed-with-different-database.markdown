@@ -6,10 +6,10 @@ header-id: sort-order-changed-with-a-different-database
 
 [TOC levels=1-4]
 
-If you've been using @product@, but are switching it to use a different database
+If you've been using @sharepoint@, but are switching it to use a different database
 type, consult your database vendor documentation to understand your old and new
 database's default query result order. The default order is either
-case-sensitive or case-insensitive. This affects entity sort order in @product@.
+case-sensitive or case-insensitive. This affects entity sort order in @sharepoint@.
 
 Here are some examples of ascending alphabetical sort order. 
 

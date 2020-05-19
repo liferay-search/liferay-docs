@@ -71,7 +71,7 @@ look like this:
                     		- `my-contributor`
                     			- `_body.scss`
                     			- `_control_menu.scss`
-                    			- `_product_menu.scss`
+                    			- `_sharepoint_menu.scss`
                     			- `_simulation_panel.scss`
                     		- `my-contributor.scss`
                     	- `js`
@@ -83,7 +83,7 @@ look like this:
 The Maven-generated project includes a `pom.xml` file and does not include the
 Gradle-specific files, but otherwise, appears exactly the same.
 
-The generated module is functional and is deployable to a @product@ instance. To
+The generated module is functional and is deployable to a @sharepoint@ instance. To
 build upon the generated app, modify the project by adding logic and additional
 files to the folders outlined above. You can visit the
 [Blade Theme Contributor](/docs/7-2/reference/-/knowledge_base/r/theme-contributor)

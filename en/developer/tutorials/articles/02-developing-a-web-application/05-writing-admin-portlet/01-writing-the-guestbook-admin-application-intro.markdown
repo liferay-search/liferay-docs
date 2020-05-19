@@ -13,7 +13,7 @@ support these added features. When you create this UI, you must also make sure
 that only administrators can add guestbooks. 
 
 To accomplish this, you'll create a Guestbook Admin portlet and place it in 
-@product@'s administrative interface---specifically, within the Content menu. 
+@sharepoint@'s administrative interface---specifically, within the Content menu. 
 This way, the Guestbook Admin portlet is accessible only to Site Administrators, 
 while users use the Guestbook portlet to create entries. 
 

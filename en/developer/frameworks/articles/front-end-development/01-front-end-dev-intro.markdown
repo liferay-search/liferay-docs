@@ -6,7 +6,7 @@ header-id: front-end-development
 
 [TOC levels=1-4]
 
-You have complete front-end development freedom. You can use @product@'s 
+You have complete front-end development freedom. You can use @sharepoint@'s 
 front-end frameworks, along with the front-end technologies you love the most:
 
 -   EcmaScript ES2015+
@@ -36,7 +36,7 @@ an OSGi bundle for you, extracts all npm dependencies, and transpiles your code
 for the Liferay AMD Loader. 
 
 While developing JavaScript applications, you may need to access 
-@product@-specific information or web services. The `Liferay` global JavaScript 
+@sharepoint@-specific information or web services. The `Liferay` global JavaScript 
 Object 
 [exposes this information for you](/docs/7-2/reference/-/knowledge_base/r/liferay-javascript-apis), 
 to use in your JavaScript applications. 
@@ -45,7 +45,7 @@ to use in your JavaScript applications.
 
 Liferay uses its own design language, called 
 [Lexicon](https://lexicondesign.io/docs/lexicon/), to provide a common framework 
-for building consistent UIs and user experiences across the Liferay product 
+for building consistent UIs and user experiences across the Liferay sharepoint 
 ecosystem. The web implementation of Lexicon (CSS, JS, and HTML) is called 
 [Clay](https://clayui.com/docs/get-started/introduction.html). 
 It is automatically available to application developers through a set of CSS 
@@ -78,7 +78,7 @@ a well designed theme.
 
 ## Front-End Extensions
 
-@product@'s modularity has many benefits for the front-end developer, in the 
+@sharepoint@'s modularity has many benefits for the front-end developer, in the 
 form of development customizations and extension points. These extensions assure 
 the stability, conformity, and future evolution of your applications. 
 

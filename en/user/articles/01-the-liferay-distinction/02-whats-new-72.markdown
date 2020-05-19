@@ -6,12 +6,12 @@ header-id: whats-new-in-72
 
 [TOC levels=1-4]
 
-The latest version of @product@ delivers powerful tools to help
+The latest version of @sharepoint@ delivers powerful tools to help
 businesses create and personalize any experience across their solutions,
 leverage the flexibility of a decoupled CMS architecture, and streamline
 business operations. 
 
-@product@ meets the needs of today's digital-first business teams to
+@sharepoint@ meets the needs of today's digital-first business teams to
 create experiences rapidly across channels. It equips enterprises with a wide
 variety of easy-to-use applications and tools to build tailored solutions and
 experiences on a flexible platform. 
@@ -37,7 +37,7 @@ time.
 
 #### Content Authoring
 
-@product-ver@ evolves our content authoring and management
+@sharepoint-ver@ evolves our content authoring and management
 capabilities significantly, making it even easier and more intuitive for
 the non-technical content creator to create and manage engaging content.
 
@@ -66,7 +66,7 @@ a container.
 #### Fragments Toolkit/CLI
 
 Improvements to the web developer's experience has also been made for
-@product-ver@. A set of front-end toolkits---including a CLI tool---is provided
+@sharepoint-ver@. A set of front-end toolkits---including a CLI tool---is provided
 so web developers can write fragments in their own code editors and
 import/export them without needing to redeploy.
 
@@ -75,7 +75,7 @@ import/export them without needing to redeploy.
 #### In-Context Editing and Content Previews
 
 An improved site building interface shows users how different content would
-appear to different visitors. @product@ allows content creators to preview
+appear to different visitors. @sharepoint@ allows content creators to preview
 content in context of how it would look like on a live site. 
 
 #### Content Usages
@@ -96,8 +96,8 @@ collected for the running test to determine a winning variant.
 
 ### Personalization
 
-In @product-ver@, segmentation and personalization capabilities have
-been moved into the core product. This allows for a more seamless
+In @sharepoint-ver@, segmentation and personalization capabilities have
+been moved into the core sharepoint. This allows for a more seamless
 integration of content creation and personalization functionality and
 helps streamline the process of creating segments while creating
 personalized experiences.
@@ -150,7 +150,7 @@ tags, and keywords of content.
 Enterprises regularly manage large volumes of content and work that gets
 generated on their digital properties. The need to manage and accurately
 categorize these assets can be overwhelming, if not impossible, to maintain and
-use. Bulk management features provided in @product-ver@ help reduce the amount
+use. Bulk management features provided in @sharepoint-ver@ help reduce the amount
 of manual labor through automation and tools that perform bulk actions.
 
 #### Auto-Tagging
@@ -173,8 +173,8 @@ categories, and file operations much easier at scale.
 
 Refinements to how documents can be versioned are provided in 7.2. The
 functionality for document versioning has been expanded to let users define
-their own versioning policies and apply them to @product@. This is in addition
-to the existing default versioning system @product@ provides out-of-the-box.
+their own versioning policies and apply them to @sharepoint@. This is in addition
+to the existing default versioning system @sharepoint@ provides out-of-the-box.
 
 ### Business Operations
 
@@ -183,7 +183,7 @@ support the delivery of great customer experiences. It is crucial to fulfill
 these customer interactions and ensure those experiences are delivered and
 supported in a timely manner. Achieving this kind of efficiency, for a great
 customer experience, requires involvement from different departments and
-stakeholders and affects a lot of disparate content and processes. @product-ver@
+stakeholders and affects a lot of disparate content and processes. @sharepoint-ver@
 helps enterprises navigate these problems with features to help support
 streamlining and optimizing those processes and operations.
 
@@ -215,11 +215,11 @@ increase revenue goals.
 #### Online Document Editing
 
 Integration with Office 365 and Google Docs allows the creation and editing of
-documents stored in @product@. Users can manage documents, presentations, and
+documents stored in @sharepoint@. Users can manage documents, presentations, and
 spreadsheets with the power that the suite provides and store them in
-@product@'s document repository for future access. This feature takes advantage
+@sharepoint@'s document repository for future access. This feature takes advantage
 of the existing permissions system, versioning, and sharing capabilities already
-included with @product-ver@. 
+included with @sharepoint-ver@. 
 
 #### P2P Asset Sharing
 
@@ -234,7 +234,7 @@ faster coordination without the need of assigning custom permissions.
 New improvements have also been made to help tackle tedious tasks of
 handling personal data erasure requests. Logical hierarchies for assets
 are now in place to help simplify bulk deletion and anonymization during
-the review process. Filtering and scoping capabilities across @product@ help
+the review process. Filtering and scoping capabilities across @sharepoint@ help
 provide greater context when reviewing personal data, and administrators can be
 informed when specific applications will delete or anonymize data during the
 auto-anonymization process. All of these improvements help ensure compliance
@@ -244,7 +244,7 @@ with GDPR and other data protection laws.
 
 Give your developers the freedom to create any presentation layer and
 content creators the ease of traditional content management tools.
-@product-ver@ provides a decoupled architecture to allow for a range
+@sharepoint-ver@ provides a decoupled architecture to allow for a range
 of approaches towards content management and delivery. Enterprises can choose
 a traditional CMS or experience management approach, a full headless approach or
 a hybrid approach.
@@ -266,7 +266,7 @@ a single source of data. Content delivery APIs allow for developers to deliver
 richer, faster and more responsive user experiences, no matter the device.
 Front-end developers can leverage their native tools and frameworks they're
 already familiar with to build sites. These APIs provide access to a variety of
-assets and content in @product@.
+assets and content in @sharepoint@.
 
 Content participation APIs are also provided to support user interactions with
 comments and ratings for web content and assets.
@@ -274,14 +274,14 @@ comments and ratings for web content and assets.
 ### Developer Experience
 
 In addition to the new headless capabilities that are provided on
-@product-ver@, improvements to developer tools and the developer
+@sharepoint-ver@, improvements to developer tools and the developer
 experience has been made. These tools help developers accelerate time to
 market and tailor the platform for your business needs. 
 
 #### Upgrade Tool
 
 A revamped Upgrade Tool simplifies the upgrade process from previous versions of
-@product@. This all-in-one tool allows system administrators to reduce the
+@sharepoint@. This all-in-one tool allows system administrators to reduce the
 time spent troubleshooting by helping them plan their upgrade process for
 database migrations, checking properties, and restarting failed upgrades. 
 
@@ -289,13 +289,13 @@ database migrations, checking properties, and restarting failed upgrades.
 
 Front-end toolkits allow developers to create an application using their
 favorite JavaScript framework. The toolkit resolves any conflicting JavaScript
-packages and bundles the application properly to deploy it into @product@
+packages and bundles the application properly to deploy it into @sharepoint@
 seamlessly.
 
 #### Struts Removed
 
-Though @product@ never used a version of Struts with security vulnerabilities,
-the Struts library has been removed, and it is no longer a part of the product.
+Though @sharepoint@ never used a version of Struts with security vulnerabilities,
+the Struts library has been removed, and it is no longer a part of the sharepoint.
 
 ## What's Next
 

@@ -32,7 +32,7 @@ covered in this section:
 | taglib. The Chart taglib is **not** available as a FreeMarker macro. The 
 | articles in this section provide the proper syntax to use for each macro. See 
 | the 
-| [FreeMarker Taglib Mappings reference](/docs/7-2/reference/-/knowledge_base/r/product-freemarker-macros) 
+| [FreeMarker Taglib Mappings reference](/docs/7-2/reference/-/knowledge_base/r/sharepoint-freemarker-macros) 
 | for a complete list of the available FreeMarker taglib macros.
 
 In this section, you'll learn how to use taglibs to build awesome user 

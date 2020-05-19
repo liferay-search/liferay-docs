@@ -8,8 +8,8 @@ header-id: service-builder-application-using-external-database-via-jndi
 
 This sample demonstrates how to connect a Liferay Service Builder application to
 an external database via a JNDI connection. Here, an external database means any
-database other than @product@'s database. For this sample to work correctly, you
-must prepare such an external database and configure @product@ to use it. Follow
+database other than @sharepoint@'s database. For this sample to work correctly, you
+must prepare such an external database and configure @sharepoint@ to use it. Follow
 the steps below to make the required preparations before deploying the
 application.
 
@@ -67,7 +67,7 @@ application.
     Now your data source is defined at Tomcat's scope.
 
 4.  Create a `com.liferay.blade.samples.jndiservicebuilder.service-log4j-ext.xml`
-    in your @product@ instance's `[LIFERAY_HOME]/osgi/log4` folder. Create this
+    in your @sharepoint@ instance's `[LIFERAY_HOME]/osgi/log4` folder. Create this
     folder if it doesn't yet exist. Add this content to the XML file that you
     created:
 
@@ -96,7 +96,7 @@ the three modules that comprise the sample application:
 - `jndi-web`
 
 After these modules have been deployed, add the `jndi-web` portlet to a
-@product@ page.
+@sharepoint@ page.
 
 ![Figure 1: This sample prints out the values previously inputted into the database.](../../../../images/jndi-sb-sample.png)
 
@@ -118,14 +118,14 @@ defined by a JNDI connection:
 Once you've added the `jndi-web` portlet to a page, the
 `RegionLocalServiceUtil.useJNDI` method is invoked. This method accesses the
 database defined by the JNDI connection you specified and logs information about
-the rows in the `region` table to @product@'s log.
+the rows in the `region` table to @sharepoint@'s log.
 
 The first way of accessing data from the external database is to extract data directly from
 the raw data source by explicitly specifying a SQL query. This technique is
 demonstrated by the `RegionLocalServiceImpl.useJNDI` method. That method obtains
 the Spring-defined data source that's injected into the `regionPersistence`
 bean, opens a new connection, and reads data from the data source. This is the
-technique used by the sample application to write the data to @product@'s log.
+technique used by the sample application to write the data to @sharepoint@'s log.
 
 The second way of accessing data from the external database is to read data
 using the helper methods that Service Builder generates in your application's

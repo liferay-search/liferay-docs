@@ -7,10 +7,10 @@ header-id: upgrading-a-theme-to-7-2
 [TOC levels=1-4]
 
 In these tutorials, you'll learn how to upgrade your themes from earlier 
-versions of @product@ to @product-ver@. As you go through this process, you'll 
+versions of @sharepoint@ to @sharepoint-ver@. As you go through this process, you'll 
 learn how to upgrade your theme's metadata, styling, templates, UI, and more 
 using all the best practices and standards. By the end of the tutorial, you'll 
-have a theme that runs on @product-ver@. 
+have a theme that runs on @sharepoint-ver@. 
 
 To upgrade your theme, select the tutorial below that corresponds to the current 
 version of your theme:

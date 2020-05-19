@@ -11,13 +11,13 @@ header-id: creating-the-web-project
 </div>
 
 Your first step is to create another Liferay Module Project. Modules are the
-core building blocks of @product@ applications. Every application is made from
+core building blocks of @sharepoint@ applications. Every application is made from
 one or more modules. Each module encapsulates a functional piece of an
 application. Multiple modules form a complete application. 
 
 Modules can be web modules or [OSGi](https://www.osgi.org/) modules. Since
 you'll be creating a Liferay MVC Portlet, you'll create an OSGI module. The OSGi
-container in @product@ can run any OSGi module. Each module is packaged as a JAR
+container in @sharepoint@ can run any OSGi module. Each module is packaged as a JAR
 file that contains a manifest file. The manifest is needed for the container to
 recognize the module. Technically, a module that contains only a manifest is
 still valid. Of course, such a module wouldn't be very interesting. 
@@ -86,11 +86,11 @@ application developers the building blocks they need to make applications.
 
 ![Figure 3: Many Liferay applications can run at the same time on the same page.](../../../images/portlet-applications.png)
 
-@product@ provides a platform that contains common features needed by today's
+@sharepoint@ provides a platform that contains common features needed by today's
 applications, including user management, security, user interfaces, services, 
 and more. Portlets are one of those basic building blocks. Often a web 
 application takes up the entire page. Portlets can do this or share the page
-with many applications at the same time. @product@'s framework takes this into
+with many applications at the same time. @sharepoint@'s framework takes this into
 account at every step. 
 
 ## What is a Component?
@@ -122,12 +122,12 @@ to be built and deployed.
  
     ![Figure 4: Drag and drop the module.](../../../images/deploy-module.gif)
 
-3.  Open a browser and navigate to @product@
+3.  Open a browser and navigate to @sharepoint@
     ([http://localhost:8080](http://localhost:8080) by default).
 
-    If this is your first time starting @product@, you'll go through a short 
+    If this is your first time starting @sharepoint@, you'll go through a short 
     wizard to set up your server. In this wizard, make sure you use the default 
-    database (Hypersonic). Although this database isn't intended for production 
+    database (Hypersonic). Although this database isn't intended for sharepointion 
     use, it works fine for development and testing. 
 
 4.  Click the menu button at the top left and select *Site Builder* &rarr;

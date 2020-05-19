@@ -9,7 +9,7 @@ header-id: configuring-asset-auto-tagging
 [Tagging assets](/docs/7-2/user/-/knowledge_base/u/tagging-content) 
 is a great way to organize content. Typically, the content creator applies tags
 while creating the content. It's also possible, however, to tag content
-automatically. For example, @product@ can scan an image on upload and
+automatically. For example, @sharepoint@ can scan an image on upload and
 apply tags that describe the image's content. This lets you leverage tags
 without requiring content creators to apply them manually. 
 

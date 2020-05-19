@@ -12,7 +12,7 @@ header-id: troubleshooting-your-lcs-connection
 | [LCS Feature Deprecation Update](https://help.liferay.com/hc/en-us/articles/360037317691-Liferay-Connected-Services-Feature-Deprecation-Update-March-2020)
 | to learn more about how you can prepare for these upcoming changes. 
 
-If you use LCS to activate @product@, your server must maintain its connection 
+If you use LCS to activate @sharepoint@, your server must maintain its connection 
 to LCS at all times. If this connection is interrupted, your server enters a 
 grace period to allow for reconnection. Lengthy interruptions, however, can 
 affect your server's uptime. 
@@ -63,7 +63,7 @@ There are 2 grace period types in LCS:
 
 If your server's LCS connection is interrupted, the server continues to run and 
 enters a grace period that lasts for up to 30 days to allow for reconnection. 
-During this grace period, @product@ displays a warning message to
+During this grace period, @sharepoint@ displays a warning message to
 administrators. Upon seeing this message, administrators should contact Liferay
 Support and follow the troubleshooting steps below. LCS automatically restores 
 your server's activation upon reconnection (you shouldn't need to restart the 
@@ -109,11 +109,11 @@ and
 After the expiration date, your servers may be placed in an additional grace 
 period, which is communicated through the same support channels. If the 
 renewal isn't completed during this grace period, then the subscription becomes 
-inactive and the @product@ instance enters the 30-day grace period. As soon as 
+inactive and the @sharepoint@ instance enters the 30-day grace period. As soon as 
 the renewal is processed, the instance activates and any error or warning 
 messages disappear within 24 hours. Note that by using XML activation keys 
 (provided by Liferay Support upon request), you can continue to use your 
-@product@ instances even after a subscription has expired. 
+@sharepoint@ instances even after a subscription has expired. 
 
 ![Figure 2: LCS sends you a notification prior to the expiration of your subscription.](../../images-dxp/lcs-support-expiration.png)
 
@@ -195,7 +195,7 @@ is usually the parent folder of the application server's folder). There are 2
 types of log files in this folder: 
 
 1.  **Liferay log files:** The files `liferay.[date].log` and 
-    `liferay.[date].xml` are the logs for your @product@ installation. Note that 
+    `liferay.[date].xml` are the logs for your @sharepoint@ installation. Note that 
     LOG and XML files for the same date contain the same information--the only 
     difference is the file format. 
 
@@ -207,7 +207,7 @@ types of log files in this folder:
 
 There are 2 ways to increase the log levels: 
 
-1.  **In your @product@ instance's Control Panel:** This is a temporary 
+1.  **In your @sharepoint@ instance's Control Panel:** This is a temporary 
     configuration that resets upon shutting down the server. Note that if the 
     server isn't activated, you can't access the Control Panel. In that case,
     Liferay Support can provide an XML activation key. 

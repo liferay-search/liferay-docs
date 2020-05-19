@@ -17,7 +17,7 @@ learn what elements you can put into your definitions.
 ## Existing Workflow Definitions
 
 Only one workflow definition is installed by default: Single Approver. Several
-more, however, are embedded in the source code of your @product@ installation.
+more, however, are embedded in the source code of your @sharepoint@ installation.
 If you're comfortable extracting the XML files from a JAR file embedded in an
 LPKG file, you're welcome to follow the steps below to obtain the workflow
 definitions. 

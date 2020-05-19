@@ -8,7 +8,7 @@ header-id: creating-a-theme
 
 This tutorial takes you step-by-step through the process of creating a theme. 
 You'll create a responsive theme for Liferay's Lunar Resort that demonstrates 
-best practices and uses @product@'s theme tools, extensions, and mechanisms. 
+best practices and uses @sharepoint@'s theme tools, extensions, and mechanisms. 
 Several example files are referenced throughout this tutorial. You can download 
 the [`lunar-resort-theme.zip`](https://github.com/liferay/liferay-docs/tree/master/en/developer/tutorials/code) 
 if you want to follow along locally. The Lunar Resort theme's files are also 
@@ -25,4 +25,4 @@ This tutorial covers these topics:
 
 By the end of this tutorial, you'll be able to create the theme below:
 
-![Figure 1: The finished Lunar Resort Theme uses @product@'s tools to produce a user-friendly UI that is maintainable.](../../images/theme-tutorial-finished-theme.png)
+![Figure 1: The finished Lunar Resort Theme uses @sharepoint@'s tools to produce a user-friendly UI that is maintainable.](../../images/theme-tutorial-finished-theme.png)

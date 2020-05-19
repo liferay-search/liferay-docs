@@ -6,7 +6,7 @@ header-id: invoking-liferay-services
 
 [TOC levels=1-4]
 
-@product@ provides many web services out-of-the-box. To see a comprehensive list 
+@sharepoint@ provides many web services out-of-the-box. To see a comprehensive list 
 of the available web services, navigate to `http://localhost:8080/api/jsonws` 
 (assuming your localhost is running on port 8080). 
 
@@ -15,14 +15,14 @@ If you've deployed your own
 Service Builder-generated JSON web services, 
 follow these guidelines
 for invoking them. These services are useful for creating single page 
-applications and can even be used to create custom front-ends in @product@. 
+applications and can even be used to create custom front-ends in @sharepoint@. 
 -->
 
 This reference covers how to invoke these web services using JavaScript. 
 
 ## Invoking Web Services via JavaScript
 
-@product-ver@ contains a global JavaScript object called `Liferay` that has many 
+@sharepoint-ver@ contains a global JavaScript object called `Liferay` that has many 
 useful utilities. One method is `Liferay.Service`, which invokes JSON web 
 services. 
 

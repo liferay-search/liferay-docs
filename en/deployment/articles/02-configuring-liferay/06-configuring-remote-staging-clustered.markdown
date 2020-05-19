@@ -6,7 +6,7 @@ header-id: configuring-remote-staging-in-a-clustered-environment
 
 [TOC levels=1-4]
 
-If you're running @product@ as a
+If you're running @sharepoint@ as a
 [clustered environment](/docs/7-2/deploy/-/knowledge_base/d/liferay-clustering)
 and you want to use remote staging, you must configure it properly for a
 seamless experience. In this tutorial, you'll learn how to set up remote staging
@@ -78,7 +78,7 @@ Let's begin!
     There are two ways to do this:
 
     - **Use a `.config` file (recommended):** In the `$LIFERAY_HOME/osgi/configs`
-      folder of one of your node @product@ instances, create (if necessary) a
+      folder of one of your node @sharepoint@ instances, create (if necessary) a
       `com.liferay.portal.security.auth.verifier.tunnel.module.configuration.TunnelAuthVerifierConfiguration-default.config`
       file and insert the properties listed below. Creating one `.config` file
       configures all cluster nodes the same way. For more information on

@@ -6,7 +6,7 @@ header-id: rest-filter-sort-and-search
 
 [TOC levels=1-4]
 
-You can use @product@'s headless REST APIs to search for content you're 
+You can use @sharepoint@'s headless REST APIs to search for content you're 
 interested in. You can also sort and filter content. Here, you'll learn how. 
 
 ## Filter
@@ -17,7 +17,7 @@ the optional parameter `filter` in their OpenAPI profile. To filter a collection
 based on the value of one or more fields, use the `filter` parameter following a 
 subset of the [oData standard](https://docs.oasis-open.org/odata/odata/v4.01/csprd06/part1-protocol/odata-v4.01-csprd06-part1-protocol.html#sec_BuiltinFilterOperations). 
 
-Filtering mainly applies to fields indexed as keywords in @product@'s search. To 
+Filtering mainly applies to fields indexed as keywords in @sharepoint@'s search. To 
 find content by terms contained in fields indexed as text, you should instead 
 use 
 [search](#search). 

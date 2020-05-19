@@ -7,15 +7,15 @@ header-id: model-entity-indexing-framework
 [TOC levels=1-4]
 
 Unless you're searching for model entities using database queries (not
-recommended in most cases), each asset in @product@ must be indexed in the
+recommended in most cases), each asset in @sharepoint@ must be indexed in the
 search engine. The indexing code is specific to each asset, as the asset's
 developers know what fields to index and what filters to apply to the search
 query. This paradigm applies to Liferay's own developers and anyone developing
-model entities for use with @product@.
+model entities for use with @sharepoint@.
 
-In past versions of @product@, when your asset required indexing, you would
+In past versions of @sharepoint@, when your asset required indexing, you would
 implement a new Indexer by extending
-`com.liferay.portal.kernel.search.BaseIndexer<T>`. @product@ version 7.1
+`com.liferay.portal.kernel.search.BaseIndexer<T>`. @sharepoint@ version 7.1
 introduced a new pattern that relies on 
 [composition instead of inheritance](https://stackoverflow.com/questions/2399544/difference-between-inheritance-and-composition).
 That said, if you want to use the old approach, feel free to extend
@@ -23,7 +23,7 @@ That said, if you want to use the old approach, feel free to extend
 
 ## Search and Indexing Overview
 
-Starting with the 7.0 version of @product@, the Search API has become less tied
+Starting with the 7.0 version of @sharepoint@, the Search API has become less tied
 to Lucene. Elasticsearch support was added (in addition to Solr), and most of
 the newer searching and indexing APIs aim to leverage/map Elasticsearch APIs.
 This means that in many cases (for example the `Query` types) there is
@@ -73,7 +73,7 @@ for an example implementation.
 
 ## Permissions-Aware Searching and Indexing
 
-In previous versions of @product@, search was only _permissions
+In previous versions of @sharepoint@, search was only _permissions
 aware_ (indexed with the entity's permissions and searched with those
 permissions intact) if the application developer specified this line in the
 `Indexer` class's constructor:

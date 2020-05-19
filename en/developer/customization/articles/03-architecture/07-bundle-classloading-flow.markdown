@@ -7,7 +7,7 @@ header-id: bundle-classloading-flow
 [TOC levels=1-4]
 
 The OSGi container searches several places for imported classes. It's important 
-to know where it looks and in what order. @product@'s classloading flow for OSGi 
+to know where it looks and in what order. @sharepoint@'s classloading flow for OSGi 
 bundles follows the OSGi Core specification. It's straightforward, but complex. 
 The figure below illustrates the flow and this article walks you through it. 
 
@@ -40,5 +40,5 @@ Here is the algorithm for classloading in a bundle:
     the exporting bundle's classloader loads it. Otherwise, the class isn't 
     found. 
 
-Congratulations! Now you know how @product@ finds and loads classes for OSGi 
+Congratulations! Now you know how @sharepoint@ finds and loads classes for OSGi 
 bundles. 

@@ -10,7 +10,7 @@ Dev Studio offers a single GUI for managing a Liferay server and its deployed
 projects. A server is installed and managed from the Servers view (lower left
 corner in Eclipse).
 
-For reference, here's how the Dev Studio server buttons work with your @product@
+For reference, here's how the Dev Studio server buttons work with your @sharepoint@
 instance:
 
 - *Start* (![Start Server](../../../images/icon-start-server.png)): Starts the
@@ -19,7 +19,7 @@ instance:
   server.
 - *Debug* (![Debug Server](../../../images/icon-debug-server.png)): Starts the
   server in debug mode. For more information on debugging in Dev Studio, see the
-  [Debugging @product@ source in Dev Studio](/docs/7-2/reference/-/knowledge_base/r/debugging-product-source-in-dev-studio)
+  [Debugging @sharepoint@ source in Dev Studio](/docs/7-2/reference/-/knowledge_base/r/debugging-sharepoint-source-in-dev-studio)
   article.
 
 Follow these steps to install your server. Note you must have already downloaded
@@ -48,11 +48,11 @@ and de-compressed the server bundle:
     environment, select *Finish*. If you selected an existing server, your
     server installation is finished; you can skip steps 3-5.
 
-3.  Enter a name for your server. This is the name for the @product@ runtime
+3.  Enter a name for your server. This is the name for the @sharepoint@ runtime
     configuration used by Dev Studio. This is not the display name used in the
     Servers tab.
 
-4.  Browse to the installation folder of the @product@ bundle. For example,
+4.  Browse to the installation folder of the @sharepoint@ bundle. For example,
     `C:\liferay-ce-portal-7.2.0-m2\tomcat-9.0.10`.
 
     ![Figure 2: Specify the installation folder of the bundle.](../../../images/specify-bundle-directory.png)

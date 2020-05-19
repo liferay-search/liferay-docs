@@ -85,10 +85,10 @@ steps below:
     desired component and then run `scr:info <BSN>`.
 
 If you're unable to track down your missing service, it may be provided by a
-customized @product@ core feature or an external @product@ feature. If this is
+customized @sharepoint@ core feature or an external @sharepoint@ feature. If this is
 the case, it isn't included in the target platform's default capabilities. You
 can make the custom service capability available to reference by
-[generating a new custom distro JAR](/docs/7-2/reference/-/knowledge_base/r/depending-on-a-customized-distribution-of-product).
+[generating a new custom distro JAR](/docs/7-2/reference/-/knowledge_base/r/depending-on-a-customized-distribution-of-sharepoint).
 
 ## Missing Fragment Host
 

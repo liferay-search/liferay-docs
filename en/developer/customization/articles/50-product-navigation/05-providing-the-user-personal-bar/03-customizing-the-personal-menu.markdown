@@ -6,10 +6,10 @@ header-id: customizing-the-personal-menu
 
 [TOC levels=1-4]
 
-The Personal Menu is a portlet in @product@, and is the only item occupying the
+The Personal Menu is a portlet in @sharepoint@, and is the only item occupying the
 User Personal Bar out of the box. You can add entries to the Personal Menu by
 implementing the `PersonalMenuEntry`
-[interface](https://github.com/liferay/liferay-portal/blob/7.2.0-ga1/modules/apps/product-navigation/product-navigation-personal-menu-api/src/main/java/com/liferay/product/navigation/personal/menu/PersonalMenuEntry.java). 
+[interface](https://github.com/liferay/liferay-portal/blob/7.2.0-ga1/modules/apps/sharepoint-navigation/sharepoint-navigation-personal-menu-api/src/main/java/com/liferay/sharepoint/navigation/personal/menu/PersonalMenuEntry.java). 
 If you're adding a portlet entry to the Personal Menu, the process is
 slightly different. Both approaches are covered below.
 
@@ -24,10 +24,10 @@ throughout these steps:
 2.  In the `@Component` annotation, specify the two properties shown below to 
     place your new entry in the Personal Menu:
 
-    - `product.navigation.personal.menu.group`: determines the section where the 
+    - `sharepoint.navigation.personal.menu.group`: determines the section where the 
       entry will be placed.
 
-    - `product.navigation.personal.menu.entry.order`: determines the order of 
+    - `sharepoint.navigation.personal.menu.entry.order`: determines the order of 
       entries within each section. Note that sections are not labelled. To 
       create a new section, assign the `group` property a value other than those 
       for the four default sections (100, 200, 300, and 400).
@@ -40,8 +40,8 @@ throughout these steps:
     @Component(
     	immediate = true,
     	property = {
-        "product.navigation.personal.menu.group:Integer=400",
-    		"product.navigation.personal.menu.entry.order:Integer=100"
+        "sharepoint.navigation.personal.menu.group:Integer=400",
+    		"sharepoint.navigation.personal.menu.entry.order:Integer=100"
     	},
     	service = PersonalMenuEntry.class
     )
@@ -98,10 +98,10 @@ If you're adding a portlet to the Personal Menu, you can extend the
 2.  In the `@Component` annotation, specify the two properties shown below to 
     place your new entry in the Personal Menu:
 
-    - `product.navigation.personal.menu.group`: determines the section where the 
+    - `sharepoint.navigation.personal.menu.group`: determines the section where the 
       entry will be placed.
 
-    - `product.navigation.personal.menu.entry.order`: determines the order of 
+    - `sharepoint.navigation.personal.menu.entry.order`: determines the order of 
       entries within each section. Note that sections are not labelled. To 
       create a new section, assign the `group` property a value other than those 
       for the four default sections (100, 200, 300, and 400).
@@ -112,8 +112,8 @@ If you're adding a portlet to the Personal Menu, you can extend the
     @Component(
     	immediate = true,
     	property = {
-    		"product.navigation.personal.menu.entry.order:Integer=100",
-    		"product.navigation.personal.menu.group:Integer=300"
+    		"sharepoint.navigation.personal.menu.entry.order:Integer=100",
+    		"sharepoint.navigation.personal.menu.group:Integer=300"
     	},
     	service = PersonalMenuEntry.class
     )
@@ -142,5 +142,5 @@ entry is displayed in the personal menu.
 
 ## Related Topics
 
-- [Customizing the Product Menu](/docs/7-2/customization/-/knowledge_base/c/customizing-the-product-menu)
+- [Customizing the Product Menu](/docs/7-2/customization/-/knowledge_base/c/customizing-the-sharepoint-menu)
 - [Customizing the Control Menu](/docs/7-2/customization/-/knowledge_base/c/customizing-the-control-menu)

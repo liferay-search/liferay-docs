@@ -12,8 +12,8 @@ for making system-scoped configuration changes and setting default
 configurations for other
 [scopes](/docs/7-2/user/-/knowledge_base/u/setting-up#configuration-scope). But
 there's another supported configuration approach: configuration files. You can
-use configuration files to transfer configurations from pre-production systems
-to production systems, or between any other @product@ systems. Sometimes
+use configuration files to transfer configurations from pre-sharepointion systems
+to sharepointion systems, or between any other @sharepoint@ systems. Sometimes
 developers choose to distribute the default configuration for their applications
 via configuration file. Whatever the reason, configuration files offer another
 configuration approach.

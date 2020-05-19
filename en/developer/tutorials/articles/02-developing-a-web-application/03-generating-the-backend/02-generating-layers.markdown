@@ -13,7 +13,7 @@ header-id: generating-model-service-and-persistence-layers
 To model the guestbooks and entries, you'll create guestbook and entry model 
 classes. But you won't do this directly in Java. Instead, you'll define them in 
 Service Builder, which generates your object model and maps it to all the SQL 
-databases @product@ supports. 
+databases @sharepoint@ supports. 
 
 This application's design allows for multiple guestbooks, each containing 
 different sets of entries. All users with permission to access the application 
@@ -56,7 +56,7 @@ It's time to get started. You'll create the `Guestbook` entity first:
     and the name as a `String`. 
 
 4.  Next, define the group instance. The `groupId` defines the ID of the Site in
-    @product@ where the entity instance exists. The `companyId` is the primary
+    @sharepoint@ where the entity instance exists. The `companyId` is the primary
     key of a 
     [portal instance](/docs/7-2/user/-/knowledge_base/u/setting-up).
 
@@ -180,7 +180,7 @@ The `Guestbook` entity is finished for now. Next, you'll create the
     ```
 
 7.  Add a finder that retrieves `GuestbooEntry`s by a combination of `groupId`
-    and `guestbookId`. This supports @product@'s multi-tenancy by only returning
+    and `guestbookId`. This supports @sharepoint@'s multi-tenancy by only returning
     those entries that belong both to the current Site and the current
     Guestbook. After defining your finder add the closing entity tag:
 

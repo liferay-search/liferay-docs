@@ -6,7 +6,7 @@ header-id: creating-social-bookmarks
 
 [TOC levels=1-4]
 
-By default, @product@ contains social bookmarks for Twitter, Facebook, and 
+By default, @sharepoint@ contains social bookmarks for Twitter, Facebook, and 
 LinkedIn. You can also create your own social bookmark by registering a 
 component that implements the 
 [`SocialBookmark`](@app-ref@/social/latest/javadocs/com/liferay/social/bookmarks/SocialBookmark.html) 

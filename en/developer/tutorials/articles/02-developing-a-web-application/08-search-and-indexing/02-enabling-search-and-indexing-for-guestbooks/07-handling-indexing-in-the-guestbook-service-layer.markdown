@@ -11,7 +11,7 @@ header-id: handling-indexing-in-the-guestbook-service-layer
 </div>
 
 Whenever a Guestbook database entity is added, updated, or deleted, the search
-index must be updated accordingly. The @product@ annotation `@Indexable`
+index must be updated accordingly. The @sharepoint@ annotation `@Indexable`
 combines with the `IndexableType` to mark your service methods so documents can
 be updated or deleted. Next, you'll annotate `addGuestbook`, `updateGuestbook`,
 and `deleteGuestbook` service methods. 

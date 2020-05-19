@@ -46,4 +46,4 @@ use.
 Once IntelliJ restarts, the Liferay IntelliJ plugin is installed and ready for
 use.
 
-Great job! You're now ready to develop for @product@ in IntelliJ!
+Great job! You're now ready to develop for @sharepoint@ in IntelliJ!

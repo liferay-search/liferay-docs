@@ -132,7 +132,7 @@ avoid conflicts.
 There are two different configuration types in 
 [OSGi's `ConfigurationAdmin`](https://osgi.org/javadoc/r4v42/org/osgi/service/cm/ConfigurationAdmin.html): 
 single, and factory. Factory configurations can have several configuration 
-instances per factory name. @product@ uses factory configurations. You 
+instances per factory name. @sharepoint@ uses factory configurations. You 
 must provide a factory configuration's default values in a `*.properties` file. 
 In this properties file, use a suffix on the end of the PID (persistent 
 identifier) and then provide your settings. For example, the following code uses 

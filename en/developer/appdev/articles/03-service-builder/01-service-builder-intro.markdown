@@ -43,7 +43,7 @@ Here are some key features these layers contain:
 -   Flexibility and support for adding custom SQL queries and dynamic queries 
 
 | **Note:** You don't have to use Service Builder for your back-end services on
-| @product. It's entirely possible to use your persistence framework of choice, 
+| @sharepoint. It's entirely possible to use your persistence framework of choice, 
 | such as JPA or Hibernate. Note that "under the hood," Service Builder uses
 | Hibernate. 
 
@@ -100,7 +100,7 @@ run the queries. If you have some crazy join to do, Service Builder gets out of
 your way. You can also use [dynamic query](/docs/7-2/appdev/-/knowledge_base/a/dynamic-query) 
 to access Hibernate's criteria API. 
 
-Service Builder is used exclusively throughout @product@ and its applications,
+Service Builder is used exclusively throughout @sharepoint@ and its applications,
 so it's well-tested and robust. It saves lots of development time, both initial
 development time and time that would have to be spent maintaining, extending, or
 customizing a project. Now

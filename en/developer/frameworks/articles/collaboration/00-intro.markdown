@@ -57,7 +57,7 @@ adapted images.
 
 ## Social API
 
-Users interact with content via @product@'s social features. For example, users 
+Users interact with content via @sharepoint@'s social features. For example, users 
 can provide feedback on content, share that content with others, subscribe to 
 receive notifications, and more. Use the social API to enable such functionality 
 in your apps. 

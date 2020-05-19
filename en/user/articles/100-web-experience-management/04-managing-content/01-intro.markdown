@@ -6,7 +6,7 @@ header-id: managing-content
 
 [TOC levels=1-4]
 
-There are two primary ways to manage and display content in @product@
+There are two primary ways to manage and display content in @sharepoint@
 
 - Web Content
 - Content Sets

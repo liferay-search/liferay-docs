@@ -17,7 +17,7 @@ shell tools give you fine-grained control over module and component deployment.
 Since a module's contents depend on its activation, consider the activation 
 steps: 
 
-1.  *Installation*: Copying the module JAR into @product@'s 
+1.  *Installation*: Copying the module JAR into @sharepoint@'s 
     `[Liferay Home]/deploy` folder installs the module to the OSGi framework, 
     marking the module `INSTALLED`. 
 
@@ -103,4 +103,4 @@ service policies. Gogo Shell commands let you control modules and components.
 
 [Creating a Project](/docs/7-2/reference/-/knowledge_base/r/creating-a-project)
 
-[Upgrading Code to 7.2](/docs/7-2/tutorials/-/knowledge_base/t/upgrading-code-to-product-ver)
+[Upgrading Code to 7.2](/docs/7-2/tutorials/-/knowledge_base/t/upgrading-code-to-sharepoint-ver)

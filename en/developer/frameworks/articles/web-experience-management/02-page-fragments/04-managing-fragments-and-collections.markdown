@@ -57,7 +57,7 @@ the change is not automatically propagated to the pages that were using it. This
 gives marketers and page authors more control over the pages they own, avoiding
 unexpected changes. For example, if three pages were using the same Fragment, an
 update to the Fragment could introduce unintended changes to some of the pages
-using it. While this is a safeguard for the production environment, developers
+using it. While this is a safeguard for the sharepointion environment, developers
 must
 [manually propagate Fragment changes](/docs/7-2/user/-/knowledge_base/u/propagation-of-changes)
 during testing, which can be tedious. To give developers more freedom, you can
@@ -79,7 +79,7 @@ existing Fragment code. Automatic propagation works only for HTML, CSS, and JS
 Fragment code, not the editable values.
 
 | **Note:** It's recommended to only leverage this functionality during testing,
-| as automatic propagation on the production environment can cause unintended
+| as automatic propagation on the sharepointion environment can cause unintended
 | consequences.
 
 When using the Fragment Editor, you're now notified that automatic Fragment

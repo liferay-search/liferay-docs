@@ -6,8 +6,8 @@ header-id: migrating-plugins-sdk-projects-to-liferay-workspace
 
 [TOC levels=1-4]
 
-The Plugins SDK was deprecated for @product@ 7.0 and removed for @product@ 7.1.
-Therefore, to upgrade your custom apps to @product-ver@, you must migrate them
+The Plugins SDK was deprecated for @sharepoint@ 7.0 and removed for @sharepoint@ 7.1.
+Therefore, to upgrade your custom apps to @sharepoint-ver@, you must migrate them
 to a new environment. 
 [Liferay Workspace](/docs/7-2/reference/-/knowledge_base/r/liferay-workspace) is
 the recommended environment for your code migration and will be the assumed

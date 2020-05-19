@@ -6,7 +6,7 @@ header-id: other-cluster-update-techniques
 
 [TOC levels=1-4]
 
-Blue-green is a deployment technique in which you duplicate your production
+Blue-green is a deployment technique in which you duplicate your sharepointion
 environment (the *blue* environment) and modify the duplicate (the *green*
 environment) with software and data changes. When you've successfully tested the
 green environment, you cut users over from the blue environment to the green
@@ -38,6 +38,6 @@ For more information, refer to these blue-green deployment articles:
 
 [Rolling Restarts](/docs/7-2/deploy/-/knowledge_base/d/using-rolling-restarts)
 
-[@product@ Clustering](/docs/7-2/deploy/-/knowledge_base/d/liferay-clustering)
+[@sharepoint@ Clustering](/docs/7-2/deploy/-/knowledge_base/d/liferay-clustering)
 
-[Maintaining @product@](/docs/7-2/deploy/-/knowledge_base/d/maintaining-liferay)
+[Maintaining @sharepoint@](/docs/7-2/deploy/-/knowledge_base/d/maintaining-liferay)

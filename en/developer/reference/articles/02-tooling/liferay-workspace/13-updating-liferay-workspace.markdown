@@ -8,7 +8,7 @@ header-id: updating-liferay-workspace
 
 Liferay Workspace is continuously being updated with new features. If you
 created your workspace a while ago, you may be missing out on some of the latest
-features that could improve your @product@ development experience. Updating your
+features that could improve your @sharepoint@ development experience. Updating your
 Liferay Workspace is easy; you'll learn how to do it for Gradle and Maven-based
 workspaces next.
 

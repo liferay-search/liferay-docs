@@ -88,9 +88,9 @@ look like this
 The Maven-generated project includes a `pom.xml` file and does not include the
 Gradle-specific files, but otherwise, appears exactly the same.
 
-The generated module is functional and is deployable to a @product@ instance.
+The generated module is functional and is deployable to a @sharepoint@ instance.
 The generated module, by default, creates a panel category with a panel app in
-@product@'s Product Menu. To build upon the generated app, modify the project by
+@sharepoint@'s Product Menu. To build upon the generated app, modify the project by
 adding logic and additional files to the folders outlined above. 
 
 <!--Uncomment once article is available

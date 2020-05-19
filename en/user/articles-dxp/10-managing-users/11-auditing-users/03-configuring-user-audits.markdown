@@ -7,10 +7,10 @@ header-id: configuring-audits
 [TOC levels=1-4]
 
 Audits are enabled by default. The Audit app reports audit events, but you can 
-also report them in @product@'s logs or console, enable them for scheduled jobs, 
+also report them in @sharepoint@'s logs or console, enable them for scheduled jobs, 
 or disable them entirely. 
 
-There are two main ways to configure @product@:
+There are two main ways to configure @sharepoint@:
 
 1.  Edit a configuration via the Control Panel. This saves the configuration to 
     the database. 
@@ -23,7 +23,7 @@ These methods apply to each of the audit configuration options explained below.
 ## Reporting Audit Events in Liferay's Logs and Console
 
 Follow these steps to use the Control Panel to configure the reporting of log 
-events in @product@'s log and console: 
+events in @sharepoint@'s log and console: 
 
 1.  Go to *Control Panel* &rarr; *Configuration* &rarr; *System Settings* and 
     select *Audit* from the *Security* section. 
@@ -31,7 +31,7 @@ events in @product@'s log and console:
 2.  In the *SYSTEM SCOPE* column on the left, select 
     *Logging Message Audit Message Processor*. 
 
-3.  Select the *Enabled* checkbox to report audit events in @product@'s log. 
+3.  Select the *Enabled* checkbox to report audit events in @sharepoint@'s log. 
 
 4.  Select the *Output to Console* checkbox to report audit events in the 
     console. 
@@ -62,8 +62,8 @@ file:
     [Liferay Home folder](/docs/7-2/deploy/-/knowledge_base/d/liferay-home) 
     is typically the application server's parent folder. 
 
-Regardless of your configuration approach, you must also extend @product@'s 
-`log4j-ext.xml` file to configure Log4j (@product@'s logging implementation) to
+Regardless of your configuration approach, you must also extend @sharepoint@'s 
+`log4j-ext.xml` file to configure Log4j (@sharepoint@'s logging implementation) to
 log messages produced by the appropriate class to the appropriate file. To do
 so, create a `portal-log4j-ext.xml` file in 
 `[LIFERAY_HOME]/tomcat-[version]/webapps/ROOT/WEB-INF/classes/META-INF` 

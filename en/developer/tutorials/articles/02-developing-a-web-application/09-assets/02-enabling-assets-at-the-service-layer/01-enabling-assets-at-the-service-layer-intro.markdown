@@ -33,7 +33,7 @@ layers:
     As mentioned above, you must use the `AssetEntry` service so your
     application can add asset entries corresponding to guestbooks and guestbook
     entries. You also use the `AssetLink` service to support related assets.
-    *Asset links* are @product@'s back-end term for related assets. 
+    *Asset links* are @sharepoint@'s back-end term for related assets. 
 
 2.  You must add finders---two for `Guestbook`s and two for
     `GuestbookEntry`s---so your assets show in Asset Publisher, because it

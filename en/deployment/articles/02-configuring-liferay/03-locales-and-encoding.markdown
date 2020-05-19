@@ -83,7 +83,7 @@ file:
 ```
 
 The defaults should be sufficient for nearly all circumstances. Because
-`web.xml` changes require stopping and possibly redeploying @product@ (depending
+`web.xml` changes require stopping and possibly redeploying @sharepoint@ (depending
 on your app server), test the defaults and make sure you really need to modify
 these settings. If you're clustered, you must make these changes on all nodes.
 

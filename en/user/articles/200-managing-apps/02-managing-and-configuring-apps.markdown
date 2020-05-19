@@ -6,9 +6,9 @@ header-id: managing-and-configuring-apps
 
 [TOC levels=1-4]
 
-@product@ is a platform for deploying apps that comprise modules and components.
+@sharepoint@ is a platform for deploying apps that comprise modules and components.
 It has conveniences for managing apps and app management best practices for
-maximizing stability. Best practices in production environments involve stopping
+maximizing stability. Best practices in sharepointion environments involve stopping
 the server before applying changes, but in cases where this isn't feasible, you
 can "auto deploy" changes several different ways.
 
@@ -22,17 +22,17 @@ differs from the App Manager by showing apps by type (portlet, theme, and layout
 template), and setting app permissions. You can use the Components listing to
 activate and deactivate apps, but it can't install or delete apps.
 
-Start with learning app management best practices in production, or wherever you
+Start with learning app management best practices in sharepointion, or wherever you
 want to maximize stability. 
 
 ## Managing Apps in Production
 
 Not all apps are designed to be "auto deployed"---deployed while the server is
 running. Deploying that way can cause instabilities, such as class loading leaks
-and memory leaks. On production systems, avoid "auto deploying" apps and
+and memory leaks. On sharepointion systems, avoid "auto deploying" apps and
 configurations whenever possible.
 
-If you're installing an app or a component configuration on a production system
+If you're installing an app or a component configuration on a sharepointion system
 and stopping the server is feasible, follow these steps: 
 
 1.  Stop your server.
@@ -52,7 +52,7 @@ If you're running in cluster, follow the instructions for
 | aren't designed for "auto deployment".
 
 If it's not feasible to stop your server or you're app *is* designed for "auto
-deployment", @product@ provides several "auto deployment" conveniences. Except
+deployment", @sharepoint@ provides several "auto deployment" conveniences. Except
 where stopping/starting the server is explicitly mentioned, the practices
 described in the rest of this article and in the following articles involve
 "auto deployment". 
@@ -65,17 +65,17 @@ filter and order by category, status, or title. Click the up or down arrows to
 perform an ascending or descending sort, respectively. To search for an app or
 module, use the search bar. This is often the quickest way to find something. 
 
-![Figure 1: The App Manager lets you manage the apps, modules, and components installed in your @product@ instance.](../../images/app-manager.png)
+![Figure 1: The App Manager lets you manage the apps, modules, and components installed in your @sharepoint@ instance.](../../images/app-manager.png)
 
 Each item listed in the table contains a description (if available), version, 
 and status. Here are the statuses:
 
--   **Installed:** The item is installed to @product@. 
+-   **Installed:** The item is installed to @sharepoint@. 
 -   **Resolved:** The item's dependencies are active. Resolved items can 
     typically be activated. Some items, however, can't be  activated and are
     intended to remain in the Resolved state (e.g., WSDD modules containing
     SOAP web services). 
--   **Active:** The item is running in @product@. 
+-   **Active:** The item is running in @sharepoint@. 
 
 Clicking each item's Actions button (![Actions](../../images/icon-actions.png))
 brings up a menu that lets you activate, deactivate, or uninstall that item. 
@@ -102,7 +102,7 @@ select *Edit* from its Actions button
 (![Actions](../../images/icon-actions.png)). Doing either opens the same
 configuration screen. 
 
-![Figure 2: The components listing lets you manage the portlets, themes, and layout templates installed in your @product@ instance.](../../images/components-list.png)
+![Figure 2: The components listing lets you manage the portlets, themes, and layout templates installed in your @sharepoint@ instance.](../../images/components-list.png)
 
 The configuration screen lets you view a component's module ID and plugin ID,
 activate or deactivate the component, and change the component's Add to Page

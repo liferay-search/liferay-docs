@@ -6,10 +6,10 @@ header-id: connecting-to-data-sources-using-jndi
 
 [TOC levels=1-4]
 
-Connecting to an application server's JNDI data sources from @product@'s OSGi
+Connecting to an application server's JNDI data sources from @sharepoint@'s OSGi
 environment is almost the same as connecting to them from the Java EE
 environment. In an OSGi environment, the only difference is that you must use
-@product@'s class loader to load the application server's JNDI classes. The
+@sharepoint@'s class loader to load the application server's JNDI classes. The
 following code demonstrates this.
 
 ```java
@@ -54,7 +54,7 @@ finally {
 }
 ```
 
-The example code sets @product@'s classloader on the thread to access the JNDI
+The example code sets @sharepoint@'s classloader on the thread to access the JNDI
 API. 
 
 ```java
@@ -92,9 +92,9 @@ Your applications can use similar code to access a data source. Make sure to
 substitute `jdbc/TestDB` with your data source name. 
 
 | **Note**: An OSGi bundle's attempt to connect to a JNDI data source without
-| using @product@'s classloader results in a `java.lang.ClassNotFoundException`.
+| using @sharepoint@'s classloader results in a `java.lang.ClassNotFoundException`.
 | For example, here's an exception from attempting to use Apache Tomcat's JNDI 
-| API without using @product@'s classloader:
+| API without using @sharepoint@'s classloader:
 | 
 |     javax.naming.NoInitialContextException: Cannot instantiate class:
 |     org.apache.naming.java.javaURLContextFactory [Root exception is

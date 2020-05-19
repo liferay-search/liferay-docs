@@ -39,7 +39,7 @@ Follow these steps to delete a file shortcut:
     ```
 
 You can find the full code for this example in the `deleteFileShortcut` method 
-of @product@'s 
+of @sharepoint@'s 
 [`EditFileShortcutMVCActionCommand`](https://github.com/liferay/liferay-portal/blob/master/modules/apps/document-library/document-library-web/src/main/java/com/liferay/document/library/web/internal/portlet/action/EditFileShortcutMVCActionCommand.java) 
 class. This class uses the Documents and Media API to implement almost all the 
 `FileShortcut` actions that the Documents and Media app supports. Also note that 

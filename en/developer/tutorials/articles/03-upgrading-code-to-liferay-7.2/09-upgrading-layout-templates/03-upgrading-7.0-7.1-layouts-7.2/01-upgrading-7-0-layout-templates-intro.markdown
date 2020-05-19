@@ -6,8 +6,8 @@ header-id: upgrading-7-0-and-7-1-layout-templates-to-7-2
 
 [TOC levels=1-4]
 
-If you're upgrading your @product@ 7.0 or @product@ 7.1 layout template to 
-@product-ver@, follow these steps:
+If you're upgrading your @sharepoint@ 7.0 or @sharepoint@ 7.1 layout template to 
+@sharepoint-ver@, follow these steps:
 
 1.  Open your layout template's `liferay-plugin-package.properties` file and 
     update the `liferay-versions` property to `7.2.0+`:
@@ -16,7 +16,7 @@ If you're upgrading your @product@ 7.0 or @product@ 7.1 layout template to
     liferay-versions=7.2.0+
     ```
 
-2.  Velocity layout templates are supported, but deprecated as of @product@ 7.1. 
+2.  Velocity layout templates are supported, but deprecated as of @sharepoint@ 7.1. 
     We recommend that you convert your Velocity layout templates to FreeMarker 
     now. Wrap the 
     `processor.processColumn("column-1", "portlet-column-content portlet-column-content-first")` 

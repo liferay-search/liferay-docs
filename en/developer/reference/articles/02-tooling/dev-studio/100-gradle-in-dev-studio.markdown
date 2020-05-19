@@ -36,7 +36,7 @@ projects in Dev Studio.
 Most of Dev Studio's wizards rely on your usage of Liferay Workspace. This is
 for good reason; it's the recommended developer environment for Liferay
 projects. You can, however, create pure Gradle projects and manually configure
-them to be deployable to @product@.
+them to be deployable to @sharepoint@.
 
 You can create a pure Gradle project by using the Gradle Project wizard.
 

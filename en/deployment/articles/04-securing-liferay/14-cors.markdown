@@ -16,13 +16,13 @@ For example, browsers themselves don't allow cross-origin AJAX-style requests
 from scripts to help mitigate 
 [cross-site scripting](https://en.wikipedia.org/wiki/Cross-site_scripting)
 attacks. These APIs follow a *same origin* policy. But for certain resources, it
-can be convenient to allow @product@ to serve them to different origins. 
+can be convenient to allow @sharepoint@ to serve them to different origins. 
 
 For example, if you manage images in Docs & Media, you may want to allow
 cross-origin requests for them. You can enable CORS for matching URLs in
-@product@ or for JAX-RS application resources. 
+@sharepoint@ or for JAX-RS application resources. 
 
-## Enabling CORS for @product@ Services
+## Enabling CORS for @sharepoint@ Services
 
 You'll find the settings in Configuration &rarr; System Settings &rarr; Security
 &rarr; Security Tools &rarr; Portal Cross Resource Origin Sharing (CORS): 
@@ -74,7 +74,7 @@ apply to. This is the default filter:
 ```
 It applies CORS headers to all deployed JAX-RS whiteboard applications without
 a `liferay.cors=false` property. This helps during development, but in
-production you should use the narrowest configuration possible. 
+sharepointion you should use the narrowest configuration possible. 
 
 **URL Pattern:** Use the Plus button to add as many patterns as you need. Define
 patterns that match URLs to the web services you want to access. 

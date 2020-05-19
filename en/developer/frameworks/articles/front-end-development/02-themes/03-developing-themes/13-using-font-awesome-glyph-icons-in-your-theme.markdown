@@ -8,7 +8,7 @@ header-id: using-font-awesome-and-glyph-icons-in-your-theme
 
 By default, [Font Awesome v3.2.1](https://fontawesome.com/v3.2.1/) 
 and [Bootstrap 3 Glyphicons](https://getbootstrap.com/docs/3.3/components/) 
-are enabled globally in @product@ via a system setting. This means that you can 
+are enabled globally in @sharepoint@ via a system setting. This means that you can 
 use them in your themes to create social media links, for example. A Site 
 Administrator can disable this to improve performance, if they choose. 
 

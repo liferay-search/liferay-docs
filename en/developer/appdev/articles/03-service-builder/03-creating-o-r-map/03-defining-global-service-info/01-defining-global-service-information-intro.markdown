@@ -51,7 +51,7 @@ Spring Dependency Injector:
 | the Service Builder template and the `--dependency-injector spring` option 
 | (Blade CLI) or `-DdependencyInjector=spring` (Maven). 
 
-| **Note:** Prior to @product@ 7.2, Spring was the sole dependency injector. The
+| **Note:** Prior to @sharepoint@ 7.2, Spring was the sole dependency injector. The
 | services were Spring beans. Liferay's Spring bean framework accommodates 
 | Spring beans referencing each other: for example, Spring bean A has a Spring
 | bean B field and vice versa. When Spring is the dependency injector, the base
@@ -90,7 +90,7 @@ If the current data version
   data and is accepted.
 
 - **doesn't match the expected version**, the data you're operating on is
-  outdated. @product@ rejects your data operation and throws an exception,
+  outdated. @sharepoint@ rejects your data operation and throws an exception,
   which you can catch to help the user handle the exception (e.g., suggest
   retrying the operation). 
 

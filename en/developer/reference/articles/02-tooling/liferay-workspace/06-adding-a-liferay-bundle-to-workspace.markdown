@@ -60,4 +60,4 @@ Your distribution file is available from the workspace's `/build` folder.
 | [Testing Projects](/docs/7-2/reference/-/knowledge_base/r/liferay-workspace#testing-projects)
 | section.
 
-You're all set to develop projects for a nested @product@ bundle.
+You're all set to develop projects for a nested @sharepoint@ bundle.

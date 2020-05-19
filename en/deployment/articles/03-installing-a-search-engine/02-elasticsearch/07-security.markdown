@@ -42,7 +42,7 @@ Kibana's UI or the
 
 The `interactive` argument sets the passwords for all built-in users. The
 configuration shown in these articles assumes you set all passwords to
-*liferay*. Of course, that's not recommended for production systems.
+*liferay*. Of course, that's not recommended for sharepointion systems.
 
 ```bash
 ./bin/elasticsearch-setup-passwords interactive
@@ -61,7 +61,7 @@ Enable transport layer security on each node.
 The following instructions for enabling TLS use `liferay` as the password
 whenever one is needed. Use your own passwords for your installation. 
 
-| **Important:** Elasticsearch and @product@ must share the keys and certificates
+| **Important:** Elasticsearch and @sharepoint@ must share the keys and certificates
 | used to configure TLS. Copy them between servers and point to the local copy in
 | the corresponding configuration files.
 
@@ -172,7 +172,7 @@ on each node via its `elasticsearch.yml`.
         xpack.security.http.ssl.enabled: true
 
 After X-Pack is installed and TLS is enabled, configure the X-Pack Security
-adapter in @product@.
+adapter in @sharepoint@.
 
 ### Example Elasticsearch Security Configuration
 
@@ -266,7 +266,7 @@ The `password` should match what you set during the X-Pack password
 setup above. 
 
 The certificate and key files referenced here are the same ones used on the
-Elasticsearch server. Copy them to the @product@ server and update their paths
+Elasticsearch server. Copy them to the @sharepoint@ server and update their paths
 in the configuration accordingly.
 
 Enable authentication by setting `requiresAuthentication` to `true` and providing the
@@ -298,7 +298,7 @@ steps require a full cluster restart.
 
 Some Elasticsearch APIs used by Liferay's Elasticsearch 6 connector were
 deprecated as of Elasticsearch 6.6 and 6.7. This can result WARN log entries in
-Elasticsearch's deprecation log when @product@ is configured with Elasticsearch
+Elasticsearch's deprecation log when @sharepoint@ is configured with Elasticsearch
 6.8.x and X-Pack Security is enabled:
 
 ```sh

@@ -2,7 +2,7 @@
 header-id: setting-up-liferay-as-a-saml-identity-provider
 ---
 
-# Setting up @product@ as a SAML Identity Provider
+# Setting up @sharepoint@ as a SAML Identity Provider
 
 [TOC levels=1-4]
 
@@ -11,11 +11,11 @@ users to access other websites. A service provider is a website that hosts
 applications and grants access only to identified users with proper credentials.
 Liferay Portal 6.1 EE and later versions support SAML 2.0 integration via the 
 [Liferay Connector to SAML 2.0](https://web.liferay.com/marketplace/-/mp/application/15188711)
-application. It is provided from Liferay Marketplace and allows @product@ to act
+application. It is provided from Liferay Marketplace and allows @sharepoint@ to act
 as a SAML 2.0 identity provider or as a service provider.
 
-| **Important:** You can set @product@ up as an Identity Provider or as a Service
-| Provider. Each single @product@ instance can serve as an identity provider or as
+| **Important:** You can set @sharepoint@ up as an Identity Provider or as a Service
+| Provider. Each single @sharepoint@ instance can serve as an identity provider or as
 | a service provider, but **not both**. Both configurations are covered in this
 | article.
 
@@ -39,14 +39,14 @@ Manager*.
 If you use Document Library storage, you can use any number of 
 [back-end file stores](/docs/7-2/deploy/-/knowledge_base/d/document-repository-configuration).
 These are protected not only by the system where the key is stored, but
-also by @product@'s permissions system.
+also by @sharepoint@'s permissions system.
 
-## Configuring @product@ as a SAML Identity Provider
+## Configuring @sharepoint@ as a SAML Identity Provider
 
 1.  To access the SAML Admin interface, click on *Control Panel* &rarr;
     *Configuration* and then on *SAML Admin*.
 
-2.  To begin configuring @product@ to use SAML, select a SAML role for @product@ and
+2.  To begin configuring @sharepoint@ to use SAML, select a SAML role for @sharepoint@ and
     choose an entity ID.
 
     ![Figure 1: Select a SAML role for Liferay and enter an entity ID.](../../../images-dxp/saml-initial-config.png)
@@ -93,18 +93,18 @@ also by @product@'s permissions system.
     are also encrypted.
 
     **Service Provider Connections:** This tab manages any Service Providers
-    connected to this @product@ instance.
+    connected to this @sharepoint@ instance.
  
     See below for more information on the Identity Provider and Service
     Provider Connections tabs.
 
 5.  After you save your certificate and private key information,
     check the *Enabled* box at the top of the General tab and click *Save*.
-    You successfully set @product@ up as a SAML Identity Provider!
+    You successfully set @sharepoint@ up as a SAML Identity Provider!
 
 ## Changing the Identity Provider Settings
 
-To configure @product@'s SAML Identity Provider Settings, navigate to the *Identity
+To configure @sharepoint@'s SAML Identity Provider Settings, navigate to the *Identity
 Provider* tab of the SAML Admin Control Panel entry.
 
 The *Identity Provider* tab includes these options:
@@ -123,7 +123,7 @@ should be enabled.
 in seconds. If this property is not set or is set to `0`, the SSO session has an
 unlimited duration. The SSO session maximum duration can be longer than the
 portal session maximum duration. If the portal session expires before the SSO
-session expires, the user is logged back in to @product@ automatically. SSO
+session expires, the user is logged back in to @sharepoint@ automatically. SSO
 session expiration does not trigger a single logout from all service providers.
 You can use the session maximum age, for example, to force users to sign in
 again after a certain period of time.
@@ -155,7 +155,7 @@ Before adding a Service Provider (SP), verify you've completed these tasks:
 
 3. Once the *Enabled* checkbox has been checked, the IdP is live, and you can
    generate the required metadata. This URL is the default location of
-   @product@'s metadata XML file:
+   @sharepoint@'s metadata XML file:
 
         [host]:[port]/c/portal/saml/metadata 
 

@@ -6,7 +6,7 @@ header-id: configuring-rss-feeds
 
 [TOC levels=1-4]
 
-| **Note:** RSS feeds are deprecated for @product@ 7.2 and are disabled by
+| **Note:** RSS feeds are deprecated for @sharepoint@ 7.2 and are disabled by
 | default. To leverage RSS feeds, you must enable this feature. Go to the
 | Control Panel &rarr; *Configuration* &rarr; *System Settings* &rarr; *Web
 | Content*. Under the *System Scope* &rarr; *Administration* tab, check the

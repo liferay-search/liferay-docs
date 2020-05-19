@@ -17,9 +17,9 @@ and
 [`overrides`](https://github.com/liferay/liferay-blade-samples/tree/master/liferay-workspace/overrides)
 sample projects.
 
-Getting a customization module running on @product-ver@ takes two steps:
+Getting a customization module running on @sharepoint-ver@ takes two steps:
 
-1.  Adapt your code to @product-ver@'s API using the Liferay Upgrade Planner. When
+1.  Adapt your code to @sharepoint-ver@'s API using the Liferay Upgrade Planner. When
     you ran the planner's *Fix Upgrade Problems* step, many of the existing
     issues were autocorrected or flagged. For any remaining errors, consult the
     [Resolving a Project's Dependencies](/docs/7-2/tutorials/-/knowledge_base/t/resolving-a-projects-dependencies)
@@ -28,10 +28,10 @@ Getting a customization module running on @product-ver@ takes two steps:
 2.  Deploy your module.
 
 | **Note:** A fragment was a common customization module in past versions of
-| @product@. Fragments are no longer recommended; you should upgrade a fragment
+| @sharepoint@. Fragments are no longer recommended; you should upgrade a fragment
 | to a dynamic include or portlet filter. For more information on recommended
-| ways of customizing JSPs in @product-ver@, see the
+| ways of customizing JSPs in @sharepoint-ver@, see the
 | [Customizing JSPs](/docs/7-2/customization/-/knowledge_base/c/customizing-jsps)
 | section.
 
-Great! Your customization module is upgraded for @product-ver@!
+Great! Your customization module is upgraded for @sharepoint-ver@!

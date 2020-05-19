@@ -10,7 +10,7 @@ Once you know which API you want to call via the
 [OpenAPI profile](/docs/7-2/frameworks/-/knowledge_base/f/get-started-discover-the-api), 
 you can send a request to that resource's URL. For example, suppose you want to 
 retrieve all the blog entries from a Site. If you consult the OpenAPI profile 
-for @product@'s delivery API, you can find this endpoint: 
+for @sharepoint@'s delivery API, you can find this endpoint: 
 
 ```yaml
 "/sites/{siteId}/blog-postings":
@@ -57,7 +57,7 @@ for @product@'s delivery API, you can find this endpoint:
 
 The only required parameter is `siteId`, the ID of the blog postings' Site. 
 Internally, the `siteId` is a `groupId` that you can retrieve from the database, 
-a URL, or @product@'s UI via the Site Administration menu. The following GET 
+a URL, or @sharepoint@'s UI via the Site Administration menu. The following GET 
 request gets the site's blog postings by providing the site ID (`20124`) in the 
 URL: 
 

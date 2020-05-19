@@ -10,7 +10,7 @@ header-id: upgrading-portlet-language-key-hooks
     <p id="stepTitle">Upgrading Customization Plugins</p><p>Step 6 of 11</p>
 </div>
 
-You can upgrade your portlet language key hooks to @product-ver@ by following
+You can upgrade your portlet language key hooks to @sharepoint-ver@ by following
 these steps:
 
 1.  Create a new module based on the Blade sample `resource-bundle` project
@@ -37,4 +37,4 @@ these steps:
 4.  [Deploy your module](/docs/7-2/reference/-/knowledge_base/r/deploying-a-project). 
 
 Your portlet language key customizations are deployed in your new module on
-@product-ver@. 
+@sharepoint-ver@. 

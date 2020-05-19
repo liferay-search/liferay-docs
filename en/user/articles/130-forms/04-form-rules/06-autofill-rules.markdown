@@ -19,7 +19,7 @@ input and output parameters you choose when setting up the rule.
 To follow this example: 
 
 1.  Set up a data provider using the `get-countries` JSON web service. If you're
-    running @product@ at `localhost:8080`, you can access this web service here:
+    running @sharepoint@ at `localhost:8080`, you can access this web service here:
         
         http://localhost:8080/api/jsonws?contextName=&signature=%2Fcountry%2Fget-countries-0
 

@@ -6,14 +6,14 @@ header-id: headless-rest-apis
 
 [TOC levels=1-4]
 
-@product@'s headless REST APIs follow the 
+@sharepoint@'s headless REST APIs follow the 
 [OpenAPI](https://swagger.io/docs/specification/about/) 
 specification and let your apps consume RESTful web services. What's more, you 
-can consume these APIs without being tied to @product@'s UI (hence the term 
+can consume these APIs without being tied to @sharepoint@'s UI (hence the term 
 *headless*). This gives you a great deal of freedom when designing and 
 developing your apps. 
 
-The articles in this section show you how to navigate and consume @product@'s 
+The articles in this section show you how to navigate and consume @sharepoint@'s 
 headless REST APIs. But first, you'll learn the design approach for these APIs. 
 
 ## OpenAPI
@@ -27,7 +27,7 @@ is supported by major players in the API ecosystem such as Google, Amazon, and
 Microsoft. As a spec, it is language-agnostic, and many libraries implement it
 or provide code generation to help validate, consume, or produce APIs.
 
-@product@ leverages existing knowledge of OpenAPI to define, create and consume
+@sharepoint@ leverages existing knowledge of OpenAPI to define, create and consume
 REST APIs.
 
 ## API Vocabulary
@@ -48,7 +48,7 @@ the code that implements the services. Such messages are defined independent of
 the code. This avoids tight coupling and is less likely to break clients as APIs 
 evolve. 
 
-@product@'s headless web APIs use a mixture of both approaches. An OpenAPI 
+@sharepoint@'s headless web APIs use a mixture of both approaches. An OpenAPI 
 profile uses a contract first approach by defining the paths and schemas before 
 writing any code. It then generates an API automatically based on that profile, 
 using the contract-last characteristic of code generation (like Service 

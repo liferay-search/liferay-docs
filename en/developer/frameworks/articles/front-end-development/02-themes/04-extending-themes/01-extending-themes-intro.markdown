@@ -6,7 +6,7 @@ header-id: extending-themes
 
 [TOC levels=1-4]
 
-@product@ has additional features that you can use to extend your theme and 
+@sharepoint@ has additional features that you can use to extend your theme and 
 modify your site. This section covers these topics:
 
 - Installing Themelets

@@ -79,7 +79,7 @@ able to enable staging and an error message appears. If you have issues,
 [verify you've configured your servers properly](/docs/7-2/user/-/knowledge_base/u/configuring-servers-for-remote-live-staging).
 
 When a user publishes changes from the local (staging) server to the remote
-(live) server, @product@ passes the user's email address, screen name, or user
+(live) server, @sharepoint@ passes the user's email address, screen name, or user
 ID to the remote server to perform a permission check. For a publishing
 operation to succeed, the operation must be performed by a user that has
 identical credentials and permissions on both the local (staging) and the remote
@@ -87,7 +87,7 @@ identical credentials and permissions on both the local (staging) and the remote
 the changes immediately or attempts to schedule the publication for later.
 
 If only a few users should have permission to publish changes from staging to
-production, it's easy enough to create a few user accounts on the remote server
+sharepointion, it's easy enough to create a few user accounts on the remote server
 that match a selected few on the local server. The more user accounts that you
 have to create, however, the more tedious this job becomes and the more likely
 you are to make a mistake. And you not only have to create identical user

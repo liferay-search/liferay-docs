@@ -17,7 +17,7 @@ usefulness for enabling administrator configuration; plus it can only be used
 with portlets. Instead, application developers tend to create ad hoc
 configuration methods. But this isn't necessary. 
 
-@product@'s configuration API is easy to use and is not limited to portlets.
+@sharepoint@'s configuration API is easy to use and is not limited to portlets.
 When you define configuration options in a Java interface, Liferay's
 configuration framework auto-generates a UI, sparing you the trouble of
 developing an interface for your users to select configuration options.
@@ -54,7 +54,7 @@ This Java interface does a number of things:
 -   It defines the type {`int`, `String`, etc.) of values each configuration
     takes.
 
--   It defines the scope of your configuration. Bonus in @product-ver@: if your
+-   It defines the scope of your configuration. Bonus in @sharepoint-ver@: if your
     configuration is scoped to anything other than `SYSTEM`, you get an
     additional UI generated for you in *Instance Settings*. More on scope in
     a minute.
@@ -169,5 +169,5 @@ entirely so you can put your own UI in its place.
 
 Enough conceptual stuff. You're ready to get started with some code. If you
 already have an app that was configurable under an earlier version of
-@product@, see 
+@sharepoint@, see 
 [Upgrading a Legacy App](/docs/7-2/frameworks/-/knowledge_base/f/upgrading-a-legacy-app).

@@ -7,7 +7,7 @@ header-id: why-arent-jsp-overrides-i-made-using-fragments-showing
 [TOC levels=1-4]
 
 | **Important:** It's strongly recommended to
-| [customize JSPs using @product@'s API](/docs/7-2/customization/-/knowledge_base/c/customizing-jsps).
+| [customize JSPs using @sharepoint@'s API](/docs/7-2/customization/-/knowledge_base/c/customizing-jsps).
 | Since overriding a JSP using an OSGi fragment is not based on APIs there's no
 | way to guarantee that it will fail gracefully. Instead, if your customization 
 | is buggy (because of your code or because of a change in Liferay), you are
@@ -16,7 +16,7 @@ header-id: why-arent-jsp-overrides-i-made-using-fragments-showing
 | last resort.
 
 The fragment module must specify the exact version of the host module. A 
-@product@ upgrade might have changed some JSPs in the host module, prompting a 
+@sharepoint@ upgrade might have changed some JSPs in the host module, prompting a 
 version update. If this occurs, check that your JSP customizations are 
 compatible with the updated host JSPs and then update your fragment module's 
 targeted version to match the host module. 

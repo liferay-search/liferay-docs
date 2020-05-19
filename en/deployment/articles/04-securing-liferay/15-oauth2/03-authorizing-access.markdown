@@ -7,7 +7,7 @@ header-id: authorizing-account-access-with-oauth2
 [TOC levels=1-4]
 
 Once you have an application registered, you can start authorizing users. To do
-that, you must construct the URL to the authorization server (@product@). The
+that, you must construct the URL to the authorization server (@sharepoint@). The
 authorization server asks users to authorize the requested permissions to their
 resources, defined as you saw in the previous tutorial as scopes. 
 
@@ -124,7 +124,7 @@ authorization code.
 ## Token Use
 
 All flows above result in an access token that's sent by the authorization
-server (@product@) to the client application. This token is sent in the response
+server (@sharepoint@) to the client application. This token is sent in the response
 for the client application to store and send along with any future request for
 data. 
 

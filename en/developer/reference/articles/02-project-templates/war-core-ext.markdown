@@ -101,10 +101,10 @@ Gradle-specific files, but otherwise, appears exactly the same.
 | `gradle.properties`. The app server location is required for this project to
 | compile.
 
-The generated WAR Ext project is functional and is deployable to a @product@ instance.
+The generated WAR Ext project is functional and is deployable to a @sharepoint@ instance.
 To build upon the generated project, modify the project by adding logic and
 additional files to the folders outlined above. Deploying WAR Ext projects is
 only supported for limited use cases; it is recommended to leverage provided
-extension points offered in @product@. You can visit the
+extension points offered in @sharepoint@. You can visit the
 [Customization with Ext](/docs/7-2/customization/-/knowledge_base/c/customization-with-ext)
 section for info on how to do this.

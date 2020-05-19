@@ -9,7 +9,7 @@ header-id: aggregations
 Aggregations take the results of a query and group the data into logical sets.
 Aggregations can be composed to provide complex data summaries.
 
-@product-ver@ has a new API that exposes 
+@sharepoint-ver@ has a new API that exposes 
 [Elasticsearch's native Aggregation functionality](https://www.elastic.co/guide/en/elasticsearch/reference/7.x/search-aggregations.html). 
 
 Currently, these aggregation types are supported:
@@ -52,7 +52,7 @@ All the supported aggregations are found in the `portal-search-api` module's
 `com.liferay.portal.search.aggregation` package.
 
 In addition to these aggregations, other aggregation-like features are present
-in the @product@ search API:
+in the @sharepoint@ search API:
 
 **Group By** collects search results (documents) based on a particular field.
 For example, if you want to group the search results based on the asset
@@ -95,4 +95,4 @@ These steps are covered in more detail (with examples)
 
 | API (FQCN) | Provided by Artifact | Notes |
 | -----------|:--------------------:|:--------:|
-| `com.liferay.portal.search.aggregation.*` | com.liferay.portal.search.api | The whole ["aggregation" package](https://github.com/liferay/liferay-portal/tree/7.2.x/modules/apps/portal-search/portal-search-api/src/main/java/com/liferay/portal/search/aggregation) is new as of @product-ver@
+| `com.liferay.portal.search.aggregation.*` | com.liferay.portal.search.api | The whole ["aggregation" package](https://github.com/liferay/liferay-portal/tree/7.2.x/modules/apps/portal-search/portal-search-api/src/main/java/com/liferay/portal/search/aggregation) is new as of @sharepoint-ver@

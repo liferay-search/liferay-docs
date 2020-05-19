@@ -6,7 +6,7 @@ header-id: deploying-a-project
 
 [TOC levels=1-4]
 
-Deploying a project to @product@ can be completed using your tool of choice. The
+Deploying a project to @sharepoint@ can be completed using your tool of choice. The
 following tools are preconfigured (or can be easily configured) for Liferay
 project generation:
 
@@ -45,7 +45,7 @@ blade deploy
 
 If you prefer not to use your underlying build tool's (Gradle or Maven) module
 deployment configuration, and instead, you want to deploy straight to
-@product@'s OSGi container, run this command:
+@sharepoint@'s OSGi container, run this command:
 
 ```bash
 blade deploy -l
@@ -116,7 +116,7 @@ in IntelliJ.
 
 2.  Verify that your project builds successfully from the build progress window.
     Then navigate back to your server's window and confirm it starts in your
-    configured @product@ instance.
+    configured @sharepoint@ instance.
 
 ## Maven
 

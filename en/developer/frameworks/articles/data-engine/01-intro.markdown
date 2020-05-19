@@ -6,23 +6,23 @@ header-id: data-engine
 
 [TOC levels=1-4]
 
-Past versions of @product@ included a robust framework for creating form and
+Past versions of @sharepoint@ included a robust framework for creating form and
 list-based applications, either programmatically or from the Dynamic Data Lists
 Application. While Dynamic Data Lists continue to exist, the new Data Engine
 framework was written. It's much easier to use, and it supports the new
 [headless approach to writing APIs](/docs/7-1/tutorials/-/knowledge_base/t/headless-rest-apis). 
-In @product-ver@, only the back-end APIs are available for developers. Future
+In @sharepoint-ver@, only the back-end APIs are available for developers. Future
 releases will add a front-end tool on top of the new Data Engine API to allow
 non-developers to create applications. For now, developers can use the API to 
 
-1.  Create front-end applications running outside @product@, making service
+1.  Create front-end applications running outside @sharepoint@, making service
     calls from a REST client to the Data Engine APIs.
 
-2.  Create applications inside @product@ that call the Data Engine's local APIs
+2.  Create applications inside @sharepoint@ that call the Data Engine's local APIs
     APIs for their persistence code.
 
 To start discovering the Data Engine API and the other headless REST APIs of
-@product@, read
+@sharepoint@, read
 [here](/docs/7-2/frameworks/-/knowledge_base/f/get-started-discover-the-api). 
 
 The Data Engine framework has four fundamental entities. You'll be familiar with

@@ -6,10 +6,10 @@ header-id: openapi-profiles
 
 [TOC levels=1-4]
 
-All the APIs exposed by @product@ are available under the 
+All the APIs exposed by @sharepoint@ are available under the 
 [liferayinc SwaggerHub organization](https://app.swaggerhub.com/organizations/liferayinc). 
 
-@product@'s headless APIs are categorized in two different use cases:
+@sharepoint@'s headless APIs are categorized in two different use cases:
 
 -   Delivering content (delivery APIs)
 -   Managing and administering content (admin APIs)
@@ -20,7 +20,7 @@ The available APIs demonstrate this categorization.
 
 The following table lists the APIs that 
 [Headless Delivery](https://app.swaggerhub.com/apis/liferayinc/headless-delivery/v1.0) 
-contains. Note that the second column shows which internal model in @product@ 
+contains. Note that the second column shows which internal model in @sharepoint@ 
 that the API maps to. 
 
 | API | &nbsp;Internal Model | 

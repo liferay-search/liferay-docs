@@ -83,7 +83,7 @@ Portal property disables the associated table mapper cache.
 1.  In your
     [`[Liferay_Home]/portal-ext.properties` file](/docs/7-1/deploy/-/knowledge_base/d/liferay-home), 
     add the current `table.mapper.cacheless.mapping.table.names` property
-    setting. The setting is in your @product@ installation's
+    setting. The setting is in your @sharepoint@ installation's
     `portal-impl.jar/portal.properties` file.
 
 2.  Append your mapping table name to the list. For example, to disable the
@@ -100,6 +100,6 @@ Portal property disables the associated table mapper cache.
         AssetEntries_AssetCategories
     ```
 
-3.  Restart the @product@ instance to delete the table mapper cache. 
+3.  Restart the @sharepoint@ instance to delete the table mapper cache. 
 
 You've disabled an unwanted table mapper cache. 

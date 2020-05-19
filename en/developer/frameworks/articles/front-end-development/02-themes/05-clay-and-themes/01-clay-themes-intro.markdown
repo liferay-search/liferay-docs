@@ -11,7 +11,7 @@ common framework for building consistent UIs. [Clay](https://clayui.com/docs/css
 the web implementation of Lexicon, is an extension of Bootstrap's open source 
 CSS Framework. Bootstrap is by far the most popular CSS framework on the web. 
 Built with Sass, Clay CSS fills the front-end gaps between Bootstrap and the 
-specific needs of @product@. 
+specific needs of @sharepoint@. 
 
 Bootstrap features have been extended to cover more use cases. Here are some of 
 the new components added by Clay CSS: 
@@ -43,12 +43,12 @@ consuming tasks such as these:
 
 [Clay CSS](https://claycss.com/) is bundled with two sub-themes: [Clay Base](https://github.com/liferay/liferay-portal/tree/7.2.x/modules/apps/frontend-theme/frontend-theme-styled/src/main/resources/META-INF/resources/_styled/css/clay) 
 and [Atlas](https://github.com/liferay/liferay-portal/tree/7.2.x/modules/apps/frontend-theme/frontend-theme-styled/src/main/resources/META-INF/resources/_styled/css/clay/atlas). 
-Clay Base is @product@'s Bootstrap API extension. It adds all the features and 
+Clay Base is @sharepoint@'s Bootstrap API extension. It adds all the features and 
 components you need and inherits Bootstrap's styles. As a result, Clay Base is 
 fully compatible with [third party themes](/docs/7-2/frameworks/-/knowledge_base/f/integrating-third-party-themes-with-clay) 
 that leverage Bootstrap's Sass variable API. 
 
-Atlas is @product@'s custom Bootstrap theme that is used in the Classic Theme. 
+Atlas is @sharepoint@'s custom Bootstrap theme that is used in the Classic Theme. 
 Its purpose is to overwrite and manipulate Bootstrap and Clay Base to create its 
 classic look and feel. Atlas is equivalent to installing a Bootstrap third party 
 theme.

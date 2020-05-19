@@ -39,7 +39,7 @@ Site's default repository, sorted by title:
     ```
 
 2.  Get the data needed to populate the method's arguments. You can do this any 
-    way you wish. As the next step describes, @product@ provides constants and a 
+    way you wish. As the next step describes, @sharepoint@ provides constants and a 
     comparator for all the arguments this example needs besides the group ID. 
     This example gets the group ID by using 
     [`ParamUtil`](@platform-ref@/7.2-latest/javadocs/portal-kernel/com/liferay/portal/kernel/util/ParamUtil.html) 

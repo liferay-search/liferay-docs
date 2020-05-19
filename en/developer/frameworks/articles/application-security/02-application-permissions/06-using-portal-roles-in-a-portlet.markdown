@@ -6,7 +6,7 @@ header-id: using-portal-roles-in-a-portlet
 
 [TOC levels=1-4]
 
-Roles in @product@ are the primary means for granting or restricting access
+Roles in @sharepoint@ are the primary means for granting or restricting access
 to content. If you've decided *not* to use Liferay's permissions system, you can
 use the basic system offered by the JSR 168, 286, and 362 specifications that
 map Roles in a portlet to Roles provided by the portal. 
@@ -15,7 +15,7 @@ map Roles in a portlet to Roles provided by the portal.
 
 The portlet specification defines a means to specify Roles used by portlets in
 their `docroot/WEB-INF/portlet.xml` descriptors. The Role names themselves,
-however, are not standardized. When these portlets run in @product@, the Role
+however, are not standardized. When these portlets run in @sharepoint@, the Role
 names defined in the portlet must be mapped to Roles that exist in the Portal.
 
 For example, consider a Guestbook project that contains two portlets: The
@@ -88,7 +88,7 @@ system, as the only way to map JSR-362 Roles to Liferay Roles is to place them
 in the Liferay WAR file's `portlet.xml`. 
 
 Your `portlet.xml` Roles must be mapped to specific Roles that have been created.
-These mappings allow @product@ to resolve conflicts between Roles with the same
+These mappings allow @sharepoint@ to resolve conflicts between Roles with the same
 name that are from different portlets (e.g. portlets from different developers). 
 
 | **Note:** Each Role named in a portlet's `<security-role-ref>` element is given
@@ -96,7 +96,7 @@ name that are from different portlets (e.g. portlets from different developers).
 
 ## Mapping Portlet Roles to Portal Roles
 
-To map the Roles to @product@, you must use the
+To map the Roles to @sharepoint@, you must use the
 `docroot/WEB-INF/liferay-portlet.xml` Liferay-specific configuration file. For
 an example, see the mapping defined in the Guestbook project's
 `liferay-portlet.xml` file. 

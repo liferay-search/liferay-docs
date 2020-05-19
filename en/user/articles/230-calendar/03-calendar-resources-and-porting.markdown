@@ -12,7 +12,7 @@ your event requires, like a conference room, laptop, or, at The Lunar Resort,
 the Sasquatch Space Suit used to scare guests out on Lunar hikes. 
 
 Another important topic is porting your calendar's data from one installation of
-@product@ to another.
+@sharepoint@ to another.
 
 ## Calendar Resources
 

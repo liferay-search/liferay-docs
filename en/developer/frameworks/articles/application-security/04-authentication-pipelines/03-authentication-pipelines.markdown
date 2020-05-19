@@ -7,7 +7,7 @@ header-id: password-based-authentication-pipelines
 [TOC levels=1-4]
 
 By default, once a user submits credentials, those credentials are checked
-against @product@'s database, though you can also delegate authentication to an
+against @sharepoint@'s database, though you can also delegate authentication to an
 LDAP server. To use some other system in your environment instead of or in
 addition to checking credentials against the database, you can write an
 `Authenticator` and insert it as a step in the authentication pipeline. 
@@ -20,7 +20,7 @@ to authenticate. In those cases, you should use an
 
 `Authenticator`s let you do these things: 
 
-- Log into @product@ with a user name and password maintained in an external 
+- Log into @sharepoint@ with a user name and password maintained in an external 
   system 
 - Make secondary user authentication checks 
 - Perform additional processing when user authentication fails 

@@ -8,12 +8,12 @@ header-id: get-started-rest-api
 
 To begin consuming web services, you must first know where they are (e.g., a 
 service catalog), what operations you can invoke, and how to invoke them. 
-Because @product@'s headless REST APIs leverage 
+Because @sharepoint@'s headless REST APIs leverage 
 [OpenAPI](https://en.wikipedia.org/wiki/OpenAPI_Specification) 
 (originally known as Swagger), you don't need a service catalog. You only need 
 to know the OpenAPI profile from which to discover the rest of the API. 
 
-@product@'s headless APIs are available in SwaggerHub at 
+@sharepoint@'s headless APIs are available in SwaggerHub at 
 [`https://app.swaggerhub.com/organizations/liferayinc`](https://app.swaggerhub.com/organizations/liferayinc). 
 Each API has its own URL in SwaggerHub. For example, you can access the delivery 
 API definition at 
@@ -24,7 +24,7 @@ this schema:
 
     http://[host]:[port]/o/[insert-headless-api]/[version]/openapi.yaml
 
-For example, if you're running @product@ locally on port `8080`, the home URL 
+For example, if you're running @sharepoint@ locally on port `8080`, the home URL 
 for discovering the headless delivery API is: 
 
     http://localhost:8080/o/headless-delivery/v1.0/openapi.yaml
@@ -36,7 +36,7 @@ browser or other tool like
 or even the `curl` command in your system console. 
 
 For simplicity, the examples in this documentation use the `curl` command and 
-send requests to a @product@ instance running locally on port `8080`. 
+send requests to a @sharepoint@ instance running locally on port `8080`. 
 
 Run this `curl` command to access the home URL: 
 

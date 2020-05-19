@@ -6,21 +6,21 @@ header-id: preparing-to-install-elasticsearch
 
 [TOC levels=1-4]
 
-By default, @product-ver@ and its 
+By default, @sharepoint-ver@ and its 
 [embedded Elasticsearch engine](/docs/7-2/deploy/-/knowledge_base/d/elasticsearch#embedded-vs-remote-operation-mode)
 run in the same JVM. Although this enables out-of-the-box search, it's only
-supported for development. For production use, Elasticsearch must run in a
+supported for development. For sharepointion use, Elasticsearch must run in a
 separate JVM. See the 
 [installation guide](/docs/7-2/deploy/-/knowledge_base/d/installing-elasticsearch)
 for information on installing a remote Elasticsearch cluster. 
 
 Because search engines benefit heavily from caching, their JVM memory profiles
-differ substantially from those of a JVM running @product@. Therefore, the two
-applications should always be kept separate in production environments. 
+differ substantially from those of a JVM running @sharepoint@. Therefore, the two
+applications should always be kept separate in sharepointion environments. 
 
 The following sections provide a synopsis of Elasticsearch configurations for 
-@product-ver@. Prior to deployment, we strongly recommend reading 
-[Elastic's documentation on production deployment](https://www.elastic.co/guide/en/elasticsearch/reference/7.x/index.html). 
+@sharepoint-ver@. Prior to deployment, we strongly recommend reading 
+[Elastic's documentation on sharepointion deployment](https://www.elastic.co/guide/en/elasticsearch/reference/7.x/index.html). 
 
 ## Sizing Your Deployment 
 
@@ -56,15 +56,15 @@ Elastic Block Store (EBS).
 Maintain 25 percent more disk capacity than the total size of your indexes. If
 your index is 60 GB, make sure you have at least 75 GB of disk space available.
 To estimate the disk space you need, you can index a representative sample of
-your production content and multiply that size by the fraction of your
-production content that it represents. For example, index 25 percent of your
-production content and then multiply the resulting index size by four. Keep in
+your sharepointion content and multiply that size by the fraction of your
+sharepointion content that it represents. For example, index 25 percent of your
+sharepointion content and then multiply the resulting index size by four. Keep in
 mind that indexing a 1 MB file doesn't result in 1 MB of disk space in the
 search index. 
 
 ## Cluster Size 
 
-While @product@ can work with an Elasticsearch cluster comprised of one or two
+While @sharepoint@ can work with an Elasticsearch cluster comprised of one or two
 nodes, the minimum cluster size recommended by Elastic for fault tolerance is
 three nodes.
 

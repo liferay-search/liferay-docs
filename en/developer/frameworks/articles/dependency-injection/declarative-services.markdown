@@ -6,7 +6,7 @@ header-id: declarative-services
 
 [TOC levels=1-4]
 
-@product@'s OSGi framework registers objects as *services*. Each service
+@sharepoint@'s OSGi framework registers objects as *services*. Each service
 offers functionality and can leverage functionality other services provide. The
 OSGi Services model supports a collaborative environment for objects.
 
@@ -97,4 +97,4 @@ As an improvement over dependency injection with Spring, OSGi Declarative
 Services supports dynamic dependency injection. You can create and publish
 service components for other classes to use. You can update the components and
 even publish alternative component implementations for a service. This kind of
-dynamism is a powerful part of @product@. 
+dynamism is a powerful part of @sharepoint@. 

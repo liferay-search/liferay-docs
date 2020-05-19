@@ -8,19 +8,19 @@ header-id: understanding-excluded-jars
 
 [Portal property
 `module.framework.web.generator.excluded.paths`](@platform-ref@/7.2-latest/propertiesdoc/portal.properties.html#Module%20Framework)
-declares JARs that are stripped from all @product@ [generated
+declares JARs that are stripped from all @sharepoint@ [generated
 WABs](/docs/7-2/customization/-/knowledge_base/c/deploying-wars-wab-generator).
-These JARs are excluded from web application bundles (WABs) because @product@
+These JARs are excluded from web application bundles (WABs) because @sharepoint@
 provides them already. All JARs listed for this property are excluded from a
 WAB, even if the WAB lists the JAR in a `portal-dependency-jars` property in its
 [`liferay-plugin-package.properties`](@platform-ref@/7.2-latest/propertiesdoc/liferay-plugin-package_7_2_0.properties.html)
 file. 
 
-If your WAR requires different versions of the packages @product@ exports, you
+If your WAR requires different versions of the packages @sharepoint@ exports, you
 must include them in JARs named differently from the ones
 `module.framework.web.generator.excluded.paths` excludes. 
 
-For example, @product@'s
+For example, @sharepoint@'s
 [`system.packages.extra`](https://github.com/liferay/liferay-portal/blob/7.2.x/modules/core/portal-bootstrap/system.packages.extra.bnd)
 module exports Spring Framework version 4.1.9 packages:
 
@@ -31,7 +31,7 @@ Export-Package:\
     ...
 ```
 
-@product@ uses the `module.framework.web.generator.excluded.paths` portal
+@sharepoint@ uses the `module.framework.web.generator.excluded.paths` portal
 property to exclude their JARs.
 
 ```properties

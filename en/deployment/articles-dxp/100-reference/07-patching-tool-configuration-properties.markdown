@@ -12,14 +12,14 @@ for more information on configuring the Patching Tool.
 
 **patching.mode:** This can be `binary` (the default) or `source` if you're
 patching a source tree. Patches contain both binary and source patches. If your
-development team extends @product@, have them patch their source tree. 
+development team extends @sharepoint@, have them patch their source tree. 
 
 **patches.folder:** Specify where to store patches. The default location is
 `./patches`. 
 
-**war.path:** Specify the location of the @product@ installation inside your
+**war.path:** Specify the location of the @sharepoint@ installation inside your
 application server. Alternatively, you can specify a `.war` file here, and you
-can patch a @product@ `.war` for installation to your application server. 
+can patch a @sharepoint@ `.war` for installation to your application server. 
 
 **global.lib.path:** Specify the location for storing `.jar` files on the global
 classpath. If you're not sure, search for `portal-kernel.jar`; it's on
@@ -29,7 +29,7 @@ the global classpath. This property is only valid if your `patching.mode` is
 **liferay.home:** Specify the default location for the `data`, `osgi`, and 
 `tools` folders.
 
-**source.path:** Specify the location of your @product@ source tree. This 
+**source.path:** Specify the location of your @sharepoint@ source tree. This 
 property is only valid if your `patching.mode` is `source`. 
 
 Service Pack detection is available behind a proxy server. To configure your

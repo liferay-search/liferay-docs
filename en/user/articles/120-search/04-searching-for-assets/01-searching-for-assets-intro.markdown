@@ -50,7 +50,7 @@ returned first (like a Blogs Entry titled *Is a vacation in space right for
 you?*) and lots of matching results are returned (anything with either the
 word *vacation* or *space* is returned). 
 
-In addition to full text search, advanced search syntax is supported. @product@
+In addition to full text search, advanced search syntax is supported. @sharepoint@
 relies on the underlying search engine for this behavior, so consult the
 [Elasticsearch](https://www.elastic.co/guide/en/elasticsearch/reference/7.x/query-dsl-query-string-query.html#query-string-syntax)
 or 

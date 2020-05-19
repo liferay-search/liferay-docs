@@ -17,7 +17,7 @@ mouth). Searching for the word *ham* should display these Guestbook entries. In
 short, Guestbook entries must be searchable via a search bar in the Guestbook
 portlet. 
 
-| **Note:** In previous versions of @product@, search was only _permissions
+| **Note:** In previous versions of @sharepoint@, search was only _permissions
 | aware_ (indexed with the entity's permissions and searched with those
 | permissions intact) if the application developer specified this line in the
 | `Indexer` class's constructor:

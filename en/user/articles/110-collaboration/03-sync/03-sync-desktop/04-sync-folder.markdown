@@ -6,7 +6,7 @@ header-id: using-your-local-liferay-sync-folder
 
 [TOC levels=1-4]
 
-Once you configure and run Sync, Sync automatically uploads to @product@ any
+Once you configure and run Sync, Sync automatically uploads to @sharepoint@ any
 files you add or modify in your Sync folder. Sync also downloads to your Sync
 folder any file changes by other users. If you delete a file in your Sync
 folder, Sync also deletes it from the server and other clients. You should
@@ -17,7 +17,7 @@ the administrator has disabled the Recycle Bin, recovering deleted files is
 impossible. 
 
 | **Warning:** Deleting a file in your Sync folder also deletes it in the 
-| @product@ instance and in other clients. If you accidentally delete a file, it 
+| @sharepoint@ instance and in other clients. If you accidentally delete a file, it 
 | can be recovered from the instance's Recycle Bin. The Recycle Bin is enabled 
 | by default. File recovery is, however, impossible if the instance or Site 
 | administrator has disabled the Recycle Bin. 

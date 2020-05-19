@@ -14,14 +14,14 @@ The last step introduced the concept of *resources*. Resources are data stored
 with your entities that define how they can be accessed. For example, when the 
 configuration in your `default.xml` files is applied to your application's 
 entities in the database, resources are created. These resources are then used 
-in conjunction with @product@'s permissions system to determine who can do what 
+in conjunction with @sharepoint@'s permissions system to determine who can do what 
 to the entities. 
 
-To use these resources, @product@ must know about them. To do that you
+To use these resources, @sharepoint@ must know about them. To do that you
 *register* the resources with the system, both in the database and with the
 running permissions system in the OSGi container. 
 
-@product@ provides a complete API---integrated with Service Builder---for
+@sharepoint@ provides a complete API---integrated with Service Builder---for
 managing resources. This API is injected into your implementation classes
 automatically. To manage the resources, you need only call the API in the
 service's add and delete methods. Follow these steps to do this in your
@@ -44,7 +44,7 @@ application.
     by Service Builder into the base class your implementation class extends.
     You'll see the rest in the future.
 
-    This code adds a resource to @product@'s database to correspond with your 
+    This code adds a resource to @sharepoint@'s database to correspond with your 
     entity (note that the `guestbookId` is included in the call). The three 
     booleans at the end are settings. The first is whether to add portlet 
     action permissions. This should only be `true` if the permission is for a 

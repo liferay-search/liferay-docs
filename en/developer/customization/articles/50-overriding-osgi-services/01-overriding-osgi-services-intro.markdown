@@ -8,7 +8,7 @@ header-id: overriding-osgi-services
 
 Components register as services with the OSGi service registry. A service 
 component's availability, ranking, and attributes determine whether components 
-referring to the service type bind to that particular service. @product@'s OSGI 
+referring to the service type bind to that particular service. @sharepoint@'s OSGI 
 container is a dynamic environment in which services come and go and can be 
 overridden, which means that if there's a service whose behavior you want to 
 change, you can override it. Here are the steps for overriding a service:

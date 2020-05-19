@@ -157,7 +157,7 @@ Specifying dependency versions is not required when leveraging workspace's
 functionality. All dependencies with the group ID `com.liferay` or
 `com.liferay.portal` are automatically set when targeting a platform. For
 external theme dependencies (e.g., `classic-theme` with the group ID
-`com.liferay.plugins`), you can find the version used by your specific @product@
+`com.liferay.plugins`), you can find the version used by your specific @sharepoint@
 instance by leveraging the
 [Gogo shell](/docs/7-2/customization/-/knowledge_base/c/using-the-felix-gogo-shell).
 In a Gogo shell prompt, execute the following command:

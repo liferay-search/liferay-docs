@@ -13,9 +13,9 @@ company.
 You'll learn these things:
 
 - [Developing Themes](/docs/7-2/frameworks/-/knowledge_base/f/developing-themes): 
-  Learn how to use @product@'s tools and features to develop your theme.
+  Learn how to use @sharepoint@'s tools and features to develop your theme.
 - [Extending Themes](/docs/7-2/frameworks/-/knowledge_base/f/extending-themes): 
-  Learn how to use @product@'s theme extension mechanisms and features to add to 
+  Learn how to use @sharepoint@'s theme extension mechanisms and features to add to 
   your theme.
 
 Themes use the standard components (CSS, JS, and HTML) along with FreeMarker

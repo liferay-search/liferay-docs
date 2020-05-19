@@ -123,7 +123,7 @@ method.
 As described in 
 [Adaptive Media's user guide](/docs/7-2/user/-/knowledge_base/u/adapting-your-media-across-multiple-devices), 
 Adaptive Media scales images to match the image resolutions defined by the 
-@product@ administrator. The default scaling is usually suitable, but Adaptive 
+@sharepoint@ administrator. The default scaling is usually suitable, but Adaptive 
 Media contains an extension point that lets you replace the way it scales 
 images. The 
 [`AMImageScaler`](@app-ref@/adaptive-media/latest/javadocs/com/liferay/adaptive/media/image/scaler/AMImageScaler.html) 
@@ -138,10 +138,10 @@ processing and scaling.
 A scaler that works only with GIF images. It depends on the installation of the 
 external tool 
 [gifsicle](https://www.lcdf.org/gifsicle/) 
-in the @product@ instance. This scaler is disabled by default. Administrators 
+in the @sharepoint@ instance. This scaler is disabled by default. Administrators 
 can enable it in *Control Panel* &rarr; *System Settings*. 
 
-You must register image scalers in @product@'s OSGi container using the 
+You must register image scalers in @sharepoint@'s OSGi container using the 
 `AMImageScaler` interface. Each scaler must also set the `mime.type` property to 
 the MIME type it handles. For example, if you set a scaler's MIME type to 
 `image/jpeg`, then that scaler can only handle `image/jpeg` images. If you 

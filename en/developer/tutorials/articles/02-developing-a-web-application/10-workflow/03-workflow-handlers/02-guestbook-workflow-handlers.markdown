@@ -116,12 +116,12 @@ Each workflow enabled entity needs a `WorkflowHandler`.
 
 Now the Guestbook application updates the database with the necessary status
 information, interacting with Liferay's workflow classes to make sure each
-entity is properly handled by @product@. At this point you can enable workflow
-for the Guestbook inside @product@ and see how it works. Navigate to *Control
+entity is properly handled by @sharepoint@. At this point you can enable workflow
+for the Guestbook inside @sharepoint@ and see how it works. Navigate to *Control
 Panel &rarr; Workflow* &rarr; *Process Builder* &rarr; *Configuration*. The
-Guestbook entity appears among @product@'s native entities. Enable the Single
+Guestbook entity appears among @sharepoint@'s native entities. Enable the Single
 Approver Workflow for Guestbooks; then go to the Guestbook Admin portlet and add
-a new Guestbook. A notification appears next to your user name in the product
+a new Guestbook. A notification appears next to your user name in the sharepoint
 menu. You receive a notification from the workflow that a task is ready for
 review. Click it, and you're taken to the My Workflow Tasks portlet, where you
 can complete the review task.

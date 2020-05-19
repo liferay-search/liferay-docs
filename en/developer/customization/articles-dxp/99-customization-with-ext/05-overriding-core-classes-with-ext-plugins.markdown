@@ -6,7 +6,7 @@ header-id: overriding-core-classes-with-ext-plugins
 
 [TOC levels=1-4]
 
-A supported use case for using Ext plugins in @product@ is overriding its core
+A supported use case for using Ext plugins in @sharepoint@ is overriding its core
 classes (e.g., `portal-impl`, `portal-kernel`, etc.). You can reference the
 [Finding Core Liferay Portal Artifacts](/docs/7-2/customization/-/knowledge_base/c/finding-artifacts#finding-core-artifact-attributes)
 section for help distinguishing core classes. Make sure you've reviewed the
@@ -31,7 +31,7 @@ modifying the server's returned node name.
     Your Ext plugin is generated and now resides in the workspace's `/ext`
     folder with the name you assigned.
 
-2.  Displaying the server node name in your @product@ installation is set to
+2.  Displaying the server node name in your @sharepoint@ installation is set to
     `false` by default. You'll need to enable this property. To do this,
     navigate into your Liferay bundle's root folder and create a
     `portal-ext.properties` file. In that file, insert the following property:
@@ -69,7 +69,7 @@ modifying the server's returned node name.
 When your Ext plugin is deployed, your new Java class will override the core
 `PortalImpl` class.
 
-Awesome! You've created an Ext plugin that overrides a core class in @product@!
+Awesome! You've created an Ext plugin that overrides a core class in @sharepoint@!
 Follow the instructions in the
 [Deploy the Plugin](/docs/7-2/customization/-/knowledge_base/c/deploying-an-ext-plugin)
 article to deploy it to your server.

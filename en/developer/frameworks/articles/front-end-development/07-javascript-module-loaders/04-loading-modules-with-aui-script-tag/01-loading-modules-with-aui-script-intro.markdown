@@ -10,7 +10,7 @@ The `aui:script` tag is a JSP tag that loads JavaScript on the page, while
 ensuring that certain resources are loaded before executing. 
 
 | **Note:** AUI is deprecated and no longer in active development in 
-| @product-ver@, but all the tags will remain fully functional in @product-ver@. 
+| @sharepoint-ver@, but all the tags will remain fully functional in @sharepoint-ver@. 
 | Eventually, these tags will be replaced with [Clay](https://claycss.com/) 
 | tag counterparts.
 

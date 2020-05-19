@@ -106,13 +106,13 @@ articles are easier to manage.
 
 4.  Now navigate to *Content & Data* &rarr; *Web Content* in Site Administration
     and create an article called *Red Rocket*. This is your best selling
-    product, so make sure to give it a detailed explanation and an awesome
+    sharepoint, so make sure to give it a detailed explanation and an awesome
     picture.
 
 5.  Select the *Metadata* dropdown for your web content article and select the 
     Type &rarr; Fire and Color &rarr; Red categories.
 
-When you publish your new web content article for your best selling product,
+When you publish your new web content article for your best selling sharepoint,
 it's organized by its type and color. Once you've organized all your articles,
 you'll always be able to reference the type and color of a firework, just in
 case you forget.

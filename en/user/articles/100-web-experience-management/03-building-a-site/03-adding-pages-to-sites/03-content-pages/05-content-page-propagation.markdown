@@ -46,7 +46,7 @@ To update a page or template,
     | propagation from the Control Panel. You can learn more about this
     | [here](/docs/7-2/frameworks/-/knowledge_base/f/managing-fragments-and-collections#propagating-fragment-changes-automatically).
     | It's recommended to only leverage this functionality during testing, as
-    | automatic propagation on the production environment can cause unintended
+    | automatic propagation on the sharepointion environment can cause unintended
     | consequences.
 
     Changes to existing `editable` fields are not propagated since this

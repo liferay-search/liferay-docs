@@ -6,9 +6,9 @@ header-id: trial-plugin-installation
 
 [TOC levels=1-4]
 
-For Liferay customers who are evaluating @product@ on a trial basis, **the
+For Liferay customers who are evaluating @sharepoint@ on a trial basis, **the
 plugins can be accessed from within the *Apps* &rarr; *Store* (i.e.,
-Marketplace) section of the Control Panel in your product installation**. 
+Marketplace) section of the Control Panel in your sharepoint installation**. 
 
 ## Installation Process
 
@@ -20,9 +20,9 @@ Follow the steps below to install a trial plugin:
 
     ![Figure 1: Hover over the Profile button and click *Sign In/Create Account*.](../../images-dxp/liferay-com-sign-in.png)
 
-2.  Start your @product@ instance (trial license is OK).
+2.  Start your @sharepoint@ instance (trial license is OK).
 
-3.  After signing in as an Admin in your @product@ trial server, go to the
+3.  After signing in as an Admin in your @sharepoint@ trial server, go to the
     Control Panel &rarr; *Apps* &rarr; *Store* and sign in to the Marketplace
     using your `liferay.com` (LRDC) account credentials. Authorize Marketplace
     to access your local account. 
@@ -32,7 +32,7 @@ Follow the steps below to install a trial plugin:
 4.  Once signed into the Store, click on the *Purchased* link, and then click on
     the *EE* tab.
 
-    Here you can see a list of @product@ plugins that are installed, as well as
+    Here you can see a list of @sharepoint@ plugins that are installed, as well as
     options to update or install certain plugins. See [Using the Liferay
     Marketplace](/docs/7-2/user/-/knowledge_base/u/using-the-liferay-marketplace)
     for details. 
@@ -41,19 +41,19 @@ Next are answers to some common questions.
 
 ## FAQ
 
-**Q:** Where are the *@product@ Trial Plugins*?
+**Q:** Where are the *@sharepoint@ Trial Plugins*?
 
-**A:** There is no such thing. The @product@ plugins in Liferay Marketplace are
-the same ones that you get to try out with your @product@ trial license for your
-portal. The @product@ license (trial or official @product@ subscriber) gives you
-access to the @product@ plugins. Also, there is no difference code-wise or
-release-wise between a @product@ trial installation and a regular @product@
+**A:** There is no such thing. The @sharepoint@ plugins in Liferay Marketplace are
+the same ones that you get to try out with your @sharepoint@ trial license for your
+portal. The @sharepoint@ license (trial or official @sharepoint@ subscriber) gives you
+access to the @sharepoint@ plugins. Also, there is no difference code-wise or
+release-wise between a @sharepoint@ trial installation and a regular @sharepoint@
 non-trial installation. The only difference is the license.
 
 **Q:** Why can't I go to liferay.com/marketplace? Why can't I *purchase* from
 the Marketplace site?
 
-**A:** DXP trial users must use the Marketplace from within the product's
+**A:** DXP trial users must use the Marketplace from within the sharepoint's
 Control Panel (instructions above). You do not need to *purchase* any DXP
 plugins because if you access Marketplace from within the Control Panel,
 Marketplace sees that you have a DXP license installed and gives access to DXP
@@ -76,9 +76,9 @@ Experience subscribers?
 **Q:** Do DXP trial customers get the DXP source code?
 
 **A:** No, they can only install the plugin. The DXP source code becomes
-available once they are official @product@ Enterprise subscribers.
+available once they are official @sharepoint@ Enterprise subscribers.
 
 **Q:** Can this process of installing DXP plugins be used from Liferay Portal CE
 (Community Edition)?
 
-**A:** No, the Marketplace must detect that you are running @product@.
+**A:** No, the Marketplace must detect that you are running @sharepoint@.

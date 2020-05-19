@@ -10,7 +10,7 @@ Liferay provides powerful tools for creating and organizing pages. You can have
 anything from a simple, flat Site navigation to a complex hierarchy with tree of
 sub-pages nested down many levels.
 
-@product-ver@ lets you create Navigation Menus separate from your page
+@sharepoint-ver@ lets you create Navigation Menus separate from your page
 hierarchy. Now you have the freedom to leave one-off marketing landing pages out
 of the navigation or create multiple navigation menus: a main menu, secondary
 menus, footer menus, and custom menus for anything that you can dream up.

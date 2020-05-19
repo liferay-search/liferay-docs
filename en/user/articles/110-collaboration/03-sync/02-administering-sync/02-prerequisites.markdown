@@ -8,7 +8,7 @@ header-id: installing-liferay-syncs-prerequisites
 
 Liferay Sync requires the *Liferay CE Sync Connector* app from 
 [Liferay Marketplace](https://web.liferay.com/marketplace). This app enables and
-configures Sync in your @product@ instance. For example, you can disable Sync
+configures Sync in your @sharepoint@ instance. For example, you can disable Sync
 across the instance or on a site-by-site basis. Note that Sync is enabled by
 default for all Sites. 
 
@@ -16,7 +16,7 @@ For instructions on installing Marketplace apps, see
 [the Liferay Marketplace documentation](/docs/7-2/user/-/knowledge_base/u/using-the-liferay-marketplace). 
 
 | **Note:** The Liferay Sync Security module that Sync requires is included and 
-| enabled by default in @product@. You can verify this by ensuring that the 
+| enabled by default in @sharepoint@. You can verify this by ensuring that the 
 | `SYNC_DEFAULT` and `SYNC_TOKEN` entries are enabled in *Control Panel* &rarr; 
 | *Configuration* &rarr; *Service Access Policy*. 
 

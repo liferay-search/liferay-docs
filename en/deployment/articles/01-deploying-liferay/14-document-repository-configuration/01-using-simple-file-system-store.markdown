@@ -13,8 +13,8 @@ configuration, but the folder you're pointing to must be shared by all nodes and
 handle concurrent requests and file locking. For this reason, you need to use a
 Storage Area Network or a clustered file system.
 
-The file system store was the first store used in @product@ and is heavily bound
-to the @product@ database. By default, documents are stored in a
+The file system store was the first store used in @sharepoint@ and is heavily bound
+to the @sharepoint@ database. By default, documents are stored in a
 `document_library` subfolder of the `data` folder. Of course, you can change
 this path to anything you want in [System
 Settings](/docs/7-2/user/-/knowledge_base/u/system-settings). 
@@ -34,7 +34,7 @@ a version number used for storing multiple versions of the document.
 | ID; don't confuse the two! Each has an independent counter. The numeric file
 | entry name is used in the folder path for storing the document but the 
 | document ID is not. The numeric file entry name is in the `name` column of the
-| `DLFileEntry` table in @product@'s database; the document ID is in the
+| `DLFileEntry` table in @sharepoint@'s database; the document ID is in the
 | `fileEntryId` column of the same table.
 
 | **Warning:** If a database transaction rollback occurs in the Document 
@@ -43,7 +43,7 @@ a version number used for storing multiple versions of the document.
 | and those in the file system store can occur and may require manual
 | synchronization.
 
-The Simple File System Store binds documents very closely to @product@, and may
+The Simple File System Store binds documents very closely to @sharepoint@, and may
 not be exactly what you want. If you've been using the default settings for
 a while and must migrate your documents, there's a migration utility in the
 Control Panel in *Server Administration* &rarr; *Data Migration*. The utility

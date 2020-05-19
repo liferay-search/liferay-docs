@@ -7,7 +7,7 @@ header-id: greedy-policy-option-portlet
 [TOC levels=1-4]
 
 The Greedy Policy Option sample provides two portlets that can be added to a
-@product@ page: Greedy Portlet and Reluctant Portlet.
+@sharepoint@ page: Greedy Portlet and Reluctant Portlet.
 
 ![Figure 1: The Greedy Policy Option app provides two portlets that only print text. You'll dive deeper later to discover their interesting capabilities involving services.](../../../images/greedy-policy-app.png)
 
@@ -237,7 +237,7 @@ _someService.target=(component.name=com.liferay.blade.reluctant.vs.greedy.servic
 The service configuration filters on a service whose `component.name` is
 `com.liferay.blade.reluctant.vs.greedy.service.HigherRankedService`.
 
-Note: For deploying to @product-ver@, use file with suffix `.config`. For
+Note: For deploying to @sharepoint-ver@, use file with suffix `.config`. For
 earlier versions (i.e., Liferay DXP 7.0 Fix Packs earlier than Fix Pack 8 and
 Liferay CE Portal 7.0 GA3 or earlier), use the file with suffix `.cfg`.
 

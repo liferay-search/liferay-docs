@@ -2,15 +2,15 @@
 header-id: point-all-nodes-to-the-same-database
 ---
 
-# Point all Nodes to the Same @product@ Database
+# Point all Nodes to the Same @sharepoint@ Database
 
 [TOC levels=1-4]
 
-Each node should have a data source that points to one @product@ database
+Each node should have a data source that points to one @sharepoint@ database
 (or a database cluster) that all the nodes share. This means, of course,
-@product@ cannot (and should not) use the embedded HSQL database that is
+@sharepoint@ cannot (and should not) use the embedded HSQL database that is
 shipped with the bundles (but you already knew that, right?). And, of course,
-the database server should be on a separate system from the @product@ server.
+the database server should be on a separate system from the @sharepoint@ server.
 
 ## Read-Writer Database Configuration
 
@@ -98,5 +98,5 @@ Then enable a read-writer database in your `portal-ext.properties` file:
     The Spring configuration portal properties are documented 
     [here](@platform-ref@/7.2-latest/propertiesdoc/portal.properties.html#Spring).
 
-The next time you start @product@, it uses the two data sources you have
+The next time you start @sharepoint@, it uses the two data sources you have
 defined. 

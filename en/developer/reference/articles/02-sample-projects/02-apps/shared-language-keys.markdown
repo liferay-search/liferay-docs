@@ -41,7 +41,7 @@ First, note the language keys provided by each module:
     - `blade_language_LanguageWebPortlet.caption=Hello from the BLADE Language Module!`
     - `blade_language_web_override_LanguageWebPortlet.caption=Hello from the BLADE Language Module but you won't see me!`
 
-When you place the sample BLADE Language Web portlet on a @product@ page, you're
+When you place the sample BLADE Language Web portlet on a @sharepoint@ page, you're
 presented with three language keys:
 
 ![Figure 2: The Language Web portlet displays three phrases, two of which are shared from a different module.](../../../images/shared-language-keys.png)
@@ -56,7 +56,7 @@ for this example goes
 
 1.  `language-web` module language keys
 2.  `language` module language keys
-3.  @product@ language keys
+3.  @sharepoint@ language keys
 
 So how does sharing language keys work?
 

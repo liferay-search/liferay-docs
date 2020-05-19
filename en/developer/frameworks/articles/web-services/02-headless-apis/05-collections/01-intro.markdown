@@ -6,7 +6,7 @@ header-id: rest-working-with-collections-of-data
 
 [TOC levels=1-4]
 
-Collection resources are common in @product@ web APIs. If you followed along 
+Collection resources are common in @sharepoint@ web APIs. If you followed along 
 with the previous examples that sent requests to the portal's `blog-postings` 
 resource URL, you've already seen collections in action: the `BlogPosting`
 resource is a collection. 
@@ -23,7 +23,7 @@ bandwidth, time, and memory. It can also overwhelm the user with too much data.
 It's therefore best to get and display the elements of a large collection in 
 discrete chunks, or pages. 
 
-@product@'s headless REST APIs return paginated collections by default. The 
+@sharepoint@'s headless REST APIs return paginated collections by default. The 
 following attributes in the responses also contain the information needed to 
 navigate between those pages: 
 

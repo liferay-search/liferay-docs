@@ -1,12 +1,12 @@
 ---
-header-id: monitoring-product
+header-id: monitoring-sharepoint
 ---
 
-# Monitoring @product@
+# Monitoring @sharepoint@
 
 [TOC levels=1-4]
 
-These articles show you how to monitor @product@. Monitoring vital statistics
+These articles show you how to monitor @sharepoint@. Monitoring vital statistics
 such as Java memory heaps, garbage collection, database connection pools, and
 the application server helps you optimize performance. Better monitoring means
 better tuning and thus avoids dangerous runtime scenarios like out of memory
@@ -17,4 +17,4 @@ You'll learn basic monitoring techniques, such as
 - Using the Visual VM tool and the JMX Console
 - Garbage Collection
 
-Read on to learn more about monitoring @product@! 
+Read on to learn more about monitoring @sharepoint@! 

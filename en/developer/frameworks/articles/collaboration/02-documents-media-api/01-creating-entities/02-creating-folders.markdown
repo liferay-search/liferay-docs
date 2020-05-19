@@ -59,7 +59,7 @@ Follow these steps to create a folder with the `DLAppService` method
     for later use. Note, however, that you don't have to do this. 
 
 You can find the full code for this example in the `updateFolder` method of 
-@product@'s 
+@sharepoint@'s 
 [`EditFolderMVCActionCommand`](https://github.com/liferay/liferay-portal/blob/master/modules/apps/document-library/document-library-web/src/main/java/com/liferay/document/library/web/internal/portlet/action/EditFolderMVCActionCommand.java) 
 class. This class uses the Documents and Media API to implement almost all the 
 `Folder` actions that the Documents and Media app supports. Also note that 

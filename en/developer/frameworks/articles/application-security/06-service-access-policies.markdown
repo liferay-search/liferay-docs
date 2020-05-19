@@ -15,7 +15,7 @@ from unauthorized access and modification.
 
 To connect to a web service, remote clients must authenticate using credentials
 in that instance. This grants the remote client the permissions assigned to
-those credentials in the @product@ installation. Service access policies further
+those credentials in the @sharepoint@ installation. Service access policies further
 limit the remote client's access to the services specified in the policy.
 Without such policies, authenticated remote clients are treated like users: they
 can call any remote API and read or modify data on behalf of the authenticated
@@ -93,7 +93,7 @@ Liferay itself has used to implement
    For example, in the case of the OAuth app, an `AuthVerifier` implementation
    assigns the policy chosen by the user in the authorization step.
 
-2. The API ships with the product as OSGi modules:
+2. The API ships with the sharepoint as OSGi modules:
 
 - `com.liferay.portal.security.service.access.policy.api.jar`
 - `com.liferay.portal.security.service.access.policy.service.jar`
@@ -106,7 +106,7 @@ Liferay itself has used to implement
 You can use both tools to develop a token verification module (a module that
 implements custom security token verification for use in authorizing remote
 clients) for your app to use. For example, this module may contain a JSON Web
-Token implementation for @product@'s remote API. A custom token verification
+Token implementation for @sharepoint@'s remote API. A custom token verification
 module must use the Service Access Policies API during the remote API/web
 service call to grant the associated policy during the request. The module
 
@@ -124,7 +124,7 @@ service call to grant the associated policy during the request. The module
 
 ## Service Access Policy Example
 
-[Liferay Sync's](https://www.liferay.com/supporting-products/liferay-sync)
+[Liferay Sync's](https://www.liferay.com/supporting-sharepoints/liferay-sync)
 `sync-security` module is a service access policy module. It uses
 `com.liferay.portal.security.service.access.policy.service` to create the
 `SYNC_DEFAULT` and `SYNC_TOKEN` policies programmatically. For service calls to

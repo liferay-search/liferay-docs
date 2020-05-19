@@ -11,7 +11,7 @@ For example, you may have downloadable content that you want to share with the
 user. In these cases, SPA must be disabled for those specific elements. You can 
 disable SPA at these scopes:
 
-- disable SPA across an entire @product@ instance
+- disable SPA across an entire @sharepoint@ instance
 - disable SPA in a portlet
 - Disable SPA in individual elements
 
@@ -19,7 +19,7 @@ Follow the steps in the corresponding section to disable SPA for that scope.
 
 ## Disabling SPA across an Instance
 
-To disable SPA across an entire @product@ instance, add the following line to 
+To disable SPA across an entire @sharepoint@ instance, add the following line to 
 your `portal-ext.properties`:
 
 ```properties

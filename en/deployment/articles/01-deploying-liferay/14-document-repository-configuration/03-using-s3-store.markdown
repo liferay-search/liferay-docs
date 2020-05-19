@@ -14,7 +14,7 @@ When you sign up for the service, Amazon assigns you unique keys that link you
 to your account. In Amazon's interface, you can create "buckets" of data
 optimized by region. 
 
-Here are the steps for configuring @product@ to use your S3 account for file
+Here are the steps for configuring @sharepoint@ to use your S3 account for file
 storage:
 
 1.  Amazon S3 requires a `SAXParser` from the application server to operate. If
@@ -28,7 +28,7 @@ storage:
     ```
 
 2.  Place your `system-ext.properties` file in a folder that resides in your 
-    @product@ installation's class path (e.g., `/WEB-INF/classes/`).
+    @sharepoint@ installation's class path (e.g., `/WEB-INF/classes/`).
 
 3.  Set the following property in a
     [`portal-ext.properties`](/docs/7-2/deploy/-/knowledge_base/d/portal-properties)
@@ -39,7 +39,7 @@ storage:
     dl.store.impl=com.liferay.portal.store.s3.S3Store
     ```
 
-4.  Restart @product@.
+4.  Restart @sharepoint@.
 
 5.  In the Control Panel, navigate to *Configuration* &rarr; *System
     Settings* &rarr; *File Storage*.
@@ -48,7 +48,7 @@ storage:
 
 7.  Click *Save*.
 
-Your @product@ instance is using the Amazon S3 store. 
+Your @sharepoint@ instance is using the Amazon S3 store. 
 
 | **Warning:** If a database transaction rollback occurs in a Document Library
 | that uses a file system based store, file system changes that have occurred

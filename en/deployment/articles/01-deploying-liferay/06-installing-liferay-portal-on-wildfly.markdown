@@ -1,36 +1,36 @@
 ---
-header-id: installing-product-on-wildfly
+header-id: installing-sharepoint-on-wildfly
 ---
 
-# Installing @product@ on Wildfly
+# Installing @sharepoint@ on Wildfly
 
 [TOC levels=1-4]
 
-Installing @product@ on Wildfly 11 takes three steps:
+Installing @sharepoint@ on Wildfly 11 takes three steps:
 
 -   [Installing dependencies to your application server](#installing-dependencies)
--   [Configuring your application server for @product@](#configuring-wildfly)
--   [Deploying the @product@ WAR file to your application server](#deploying-product)
+-   [Configuring your application server for @sharepoint@](#configuring-wildfly)
+-   [Deploying the @sharepoint@ WAR file to your application server](#deploying-sharepoint)
 
-| **Important:** Before installing @product@, familiarize yourself with
+| **Important:** Before installing @sharepoint@, familiarize yourself with
 | [preparing for install](/docs/7-2/deploy/-/knowledge_base/d/preparing-for-install). 
 
-Now, [download the @product@ WAR and Dependency
-JARs](/docs/7-2/deploy/-/knowledge_base/d/obtaining-product#downloading-the-liferay-war-and-dependency-jars):
+Now, [download the @sharepoint@ WAR and Dependency
+JARs](/docs/7-2/deploy/-/knowledge_base/d/obtaining-sharepoint#downloading-the-liferay-war-and-dependency-jars):
 
--   @product@ WAR file
+-   @sharepoint@ WAR file
 -   Dependencies ZIP file
 -   OSGi Dependencies ZIP file
 
 Note that [*Liferay Home*](/docs/7-2/deploy/-/knowledge_base/d/liferay-home) is
 the folder containing your Wildfly server folder. After installing and deploying
-@product@, the Liferay Home folder contains the Wildfly server folder as well as
+@sharepoint@, the Liferay Home folder contains the Wildfly server folder as well as
 `data`, `deploy`, `logs`, and `osgi` folders. `$WILDFLY_HOME` refers to your
 Wildfly server folder. It is usually named `wildfly-[version]`. 
 
 ## Installing Dependencies
 
-@product@ depends on a driver for your database and the JARs in the Dependencies
+@sharepoint@ depends on a driver for your database and the JARs in the Dependencies
 ZIP and OSGi Dependencies ZIP files you downloaded. Here's how to install them: 
 
 1.  Create the folder `$WILDFLY_HOME/modules/com/liferay/portal/main` if it
@@ -102,7 +102,7 @@ ZIP and OSGi Dependencies ZIP files you downloaded. Here's how to install them:
     OSGi Dependencies ZIP file that you downloaded into the `[Liferay
     Home]/osgi` folder.
 
-    The `osgi` folder provides the necessary modules for @product@'s OSGi
+    The `osgi` folder provides the necessary modules for @sharepoint@'s OSGi
     runtime.
 
 **Checkpoint:**
@@ -134,14 +134,14 @@ ZIP and OSGi Dependencies ZIP files you downloaded. Here's how to install them:
     -   `marketplace`
     -   `test`
 
-Note, @product@ creates these `osgi` subfolders the first time it starts:
+Note, @sharepoint@ creates these `osgi` subfolders the first time it starts:
 
 -   `modules`
 -   `portal`
 -   `static`
 -   `war`
 
-## Running @product@ on Wildfly in Standalone Mode vs. Domain Mode
+## Running @sharepoint@ on Wildfly in Standalone Mode vs. Domain Mode
 
 Wildfly can be launched in either *standalone* mode or *domain* mode. Domain
 mode allows multiple application server instances to be managed from a single
@@ -149,37 +149,37 @@ control point. A collection of such application servers is known as a *domain*.
 For more information on standalone mode vs. domain mode, please refer to the
 section on this topic in the
 [Wildfly Admin Guide](https://docs.jboss.org/author/display/WFLY/Admin+Guide#AdminGuide-Operatingmodes).
-@product@ fully supports Wildfly in standalone mode but not in domain mode.
+@sharepoint@ fully supports Wildfly in standalone mode but not in domain mode.
 
-You can run @product@ on Wildfly in domain mode, but this method is not fully
-supported. In particular, @product@'s hot-deploy does not work with a managed
+You can run @sharepoint@ on Wildfly in domain mode, but this method is not fully
+supported. In particular, @sharepoint@'s hot-deploy does not work with a managed
 deployment, since Wildfly manages the content of a managed deployment by copying
 files (exploded or non-exploded). This prevents JSP hooks and Ext plugins from
 working as intended. For example, JSP hooks don't work on Wildfly running in
-managed domain mode, since @product@'s JSP override mechanism relies on the
+managed domain mode, since @sharepoint@'s JSP override mechanism relies on the
 application server. Since JSP hooks and Ext plugins are deprecated, however, you
 may not be using them. 
 
 The command line interface is recommended for domain mode deployments.
 
-| **Note:** This does not prevent @product@ from running in a clustered
-| environment on multiple Wildfly servers. You can set up a cluster of @product@
+| **Note:** This does not prevent @sharepoint@ from running in a clustered
+| environment on multiple Wildfly servers. You can set up a cluster of @sharepoint@
 | instances running on Wildfly servers running in standalone mode. Please refer 
-| to the [@product@ clustering articles](/docs/7-2/deploy/-/knowledge_base/d/liferay-clustering)
+| to the [@sharepoint@ clustering articles](/docs/7-2/deploy/-/knowledge_base/d/liferay-clustering)
 | for more information.
 
 ## Configuring Wildfly
 
-Configuring Wildfly to run @product@ includes these things:
+Configuring Wildfly to run @sharepoint@ includes these things:
 
 -   Setting environment variables
 -   Setting properties and descriptors
 -   Removing unnecessary configurations
 
-Optionally, you can configure Wildfly to manage @product@'s data source and mail
+Optionally, you can configure Wildfly to manage @sharepoint@'s data source and mail
 session. 
 
-Start with configuring Wildfly to run @product@.
+Start with configuring Wildfly to run @sharepoint@.
 
 Make the following modifications to
 `$WILDFLY_HOME/standalone/configuration/standalone.xml`:
@@ -278,7 +278,7 @@ configuration script file `standalone.conf` (`standalone.conf.bat` on Windows):
 - Set the preferred protocol stack
 - Increase the default amount of memory available.
 
-| **Important:** For @product@ to work properly, the application server JVM must
+| **Important:** For @sharepoint@ to work properly, the application server JVM must
 | use the `GMT` time zone and `UTF-8` file encoding.
 
 Make the following edits as applicable for your operating system:
@@ -332,7 +332,7 @@ years.
 After installation, tune your system (including these JVM options) for
 performance. 
    
-| **Important:** For @product@ to work properly, the application server JVM must
+| **Important:** For @sharepoint@ to work properly, the application server JVM must
 | use the `GMT` time zone and `UTF-8` file encoding.
 
 | **Note:** If you plan on using the IBM JDK with your Wildfly server, you must
@@ -363,15 +363,15 @@ You've configured the application server's JVM settings.
 
 2.  The default amount of memory available has been increased.
 
-The prescribed script modifications are now complete for your @product@
+The prescribed script modifications are now complete for your @sharepoint@
 installation on Wildfly. Next you'll configure your database. 
 
 ### Database Configuration
 
-The easiest way to handle database configuration is to let @product@ manage your
+The easiest way to handle database configuration is to let @sharepoint@ manage your
 data source. The
 [Basic Configuration](/docs/7-2/deploy/-/knowledge_base/d/preparing-for-install#using-the-built-in-data-source)
-page lets you configure @product@'s built-in data source. If you want to use the
+page lets you configure @sharepoint@'s built-in data source. If you want to use the
 built-in data source, skip this section.
 
 MySQL is used as the example below. If you're using a different database, modify
@@ -452,7 +452,7 @@ Now that you've configured your data source, the mail session is next.
 ### Mail Configuration
 
 As with database configuration, the easiest way to configure mail is to let
-@product@ handle your mail session. If you want to use @product@'s built-in mail
+@sharepoint@ handle your mail session. If you want to use @sharepoint@'s built-in mail
 session, skip this section and
 [configure the mail session](/docs/7-2/deploy/-/knowledge_base/d/configuring-mail)
 in the Control Panel.
@@ -485,18 +485,18 @@ If you want to manage your mail session with Wildfly, follow these steps:
     mail.session.jndi.name=java:jboss/mail/MailSession
     ```
  
-Next, you'll deploy @product@ to your Wildfly app server.
+Next, you'll deploy @sharepoint@ to your Wildfly app server.
 
-## Deploying @product@
+## Deploying @sharepoint@
 
-Now you're ready to deploy @product@ using the @product@ WAR file.
+Now you're ready to deploy @sharepoint@ using the @sharepoint@ WAR file.
 
 1.  If the folder `$WILDFLY_HOME/standalone/deployments/ROOT.war` already exists
     in your Wildfly installation, delete all of its subfolders and files.
     Otherwise, create a new folder called
     `$WILDFLY_HOME/standalone/deployments/ROOT.war`.
 
-2.  Unzip the @product@ `.war` file into the `ROOT.war` folder.
+2.  Unzip the @sharepoint@ `.war` file into the `ROOT.war` folder.
 
 3.  To trigger deployment of `ROOT.war`, create an empty file named
     `ROOT.war.dodeploy` in your `$WILDFLY_HOME/standalone/deployments/` folder.
@@ -505,9 +505,9 @@ Now you're ready to deploy @product@ using the @product@ WAR file.
 4.  Start the Wildfly application server by navigating to `$WILDFLY_HOME/bin`
     and running `standalone.bat` or `standalone.sh`.
 
-Congratulations; you've deployed @product@ on Wildfly!
+Congratulations; you've deployed @sharepoint@ on Wildfly!
 
-| **Note:** After deploying @product@, you may see excessive warnings and log 
+| **Note:** After deploying @sharepoint@, you may see excessive warnings and log 
 | messages, such as the ones below, involving `PhaseOptimizer`. These are
 | benign and can be ignored. Make sure to adjust your app server's logging level
 | or log filters to avoid excessive benign log messages.

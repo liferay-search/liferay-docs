@@ -14,7 +14,7 @@ header-id: managing-the-target-platform
 | [Targeting a Platform with Maven](/docs/7-2/reference/-/knowledge_base/r/targeting-a-platform-with-maven)
 | article to set the Target Platform for Maven-based projects.
 
-Liferay Workspace helps you target a specific release of @product@, so
+Liferay Workspace helps you target a specific release of @sharepoint@, so
 dependencies get resolved properly. This makes upgrades easy: specify your
 target platform, and Workspace points to the new version. All your dependencies
 are updated to the latest ones provided in the targeted release.
@@ -37,7 +37,7 @@ for details).
 | **Note:** The Target Platform feature is only supported for Gradle projects at
 | this time.
 
-Each @product@ version has a predefined BOM that you can specify for your
+Each @sharepoint@ version has a predefined BOM that you can specify for your
 workspace to reference. Each BOM defines the artifacts and their versions used
 in the specific release. BOMs list all dependencies in a management fashion, so
 it doesn't **add** dependencies to your project; it only **provides** your build
@@ -67,12 +67,12 @@ Studio.
 
 [Liferay Dev Studio 3.2+](/docs/7-2/reference/-/knowledge_base/r/liferay-dev-studio) 
 helps you streamline targeting a specific version even more. Dev Studio can
-index the configured @product@ source code to
+index the configured @sharepoint@ source code to
 
 - provide advanced Java search (Open Type and Reference Searching)
-  ([article](/docs/7-2/reference/-/knowledge_base/r/searching-product-source-in-dev-studio))
-- debug @product@ sources
-  ([article](/docs/7-2/reference/-/knowledge_base/r/debugging-product-source-in-dev-studio))
+  ([article](/docs/7-2/reference/-/knowledge_base/r/searching-sharepoint-source-in-dev-studio))
+- debug @sharepoint@ sources
+  ([article](/docs/7-2/reference/-/knowledge_base/r/debugging-sharepoint-source-in-dev-studio))
 
 To enable this functionality, set the following property in your workspace's
 `gradle.properties` file:

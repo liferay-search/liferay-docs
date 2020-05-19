@@ -79,5 +79,5 @@ The Maven-generated project includes a `pom.xml` file and does not include the
 Gradle-specific files, but otherwise, appears exactly the same.
 
 The generated module is a working RESTful web service and is deployable to a
-@product@ instance. To build upon the generated app, modify the project by
+@sharepoint@ instance. To build upon the generated app, modify the project by
 adding logic and additional files to the folders outlined above.

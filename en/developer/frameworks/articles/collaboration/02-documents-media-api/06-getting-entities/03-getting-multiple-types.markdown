@@ -38,7 +38,7 @@ default Site repository's root folder:
     ```
 
     Getting the parent folder ID, workflow status, and start and end parameters 
-    isn't necessary because @product@ provides constants for them. The next step 
+    isn't necessary because @sharepoint@ provides constants for them. The next step 
     shows this in detail. 
 
 3.  Call the service reference method with the data from the previous step and 

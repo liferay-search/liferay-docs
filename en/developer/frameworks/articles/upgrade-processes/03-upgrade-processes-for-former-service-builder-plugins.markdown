@@ -8,7 +8,7 @@ header-id: upgrade-processes-for-former-service-builder-plugins
 
 If you modularized a traditional Liferay plugin application that implements 
 Service Builder services, your new modular application must register itself in 
-the @product@'s `Release_` table. This is required regardless of whether release 
+the @sharepoint@'s `Release_` table. This is required regardless of whether release 
 records already exist for previous versions of the app. A Bundle Activator is 
 the recommended way to add a release record for the first modular version of 
 your converted application. 
@@ -207,4 +207,4 @@ Wonderful! You've set your service module's data upgrade process.
 ## Related Topics
 
 - [Creating Upgrade Processes for Modules](/docs/7-2/frameworks/-/knowledge_base/f/creating-an-upgrade-process-for-your-app)
-- [Upgrading Code to @product-ver@](/docs/7-2/tutorials/-/knowledge_base/t/upgrading-code-to-product-ver)
+- [Upgrading Code to @sharepoint-ver@](/docs/7-2/tutorials/-/knowledge_base/t/upgrading-code-to-sharepoint-ver)

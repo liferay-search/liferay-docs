@@ -52,7 +52,7 @@ public class GuestbookKeywordQueryContributor
 ```
 
 This class adds Guestbook fields to the search query constructed by the Search
-application in @product@. Later, when you asset-enable Guestbooks, this code
+application in @sharepoint@. Later, when you asset-enable Guestbooks, this code
 allows indexed Guestbooks to be searched from the Search application when
 a keyword is entered into the search bar. Use the query helper to add search
 terms to the query that allow Guestbooks to be found. Here it's important to

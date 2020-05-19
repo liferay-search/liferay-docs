@@ -38,9 +38,9 @@ Site data, you can specify exactly what data should be included in the LAR:
 A LAR file can be imported into a Site on another Liferay server. You can take
 content from a Site in one environment (say, a development or QA environment)
 and move it all to a Site on another server with LARs. You can use LARs to
-import data onto production servers, but you should not make this a regular
+import data onto sharepointion servers, but you should not make this a regular
 occurrence. If you want to regularly move pages from one server to another, you
-should use @product@'s staging environment. See the
+should use @sharepoint@'s staging environment. See the
 [Staging](/docs/7-2/user/-/knowledge_base/u/staging) section for more details.
 
 You can export LARs to use them as a backup. If you ever have to restore your
@@ -53,7 +53,7 @@ new Site. This way, there's no chance for there to be a data conflict.
 
 Some naming collisions are handled automatically. For example, a collision
 occurs if the LAR you're importing and the Site both have a page with the same
-friendly URL. @product@ resolves the collision by adding a number to the end of
+friendly URL. @sharepoint@ resolves the collision by adding a number to the end of
 the friendly URL and incrementing until there's no collision. Similarly, if
 importing a LAR into a Site causes a category name collision, the imported
 categories are automatically renamed.

@@ -6,7 +6,7 @@ header-id: updating-the-resources-importer
 
 [TOC levels=1-4]
 
-The Resources Importer is now an OSGi module bundled with @product@, so you 
+The Resources Importer is now an OSGi module bundled with @sharepoint@, so you 
 don't have to download the Resources Importer separately. The following 
 components have been updated and are the focus of this section:
 

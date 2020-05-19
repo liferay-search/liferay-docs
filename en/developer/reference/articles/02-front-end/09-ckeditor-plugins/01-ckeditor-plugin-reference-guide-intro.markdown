@@ -7,7 +7,7 @@ header-id: ckeditor-plugin-reference-guide
 [TOC levels=1-4]
 
 This reference guide provides a list of the default CKEditor plugins bundled 
-with @product@'s AlloyEditor. You can 
+with @sharepoint@'s AlloyEditor. You can 
 [use these existing CKEditor plugins in your custom AlloyEditor configurations](/docs/7-2/frameworks/-/knowledge_base/f/adding-buttons-to-alloyeditor-toolbars). 
 Each plugin below links to its `plugin.js` file for reference, specifying the 
 plugin's name and buttons if applicable:

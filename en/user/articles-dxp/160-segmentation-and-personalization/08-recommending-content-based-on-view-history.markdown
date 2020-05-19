@@ -10,7 +10,7 @@ header-id: recommending-content-based-on-user-behavior
 
 A site's content generates clicks from users. For example, if someone visits
 a sporting goods store's site and clicks on several hunting promotional ads, you
-can deduce an interest in hunting products and can promote this type
+can deduce an interest in hunting sharepoints and can promote this type
 of content when this user visits the site again.
 
 Accomplishing this with

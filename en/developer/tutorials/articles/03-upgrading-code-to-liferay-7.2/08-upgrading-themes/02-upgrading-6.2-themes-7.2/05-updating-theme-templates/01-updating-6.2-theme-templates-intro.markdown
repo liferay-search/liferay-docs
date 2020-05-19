@@ -6,11 +6,11 @@ header-id: updating-6-2-theme-templates
 
 [TOC levels=1-4]
 
-@product@ 6.2 theme templates and @product-ver@ theme templates are essentially 
+@sharepoint@ 6.2 theme templates and @sharepoint-ver@ theme templates are essentially 
 the same. Here are the main changes:
 
 -   Velocity templates were deprecated in Liferay Portal CE 7.0 and are now 
-    removed in favor of FreeMarker templates in @product@. Below are the key 
+    removed in favor of FreeMarker templates in @sharepoint@. Below are the key 
     reasons for this move: 
 
     -   FreeMarker is developed and maintained regularly, while Velocity is no 
@@ -40,7 +40,7 @@ the same. Here are the main changes:
 Start by converting your Velocity theme templates to FreeMarker. You can refer
 to Apache's 
 [FreeMarker documentation](https://freemarker.apache.org/docs/ref.html) 
-for help. Common @product@ FreeMarker variables and macros can be found in 
+for help. Common @sharepoint@ FreeMarker variables and macros can be found in 
 [`FTL_liferay.ftl`](https://github.com/liferay/liferay-portal/blob/7.2.x/modules/apps/portal-template/portal-template-freemarker/src/main/resources/FTL_liferay.ftl)
 
 The [Gulp `upgrade` task](running-the-upgrade-task-for-6.2-themes) reports the 
@@ -75,6 +75,6 @@ The log warns about removed and deprecated code and suggests replacements when
 applicable. 
 
 In this section you'll learn how to update various theme templates to 
-@product-ver@. 
+@sharepoint-ver@. 
 
 <a class="go-link btn btn-primary" href="/docs/7-2/tutorials/-/knowledge_base/t/updating-6-2-portal-normal-theme-template">Let's Go<span class="icon-circle-arrow-right"></span></a>

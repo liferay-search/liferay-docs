@@ -28,7 +28,7 @@ The Personal Menu configuration entry specifies whether personal applications
 use the same look and feel as the current site or if they should use the look
 and feel of the My Dashboard pages instead. You can also specify whether the
 personal menu appears in the Control Menu (as it did in past versions of
-@product@) by toggling the *Show in Control Menu* option on and off. 
+@sharepoint@) by toggling the *Show in Control Menu* option on and off. 
 
 ## Default User Associations
 

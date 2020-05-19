@@ -16,7 +16,7 @@ Here are just a few frameworks you'll find here:
 
 [**A fully-fledged permissions system:**](/docs/7-2/frameworks/-/knowledge_base/f/defining-application-permissions) 
 Implement permissions the way they're
-implemented with the applications that ship with @product@ for a consistent,
+implemented with the applications that ship with @sharepoint@ for a consistent,
 seamless, and robust experience. 
 
 [**Assets:**](/docs/7-2/frameworks/-/knowledge_base/f/asset-framework) 
@@ -39,7 +39,7 @@ to manage them.
 
 [**Import/Export:**](/docs/7-2/frameworks/-/knowledge_base/f/content-publication-management) 
 Use Liferay's import/export system to make your application's
-data portable or to stage it for publication to production systems. 
+data portable or to stage it for publication to sharepointion systems. 
 
 [**Web Fragments:**](/docs/7-2/frameworks/-/knowledge_base/f/page-fragments) 
 Provide your content managers with dynamic chunks of

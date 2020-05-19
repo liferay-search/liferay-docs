@@ -110,5 +110,5 @@ public class FooEntryModelVisibilityContributor
 }
 ```
 
-Once you index model entities, add their terms to the @product@ search query,
+Once you index model entities, add their terms to the @sharepoint@ search query,
 and get the summary just right, your model entity is ready to be searched.

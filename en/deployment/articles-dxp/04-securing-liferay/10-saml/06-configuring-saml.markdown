@@ -17,7 +17,7 @@ connections must be done through the SAML Admin UI where configurations are
 saved to Liferay's database. SP connections can no longer be made via properties
 files as they were in versions prior to 3.1.0. 
 
-| **Note:** Don't use OSGi `.config` files or @product@'s System Settings Control
+| **Note:** Don't use OSGi `.config` files or @sharepoint@'s System Settings Control
 | Panel application to configure SAML providers (IdP or SP). The System Settings
 | UI is auto-generated, and is for advanced administrators. It does not perform the
 | enhanced validation on the fields that the SAML Admin UI performs, so it could
@@ -63,7 +63,7 @@ The latter two properties were replaced with the single property
 Note also the introduction of the *SAML KeyStoreManager Implementation
 Configuration* in *Control Panel* &rarr; *System Settings* &rarr; Security
 &rarr; SSO. The options for this configuration are explained above in the
-Setting up @product@ as a SAML Identity Provider section.
+Setting up @sharepoint@ as a SAML Identity Provider section.
 
 In the latest version of the plugin, the `SHA256` algorithm is the default
 encryption algorithm used in the configuration and to generate keys. The default

@@ -21,7 +21,7 @@ personal data was erased.
 
 Conceptually, forgetting a User means two things, at a minimum:
 
-- Erasing the User's identifying information from the system. In @product@, this 
+- Erasing the User's identifying information from the system. In @sharepoint@, this 
   entails removing the User from database tables and search indexes.
 - Erasing or anonymizing content the User has interacted with so it cannot be
   tracked to a real person.
@@ -34,7 +34,7 @@ to the User and her identifiers (User ID and User Name) still appear in the UI
 next to content associated with her. This unintentional preservation of
 user-identifying data is inadequate for satisfying some of the GDPR requirements
 and is the primary reason why the data erasure functionality was added in
-@product-ver@.
+@sharepoint-ver@.
 
 | **Note:** Personal data erasure can help companies in their attempts to satisfy
 | the requirements of GDPR. Using the data erasure tool described here provides no

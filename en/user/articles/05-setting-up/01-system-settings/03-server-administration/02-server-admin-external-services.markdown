@@ -11,7 +11,7 @@ a customizable and permissions-enabled online repository for files (see
 [publishing files ](/docs/7-2/user/-/knowledge_base/u/publishing-files) 
 for more information). 
 [PDFBox](https://pdfbox.apache.org/) 
-is included with @product@ and generates automatic previews for certain file
+is included with @sharepoint@ and generates automatic previews for certain file
 types (mostly PDFs). You can install two additional tools to generate previews
 for other file types: 
 
@@ -35,13 +35,13 @@ file to your `[Liferay Home]/osgi/configs` folder. See the
 document for details.
 
 Once you've installed ImageMagick and Xuggler, you can use the Server
-Administration app's External Services tab to configure @product@ to use them.
+Administration app's External Services tab to configure @sharepoint@ to use them.
 Make sure to choose the correct versions of these tools for your operating
 system. Install the latest stable versions, as older versions may not run
-properly with @product@. ImageMagick must be installed manually, but you can
+properly with @sharepoint@. ImageMagick must be installed manually, but you can
 install Xuggler from the Control Panel. 
 
-| **Tip:** If you're running @product@ on a Linux server and experience a problem
+| **Tip:** If you're running @sharepoint@ on a Linux server and experience a problem
 | enabling Xuggler, check your server's glibc version. For Xuggler to work, you
 | may need to update glibc to version 2.6 or later.
 

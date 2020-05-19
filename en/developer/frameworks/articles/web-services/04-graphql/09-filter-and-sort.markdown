@@ -6,7 +6,7 @@ header-id: graphql-filter-sort-and-search
 
 [TOC levels=1-4]
 
-You can use @product@'s headless GraphQL APIs to search for the content you
+You can use @sharepoint@'s headless GraphQL APIs to search for the content you
 want. You can also sort and filter content. 
 
 ## Filter
@@ -17,7 +17,7 @@ the optional parameter `filter`. To filter a collection based on the value of
 one or more fields, use the `filter` parameter following a subset of the
 [OData](https://www.odata.org) standard. 
 
-Filtering mainly applies to fields indexed as keywords in @product@'s search. To
+Filtering mainly applies to fields indexed as keywords in @sharepoint@'s search. To
 find content by terms contained in fields indexed as text, you should instead
 use [search](#search). 
 

@@ -65,4 +65,4 @@ Now you know how to obtain an OSGi bundle's dependency npm packages descriptors!
 
 - [Referencing an npm Module's Package](/docs/7-2/frameworks/-/knowledge_base/f/referencing-an-npm-modules-package)
 - [The Structure of OSGi Bundles Containing npm Packages](/docs/7-2/reference/-/knowledge_base/r/the-structure-of-osgi-bundles-containing-npm-packages)
-- [How @product@ Publishes npm Packages](/docs/7-2/reference/-/knowledge_base/r/how-the-liferay-npm-bundler-publishes-npm-packages)
+- [How @sharepoint@ Publishes npm Packages](/docs/7-2/reference/-/knowledge_base/r/how-the-liferay-npm-bundler-publishes-npm-packages)

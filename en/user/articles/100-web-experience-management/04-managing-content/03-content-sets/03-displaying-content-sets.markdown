@@ -18,7 +18,7 @@ To display the Content Sets, start with a blank page, and then add the
 necessary Asset Publishers and configure them to display the Content Sets.
 
 1.  Create a new *Home* page for your site as a Widget Page with a 1 column 
-    layout. If you're using a fresh @product@ bundle, you can just remove the 
+    layout. If you're using a fresh @sharepoint@ bundle, you can just remove the 
     *Hello World* widget from the sample *Home* page.
     
 2.  Open the *Add* menu and add two *Content Management* &rarr; *Asset 

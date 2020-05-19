@@ -18,7 +18,7 @@ modularizing it.
 | **Note:** Service Builder portlets automatically migrated to Liferay Workspace
 | using the Upgrade Planner or Blade CLI's `convert` command automatically
 | have its Service Builder logic converted to API and implementation modules.
-| This is a best practice for @product-ver@.
+| This is a best practice for @sharepoint-ver@.
 
 If you prefer keeping your Service Builder logic as a WAR, you must implement a
 service tracker to call services. See the

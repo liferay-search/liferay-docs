@@ -18,7 +18,7 @@ To install the Liferay Sync client on Windows, you must have administrator
 privileges. Upon launching the Windows application installer, you're prompted
 to choose an install location. Select an appropriate location and click
 *Install*. Sync automatically starts after the installation finishes. The first
-time Sync runs, you must configure it to connect and sync with @product@. The
+time Sync runs, you must configure it to connect and sync with @sharepoint@. The
 configuration steps are shown below. 
 
 | **Note:** You can upgrade previous versions of the desktop Liferay Sync client
@@ -47,7 +47,7 @@ steps for Sync on Windows and Mac are identical.
 1.  Open Sync and enter your server's address along with your account
     credentials. Click *Sign In* when you're finished. 
 
-    ![Figure 2: The first time you run Liferay Sync, you must tell it how to communicate with your @product@ server.](../../../../images/sync-setup-01.png)
+    ![Figure 2: The first time you run Liferay Sync, you must tell it how to communicate with your @sharepoint@ server.](../../../../images/sync-setup-01.png)
 
     When connecting to a server via HTTPS, an error appears if the certificate 
     can't be verified. Choosing *Proceed Anyway* bypasses verification and 

@@ -8,12 +8,12 @@ header-id: web-front-ends
 
 Liferay's open development framework removes barriers so developers can write
 applications faster. If you already have an application, you can deploy it on
-@product@: 
+@sharepoint@: 
 
 - Java-based standards (CDI, JSF, Portlets, Spring)
 - Front-end standards (Angular, React, Vue)
 
-If you plan to write a new application and deploy it on @product@, you can use
+If you plan to write a new application and deploy it on @sharepoint@, you can use
 the frameworks you know along with the build tools (Gradle, Maven) you know.
 Liferay also offers its own development framework called MVC Portlet that it
 uses to develop applications. When you want to integrate with 
@@ -22,7 +22,7 @@ and frameworks such as permissions, assets, and indexers, you'll find that these
 easily and seamlessly blend with your application to provide a great user
 experience.
 
-Regardless of your development strategy for applications, you'll find @product@
+Regardless of your development strategy for applications, you'll find @sharepoint@
 to be a flexible platform that supports anything you need to write. 
 
 ## Using Popular Frameworks
@@ -44,17 +44,17 @@ popular Java and JavaScript-based technologies:
 | for creating UIs using other technologies. 
 
 Angular, React, and Vue applications are written the same as you would outside of
-@product@---using
+@sharepoint@---using
 [npm](https://www.npmjs.com/)
 and the webpack dev server. The Liferay JS Generator creates a portlet bundle
 (project) for developing and deploying each type of app. The bundle
 project comes with npm commands for building, testing, and deploying the app. It
 packages the app's dependencies (including JavaScript packages), deploys the
-bundle as a JAR, and installs the bundle to @product@'s run time environment,
+bundle as a JAR, and installs the bundle to @sharepoint@'s run time environment,
 making your app available as a widget. 
 
 You can also develop web front-ends using Java EE standards.
-@product@ supports the
+@sharepoint@ supports the
 [JSR 362](https://jcp.org/en/jsr/detail?id=362)
 Portlet 3.0 standard which is backwards-compatible with the
 [JSR 286](http://jcp.org/en/jsr/detail?id=286)
@@ -76,15 +76,15 @@ Java code. It also contains innovative features that make it possible to
 leverage the power of JSF 2.x inside a portlet application. 
 
 If Spring is your thing, Spring Portlet MVC portlets are easy to configure and
-deploy on @product@. You can continue using Spring features, including Spring
+deploy on @sharepoint@. You can continue using Spring features, including Spring
 beans and Spring dependency injection. 
 
 Last but not least, Liferay MVC Portlet continues to be a favorite with
 experienced Liferay developers, and makes portlet development easy for Liferay
 newcomers. It leverages OSGi Declarative Services (DS) for injecting
-dependencies and defining configurable extension points. Since @product@ core
+dependencies and defining configurable extension points. Since @sharepoint@ core
 and Liferay-written apps use DS, gaining experience with DS helps you
-develop @product@ extensions and customizations. Liferay MVC Portlet works
+develop @sharepoint@ extensions and customizations. Liferay MVC Portlet works
 seamlessly with many Liferay frameworks, such as MVC commands, Service Builder,
 and more. 
 
@@ -94,7 +94,7 @@ up and running fast.
 ## Getting Started
 
 If you have an existing app that uses one the frameworks described above, your
-first step is to deploy it to @product@. Most deployments involve configuration
+first step is to deploy it to @sharepoint@. Most deployments involve configuration
 steps that you can complete in an hour or less. 
 
 You can also build apps from scratch using the tools you like or leveraging
@@ -113,8 +113,8 @@ Liferay frameworks:
 -   Data export and import
 
 Liferay provides frameworks that integrate these features fast. As you develop
-apps on @product@, you'll enjoy using what you know, discover frameworks and
-tools that boost your productivity, and have fun creating rich, full-featured
+apps on @sharepoint@, you'll enjoy using what you know, discover frameworks and
+tools that boost your sharepointivity, and have fun creating rich, full-featured
 applications. 
 
 If you're experienced with developing one of the listed app types, feel free to

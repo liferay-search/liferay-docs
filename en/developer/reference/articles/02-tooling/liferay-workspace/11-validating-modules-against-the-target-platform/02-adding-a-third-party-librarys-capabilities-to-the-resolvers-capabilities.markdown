@@ -30,5 +30,5 @@ of capabilities by listing them as provided modules.
     ```
 
 This both provides the third party dependency to the resolver, and it downloads
-and includes it in your @product@ bundle's `osgi/modules` folder when you
+and includes it in your @sharepoint@ bundle's `osgi/modules` folder when you
 initialize it (e.g., `blade server init`).

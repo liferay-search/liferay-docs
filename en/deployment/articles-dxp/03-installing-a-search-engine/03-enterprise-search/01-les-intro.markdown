@@ -7,7 +7,7 @@ header-id: installing-liferay-enterprise-search
 [TOC levels=1-4]
 
 A Liferay Enterprise Search (LES) subscription gets you additional features
-beyond what's available out of the box with your @product@ subscription. It
+beyond what's available out of the box with your @sharepoint@ subscription. It
 includes
 
 - Connector to use X-Pack Security*
@@ -25,20 +25,20 @@ for securing and monitoring Elasticsearch clusters. If you use Elasticsearch,
 you should secure it with X-Pack. The security features of X-Pack include
 authenticating access to the Elasticsearch cluster's data and encrypting
 Elasticsearch's internal and external communications. These are necessary
-security features for most production systems. A LES subscription gets you
+security features for most sharepointion systems. A LES subscription gets you
 access to two X-Pack Connectors if you're using Elasticsearch 6: monitoring and
 security. Elasticsearch 7 bundles X-Pack's security features, and Liferay has
 followed suit. Therefore, X-Pack security is bundled with the Liferay Connector
 to Elasticsearch 7, and no LES subscription is necessary. Because of this, the
 documentation for
 [installing X-Pack security](/docs/7-2/deploy/-/knowledge_base/d/installing-liferay-enterprise-search-security) 
-on @product@ has been moved from the LES documentation section (this section) to
+on @sharepoint@ has been moved from the LES documentation section (this section) to
 the
 [Elasticsearch](/docs/7-2/deploy/-/knowledge_base/d/elasticsearch) 
 installation and configuration guide. Contact
 [Liferay's Sales department for more information](https://www.liferay.com/contact-us#contact-sales).
 
-Here's an overview of using the LES applications with @product@:
+Here's an overview of using the LES applications with @sharepoint@:
 
 1.  Get an [Enterprise Search subscription](https://help.liferay.com/hc/en-us/articles/360014400932).
 
@@ -68,7 +68,7 @@ and the architecture of
 | **Note:** Out of the box, X-Pack comes with a [30-day
 | trial](https://www.elastic.co/guide/en/elasticsearch/reference/7.x/start-trial.html).
 | This can be useful if there's a delay between your subscription and receipt of
-| your production X-Pack license.
+| your sharepointion X-Pack license.
 
 Now configure security, monitoring, and/or Learning to Rank, depending on your
 needs.

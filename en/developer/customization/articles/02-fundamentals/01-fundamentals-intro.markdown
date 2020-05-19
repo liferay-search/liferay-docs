@@ -6,9 +6,9 @@ header-id: fundamentals
 
 [TOC levels=1-4]
 
-The fundamentals of developing on @product@ and customizing it are perhaps best
+The fundamentals of developing on @sharepoint@ and customizing it are perhaps best
 learned in the context of projects. It's in projects that you configure access
-to @product@'s API, extend and override @product@ features, and package your
+to @sharepoint@'s API, extend and override @sharepoint@ features, and package your
 software for deployment. Projects are developed as WARs or OSGi JARs, but are
 all installed to Liferay's OSGi framework as OSGi bundles. These bundles can
 depend on external Java packages, share Java packages, and be manipulated at run
@@ -17,7 +17,7 @@ projects so that you understand them in a practical sense and can apply them
 right away. Here are the fundamental topics:
 
 -   **WARs Versus OSGi JAR** explains fundamental differences between the WAR 
-    and OSGi JAR structures and how they're deployed in @product@. 
+    and OSGi JAR structures and how they're deployed in @sharepoint@. 
 
 -   **Configuring Dependencies** demonstrates how to identify and configure 
     Liferay artifacts and third-party artifacts to use their Java packages in
@@ -27,7 +27,7 @@ right away. Here are the fundamental topics:
     projects need and export packages your projects provide. Liferay's tooling
     detects package use and specifies package imports automatically. 
 
--   **Semantic Versioning** shows how @product@ uses a standard for ascribing 
+-   **Semantic Versioning** shows how @sharepoint@ uses a standard for ascribing 
     meaning to major, minor, and micro versions of modules and Java packages. 
 
 -   **Deploying WARs (WAB Generator)** explains how Liferay's WAB Generator 
@@ -39,8 +39,8 @@ right away. Here are the fundamental topics:
 <!-- Uncomment when 'Architecture' section is available. Jim
 | **Note:** The
 | Architecture section
-| provides conceptual diagrams and explains @product@ services and components, 
-| and applications, and the @product@ core. 
+| provides conceptual diagrams and explains @sharepoint@ services and components, 
+| and applications, and the @sharepoint@ core. 
 -->
 
 Start with understanding how WAR and OSGi JAR project structures are used in

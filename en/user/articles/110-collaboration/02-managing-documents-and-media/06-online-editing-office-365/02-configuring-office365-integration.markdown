@@ -7,7 +7,7 @@ header-id: configuring-office-365-integration
 [TOC levels=1-4]
 
 Before you can use Office 365&trade; to create and edit Documents and Media 
-files, you must configure @product@ to connect with an application in the 
+files, you must configure @sharepoint@ to connect with an application in the 
 [Azure portal](https://portal.azure.com/). 
 
 | **Note:** You must be an administrator to complete these steps. 
@@ -30,13 +30,13 @@ Here's the minimum permission set needed to use Office 365&trade; integration:
 For more information about permissions, see 
 [Microsoft's documentation](https://docs.microsoft.com/graph/permissions-reference). 
 
-## Configuring @product@
+## Configuring @sharepoint@
 
-Now you must connect your @product@ installation with your Microsoft identity 
+Now you must connect your @sharepoint@ installation with your Microsoft identity 
 platform&trade; application. You can do this at two scopes: 
 
-1.  Globally, for all instances in your @product@ installation.
-2.  At the instance scope, for one or more instances in your @product@ 
+1.  Globally, for all instances in your @sharepoint@ installation.
+2.  At the instance scope, for one or more instances in your @sharepoint@ 
     installation. 
 
 You can override the global configuration for one or more instances by 
@@ -44,7 +44,7 @@ configuring those instances separately. Similarly, you can configure only the
 instances you want to connect to your application and leave the global 
 configuration empty. 
 
-Follow these steps to configure your @product@ installation to connect to your 
+Follow these steps to configure your @sharepoint@ installation to connect to your 
 application: 
 
 1.  Note that the configuration options are the same in the global and 

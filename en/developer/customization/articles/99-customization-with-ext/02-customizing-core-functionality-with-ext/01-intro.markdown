@@ -6,11 +6,11 @@ header-id: customizing-core-functionality-with-ext
 
 [TOC levels=1-4]
 
-| **Ext plugins are deprecated for @product-ver@ and should only be used if
+| **Ext plugins are deprecated for @sharepoint-ver@ and should only be used if
 | absolutely necessary.**
 | 
 | The following app servers should be used for Ext plugin development in
-| @product@:
+| @sharepoint@:
 | 
 | - Tomcat 9.x
 | 
@@ -18,29 +18,29 @@ header-id: customizing-core-functionality-with-ext
 | cases that require the use of an Ext plugin. Liferay only supports the
 | following Ext plugin use cases:
 | 
-| - Providing custom implementations for any beans declared in @product@'s
+| - Providing custom implementations for any beans declared in @sharepoint@'s
 |   Spring files (when possible, use
 |   [service wrappers](/docs/7-2/customization/-/knowledge_base/c/overriding-service-builder-services-service-wrappers)
-|   instead of an Ext plugin). @product-ver@ removed many beans, so make sure
+|   instead of an Ext plugin). @sharepoint-ver@ removed many beans, so make sure
 |   your overridden beans are still relevant if converting your legacy Ext
 |   plugin.
-| - Overwriting a class in a @product-ver@ core JAR. For a list of core JARs,
+| - Overwriting a class in a @sharepoint-ver@ core JAR. For a list of core JARs,
 |   see the
-|   [Finding Core @product@ Artifacts](/docs/7-2/customization/-/knowledge_base/c/finding-artifacts)
+|   [Finding Core @sharepoint@ Artifacts](/docs/7-2/customization/-/knowledge_base/c/finding-artifacts)
 |   section.
-| - Modifying @product@'s `web.xml` file.
-| - Adding to @product@'s `web.xml` file.
+| - Modifying @sharepoint@'s `web.xml` file.
+| - Adding to @sharepoint@'s `web.xml` file.
 | 
 | **Note:** In previous versions of Liferay Portal, you needed an Ext plugin to
 | specify classes as portal property values (e.g.,
 | `global.starup.events.my.custom.MyStartupAction`), since the custom class had
 | to be added to the portal class loader. This is no longer the case in
-| @product-ver@ since all lifecycle events can use OSGi services with no need to
+| @sharepoint-ver@ since all lifecycle events can use OSGi services with no need to
 | edit these legacy properties.
 
-Ext plugins are used to customize @product@'s core functionality. You can learn
+Ext plugins are used to customize @sharepoint@'s core functionality. You can learn
 more about what the core encompasses in the
-[Finding Core @product@ Artifacts](/docs/7-2/customization/-/knowledge_base/c/finding-artifacts)
+[Finding Core @sharepoint@ Artifacts](/docs/7-2/customization/-/knowledge_base/c/finding-artifacts)
 article section. In this section, you'll learn how to
 
 - [Create an Ext plugin](/docs/7-2/customization/-/knowledge_base/c/creating-an-ext-plugin)

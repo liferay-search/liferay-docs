@@ -1,23 +1,23 @@
 ---
-header-id: installing-product-on-tomcat
+header-id: installing-sharepoint-on-tomcat
 ---
 
-# Installing @product@ on Tomcat
+# Installing @sharepoint@ on Tomcat
 
 [TOC levels=1-4]
 
-@product-ver@ bundled with Tomcat 9 is available on the [Help
+@sharepoint-ver@ bundled with Tomcat 9 is available on the [Help
 Center](https://customer.liferay.com/downloads) (DXP) or the [Community
 Downloads page](https://www.liferay.com/downloads-community) (Portal CE). The
 Tomcat bundle contains JARs, scripts, and configuration files required for
-deploying @product-ver@. Copying these files from the @product@ Tomcat bundle
-facilitates installing @product@ on an existing Tomcat application server.
+deploying @sharepoint-ver@. Copying these files from the @sharepoint@ Tomcat bundle
+facilitates installing @sharepoint@ on an existing Tomcat application server.
 
 Whether you copy bundle files (recommended) or download and create the files,
 you must download these files for [DXP](https://customer.liferay.com/downloads)
 or [Portal CE](https://www.liferay.com/downloads-community):
 
-- @product@ WAR file
+- @sharepoint@ WAR file
 - Dependencies ZIP file
 - OSGi Dependencies ZIP file
 
@@ -25,11 +25,11 @@ or [Portal CE](https://www.liferay.com/downloads-community):
 | [Prepare for the install](/docs/7-2/deploy/-/knowledge_base/d/preparing-for-install)
 | before continuing. 
 
-Here are the basic steps for installing @product@ on Tomcat:
+Here are the basic steps for installing @sharepoint@ on Tomcat:
 
 - [Installing dependencies to your application server](#installing-dependencies)
-- [Configuring your application server for @product@](#configuring-tomcat)
-- [Deploying the @product@ WAR file to your application server](#deploying-product)
+- [Configuring your application server for @sharepoint@](#configuring-tomcat)
+- [Deploying the @sharepoint@ WAR file to your application server](#deploying-sharepoint)
 
 [*Liferay Home*](/docs/7-2/deploy/-/knowledge_base/d/liferay-home)
 is Tomcat server's parent folder. `$TOMCAT_HOME` refers to your Tomcat server
@@ -37,7 +37,7 @@ folder. It is usually named `tomcat-[version]` or `apache-tomcat-[version]`.
 
 ## Installing Dependencies 
 
-@product@ depends on many JARs included by @product@ Tomcat bundle. Some of the
+@sharepoint@ depends on many JARs included by @sharepoint@ Tomcat bundle. Some of the
 bundle's JARs are not strictly required but can still be useful. If you don't
 have a bundle, you can download the Liferay JARs by downloading the
 *Dependencies* archive and the *OSGi Dependencies* archive, and you can download
@@ -61,7 +61,7 @@ the third-party JARs as described below.
     - `portal-kernel.jar`
     - `portlet.jar`
 
-2.  Copy the following JARs from a @product@ Tomcat bundle (or download them) to
+2.  Copy the following JARs from a @sharepoint@ Tomcat bundle (or download them) to
     the `$TOMCAT_HOME/lib/ext` folder:
 
     - [`activation.jar`](http://www.oracle.com/technetwork/java/javase/jaf-136260.html)
@@ -82,7 +82,7 @@ the third-party JARs as described below.
 
 4.  Create an `osgi` folder in your Liferay Home. Extract the folders (i.e., 
     `configs`, `core`, and more) from OSGi ZIP file to the `osgi` folder. The
-    `osgi` folder provides the necessary modules for @product@'s OSGi runtime.
+    `osgi` folder provides the necessary modules for @sharepoint@'s OSGi runtime.
 
 Checkpoint:
 
@@ -127,21 +127,21 @@ Checkpoint:
 
 ## Configuring Tomcat
 
-Configuring Tomcat to run @product@ includes
+Configuring Tomcat to run @sharepoint@ includes
 
 - Setting environment variables
-- Specifying a web application context for @product@
+- Specifying a web application context for @sharepoint@
 - Setting properties and descriptors
 
-Optionally, if you're not using @product@'s built-in data source or mail
+Optionally, if you're not using @sharepoint@'s built-in data source or mail
 session, you can configure Tomcat to manage them:
 
 - [Data source](#database-configuration)
 - [Mail session](#mail-configuration)
 
-Start with configuring Tomcat to run @product@. 
+Start with configuring Tomcat to run @sharepoint@. 
 
-1.  If you have a @product@ Tomcat bundle, copy the `setenv.bat`, `setenv.sh`, 
+1.  If you have a @sharepoint@ Tomcat bundle, copy the `setenv.bat`, `setenv.sh`, 
     `startup.bat`, `startup.sh`, `shutdown.bat`, and `shutdown.sh` files from it
     to your `$CATALINA_BASE/bin` folder. If not, create the  `setenv.bat` and 
     `setenv.sh`scripts. 
@@ -150,7 +150,7 @@ Start with configuring Tomcat to run @product@.
     container. Among these options is the location of the Java runtime
     environment. If this environment is not available on your server globally,
     you must set its location in in these files so Tomcat can run. Do this by
-    pointing the `JAVA_HOME` environment variable to a @product@-supported JRE:
+    pointing the `JAVA_HOME` environment variable to a @sharepoint@-supported JRE:
 
     ```bash
     export JAVA_HOME=/usr/lib/jvm/java-8-jdk
@@ -158,7 +158,7 @@ Start with configuring Tomcat to run @product@.
     ```
     
 
-    Then configure Catalina's JVM options to support @product@.
+    Then configure Catalina's JVM options to support @sharepoint@.
 
     Unix: 
 
@@ -174,11 +174,11 @@ Start with configuring Tomcat to run @product@.
 
     This sets the file encoding to UTF-8, prefers an IPv4 stack over IPv6,
     prevents Tomcat from working around garbage collection bugs relating to
-    static or final fields (these bugs don't exist in @product@ and working
+    static or final fields (these bugs don't exist in @sharepoint@ and working
     around them causes problems with the logging system), sets the time zone to
     GMT, gives the JVM 2GB of RAM, and limits Metaspace to 512MB. 
 
-    | **Important:** @product@ requires that the application server JVM use the 
+    | **Important:** @sharepoint@ requires that the application server JVM use the 
     | GMT time zone and UTF-8 file encoding. 
     
     | **Note:** On JDK 11, it's recommended to add this JVM argument to display
@@ -191,13 +191,13 @@ Start with configuring Tomcat to run @product@.
     After installation, tune your system (including these JVM options) for
     performance. 
 
-2.  If you have a @product@ Tomcat bundle, copy its
+2.  If you have a @sharepoint@ Tomcat bundle, copy its
     `$CATALINA_BASE/conf/Catalina/localhost/ROOT.xml` file to the corresponding
     location in your application server. Create the file path if it doesn't
-    exist. If you don't have a @product@ Tomcat bundle, create a `ROOT.xml`
+    exist. If you don't have a @sharepoint@ Tomcat bundle, create a `ROOT.xml`
     file. 
 
-    The `ROOT.xml` file specifies a web application context for @product@.
+    The `ROOT.xml` file specifies a web application context for @sharepoint@.
     `ROOT.xml` looks like this:
 
     ```xml
@@ -248,7 +248,7 @@ Start with configuring Tomcat to run @product@.
     ,"${catalina.home}/lib/ext/global","${catalina.home}/lib/ext/global/*.jar","${catalina.home}/lib/ext","${catalina.home}/lib/ext/*.jar"
     ```
 
-4.  Make sure to use UTF-8 URI encoding consistently. If you have a @product@ 
+4.  Make sure to use UTF-8 URI encoding consistently. If you have a @sharepoint@ 
     Tomcat bundle, copy the `$CATALINA_BASE/conf/server.xml` file to your
     server. If not, open your `$CATALINA_BASE/conf/server.xml` file and add the
     attribute `URIEncoding="UTF-8"` to HTTP and AJP connectors that use
@@ -300,7 +300,7 @@ Start with configuring Tomcat to run @product@.
     ```
 
 7.  In `$CATALINA_HOME/conf/web.xml`, set the JSP compiler to Java 8 and set 
-    @product@'s `TagHandlerPool` class to manage the JSP tag pool. Do this by
+    @sharepoint@'s `TagHandlerPool` class to manage the JSP tag pool. Do this by
     adding the following elements above the `jsp` servlet element's
     `<load-on-startup>` element. 
 
@@ -336,7 +336,7 @@ Start with configuring Tomcat to run @product@.
 
 **Checkpoint:**
 
-Your application server is configured to run @product@.
+Your application server is configured to run @sharepoint@.
 
 1.  The file encoding, user time-zone, and preferred protocol stack are set in 
     your `setenv.sh`.
@@ -366,7 +366,7 @@ Your application server is configured to run @product@.
 
 ### Database Configuration
 
-The easiest way to handle your database configuration is to let @product@ manage
+The easiest way to handle your database configuration is to let @sharepoint@ manage
 your data source. If you want to use the
 [built-in data source (recommended)](/docs/7-2/deploy/-/knowledge_base/d/preparing-for-install#using-the-built-in-data-source),
 skip this section.
@@ -374,7 +374,7 @@ skip this section.
 If you want Tomcat to manage your data source, follow these steps:
 
 1.  Make sure your database server is installed and working. If it's installed
-    on a different machine, make sure your @product@ machine can access it.
+    on a different machine, make sure your @sharepoint@ machine can access it.
 
 2.  Open `$CATALINA_BASE/conf/Catalina/localhost/ROOT.xml` and add your data 
     source as a `Resource` in your web application `Context`:
@@ -408,13 +408,13 @@ If you want Tomcat to manage your data source, follow these steps:
     jdbc.default.jndi.name=jdbc/LiferayPool
     ```
 
-You created a data source for Tomcat to manage and configured @product@ to use
+You created a data source for Tomcat to manage and configured @sharepoint@ to use
 it. Mail session configuration is next.
 
 ### Mail Configuration
 
 As with database configuration, the easiest way to configure mail is to let
-@product@ handle your mail session. If you want to use @product@'s
+@sharepoint@ handle your mail session. If you want to use @sharepoint@'s
 [built-in mail session](/docs/7-2/deploy/-/knowledge_base/d/configuring-mail),
 skip this section. 
 
@@ -455,25 +455,25 @@ If you want to manage your mail session with Tomcat, follow these steps:
     mail.session.jndi.name=mail/MailSession
     ```
 
-You've created a mail session for Tomcat to manage and configured @product@ to
+You've created a mail session for Tomcat to manage and configured @sharepoint@ to
 use it. 
 
-## Deploying @product@
+## Deploying @sharepoint@
 
-Now you're ready to deploy @product@ using the @product@ WAR file.
+Now you're ready to deploy @sharepoint@ using the @sharepoint@ WAR file.
 
-1.  If you are manually installing @product@ on a clean Tomcat server, delete 
+1.  If you are manually installing @sharepoint@ on a clean Tomcat server, delete 
     the contents of the `$CATALINA_BASE/webapps/ROOT` folder. This removes
     the default Tomcat home page.
 
-2.  Extract the @product@ `.war` file contents to
+2.  Extract the @sharepoint@ `.war` file contents to
     `$CATALINA_BASE/webapps/ROOT`. 
 
-    It's time to launch @product@ on Tomcat!
+    It's time to launch @sharepoint@ on Tomcat!
 
 3.  Start Tomcat by navigating to `$CATALINA_HOME/bin` and executing 
     `./startup.sh`. Alternatively, execute `./catalina.sh run` to tail
-    @product@'s log file. The log audits startup activities and is useful for
+    @sharepoint@'s log file. The log audits startup activities and is useful for
     debugging deployment.
 
-Congratulations on successfully installing and deploying @product@ on Tomcat!
+Congratulations on successfully installing and deploying @sharepoint@ on Tomcat!

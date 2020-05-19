@@ -40,7 +40,7 @@ You've leveraged the actionable dynamic query API in your sample!
 
 ## What API(s) and/or code components does this sample highlight?
 
-This sample demonstrates @product@'s actionable dynamic query API. Specifically,
+This sample demonstrates @sharepoint@'s actionable dynamic query API. Specifically,
 it demonstrates how to create an ADQ, add criteria to an ADQ, specify an action
 for the ADQ, and execute the ADQ.
 

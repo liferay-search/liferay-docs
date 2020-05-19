@@ -6,13 +6,13 @@ header-id: installing-elasticsearch
 
 [TOC levels=1-4]
 
-@product@ uses Elasticsearch to index its content. By default, it's installed as
+@sharepoint@ uses Elasticsearch to index its content. By default, it's installed as
 an embedded service. It works, but it's not a supported configuration for
-a production server. Feel free to use it while testing or developing, but when
-you're ready to put your site in production, you must run Elasticsearch as
+a sharepointion server. Feel free to use it while testing or developing, but when
+you're ready to put your site in sharepointion, you must run Elasticsearch as
 a standalone process. This is better anyway, because it frees you to design your
 infrastructure the way you want it. If you've got hardware or a VM to spare, you
-can separate your search infrastructure from @product@ and reap some performance
+can separate your search infrastructure from @sharepoint@ and reap some performance
 gains by putting search on a separate box. If you're more budget-conscious, you
 can still increase performance by running Elasticsearch in a separate,
 individually tunable JVM on the same box. 
@@ -34,14 +34,14 @@ Here's an overview of the installation steps:
 
 4. Name your Elasticsearch cluster. 
 
-5. Configure @product@ to connect to your Elasticsearch cluster. 
+5. Configure @sharepoint@ to connect to your Elasticsearch cluster. 
 
-6. Restart @product@ and reindex your search and spell check indexes.
+6. Restart @sharepoint@ and reindex your search and spell check indexes.
 
 | **Prerequisites:** Before continuing, make sure you have set the
 | [`JAVA_HOME` environment variable](https://docs.oracle.com/cd/E19182-01/820-7851/inst_cli_jdk_javahome_t/).
 | 
-| If you have multiple JDKs installed, make sure Elasticsearch and @product@ are
+| If you have multiple JDKs installed, make sure Elasticsearch and @sharepoint@ are
 | using the same version and distribution (e.g., Oracle Open JDK 1.8.0_201). You
 | can specify this in `[Elasticsearch Home]/bin/elasticsearch.in.sh`:
 | `JAVA_HOME=/path/to/java`.
@@ -59,23 +59,23 @@ Here's an overview of the installation steps:
 | documentation](/docs/7-2/deploy/-/knowledge_base/d/upgrading-to-elasticsearch-7#blacklisting-elasticsearch-6)
 | holds detailed blacklisting steps.
 
-When you perform these steps, you'll have a basic, production-ready instance of
-@product@ and Elasticsearch up and running. But that's just the beginning of
+When you perform these steps, you'll have a basic, sharepointion-ready instance of
+@sharepoint@ and Elasticsearch up and running. But that's just the beginning of
 your server/connector configuration:
 
-- Read about [Configuring Elasticsearch](/docs/7-2/deploy/-/knowledge_base/d/configuring-the-liferay-elasticsearch-connector) for @product@ in more detail.
+- Read about [Configuring Elasticsearch](/docs/7-2/deploy/-/knowledge_base/d/configuring-the-liferay-elasticsearch-connector) for @sharepoint@ in more detail.
 - Learn how to [Secure Elasticsearch](/docs/7-2/deploy/-/knowledge_base/d/installing-liferay-enterprise-search-security).
 - [Liferay Enterprise Search] Learn how to configure [Monitoring](/docs/7-2/deploy/-/knowledge_base/d/installing-liferay-enterprise-search-monitoring).
 
 For complete information on compatibility, check the
-[@product@ compatibility matrix](https://web.liferay.com/documents/14/21598941/Liferay+DXP+7.2+Compatibility+Matrix/b6e0f064-db31-49b4-8317-a29d1d76abf7?)
+[@sharepoint@ compatibility matrix](https://web.liferay.com/documents/14/21598941/Liferay+DXP+7.2+Compatibility+Matrix/b6e0f064-db31-49b4-8317-a29d1d76abf7?)
 and the
 [Liferay Enterprise Search compatibility matrix](https://help.liferay.com/hc/en-us/articles/360016511651)
 if you have a subscription.
 
 ### Step One: Download a Supported Version of Elasticsearch
 
-If @product@ isn't running, start it. 
+If @sharepoint@ isn't running, start it. 
 
 Visit port 9200 on localhost to access the embedded Elasticsearch: 
 
@@ -106,24 +106,24 @@ A JSON document is returned that looks similar to this:
 The version of Elasticsearch that's running is the value of the `number` field.
 In this example, it's 6.5.0. You can install the embedded version, but it might
 not be the most up-to-date version of Elasticsearch that's supported with
-@product@. Consult the
+@sharepoint@. Consult the
 [Compatibility Matrix](https://web.liferay.com/documents/14/21598941/Liferay+DXP+7.2+Compatibility+Matrix/b6e0f064-db31-49b4-8317-a29d1d76abf7?)
 for definitive information on what's supported. 
 
 | **Note:** Although the embedded server uses Elasticsearch 6.5, Elasticsearch
-| 6.8.x has been tested with @product-ver@ GA1, and is fully supported. If you've
-| upgraded to @product-ver@ Service Pack 1/Fix Pack 2 (or GA2 for CE users),
+| 6.8.x has been tested with @sharepoint-ver@ GA1, and is fully supported. If you've
+| upgraded to @sharepoint-ver@ Service Pack 1/Fix Pack 2 (or GA2 for CE users),
 | Elasticsearch 7 is supported through the Liferay Connector to Elasticsearch
 | 7, which can be downloaded from Liferay Marketplace for both 
 | [CE](https://web.liferay.com/en/marketplace/-/mp/application/170642090) and 
 | [DXP](https://web.liferay.com/en/marketplace/-/mp/application/170390307).
 | Always refer to the [compatibility matrix to find the exact versions supported](https://www.liferay.com/documents/10182/246659966/Liferay+DXP+7.2+Compatibility+Matrix.pdf/ed234765-db47-c4ad-7c82-2acb4c73b0f9).
 
-Shut down the @product@ server. In a local, single-machine testing environment,
+Shut down the @sharepoint@ server. In a local, single-machine testing environment,
 if you continue without shutting down, the Elasticsearch server you're about to
 install and start throws errors in the log if its cluster name and HTTP port
 match the already-running embedded Elasticsearch server. An alternative to
-shutting down @product@ is to use a different cluster name (i.e., not
+shutting down @sharepoint@ is to use a different cluster name (i.e., not
 `LiferayElasticsearchCluster`) and HTTP port (i.e., not `9200`) in the remote
 Elasticsearch server.
 
@@ -133,7 +133,7 @@ When you know the version of Elasticsearch you need, go to
 ### Step Two: Install Elasticsearch 
 
 Most of this step entails deciding where you want to run Elasticsearch. Do you
-want to run it on the same machine as @product@, or do you want to run it on its
+want to run it on the same machine as @sharepoint@, or do you want to run it on its
 own hardware? The answer to this question comes down to a combination of the
 resources you have available and the size of your installation. Regardless of
 what you decide, either way you get the benefit of a separately tunable search
@@ -166,7 +166,7 @@ please refer to [Elastic's documentation](https://www.elastic.co/guide/index.htm
 
 Now that you've installed Elastic, it sits in a folder on your machine, which is
 referred to here as `[Elasticsearch Home]`. To name your cluster, you'll define
-the cluster name in both Elasticsearch and in @product@. First, define it in
+the cluster name in both Elasticsearch and in @sharepoint@. First, define it in
 Elasticsearch. Edit the following file: 
 
     [Elasticsearch Home]/config/elasticsearch.yml
@@ -199,12 +199,12 @@ Elasticsearch starts, and one of its status messages includes a transport addres
 [2019-04-01T16:55:50,127][INFO ][o.e.t.TransportService   ] [HfkqdKv] publish_address {127.0.0.1:9300}, bound_addresses {[::1]:9300}, {127.0.0.1:9300}
 ```
 
-Take note of this address; you'll need to give it to your @product@ server so it
+Take note of this address; you'll need to give it to your @sharepoint@ server so it
 can find Elasticsearch on the network. 
 
-### Step Five: Configure @product@ to Connect to your Elasticsearch Cluster 
+### Step Five: Configure @sharepoint@ to Connect to your Elasticsearch Cluster 
 
-Now that you're ready to configure @product@, start it if you haven't already,
+Now that you're ready to configure @sharepoint@, start it if you haven't already,
 log in, and then click on *Control Panel* &rarr; *Configuration* &rarr; *System
 Settings* &rarr; *Search*. Enter the term *elasticsearch* in the search bar and
 click the *Elasticsearch [Version]* entry from the list of settings (at the
@@ -224,18 +224,18 @@ will work.
 
 When finished, click *Save*. You're almost done. 
 
-### Step Six: Restart @product@ and Reindex 
+### Step Six: Restart @sharepoint@ and Reindex 
 
 If you're doing a local test installation, you probably only changed the
 Operation Mode in the connector configuration, so there's no need to restart;
 skip to re-indexing. If you've made more configuration changes in the
-connector's configuration, stop and restart @product@. When it's back up, log in
+connector's configuration, stop and restart @sharepoint@. When it's back up, log in
 as an administrative user and click on *Control Panel* &rarr; *Configuration*
 &rarr; *Search* and click the *Execute* button for *Reindex all search indexes*
 and then *Reindex all spell check indexes*. When you do that, you'll see some
 messages scroll up in the Elasticsearch log. 
 
-When restarting @product@, `update_mappings` messages will appear in the
+When restarting @sharepoint@, `update_mappings` messages will appear in the
 Elasticsearch logs:
 
 ```sh
@@ -274,7 +274,7 @@ Reindexing the spell check dictionaries produces log messages like these:
 2019-04-29 14:02:39.379 INFO  [liferay/search_writer/SYSTEM_ENGINE-11][BaseSpellCheckIndexWriter:299] Finished indexing dictionary for com/liferay/portal/search/dependencies/spellchecker/es_ES.txt
 ```
 
-For additional confirmation that @product@ recognizes the remote search engine,
+For additional confirmation that @sharepoint@ recognizes the remote search engine,
 navigate to the Search Control Panel application and note the subtle change
 there: the vendor name is now simply _Elasticsearch_, whereas prior to the
 installation of the remote Elasticsearch server, it said _Elasticsearch

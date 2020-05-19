@@ -14,7 +14,7 @@ There are two ways to configure the Patching Tool:
     [Patching Tool Advanced Configuration](/docs/7-2/deploy/-/knowledge_base/d/patching-tool-advanced-configuration))
 
 Automatic configuration generates the configuration files by looking for
-@product@ files in the local file system. By default the Patching Tool looks for
+@sharepoint@ files in the local file system. By default the Patching Tool looks for
 them in its parent folder. To start the process, run this command in your
 Patching Tool folder (`patching-tool`):
 
@@ -22,13 +22,13 @@ Patching Tool folder (`patching-tool`):
 patching-tool auto-discovery
 ```
 
-If @product@ is not installed in the parent folder, specify its location: 
+If @sharepoint@ is not installed in the parent folder, specify its location: 
 
 ```bash
 patching-tool auto-discovery /opt/liferay-dxp
 ```
 
-If you specified the wrong location of @product@ or it is not in the parent
+If you specified the wrong location of @sharepoint@ or it is not in the parent
 folder, the Patching Tool can't find the
 [Liferay Home](/docs/7-2/deploy/-/knowledge_base/d/liferay-home)
 and reports an error like this: 
@@ -52,7 +52,7 @@ Here are ways to resolve the Liferay Home issue:
   file in the Liferay Home folder and re-run the  auto-discovery process. 
 
 When the Patching Tool is configured, running `patching-tool info` reports
-product version information. 
+sharepoint version information. 
 
 That's it! Now that you've installed and configured the Patching Tool, you're
 ready to download and install patches. 

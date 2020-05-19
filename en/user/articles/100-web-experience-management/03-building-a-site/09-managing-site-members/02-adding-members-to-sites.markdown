@@ -83,7 +83,7 @@ Roles or Teams they had.
 
 ### Assigning Site Roles
 
-Roles grant permissions in @product@. Roles can be assigned for the entire
+Roles grant permissions in @sharepoint@. Roles can be assigned for the entire
 instance or just for one specific Site or Organization. Site Roles assign
 permissions for a specific Site.
 

@@ -47,7 +47,7 @@ and some Ehcache features require using `Serializable` values.
 Cache keys must be unique,
 [`Serializable`](https://docs.oracle.com/javase/8/docs/api/java/io/Serializable.html)
 objects. They should relate to the values being cached. For example, in
-@product@'s `JournalContentImpl`, a `JournalContentKey` instance relates to each
+@sharepoint@'s `JournalContentImpl`, a `JournalContentKey` instance relates to each
 cached `JournalArticleDisplay` object. Here's the `JournalContentKey` class:
 
 ```java
@@ -141,7 +141,7 @@ Your cache key class is ready for caching data values.
 
 When your application creates or requests the data type you're caching, you must
 handle getting existing data from cache and putting new/updated data into the
-cache. @product@'s caching classes are easy to inject into a 
+cache. @sharepoint@'s caching classes are easy to inject into a 
 [Declarative Services (DS) Component](/docs/7-2/frameworks/-/knowledge_base/f/declarative-services),
 but you can access them using
 [`ServiceTracker`](/docs/7-2/frameworks/-/knowledge_base/f/using-a-service-tracker)s

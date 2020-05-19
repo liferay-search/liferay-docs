@@ -6,9 +6,9 @@ header-id: configuring-liferay-sync
 
 [TOC levels=1-4]
 
-Sync Connector lets you manage how, or if, clients connect to your @product@
+Sync Connector lets you manage how, or if, clients connect to your @sharepoint@
 server. You can also configure default file permissions on a per-Site basis, and
-manage the devices that connect to your @product@ instance. To access Sync
+manage the devices that connect to your @sharepoint@ instance. To access Sync
 Connector, select *Control Panel* &rarr; *Configuration* &rarr; *Sync Connector
 Admin*. 
 
@@ -42,7 +42,7 @@ Sync Connector Admin has three tabs:
     one by default. 
 
     **Poll Interval:** The frequency in seconds that clients automatically 
-    check the @product@ instance for updates. For example, if set to ten, 
+    check the @sharepoint@ instance for updates. For example, if set to ten, 
     connected clients check the instance for updates every ten seconds. The 
     default Poll Interval is five. 
 
@@ -62,7 +62,7 @@ Sync Connector Admin has three tabs:
 
     ![Figure 2: Sync Connector Admin's Sites tab lets you manage Sync on a per-Site basis.](../../../../images/sync-admin-02.png)
  
-    For each Site in the @product@ instance, the Sites tab lists each Site's 
+    For each Site in the @sharepoint@ instance, the Sites tab lists each Site's 
     default file permissions (more on this in a moment) and whether Sync is 
     enabled for that Site. Sync is enabled by default for all Sites. To disable 
     Sync for a Site, click the Site's *Actions* button 

@@ -180,7 +180,7 @@ and
 | export/import or staging service methods outside of a module, you should use
 | their service Util classes (e.g., `ExportImportLocalServiceUtil`).
 
-It's also important to know that `ExportImportConfiguration` is a @product@
+It's also important to know that `ExportImportConfiguration` is a @sharepoint@
 entity, similar to `User` or `Group`. This means that the
 `ExportImportConfiguration` framework offers local and remote services, models,
 persistence classes, and more.

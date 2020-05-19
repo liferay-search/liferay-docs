@@ -13,7 +13,7 @@ If you're unsure which approach to take, use the
 [default](#default-search-pages) configuration. It provides a sensible starting
 point that can be modified later, as needed. 
 
-If you've been using @product@ for a long time and like the search experience
+If you've been using @sharepoint@ for a long time and like the search experience
 you've always used, use the [legacy approach](#legacy-search-experience). 
 
 If you're in need of a fully customized experience, 

@@ -6,7 +6,7 @@ header-id: creating-a-social-network
 
 [TOC levels=1-4]
 
-@product@ contains several features and widgets for leveraging its social
+@sharepoint@ contains several features and widgets for leveraging its social
 framework. The Activities widget lets you broadcast user activities on a Site.
 This is a good way for Site members to see what's going on in their communities.
 When placed on a user's private Dashboard, the Activities widget displays the

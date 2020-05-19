@@ -11,12 +11,12 @@ reliable, scalable, and fault tolerant. Read more about it
 [here](http://lucene.apache.org/solr/).
 
 [Elasticsearch](/docs/7-2/deploy/-/knowledge_base/d/configuring-the-liferay-elasticsearch-connector)
-is the default search engine that ships with @product@, and some Liferay Search
+is the default search engine that ships with @sharepoint@, and some Liferay Search
 features are only available on Elasticsearch. It's valid, however, to use Solr
 instead. In particular, if you've already been using Solr with a previous
-version of @product@, or your platform (for example, your OS or JVM) 
+version of @sharepoint@, or your platform (for example, your OS or JVM) 
 [isn't supported by Elasticsearch](https://www.elastic.co/support/matrix), you might
-choose to use Solr to search and index your @product@ data.
+choose to use Solr to search and index your @sharepoint@ data.
 
 There are circumstances that force you to use Elasticsearch instead of Solr.
 Read
@@ -61,7 +61,7 @@ certain DXP
 
 It is required during the Solr installation process to also 
 [stop the Elasticsearch Connectors](https://portal.liferay.dev/docs/7-2/deploy/-/knowledge_base/d/installing-solr-basic-installation#stopping-the-elasticsearch-connector) 
-that ship with @product@. If you're ready to blacklist those bundles now, use
+that ship with @sharepoint@. If you're ready to blacklist those bundles now, use
 these contents in the blacklist configuration file:
 
 ```properties

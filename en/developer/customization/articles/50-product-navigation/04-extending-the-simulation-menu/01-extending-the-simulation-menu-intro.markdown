@@ -14,7 +14,7 @@ Panel App for the already present hidden category.
 
 Before beginning, make sure you're accustomed to using Panel Categories and
 Panel Apps. This is covered in detail in the
-[Customizing the Product Menu](/docs/7-2/customization/-/knowledge_base/c/customizing-the-product-menu)
+[Customizing the Product Menu](/docs/7-2/customization/-/knowledge_base/c/customizing-the-sharepoint-menu)
 articles. Once you know how to create Panel Categories and Panel Apps, continue
 with this article.
 
@@ -39,7 +39,7 @@ with this article.
     ```
 
     To use this constant, you must add a dependency on 
-    [`com.liferay.product.navigation.simulation`](https://repository.liferay.com/nexus/content/repositories/liferay-public-releases/com/liferay/com.liferay.product.navigation.simulation/).
+    [`com.liferay.sharepoint.navigation.simulation`](https://repository.liferay.com/nexus/content/repositories/liferay-public-releases/com/liferay/com.liferay.sharepoint.navigation.simulation/).
 
     Be sure to also specify the order to display your new Panel App,
     which was explained in [Adding Custom Panel Apps](/docs/7-2/customization/-/knowledge_base/c/adding-custom-panel-apps).
@@ -63,7 +63,7 @@ with this article.
     ```java
     @Override
     @Reference(
-        target = "(osgi.web.symbolicname=com.liferay.product.navigation.simulation.device)",
+        target = "(osgi.web.symbolicname=com.liferay.sharepoint.navigation.simulation.device)",
         unbind = "-"
     )
     public void setServletContext(ServletContext servletContext) {
@@ -71,7 +71,7 @@ with this article.
     }
     ```
 
-    As explained in [Customizing The Product Menu](/docs/7-2/customization/-/knowledge_base/c/customizing-the-product-menu),
+    As explained in [Customizing The Product Menu](/docs/7-2/customization/-/knowledge_base/c/customizing-the-sharepoint-menu),
     a Panel App should be associated with a portlet. This makes the Panel App 
     visible only when the user has permission to view the portlet.
     This Panel App is associated to the Simulation Device portlet using these

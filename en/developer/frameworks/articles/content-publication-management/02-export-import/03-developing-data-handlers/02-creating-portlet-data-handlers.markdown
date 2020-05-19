@@ -89,10 +89,10 @@ the Export/Import and Staging UI options for the Bookmarks application.
     Visit the
     Invoking Local Services
     article for more information on using the `@Reference` annotation in
-    @product@.
+    @sharepoint@.
     -->
 
-    **Important:** @product@'s official Bookmarks app does not use local
+    **Important:** @sharepoint@'s official Bookmarks app does not use local
     services in its portlet data handler; instead, it uses the
     [`StagedModelRepository`](@app-ref@/web-experience/latest/javadocs/com/liferay/exportimport/staged/model/repository/StagedModelRepository.html)
     framework. This is a new framework, but is a viable option when setting up
@@ -102,7 +102,7 @@ the Export/Import and Staging UI options for the Bookmarks application.
     this tutorial covers those instead.
 
 6.  You must create a namespace for your entities so the Export/Import framework
-    can identify your application's entities from other entities in @product@.
+    can identify your application's entities from other entities in @sharepoint@.
     The Bookmarks application's namespace declaration looks like this:
 
     ```java

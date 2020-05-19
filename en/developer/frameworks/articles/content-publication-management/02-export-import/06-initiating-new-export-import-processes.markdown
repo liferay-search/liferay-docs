@@ -53,7 +53,7 @@ initiate your custom export/import or staging process.
 
     Notice that your `ExportImportConfiguration` object is the only needed
     parameter in the method. Your configuration object holds all the required
-    parameters and settings necessary to export your layouts from @product@.
+    parameters and settings necessary to export your layouts from @sharepoint@.
 
 It's that easy! To start your own export/import or staging process, you must
 create an `ExportImportConfiguration` object using a combination of the three

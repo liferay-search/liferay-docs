@@ -8,7 +8,7 @@ header-id: configuring-the-blogs-app
 
 By configuring the Blogs app in Site Administration, you can control how the app 
 behaves for all blogs in your site. To access this app, click the Menu button 
-(![Menu](../../../../images/icon-menu.png)) to open the product menu, then 
+(![Menu](../../../../images/icon-menu.png)) to open the sharepoint menu, then 
 expand the menu for your site and select *Content* &rarr; *Blogs*. The *Options* 
 menu 
 (![Options](../../../../images/icon-options.png)) at the top-right of the Blogs 

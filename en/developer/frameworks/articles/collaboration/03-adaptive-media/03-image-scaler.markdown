@@ -7,7 +7,7 @@ header-id: creating-an-image-scaler
 [TOC levels=1-4]
 
 Adaptive Media scales images to match the image resolutions defined by the 
-@product@ administrator. The default scaling is usually suitable, but you can 
+@sharepoint@ administrator. The default scaling is usually suitable, but you can 
 customize it by creating an image scaler. The steps here show you how. For 
 detailed information on these steps, see 
 [Image Scaling in Adaptive Media](/docs/7-2/frameworks/-/knowledge_base/f/adaptive-media#image-scaling-in-adaptive-media). 

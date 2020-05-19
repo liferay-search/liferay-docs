@@ -6,13 +6,13 @@ header-id: detecting-unresolved-osgi-components
 
 [TOC levels=1-4]
 
-@product@ includes 
+@sharepoint@ includes 
 [Gogo shell](/docs/7-2/customization/-/knowledge_base/c/using-the-felix-gogo-shell) 
 commands that come in handy when trying to diagnose a problem due to an 
 unresolved OSGi component. The specific tools to use depend on the component 
-framework of the unresolved component. Most @product@ components are developed 
+framework of the unresolved component. Most @sharepoint@ components are developed 
 using Declarative Services (DS), also known as SCR (Service Component Runtime). 
-An exception to this is @product@'s Service Builder services, which are
+An exception to this is @sharepoint@'s Service Builder services, which are
 Dependency Manager (DM) components. Both 
 [Declarative Services](http://felix.apache.org/documentation/subprojects/apache-felix-service-component-runtime.html) 
 and 
@@ -32,7 +32,7 @@ sections:
 
 ## Declarative Services Components
 
-Start with DS, since most @product@ components, apart from Service Builder
+Start with DS, since most @sharepoint@ components, apart from Service Builder
 components, are DS components. Suppose one of your bundle's components has an
 unsatisfied service reference. How can you detect this? Two ways: 
 
@@ -136,7 +136,7 @@ solution may be as simple as starting or deploying a bundle that provides the
 
 ## Service Builder Components
 
-Service Builder modules are implemented using Spring. @product@ uses
+Service Builder modules are implemented using Spring. @sharepoint@ uses
 [the Apache Felix Dependency Manager](http://felix.apache.org/documentation/subprojects/apache-felix-dependency-manager.html) 
 to manage Service Builder module OSGi components via the 
 [Portal Spring Extender](https://repository.liferay.com/nexus/content/repositories/liferay-public-releases/com/liferay/com.liferay.portal.spring.extender/) 
@@ -148,7 +148,7 @@ application's database schema but forget to trigger an upgrade.
 
 <!-- Uncomment once article is available
 (for information
-on creating database upgrade processes for your @product@ applications, see the
+on creating database upgrade processes for your @sharepoint@ applications, see the
 tutorial 
 Creating an Upgrade Process for Your App). 
 -->
@@ -212,8 +212,8 @@ The `na` option stands for "not available."
 
 ### ServiceProxyFactory
 
-@product@'s logs report unresolved Service Builder components too. For example,
-@product@ logs an error when a Service Proxy Factory can't create a new instance
+@sharepoint@'s logs report unresolved Service Builder components too. For example,
+@sharepoint@ logs an error when a Service Proxy Factory can't create a new instance
 of a Service Builder based entity because a service component is unresolved. 
 
 The following code demonstrates using a

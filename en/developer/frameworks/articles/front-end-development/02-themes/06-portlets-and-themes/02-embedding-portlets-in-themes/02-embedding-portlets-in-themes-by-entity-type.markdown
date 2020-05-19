@@ -21,7 +21,7 @@ based on those given parameters. Follow these steps:
     />
     ```
     This example declares that the theme is requesting to view language entries. 
-    @product@ determines which deployed portlet to use in this case by providing 
+    @sharepoint@ determines which deployed portlet to use in this case by providing 
     the portlet with the highest service ranking. 
 
     | **Note:** In some cases, a default portlet is already provided to fulfill

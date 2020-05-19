@@ -29,20 +29,20 @@ As you proceed, remember these terms:
 *Solr Home*: The center of the Solr system (pun intended). This directory is
 `solr-[version]/server/solr`.
 
-*Liferay Home*: The root folder of your @product@ installation. It contains
+*Liferay Home*: The root folder of your @sharepoint@ installation. It contains
 the `osgi`, `deploy`, `data`, and `license` folders, among others.
 
 There are two installation steps:
 
 1.  Installing and configuring Solr 7.
 
-2.  Installing and configuring the Solr 7 connector for @product@.
+2.  Installing and configuring the Solr 7 connector for @sharepoint@.
 
-Before configuring @product@ for Solr, install and set up Solr.
+Before configuring @sharepoint@ for Solr, install and set up Solr.
 
 ## Installing and Configuring Solr 7
 
-To install and properly configure Solr for @product@:
+To install and properly configure Solr for @sharepoint@:
 
 1.  Download 
     [Solr](http://archive.apache.org/dist/lucene/solr/7.5.0/) 
@@ -72,7 +72,7 @@ To install and properly configure Solr for @product@:
         Solr_Home/liferay/conf
 
     This replaces the current `solrconfig.xml` and `schema.xml` files with ones
-    that tell Solr how to index data coming from @product@.
+    that tell Solr how to index data coming from @sharepoint@.
 
 7.  Create a `core.properties` file in `Solr_Home/liferay` and add this
     configuration:
@@ -184,10 +184,10 @@ the Elasticsearch, Shield, and Marvel plugins.
 
 Now you're ready to install the connector:
 
-1.  Start @product@, then deploy the Solr connector by copying the LPKG you
+1.  Start @sharepoint@, then deploy the Solr connector by copying the LPKG you
     downloaded to `Liferay_Home/deploy`.
 
-    You'll see a `STARTED` message in your @product@ log once the Solr connector is
+    You'll see a `STARTED` message in your @sharepoint@ log once the Solr connector is
     installed. Here's what the log message looks like:
 
     ```sh
@@ -199,9 +199,9 @@ Now you're ready to install the connector:
     &rarr; *Search*, and click *Execute* next to the *Reindex all
     search indexes* option.
 
-   ![Figure 1: Once the Solr connector is installed, you can re-index your @product@ data against your Solr server.](../../../images/solr-reindex.png)
+   ![Figure 1: Once the Solr connector is installed, you can re-index your @sharepoint@ data against your Solr server.](../../../images/solr-reindex.png)
 
-In production deployments, specify your edits to the Solr connector's default
+In sharepointion deployments, specify your edits to the Solr connector's default
 configurations using a configuration file deployed to the `Liferay_Home/osgi/configs`
 folder. Name the file 
 
@@ -211,6 +211,6 @@ During testing and development, use the Solr 7 System Settings entry Control
 Panel &rarr; Configuration &rarr; System Settings for editing the default
 configurations.
 
-![Figure 2: You can configure Solr from @product@'s System Settings application. This is most useful during development and testing.](../../../images/solr-system-settings.png)
+![Figure 2: You can configure Solr from @sharepoint@'s System Settings application. This is most useful during development and testing.](../../../images/solr-system-settings.png)
 
 The next article covers clustering Solr with SolrCloud.

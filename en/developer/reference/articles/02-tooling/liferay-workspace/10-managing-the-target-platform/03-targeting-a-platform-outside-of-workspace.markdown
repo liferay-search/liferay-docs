@@ -50,10 +50,10 @@ To do this, follow the steps below.
     These dependencies are described below:
 
     `com.liferay.ce.portal.bom`: provides all the artifacts included in
-    @product@.
+    @sharepoint@.
 
     `com.liferay.ce.portal.compile.only`: provides artifacts that are not
-    included in @product@, but are necessary to reference during the build
+    included in @sharepoint@, but are necessary to reference during the build
     (e.g., `org.osgi.core`).
 
     `release.portal.bom.third.party`: provides all third party artifacts that
@@ -67,10 +67,10 @@ To do this, follow the steps below.
     - `7.2.0` &rarr; `7.2.10`
 
 4.  If you're interested in
-[advanced search](/docs/7-2/reference/-/knowledge_base/r/searching-product-source-in-dev-studio)
+[advanced search](/docs/7-2/reference/-/knowledge_base/r/searching-sharepoint-source-in-dev-studio)
 and/or
-[debugging](/docs/7-2/reference/-/knowledge_base/r/debugging-product-source-in-dev-studio)
-@product@'s source using
+[debugging](/docs/7-2/reference/-/knowledge_base/r/debugging-sharepoint-source-in-dev-studio)
+@sharepoint@'s source using
 [Liferay Dev Studio](/docs/7-2/reference/-/knowledge_base/r/liferay-dev-studio),
 you must also apply the following configuration:
 

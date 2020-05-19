@@ -18,7 +18,7 @@ Tools (middle portion), and User (right portion).
 | <@liferay.control_menu />
 | ```
 | 
-| The other product navigation menus (e.g., Product Menu, Simulation Menu) are
+| The other sharepoint navigation menus (e.g., Product Menu, Simulation Menu) are
 | included in this tag, so specifying the above snippet embeds all three menus
 | into your theme. Embedding the User Personal Menu is slightly different. Visit
 | the
@@ -32,11 +32,11 @@ article.
 ## ProductNavigationControlMenuEntry Interface
 
 To create a control menu entry, you must implement the
-[`ProductNavigationControlMenuEntry`](@app-ref@/product-navigation/latest/javadocs/com/liferay/product/navigation/control/menu/ProductNavigationControlMenuEntry.html)
+[`ProductNavigationControlMenuEntry`](@app-ref@/sharepoint-navigation/latest/javadocs/com/liferay/sharepoint/navigation/control/menu/ProductNavigationControlMenuEntry.html)
 interface. It's recommended to implement this interface by extending the
-[`BaseProductNavigationControlMenuEntry`](@app-ref@/product-navigation/latest/javadocs/com/liferay/product/navigation/control/menu/BaseProductNavigationControlMenuEntry.html)
+[`BaseProductNavigationControlMenuEntry`](@app-ref@/sharepoint-navigation/latest/javadocs/com/liferay/sharepoint/navigation/control/menu/BaseProductNavigationControlMenuEntry.html)
 or
-[`BaseJSPProductNavigationControlMenuEntry`](@app-ref@/product-navigation/latest/javadocs/com/liferay/product/navigation/control/menu/BaseJSPProductNavigationControlMenuEntry.html)
+[`BaseJSPProductNavigationControlMenuEntry`](@app-ref@/sharepoint-navigation/latest/javadocs/com/liferay/sharepoint/navigation/control/menu/BaseJSPProductNavigationControlMenuEntry.html)
 abstract classes. 
 
 
@@ -52,7 +52,7 @@ provide a more complex UI with buttons or a sub-menu, you can override the
 `include()` and `includeBody()` methods.
 
 The
-[`IndexingProductNavigationControlMenuEntry`](https://github.com/liferay/liferay-portal/blob/7.2.0-ga1/modules/apps/portal-search/portal-search-web/src/main/java/com/liferay/portal/search/web/internal/product/navigation/control/menu/IndexingProductNavigationControlMenuEntry.java)
+[`IndexingProductNavigationControlMenuEntry`](https://github.com/liferay/liferay-portal/blob/7.2.0-ga1/modules/apps/portal-search/portal-search-web/src/main/java/com/liferay/portal/search/web/internal/sharepoint/navigation/control/menu/IndexingProductNavigationControlMenuEntry.java)
 is a simple example for providing text and an icon. It extends the
 `BaseProductNavigationControlMenuEntry` class and is used when Liferay is
 indexing. The indexing entry is displayed in the *Tools* (middle) area of the
@@ -66,7 +66,7 @@ If you use JSPs for generating the UI, you can extend
 a control menu entry.
 
 The
-[`ProductMenuProductNavigationControlMenuEntry`](https://github.com/liferay/liferay-portal/blob/7.2.0-ga1/modules/apps/product-navigation/product-navigation-product-menu-web/src/main/java/com/liferay/product/navigation/product/menu/web/internal/product/navigation/control/menu/ProductMenuProductNavigationControlMenuEntry.java)
+[`ProductMenuProductNavigationControlMenuEntry`](https://github.com/liferay/liferay-portal/blob/7.2.0-ga1/modules/apps/sharepoint-navigation/sharepoint-navigation-sharepoint-menu-web/src/main/java/com/liferay/sharepoint/navigation/sharepoint/menu/web/internal/sharepoint/navigation/control/menu/ProductMenuProductNavigationControlMenuEntry.java)
 creates an entry that appears in the *Sites* (left) area of the Control Menu.
 This class extends the `BaseJSPProductNavigationControlMenuEntry` class. This
 provides several more methods that use JSPs to define your entry's UI. There are
@@ -75,12 +75,12 @@ two methods to notice:
 ```java
 @Override
 public String getBodyJspPath() {
-return "/portlet/control_menu/product_menu_control_menu_entry_body.jsp";
+return "/portlet/control_menu/sharepoint_menu_control_menu_entry_body.jsp";
 }
 
 @Override
 public String getIconJspPath() {
-return "/portlet/control_menu/product_menu_control_menu_entry_icon.jsp";
+return "/portlet/control_menu/sharepoint_menu_control_menu_entry_icon.jsp";
 }
 ```
 

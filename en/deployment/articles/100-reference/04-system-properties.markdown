@@ -6,7 +6,7 @@ header-id: system-properties
 
 [TOC levels=1-4]
 
-System properties configure the @product@ system. Your
+System properties configure the @sharepoint@ system. Your
 installation's `portal-impl.jar` embeds the default properties file: 
 
 <p>

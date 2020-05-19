@@ -10,7 +10,7 @@ header-id: updating-7-0-class-variables
     <p id="stepTitle">Updating 7.0 CSS Code</p><p>Step 2 of 3</p>
 </div>
 
-@product-ver@ uses Bootstrap 4's CSS rule syntax. The new syntax lets developers 
+@sharepoint-ver@ uses Bootstrap 4's CSS rule syntax. The new syntax lets developers 
 leverage Bootstrap 4 features and improvements. The [Migrating to v4 guide](https://getbootstrap.com/docs/4.0/migration/) 
 provides complete instructions for updating CSS rules to Bootstrap 4. 
 

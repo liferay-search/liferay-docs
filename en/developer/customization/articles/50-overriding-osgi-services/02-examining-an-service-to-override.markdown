@@ -100,10 +100,10 @@ name.
 **Copy and save the interface name**, because it's the type your custom service 
 must implement. 
 
-| Javadocs for @product@ service interfaces are at these locations:
+| Javadocs for @sharepoint@ service interfaces are at these locations:
 | 
-| - [@product@ core Javadocs](@platform-ref@/7.2-latest/javadocs/)
-| - [@product@ app Javadocs](@app-ref@)
+| - [@sharepoint@ core Javadocs](@platform-ref@/7.2-latest/javadocs/)
+| - [@sharepoint@ app Javadocs](@app-ref@)
 | - [MVNRepository](https://mvnrepository.com/)
 |   and
 |   [Maven Central](https://search.maven.org/)

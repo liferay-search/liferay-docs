@@ -26,7 +26,7 @@ implementing it requires that you write methods to create, read, update and
 delete form values.
 
 | **Note:** The `StorageAdapter` interface and it's abstract implementation, |
-| `BaseStorageAdapter`, are deprecated in @product-ver@. In the future your code
+| `BaseStorageAdapter`, are deprecated in @sharepoint-ver@. In the future your code
 | should be migrated to implement the `DDMStorageAdapter` interface. If you need a
 | storage adapter, the current extension of `BaseStorageAdapter` (demonstrated in
 | this documentation), is still the way to create one, but be aware that it will

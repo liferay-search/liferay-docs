@@ -10,9 +10,9 @@ For detailed Elasticsearch configuration information, refer to the
 [Elasticsearch documentation](https://www.elastic.co/guide/en/elasticsearch/reference/7.x/settings.html).
 
 The name of your Elasticsearch cluster is important. When you're running
-Elasticsearch in remote mode, the cluster name is used by @product@ to recognize
+Elasticsearch in remote mode, the cluster name is used by @sharepoint@ to recognize
 the Elasticsearch cluster. To learn about setting the Elasticsearch cluster name
-on the @product@ side, refer below to the section called Configuring the Liferay
+on the @sharepoint@ side, refer below to the section called Configuring the Liferay
 Elasticsearch Connector.
 
 | **Note:** The `http.enabled` setting in Elasticsearch corresponds to the
@@ -21,7 +21,7 @@ Elasticsearch Connector.
 | 6.3](https://www.elastic.co/guide/en/elasticsearch/reference/6.5/release-notes-6.3.0.html),
 | the connector's corresponding setting is now also deprecated. This setting was
 | only used for configuring the embedded Elasticsearch server, so its deprecation
-| should have minimal impact to production deployments.
+| should have minimal impact to sharepointion deployments.
 
 Elasticsearch's configuration files are written in [YAML](http://www.yaml.org)
 and kept in the `[Elasticsearch Home]/config` folder. The main configuration
@@ -35,7 +35,7 @@ cluster.name: LiferayElasticsearchCluster
 ```
 
 Since `LiferayElasticsearchCluster` is the default name given to the cluster in
-the @product@ Elasticsearch connector, this works just fine. Of course, you can
+the @sharepoint@ Elasticsearch connector, this works just fine. Of course, you can
 name your cluster whatever you want (we humbly submit the recommendation
 `clustery_mcclusterface`).<sup>[1](#footnote1)</sup> Configure your node name
 using the same syntax (setting the `node.name` property). There's no client
@@ -74,7 +74,7 @@ To run as a daemon in the background, add the `-d` switch to either command:
 ./bin/elasticsearch -d
 ```
 
-Once both Elasticsearch and @product@ are installed and running, introduce them
+Once both Elasticsearch and @sharepoint@ are installed and running, introduce them
 to each other. 
 
 ## Configuring the Liferay Elasticsearch Connector 
@@ -100,7 +100,7 @@ with your configuration.
 
 To configure the Elasticsearch connector from the System Settings application,
 
-1.  Start @product@.
+1.  Start @sharepoint@.
 
 2.  Navigate to *Control Panel* &rarr; *Configuration* &rarr; *System Settings*
     &rarr; *Platform*. 
@@ -109,7 +109,7 @@ To configure the Elasticsearch connector from the System Settings application,
     search box) and click the Actions icon
     (![Actions](../../../images/icon-actions.png)), then *Edit*.
 
-    ![Figure 1: Use the System Settings application in @product@'s Control Panel to configure the Elasticsearch connector.](../../../images/cfg-elasticsearch-sys-settings.png)
+    ![Figure 1: Use the System Settings application in @sharepoint@'s Control Panel to configure the Elasticsearch connector.](../../../images/cfg-elasticsearch-sys-settings.png)
 
 4.  Make any edits to the configuration and click *Save*.
 
@@ -121,7 +121,7 @@ To configure the Elasticsearch connector from the System Settings application,
 
 ### Configuring the Connector with an OSGi `.config` File 
 
-When preparing a system for production deployment, you want to use a repeatable
+When preparing a system for sharepointion deployment, you want to use a repeatable
 deployment process. Therefore, it's best to use the OSGi configuration file,
 where your configuration is maintained in a controlled source.
 
@@ -145,7 +145,7 @@ file:
         # Highly recommended for all non-prodcution usage (e.g., practice, tests, diagnostics):
         #logExceptionsOnly="false"
 
-3. Start @product@ or re-index if already running.
+3. Start @sharepoint@ or re-index if already running.
 
 As you can see from the System Settings entry for Elasticsearch, there are a lot
 more configuration options available that help you tune your system for optimal
@@ -159,8 +159,8 @@ and go through that process once you have a working configuration.
 
 ## Configuring a Remote Elasticsearch Host 
 
-In production systems Elasticsearch and @product@ are installed on different
-servers. To make @product@ aware of the Elasticsearch cluster, set
+In sharepointion systems Elasticsearch and @sharepoint@ are installed on different
+servers. To make @sharepoint@ aware of the Elasticsearch cluster, set
 
     transportAddresses=[IP address of Elasticsearch Node]:9300
 
@@ -171,12 +171,12 @@ cluster:
 
 Set this in the Elasticsearch connector's OSGi configuration file. List as many
 or as few Elasticsearch nodes in this property as you want. This tells
-@product@ the IP address or host name where search requests should be sent. If
+@sharepoint@ the IP address or host name where search requests should be sent. If
 using System Settings, set the value in the *Transport Addresses* property.
 
 | **Note:** In an Elasticsearch cluster you can list the transport addresses for
 | multiple Elasticsearch nodes as a comma-separated list in the
-| `transportAddresses` property. If you set only one transport address, @product@
+| `transportAddresses` property. If you set only one transport address, @sharepoint@
 | loses contact with Elasticsearch if that node goes down.
 
 On the Elasticsearch side, set the `network.host` property in your
@@ -209,7 +209,7 @@ shards is `1`.
 | communicate using the [Transport
 | Module](https://www.elastic.co/guide/en/elasticsearch/reference/7.x/modules-transport.html),
 | through TCP. See the Elasticsearch documentation for the available properties
-| (to be set in the `elasticsearch.yml` file), and the @product@ Elasticsearch
+| (to be set in the `elasticsearch.yml` file), and the @sharepoint@ Elasticsearch
 | connector's settings for the connector's available settings.
 | 
 | At a minimum, provide the list of hosts (as `host:port`)  to act as gossip

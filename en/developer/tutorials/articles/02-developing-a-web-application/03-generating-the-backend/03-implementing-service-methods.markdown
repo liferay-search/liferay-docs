@@ -105,7 +105,7 @@ Follow these steps to implement services for guestbooks in
 	}
     ```
 	
-    This method uses @product@'s `Validator` to make sure the user entered text 
+    This method uses @sharepoint@'s `Validator` to make sure the user entered text 
     for the guestbook name. 
 
 4.  Press [CTRL]+[SHIFT]+O to organize imports and select the following classes

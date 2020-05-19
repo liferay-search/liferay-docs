@@ -36,7 +36,7 @@ To use the advanced file system store, follow these steps:
     dl.store.impl=com.liferay.portal.store.file.system.AdvancedFileSystemStore
     ```
 
-2.  Restart @product@.
+2.  Restart @sharepoint@.
 
 3.  In the Control Panel, navigate to *Configuration* &rarr; *System
     Settings* &rarr; *File Storage*. 
@@ -45,7 +45,7 @@ To use the advanced file system store, follow these steps:
 
 5.  Click *Save*.
  
-@product@ is using the advanced file system store. 
+@sharepoint@ is using the advanced file system store. 
 
 | **Warning:** If a database transaction rollback occurs in the Document 
 | Library, file system changes that have occurred since the start of the
@@ -56,4 +56,4 @@ To use the advanced file system store, follow these steps:
 You may decide the advanced file system store for whatever reason doesn't serve
 your needs. If this is the case, you can of course mount other file systems into
 the documents and media library. In addition to this, you can also redefine the
-@product@ store to use one of the other supported protocols. S3 store is next. 
+@sharepoint@ store to use one of the other supported protocols. S3 store is next. 

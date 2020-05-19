@@ -62,7 +62,7 @@ Note that criterion and return types together form an Item Selector's
 *criteria*. The Item Selector uses its criteria to decide which selection views 
 to show. 
 
-| **Note:** For a list of the criterion classes and return types that @product@
+| **Note:** For a list of the criterion classes and return types that @sharepoint@
 | provides, see
 | [Item Selector Criterion and Return Types](/docs/7-2/reference/-/knowledge_base/r/item-selector-criterion-and-return-types).
 

@@ -157,7 +157,7 @@ produce an appealing app advertisement.
 				specifying version constraints in your
 				liferay-plugin-package.properties file (e.g.,
 				"liferay-versions=7.2.1+, 7.2.20+"). This ensures that the app
-				continues to be deployable to future @product@ versions within
+				continues to be deployable to future @sharepoint@ versions within
 				a minor release. If, in the future, you discover your app does
 				NOT work with a particular version, you can modify the list to
 				exclude that version.

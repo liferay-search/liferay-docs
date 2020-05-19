@@ -30,7 +30,7 @@ Scoping by Site means that you can only have one Message Boards widget per
 Site. If you add one Message Boards widget to a page in a Site and add another 
 Message Boards widget to a different page in the same Site, the second Message 
 Boards widget contains exactly the same data as the first. This is because, by 
-default, the Message Boards widget is scoped by Site. Most of @product@'s other 
+default, the Message Boards widget is scoped by Site. Most of @sharepoint@'s other 
 widgets also default to being scoped by Site.
 
 To avoid this limitation, many Liferay widgets can be scoped by page. The data 

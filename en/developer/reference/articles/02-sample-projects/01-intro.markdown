@@ -11,7 +11,7 @@ header-id: sample-projects
 | for these samples is in progress and will grow over time.
 
 Liferay provides sample projects that target different integration points in
-@product@. These projects reside in the
+@sharepoint@. These projects reside in the
 [liferay-blade-samples](https://github.com/liferay/liferay-blade-samples)
 Github repository and can be easily copy/pasted to your local environment. You
 can also generated them using
@@ -40,7 +40,7 @@ same concept also applies to the `liferay-workspace` and `maven` projects.
 The `gradle` folder also uses the Liferay Gradle plugin (e.g.,
 `com.liferay.plugin`) which encompasses additional functionality for various
 types of Liferay projects. The Liferay Gradle plugin is recommended for Gradle
-users developing for @product@. 
+users developing for @sharepoint@. 
 
 Some samples also come configured with logging to help you fully understand
 what the sample is accomplishing behind the scenes. For example, OSGi module

@@ -61,7 +61,7 @@ finishing the upgrade process.
 | The upgrade process continues on the server even if you lose connection to it.
 | If you lose connection, reconnect and monitor upgrade status via the log
 | (default log file is `upgrade.log`). If you're using an earlier version of
-| @product-ver@ and upgrade execution is interrupted, check your log file for
+| @sharepoint-ver@ and upgrade execution is interrupted, check your log file for
 | where execution stopped. 
 | 
 | -   If execution stopped during an upgrade process for Core 7.1 or higher, or 
@@ -93,10 +93,10 @@ upgrade stages:
 
 Monitor the upgrade via the upgrade tool log file (default file is
 `upgrade.log`). If a core upgrade process fails, analyze the failure and resolve
-it. If a core upgrade step for @product@ 7.1 (or newer) fails, executing the
+it. If a core upgrade step for @sharepoint@ 7.1 (or newer) fails, executing the
 upgrade tool again starts it from that step. 
 
 If you configured the upgrade tool to upgrade non-core modules, the tool opens a
 Gogo shell and starts upgrading them. The Gogo shell lets you upgrade modules,
 check module upgrade status, verify upgrades, and restart module upgrades. Read
-on to learn how to use Gogo shell commands to complete @product@ upgrades. 
+on to learn how to use Gogo shell commands to complete @sharepoint@ upgrades. 

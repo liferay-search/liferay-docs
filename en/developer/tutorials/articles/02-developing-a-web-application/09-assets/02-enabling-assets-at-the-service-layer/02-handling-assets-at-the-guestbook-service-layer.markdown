@@ -49,7 +49,7 @@ Now you'll update the guestbook service layer to use assets. You must update the
 
     Calling `assetEntryLocalService.updateEntry` adds a new row (corresponding
     to the guestbook that's being added) to the `AssetEntry` table in
-    @product@'s database. `AssetEntryLocalServiceImpl`'s `updateEntry` method
+    @sharepoint@'s database. `AssetEntryLocalServiceImpl`'s `updateEntry` method
     both adds and updates asset entries because it checks to see whether the
     asset entry already exists in the database and then takes the appropriate 
     action. If you check the 

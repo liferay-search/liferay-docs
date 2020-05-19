@@ -6,15 +6,15 @@ header-id: low-level-search-options-searching-additional-or-alternate-indexes
 
 [TOC levels=1-4]
 
-Low level search is a new concept in @product@ version 7.2: it's a search that
+Low level search is a new concept in @sharepoint@ version 7.2: it's a search that
 doesn't go through the 
 [Search and Indexing Framework](/docs/7-2/frameworks/-/knowledge_base/f/model-entity-indexing-framework),
 which is infrastructure used for searching documents in the Liferay Index.
 
 A common use case for a low level search is to query an index other than the
-@product@ index. By default, 
+@sharepoint@ index. By default, 
 [Search Pages](/docs/7-2/user/-/knowledge_base/u/configuring-search-pages) search the
-@product@ index, but you can also search another index, as long as it's in the
+@sharepoint@ index, but you can also search another index, as long as it's in the
 same Elasticsearch cluster (this feature does not work with Solr). 
 
 Add the Low Level Search Options widget to a search page and configure it to
@@ -22,7 +22,7 @@ direct the search to the alternate index. To search multiple indexes from the
 same page, you can add multiple Low Level Search Options widgets and configure
 each one with its own Index Name and Federated Search Key.
 
-Searching alternate indexes is a low level operation that bypasses the @product@
+Searching alternate indexes is a low level operation that bypasses the @sharepoint@
 permission checking mechanisms, presenting whatever results the search engine
 returns. For this reason, only administrators can add and configure the Low
 Level Search Options widget. 

@@ -14,10 +14,10 @@ and use it to create JavaScript widgets. See the
 and 
 [Vue Application](/docs/7-2/appdev/-/knowledge_base/a/developing-a-vue-application) 
 articles to learn how to use your existing Angular, React, and Vue apps in 
-@product@. 
+@sharepoint@. 
 
 | **Note:** To use the Liferay JS Generator, you must have the Liferay JS 
-| Portlet Extender activated in your @product@ instance. It's activated by 
+| Portlet Extender activated in your @sharepoint@ instance. It's activated by 
 | default. You can confirm this by opening the Control Menu, navigating to the 
 | *App Manager*, and searching for `com.liferay.frontend.js.portlet.extender`.
 

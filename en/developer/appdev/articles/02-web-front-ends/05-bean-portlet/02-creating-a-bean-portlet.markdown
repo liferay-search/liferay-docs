@@ -7,7 +7,7 @@ header-id: creating-a-bean-portlet
 [TOC levels=1-4]
 
 Your first step in developing a Bean Portlet is to create one. Here you'll
-generate a Bean Portlet project and deploy your Bean Portlet to @product@. 
+generate a Bean Portlet project and deploy your Bean Portlet to @sharepoint@. 
 
 1.  Generate a Bean Portlet project using a Maven command like this: 
 
@@ -95,14 +95,14 @@ generate a Bean Portlet project and deploy your Bean Portlet to @product@.
     converts the WAR to an OSGi Web Application Bundle (WAB) and installs it to
     Liferay's OSGi container. 
  
-@product@ logs the deployment. 
+@sharepoint@ logs the deployment. 
 
     INFO  [main][HotDeployImpl:226] Deploying com.mycompany.demo.bean.portlet from queue
     INFO  [main][PluginPackageUtil:1001] Reading plugin package for com.mycompany.demo.bean.portlet
     ...
     INFO  [main][PortletHotDeployListener:181] 1 bean portlets for com.mycompany.demo.bean.portlet are available for use
 
-The Bean Portlet is now available in the @product@ UI. The example portlet is in
+The Bean Portlet is now available in the @sharepoint@ UI. The example portlet is in
 the Widget category you assigned it. 
 
 ![Figure 1: The Foo portlet prints the message returned from `doView` method and shows the included JSP's contents.](../../../images/portlet-3-portlet.png)

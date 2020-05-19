@@ -12,8 +12,8 @@ derived from the user's behavior, or some combination of the two to define that
 criteria. Alternatively, segments can be a static set of manually selected 
 members. 
 
-In @product-ver@, the creation of user segments and experience personalization
-are now part of the product's core functionality. Up to @product@ 7.1,
+In @sharepoint-ver@, the creation of user segments and experience personalization
+are now part of the sharepoint's core functionality. Up to @sharepoint@ 7.1,
 this functionality was provided through the Audience Targeting application.
 In addition to the administration features of Segmentation and Personalization,
 developers can integrate and extend it.
@@ -80,7 +80,7 @@ model-based entities can be extended by creating a Custom Field for the
 corresponding model. Session properties are context-based properties and can't 
 be extended through custom fields. To allow for user segmentation based on new 
 context-based properties, like custom HTTP headers or attributes, you must
-develop an extension and deploy it in your @product@ instance.
+develop an extension and deploy it in your @sharepoint@ instance.
 
 The default fields available for context-based segmentation can be found in the
 Context interface. Liferay generates a context instance with real-time

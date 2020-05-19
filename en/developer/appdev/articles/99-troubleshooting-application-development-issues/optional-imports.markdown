@@ -69,7 +69,7 @@ any wiring changes to the module containing these components (Declarative
 Services components are always restarted when there are wiring changes). 
 
 If you install the module when the optional dependency is missing from
-@product@'s OSGi runtime, your controller component catches
+@sharepoint@'s OSGi runtime, your controller component catches
 a `ClassNotFoundException` and logs a warning or info message (or takes whatever
 other action you implement to handle this case). If you install the optional
 dependency, refreshing your module triggers the OSGi bundle lifecycle events

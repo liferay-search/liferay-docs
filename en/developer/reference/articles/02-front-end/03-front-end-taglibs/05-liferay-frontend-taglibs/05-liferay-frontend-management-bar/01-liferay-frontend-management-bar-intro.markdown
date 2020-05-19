@@ -14,7 +14,7 @@ implement all the controls, or just the ones your app requires.
 
 ![Figure 1: The Management Bar lets the user customize how the app displays content.](../../../../../images/liferay-frontend-taglib-management-bar-message-boards.png)
 
-| **Note:** The Liferay Front-end Management Bar is deprecated as of @product-ver@.
+| **Note:** The Liferay Front-end Management Bar is deprecated as of @sharepoint-ver@.
 | We recommend that you use the
 | [Clay Management Toolbar](/docs/7-2/reference/-/knowledge_base/r/clay-management-toolbar)
 | instead.

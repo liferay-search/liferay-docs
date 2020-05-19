@@ -50,7 +50,7 @@ From top to bottom, the options are
 
 When you open *Sections* you see a list of Collections available. Initially, 
 you only have the **Basic Sections** Collection which is included with the 
-product. You can open the Collection and drag Sections directly onto the page.
+sharepoint. You can open the Collection and drag Sections directly onto the page.
 
 ![Figure 2: *Sections* contains Fragments that fully define spaces on your page.](../../../../../images/content-page-sections-editor.png)
 

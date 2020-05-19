@@ -26,7 +26,7 @@ and its Visual GC plugin shows garbage collector activities.
 
 ## JMX Console
 
-This tool helps display various statistics like @product@'s distributed cache
+This tool helps display various statistics like @sharepoint@'s distributed cache
 performance, application server thread performance, JDBC connection pool usage,
 and more. 
 

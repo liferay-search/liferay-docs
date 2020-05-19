@@ -11,7 +11,7 @@ Once you've
 you can use them in your portlet via the `aui:script` tag's `require` attribute. 
 You can load the npm module in your portlet using the 
 `npmResolvedPackageName` variable, which is available by default since 
-@product-ver@. You can then create an alias to reference it in your portlet. 
+@sharepoint-ver@. You can then create an alias to reference it in your portlet. 
 
 Follow these steps:
 

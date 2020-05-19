@@ -14,7 +14,7 @@ To access Adaptive Media settings, open the Control Panel and go to
 *Configuration* &rarr; *Adaptive Media*. Here you can create and manage 
 resolutions. 
 
-| **Note:** Adaptive Media configurations apply only to the current @product@ 
+| **Note:** Adaptive Media configurations apply only to the current @sharepoint@ 
 | instance. 
 
 Once you create a resolution, Adaptive Media automatically generates copies of 

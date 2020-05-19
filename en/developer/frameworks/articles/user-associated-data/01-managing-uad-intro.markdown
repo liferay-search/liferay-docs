@@ -10,7 +10,7 @@ Administrators can [delete or
 anonymize](/docs/7-2/user/-/knowledge_base/u/managing-user-data) User Associated
 Data (UAD) using management tools that aid compliance efforts with the
 EU's General Data Protection Regulation (GDPR). Out of the box, the UAD
-management tool supports @product@ applications (Blogs, Documents and Media,
+management tool supports @sharepoint@ applications (Blogs, Documents and Media,
 etc.), and you can also anonymize data stored by your custom applications.
 
 This task is made easier for 
@@ -29,5 +29,5 @@ These two are the most important attributes for the UAD framework:
   anonymized automatically and must be reviewed by an administrator.
 
 Once your application uses the UAD framework to manage User data, there are more
-features in @product-ver@ that make searching and deleting User Associated Data
+features in @sharepoint-ver@ that make searching and deleting User Associated Data
 even easier.

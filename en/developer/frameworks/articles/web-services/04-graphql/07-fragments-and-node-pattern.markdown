@@ -6,7 +6,7 @@ header-id: fragments-and-node-pattern
 
 [TOC levels=1-4]
 
-@product@'s GraphQL APIs also supports [GraphQL
+@sharepoint@'s GraphQL APIs also supports [GraphQL
 fragments](https://graphql.org/learn/queries/#fragments), reusable sets of
 fields that are needed in different requests. A special type of fragments are
 [inline fragments](https://graphql.org/learn/queries/#inline-fragments), which

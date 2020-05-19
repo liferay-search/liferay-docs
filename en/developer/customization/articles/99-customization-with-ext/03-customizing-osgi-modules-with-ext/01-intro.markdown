@@ -6,17 +6,17 @@ header-id: customizing-osgi-modules-with-ext
 
 [TOC levels=1-4]
 
-An Ext module is a powerful tool for extending @product@'s OSGi modules. For
+An Ext module is a powerful tool for extending @sharepoint@'s OSGi modules. For
 example, if you want to overwrite a default module's JSP to display a different
 view, you can create an Ext module to customize the original module's JSP (for
 example, see the
 [Login Web Ext sample](/docs/7-2/reference/-/knowledge_base/r/login-web-ext)).
-Because this increases the complexity of your @product@ installation, you should
+Because this increases the complexity of your @sharepoint@ installation, you should
 only use an Ext module if you're sure you can't accomplish your goal in a
 different way (e.g., leveraging an extension point).
 
 The following app servers should be used for Ext module development in
-@product@:
+@sharepoint@:
 
 - Tomcat 9.x
 

@@ -10,7 +10,7 @@ The liferay-npm-bundler is a bundler (like
 [Webpack](https://webpack.github.io/) 
 or 
 [Browserify](http://browserify.org/)
-) that targets @product@ as a platform and assumes you're using your npm 
+) that targets @sharepoint@ as a platform and assumes you're using your npm 
 packages from widgets (as opposed to typical web applications). 
 
 The workflow for running npm packages inside widgets is slightly different from

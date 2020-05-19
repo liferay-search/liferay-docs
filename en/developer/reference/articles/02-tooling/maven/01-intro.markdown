@@ -18,7 +18,7 @@ learn how to
 - Create/Manage a Maven Repository
 - Apply Maven plugins
 
-Because @product@ is tool-agnostic, Maven is fully supported for @product@
+Because @sharepoint@ is tool-agnostic, Maven is fully supported for @sharepoint@
 development. Read on for details about these topics.
 
 ## Installing Liferay Maven Artifacts

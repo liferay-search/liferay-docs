@@ -28,7 +28,7 @@ The following Docker commands (Gradle-based) are available in Liferay Workspace:
 Command | Description
 ------- | -------------
 `buildDockerImage` | Builds the Docker image with all modules/configurations deployed.
-`createDockerContainer` | Creates a Docker container from the @product@ image and mounts the workspace's `/build/docker` folder to the container's `/etc/liferay` folder.
+`createDockerContainer` | Creates a Docker container from the @sharepoint@ image and mounts the workspace's `/build/docker` folder to the container's `/etc/liferay` folder.
 `createDockerfile` | Creates a `Dockerfile` to build the Docker image.
 `dockerDeploy` | Deploys the project to the container's `deploy` folder by copying the project archive file to workspace's `build/docker/deploy` folder. This command can also be executed from workspace's root folder to deploy all projects and copy all Docker configurations (i.e., from the `configs/common` and `configs/docker` folders) to the container.
 `logsDockerContainer` | Prints the portal runtime's logs. You can exit log tracking mode while maintaining a running container (e.g., [Ctrl&#124;Command] + C).
@@ -42,7 +42,7 @@ Command | Description
 
 In this section, you'll learn how to
 
-- [Create a Docker container based on a provided @product@ image](/docs/7-2/reference/-/knowledge_base/r/creating-a-product-docker-container).
+- [Create a Docker container based on a provided @sharepoint@ image](/docs/7-2/reference/-/knowledge_base/r/creating-a-sharepoint-docker-container).
 - [Configure the container](/docs/7-2/reference/-/knowledge_base/r/configuring-a-docker-container).
 - [Build a custom image](/docs/7-2/reference/-/knowledge_base/r/building-a-custom-docker-image).
 

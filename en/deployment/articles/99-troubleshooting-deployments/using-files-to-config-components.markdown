@@ -1,12 +1,12 @@
 ---
-header-id: using-files-to-configure-product-modules
+header-id: using-files-to-configure-sharepoint-modules
 ---
 
 # Using Files to Configure Module Components
 
 [TOC levels=1-4]
 
-@product@ uses 
+@sharepoint@ uses 
 [Felix File Install](http://felix.apache.org/documentation/subprojects/apache-felix-file-install.html)
 to monitor file system folders for new/updated configuration files, and the
 [Felix OSGi implementation](http://felix.apache.org/)
@@ -26,7 +26,7 @@ There are two different configuration file formats:
 -   `.config`: A format that supports strings, type information, and other
     non-string values in its properties. 
 
-Although @product@ supports both formats, use `.config` files for their
+Although @sharepoint@ supports both formats, use `.config` files for their
 flexibility and ability to use type information. Since `.cfg` files lack type
 information, if you want to store anything but a `String`, you must use
 properties utility classes to cast `String`s to intended types (and you must
@@ -47,7 +47,7 @@ created or if the component is intended to be a singleton:
 
 1.  Deploy the component's module if you haven't done so already. 
 
-2.  In @product@'s UI, go to *Control Panel* &rarr; *Configuration* &rarr; 
+2.  In @sharepoint@'s UI, go to *Control Panel* &rarr; *Configuration* &rarr; 
     *System Settings*. 
 
 3.  Find the component's settings by searching or browsing for the component. 
@@ -100,7 +100,7 @@ example, these configuration files are just as valid as the two above:
 -   `com.Foo-puppies.config`
 -   `com.Foo-kitties.config`
 
-Using the subname `default`, however, is @product@'s convention for configuring 
+Using the subname `default`, however, is @sharepoint@'s convention for configuring 
 a component's first instance. The file name pattern is therefore 
 
     [PID]-default.config

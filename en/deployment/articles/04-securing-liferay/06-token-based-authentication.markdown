@@ -6,8 +6,8 @@ header-id: token-based-single-sign-on-authentication
 
 [TOC levels=1-4]
 
-Token-based SSO authentication was introduced in @product@ 7.0 to standardize
-support for Shibboleth, SiteMinder, Oracle OAM, or any other SSO product that
+Token-based SSO authentication was introduced in @sharepoint@ 7.0 to standardize
+support for Shibboleth, SiteMinder, Oracle OAM, or any other SSO sharepoint that
 works by propagating a token via one of the following mechanisms:
 
 - HTTP request parameter
@@ -18,9 +18,9 @@ works by propagating a token via one of the following mechanisms:
 Since these providers have a built-in web server module, you should use the
 Token SSO configuration. 
 
-The authentication token contains the @product@ user's screen name or email
-address, whichever @product@ has been configured to use for the particular
-company (portal instance). Recall that @product@ supports three authentication
+The authentication token contains the @sharepoint@ user's screen name or email
+address, whichever @sharepoint@ has been configured to use for the particular
+company (portal instance). Recall that @sharepoint@ supports three authentication
 methods:
 
 - By email address
@@ -28,17 +28,17 @@ methods:
 - By user ID
 
 Token-based authentication only supports email address and screen name. If
-@product@ is configured to use user ID when a token-based authentication is
+@sharepoint@ is configured to use user ID when a token-based authentication is
 attempted, the `TokenAutoLogin` class logs this warning:
 
     Incompatible setting for: company.security.auth.type
 
 Please note that the above sources are fully trusted. 
 
-Furthermore, you must use a security mechanism external to @product@, such as a
+Furthermore, you must use a security mechanism external to @sharepoint@, such as a
 fronting web server like Apache. The chosen fronting solution must prevent
-malicious @product@ user impersonation that otherwise might be possible by
-sending HTTP requests directly to @product@ from the client's web browser.
+malicious @sharepoint@ user impersonation that otherwise might be possible by
+sending HTTP requests directly to @sharepoint@ from the client's web browser.
 
 Token-based authentication is disabled by default. To manage token-
 based SSO authentication, navigate to Control Panel &rarr;
@@ -65,14 +65,14 @@ earlier, the options are:
 **Authentication cookies:** Set this to the cookie names that must be removed
 after logout. (Example: `SMIDENTITY`, `SMSESSION`)
 
-**Logout redirect URL:** When user logs out of @product@, the user is
+**Logout redirect URL:** When user logs out of @sharepoint@, the user is
 redirected to this URL.
 
 Remember to click *Save* to activate Token Based SSO.
 
 ## Required SiteMinder Configuration
 
-If you use SiteMinder, note that @product@ sometimes uses the tilde character in
+If you use SiteMinder, note that @sharepoint@ sometimes uses the tilde character in
 its URLs. By default, SiteMinder treats the tilde character (and others) as bad
 characters and returns an HTTP 500 error if it processes a URL containing any of
 them. To avoid this issue, change this default setting in the SiteMinder
@@ -87,6 +87,6 @@ update take effect. For more information, please refer to SiteMinder's
 
 ## Summary
 
-@product@'s token-based SSO authentication mechanism is highly flexible
-and compatible with any SSO solution that provides it with a valid @product@
+@sharepoint@'s token-based SSO authentication mechanism is highly flexible
+and compatible with any SSO solution that provides it with a valid @sharepoint@
 user's screen name or email address. These include Shibboleth and SiteMinder.

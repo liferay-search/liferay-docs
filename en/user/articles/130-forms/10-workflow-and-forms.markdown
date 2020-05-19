@@ -10,7 +10,7 @@ header-id: sending-form-entries-through-a-workflow
 sending a submitted asset through a workflow process before it's published.
 Most assets are configured to use workflow at the instance or Site level.
 
-![Figure 1: Workflow is enabled in the Control Panel or in Site Administration for most @product@ assets.](../../images/forms-workflow-configuration.png)
+![Figure 1: Workflow is enabled in the Control Panel or in Site Administration for most @sharepoint@ assets.](../../images/forms-workflow-configuration.png)
 
 Forms are different, so they don't appear in the above image.  There are so
 many use cases for forms, and there could be so many per site, that a site- or

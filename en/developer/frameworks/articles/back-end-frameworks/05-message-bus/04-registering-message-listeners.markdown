@@ -20,7 +20,7 @@ example, you want to create some special proxy wrappers.
 
 | **Note**: The 
 | [`DestinationNames`](@platform-ref@/7.2-latest/javadocs/portal-kernel/com/liferay/portal/kernel/messaging/DestinationNames.html) 
-| class defines `String` constants for @product@'s preconfigured destinations. 
+| class defines `String` constants for @sharepoint@'s preconfigured destinations. 
 
 ## Automatic Registration as a Component
 

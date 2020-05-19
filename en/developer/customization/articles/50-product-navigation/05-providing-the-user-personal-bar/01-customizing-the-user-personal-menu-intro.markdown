@@ -7,7 +7,7 @@ header-id: customizing-the-user-personal-bar-and-menu
 [TOC levels=1-4]
 
 The User Personal Bar is a portlet, but it's also an important concept in
-@product@. In a fresh bundle using the default theme, it's the section of screen
+@sharepoint@. In a fresh bundle using the default theme, it's the section of screen
 occupied by the User's avatar and the Personal Menu.
 
 ![Figure 1: By default, the User Personal Bar contains the signed-in user's avatar, which opens the Personal Menu when selected.](../../../images/user-personal-bar.png)
@@ -25,7 +25,7 @@ This section covers these topics:
 
 ## Displaying the Personal Menu
 
-Starting with @product-ver@, the Personal Menu is no longer part of the
+Starting with @sharepoint-ver@, the Personal Menu is no longer part of the
 Product Menu, but is instead included in the User Personal Bar. To display the
 existing User Personal Bar in your own theme, embed the portlet into your theme
 by adding the following snippet into `portal_normal.ftl`:
@@ -42,7 +42,7 @@ include the default Personal Menu, make sure to render it by using this tag in
 your portlet's JSP:
 
 ```markup
-<liferay-product-navigation:personal-menu
+<liferay-sharepoint-navigation:personal-menu
     expanded="<%= true %>"
     label="<%= userAvatar %>"
 />

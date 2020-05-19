@@ -38,9 +38,9 @@ module.framework.static.path=path_to_modules_static_dir
 
 Using auto-discovery and working with the default profile `default.properties`
 is the easiest way to use the Patching Tool, and is great for smaller, single
-server installations. But many @product@ installations serve millions of pages
+server installations. But many @sharepoint@ installations serve millions of pages
 per day, and the Patching Tool has been designed for this as well. So if you're
-running a small, medium, or large cluster of @product@ machines, you can use the
+running a small, medium, or large cluster of @sharepoint@ machines, you can use the
 Patching Tool profiles to manage patching for all of them. 
 
 ## Using Profiles with the Patching Tool

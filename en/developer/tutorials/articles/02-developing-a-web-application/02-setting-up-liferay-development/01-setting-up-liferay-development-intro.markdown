@@ -18,7 +18,7 @@ Once that's installed, there are only three steps.
 - Start @ide@. 
 
 You'll follow these steps and then generate a Liferay Workspace for developing
-your first @product@ application. 
+your first @sharepoint@ application. 
 
 ## Installing a Liferay @ide@ Bundle
 
@@ -64,7 +64,7 @@ Follow these steps to create a Liferay Workspace in Liferay @ide@:
     have to select *File* &rarr; *New* &rarr; *Other*, then choose *Liferay 
     Workspace Project* in the *Liferay* category. 
 
-    ![Figure 1: By selecting *Liferay Workspace*, you begin the process of creating a new workspace for your @product@ projects.](../../../images/dev-studio-create-workspace.png)
+    ![Figure 1: By selecting *Liferay Workspace*, you begin the process of creating a new workspace for your @sharepoint@ projects.](../../../images/dev-studio-create-workspace.png)
 
     A *New Liferay Workspace* dialog appears, which presents several 
     configuration options. 
@@ -79,11 +79,11 @@ Follow these steps to create a Liferay Workspace in Liferay @ide@:
 5.  Leave the rest of the defaults. 
 
 6.  Check the *Download Liferay bundle* checkbox to download and 
-	unzip a @product@ instance in your workspace automatically.  When prompted,
+	unzip a @sharepoint@ instance in your workspace automatically.  When prompted,
 	name the server `liferay-tomcat-bundle`. 
 
 6.  Click *Finish* to create your Liferay Workspace. This may take a while 
-    because Liferay @ide@ downloads the @product@ bundle in the background. 
+    because Liferay @ide@ downloads the @sharepoint@ bundle in the background. 
 
 Congratulations! Your development environment is ready! Next, you'll get started 
-developing your first @product@ application. 
+developing your first @sharepoint@ application. 

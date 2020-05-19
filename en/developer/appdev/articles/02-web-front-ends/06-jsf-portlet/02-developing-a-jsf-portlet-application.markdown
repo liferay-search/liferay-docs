@@ -6,14 +6,14 @@ header-id: developing-a-jsf-portlet-application
 
 [TOC levels=1-4]
 
-To run an existing JSF web app on @product@, you must leverage the Liferay Faces
+To run an existing JSF web app on @sharepoint@, you must leverage the Liferay Faces
 project. The
 [Liferay Faces Bridge](/docs/7-2/reference/-/knowledge_base/r/understanding-liferay-faces-bridge)
 enables you to deploy JSF web apps as portlets without writing portlet-specific
 code. You must also provide portlet-specific descriptor files to make it
-compatible with the @product@ platform. The easiest way to do this is by
+compatible with the @sharepoint@ platform. The easiest way to do this is by
 generating a new Liferay JSF Portlet project and migrating your code to it. Then
-you can deploy your new JSF portlet project to @product@. 
+you can deploy your new JSF portlet project to @sharepoint@. 
 
 Follow these steps:
 
@@ -84,7 +84,7 @@ Follow these steps:
         - `test/java/` &rarr; Test source files
 
 2.  Update your dependencies as desired. The generated portlet already includes
-    the required artifacts required to deploy a simple JSF portlet to @product@.
+    the required artifacts required to deploy a simple JSF portlet to @sharepoint@.
     For example, the
     [Liferay Faces Bridge](/docs/7-2/reference/-/knowledge_base/r/understanding-liferay-faces-bridge)
     artifacts look like this:
@@ -132,7 +132,7 @@ Follow these steps:
     in the `i18n.properties` file can be accessed via the Expression Language
     using the implicit `i18n` object provided by Liferay Faces Util. The `i18n`
     object can access messages both from a resource bundle defined in the
-    portlet's `portlet.xml` file, and from @product@'s `Language.properties`
+    portlet's `portlet.xml` file, and from @sharepoint@'s `Language.properties`
     file.
 
 8.  Configure your portlet's logging configuration as desired. The
@@ -148,7 +148,7 @@ Follow these steps:
 10. Replace your new JSF portlet's `webapp/WEB-INF/web.xml` with your web app's
     `web.xml` file. The `web.xml` file serves as a deployment descriptor that
     provides necessary configurations for your JSF portlet to deploy and
-    function in @product@. 
+    function in @sharepoint@. 
 
     Make sure the Faces Servlet is configured in your `web.xml`:
 
@@ -161,7 +161,7 @@ Follow these steps:
     ```
 
     This is required to initialize JSF and should be defined in all JSF portlets
-    deployed to @product@.
+    deployed to @sharepoint@.
 
 11. Modify your `webapp/WEB-INF/portlet.xml` as desired. The `portlet.xml`
     descriptor describes the portlet to the portlet container. For example, it
@@ -171,7 +171,7 @@ Follow these steps:
     Liferay Faces Bridge, easy to develop by acting as a turnkey implementation.
 
     The `init-param` is also defined here, which ensures your portlet is visible
-    when deployed to @product@ by pointing to your default view template:
+    when deployed to @sharepoint@ by pointing to your default view template:
 
     ```xml
     <init-param>
@@ -181,7 +181,7 @@ Follow these steps:
     ```
 
 12. Modify your `webapp/WEB-INF/liferay-portlet.xml` as desired. It specifies 
-    additional information @product@ uses to enhance your portlet: supported
+    additional information @sharepoint@ uses to enhance your portlet: supported
     security roles, portlet icon, CSS and JavaScript locations, and more. The
     [liferay-portlet-app DTD](@platform-ref@/7.2-latest/definitions/liferay-portlet-app_7_2_0.dtd.html)
     defines the `liferay-portlet.xml` elements.
@@ -206,19 +206,19 @@ Follow these steps:
     It describes the portlet application's packaging and version information
     and specifies any required OSGi metadata. For example, this
     `liferay-plugin-package.properties` snippet tells the OSGi container not to
-    scan for CDI annotations in @product@.
+    scan for CDI annotations in @sharepoint@.
 
     ```properties
     -cdiannotations:
     ```
 
-    This is required for JSF portlets leveraging CDI deployed to @product@. They
+    This is required for JSF portlets leveraging CDI deployed to @sharepoint@. They
     must reference their own included CDI implementation.
 
     On deploying the WAR file, the
     [WAB Generator](/docs/7-2/customization/-/knowledge_base/c/deploying-wars-wab-generator)
     adds the specified OSGi metadata to the resulting web application bundle
-    (WAB) that's deployed to @product@'s runtime framework.
+    (WAB) that's deployed to @sharepoint@'s runtime framework.
 
     The
     [liferay-plugin-package reference document](@platform-ref@/7.2-latest/propertiesdoc/liferay-plugin-package_7_2_0.properties.html)
@@ -226,7 +226,7 @@ Follow these steps:
 
 15. [Build and deploy your project](/docs/7-2/reference/-/knowledge_base/r/deploying-a-project).
 
-@product@ logs the deployment. 
+@sharepoint@ logs the deployment. 
 
 ```
 2019-05-30 14:10:59.405 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][AutoDeployDir:261] Processing guestbook-jsf-portlet.war
@@ -238,7 +238,7 @@ Follow these steps:
 2019-05-30 14:11:67.569 INFO  [fileinstall-C:/liferay-ce-portal-7.2.0-ga1/osgi/war][PortletHotDeployListener:288] 1 portlet for guestbook-jsf-portlet is available for use
 ```
 
-The portlet is now available in the @product@ UI. Find your portlet by selecting
+The portlet is now available in the @sharepoint@ UI. Find your portlet by selecting
 the *Add* icon (![Add](../../../images/icon-add-app.png)) and navigating to
 *Widgets* and the category you specified (*Sample* is the default category).
 

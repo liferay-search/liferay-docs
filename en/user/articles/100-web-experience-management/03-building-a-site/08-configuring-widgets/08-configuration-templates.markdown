@@ -28,7 +28,7 @@ revert the app to these archived settings, you can click *Actions*
 (![Actions](../../../../images/icon-actions.png)) &rarr; *Apply* next to the
 configuration template you want to apply.
 
-Unless otherwise noted, all widgets in @product@ support this feature. This is
+Unless otherwise noted, all widgets in @sharepoint@ support this feature. This is
 particularly useful for widgets that have a lot of configuration options, such
 as the Message Boards application. 
 
@@ -38,5 +38,5 @@ You've now explored the configuration options available for Liferay widgets.
 You learned how to customize your widgets, export/import data, communicate
 between widgets, take advantage of different scopes, and save configuration
 settings. You also examined the different uses of social applications like
-Facebook and Netvibes for your Liferay widgets. In all, @product@ gives you an
+Facebook and Netvibes for your Liferay widgets. In all, @sharepoint@ gives you an
 abundance of options to leverage the full capability of your widgets.

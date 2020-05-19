@@ -10,7 +10,7 @@ header-id: updating-6-2-css-rules-and-imports
     <p id="stepTitle">Updating 6.2 CSS Code<p><p>Step 1 of 2</p>
 </div>
 
-@product-ver@ uses Bootstrap 4.3's CSS rule syntax. Font Awesome icons have been 
+@sharepoint-ver@ uses Bootstrap 4.3's CSS rule syntax. Font Awesome icons have been 
 removed from base themes, so you should remove those stale imports if you have 
 them. The Gulp `upgrade` task reports automatic CSS updates and suggests manual 
 updates. For example, here is part of the task log for the Lunar Resort theme 

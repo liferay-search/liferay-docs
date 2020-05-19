@@ -14,7 +14,7 @@ There are three authentication mechanisms available when invoking web APIs:
 and password pair. This is the simplest authentication protocol (available since 
 HTTP/1.0). 
 
-**OAuth 2.0:** In @product-ver@, you can use OAuth 2.0 for authentication. See 
+**OAuth 2.0:** In @sharepoint-ver@, you can use OAuth 2.0 for authentication. See 
 the 
 [OAuth 2.0 documentation](/docs/7-2/deploy/-/knowledge_base/d/oauth-2-0) 
 for more information. 
@@ -120,9 +120,9 @@ request receives. For more information on the response's structure, see
 
 ## OAuth 2.0 Authorization
 
-@product-ver@ supports authorization via OAuth 2.0, which is a token-based 
+@sharepoint-ver@ supports authorization via OAuth 2.0, which is a token-based 
 authorization mechanism. For more details, see 
-[@product@'s OAuth 2.0 documentation](/docs/7-2/deploy/-/knowledge_base/d/oauth-2-0). 
+[@sharepoint@'s OAuth 2.0 documentation](/docs/7-2/deploy/-/knowledge_base/d/oauth-2-0). 
 The following sections show you how to use OAuth 2.0 to authenticate web API 
 requests. 
 
@@ -163,11 +163,11 @@ permission to access, just like the response from Basic authentication.
 
 ## Using Cookie Authentication or Making Requests from the UI
 
-You can call the REST APIs using the existing session from outside @product@
+You can call the REST APIs using the existing session from outside @sharepoint@
 by passing the session identifier (the cookie reference) and the Liferay Auth
 Token (a Cross-Site Request Forgery---CSRF---token).
 
-To do a request from outside @product@ you must provide the `Cookie` identifier
+To do a request from outside @sharepoint@ you must provide the `Cookie` identifier
 in the header. In CURL, pass the `-H` parameter: 
 
      -H 'Cookie: JSESSIONID=27D7C95648D7CDBE3347601FC4543F5D'
@@ -182,13 +182,13 @@ Here's a sample CURL request with the cookie and CSRF token:
 curl -H 'Cookie: JSESSIONID=27D7C95648D7CDBE3347601FC4543F5D' http://localhost:8080/o/headless-delivery/v1.0/sites/{siteId}/blog-postings/?p_auth=O4dCU1Mj
 ```
  
-To do a cookie request from inside @product@, from JavaScript code or a Java
+To do a cookie request from inside @sharepoint@, from JavaScript code or a Java
 method, the session identifier is not needed and you must only provide
 the CRSF token or add the API to the whitelist of CSRF allowed URLs.
  
 ## Making Unauthenticated Requests
 
-Unauthenticated requests are disabled by default in @product@'s headless REST
+Unauthenticated requests are disabled by default in @sharepoint@'s headless REST
 APIs. You can, however, enable them manually by defining an exception in the
 Service Access Policy to allow unauthenticated requests.
 
@@ -228,7 +228,7 @@ scripts to call APIs served by a different server.
 ![Figure 1: Configure Cross-Origin Resource Sharing in Liferay](../../../images/cors.png)
 
 Follow these instructions to configure [Cross-Origin Resource Sharing (CORS)](/docs/7-2/deploy/-/knowledge_base/d/configuring-cors) 
-in @product@.
+in @sharepoint@.
 
 ## Related Topics
 

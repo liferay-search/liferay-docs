@@ -41,7 +41,7 @@ over HTTPS. This does not affect how URLs are generated.
 
 ## Changing the SAML Identity Provider Connection Settings
 
-To configure @product@'s SAML Identity Provider Settings, navigate to the
+To configure @sharepoint@'s SAML Identity Provider Settings, navigate to the
 Identity Provider Connection tab of the SAML Admin portlet and click the *Edit*
 action button on the IdP you want to configure. 
 
@@ -77,22 +77,22 @@ special meaning to Liferay Identity Providers. The Name Identifier attribute
 defines the `NameID` value.
 
 **Attribute Mapping:** Attribute mapping is done from the attribute name or
-friendly name in the SAML Response to the @product@ attribute name. For example,
-if you want to map a response attribute named `mail` to the @product@ attribute
+friendly name in the SAML Response to the @sharepoint@ attribute name. For example,
+if you want to map a response attribute named `mail` to the @sharepoint@ attribute
 `emailAddress`, enter the following mapping:
 
     mail=emailAddress
 
-Available @product@ attributes are: `emailAddress`, `screenName`, `firstName`,
+Available @sharepoint@ attributes are: `emailAddress`, `screenName`, `firstName`,
 `lastName`, `modifiedDate`, and `uuid`.
 
-**Keep Alive URL:** If users are logged into several @product@ SP instances via
-a @product@ IdP, their sessions can be kept alive as long as they keep a browser
-window open to one of them. Configure this only if the IdP is @product@. The URL
-is `https://[IdP host name]/c/portal/saml/keep_alive`. On the @product@ IdP,
+**Keep Alive URL:** If users are logged into several @sharepoint@ SP instances via
+a @sharepoint@ IdP, their sessions can be kept alive as long as they keep a browser
+window open to one of them. Configure this only if the IdP is @sharepoint@. The URL
+is `https://[IdP host name]/c/portal/saml/keep_alive`. On the @sharepoint@ IdP,
 configure this URL the same way, but point back to this SP. 
 
-Save your changes when you are finished configuring the @product@ instance as a
+Save your changes when you are finished configuring the @sharepoint@ instance as a
 service provider. There is no need to restart the server: the changes are
 applied immediately.
 
@@ -101,7 +101,7 @@ via properties. Some features of the Liferay Connector to SAML 2.0 app are not
 available as properties.
 
 | **Limitation:** The Liferay SAML app can only be used with a single virtual
-| host. Technically, this means that in the SAML metadata for @product@, only one
+| host. Technically, this means that in the SAML metadata for @sharepoint@, only one
 | binding can be added in this form:
 | 
 | ```xml

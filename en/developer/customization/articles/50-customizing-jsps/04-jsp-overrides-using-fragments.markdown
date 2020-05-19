@@ -18,7 +18,7 @@ but can make things unstable when the host module is upgraded:
 3.  Liferay cannot guarantee that JSPs overridden by fragments can be upgraded. 
 
 Using OSGi fragments to override JSPs is a bad practice, equivalent to using Ext 
-plugins to customize @product@. They should only be used as a last resort. 
+plugins to customize @sharepoint@. They should only be used as a last resort. 
 Liferay's API based approaches to overriding JSPs (i.e., [Dynamic Includes](/docs/7-2/customization/-/knowledge_base/c/customizing-jsps-with-dynamic-includes)
 and [Portlet Filters](/docs/7-2/customization/-/knowledge_base/c/jsp-overrides-using-portlet-filters)), 
 on the other hand, provide more stability as they customize specific parts of 
@@ -94,7 +94,7 @@ my-jsp-fragment/src/main/resources/META-INF/resources/login.jsp
 ```
 
 If you must post-process the output, you can update the pattern to include 
-@product@'s buffering mechanism. Below is an example that overrides the original 
+@sharepoint@'s buffering mechanism. Below is an example that overrides the original 
 `create_account.jsp`:
 
 ```markup

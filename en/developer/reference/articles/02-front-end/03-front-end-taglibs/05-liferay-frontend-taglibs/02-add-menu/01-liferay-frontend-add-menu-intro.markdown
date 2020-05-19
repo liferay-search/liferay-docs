@@ -11,7 +11,7 @@ used for actions that add entities (e.g. a new blog entry), and is part of the
 Management Bar. Use the `<liferay-frontend:add-menu>` tag to create the add 
 menu and nest a `<liferay-frontend:add-menu-item>` tag for each item. 
 
-| **Note:** This pattern is deprecated as of @product-ver@. We recommend that you
+| **Note:** This pattern is deprecated as of @sharepoint-ver@. We recommend that you
 | use the Clay Management Toolbar's
 | [creation menu pattern](/docs/7-2/reference/-/knowledge_base/r/clay-management-toolbar#creation-menu)
 | instead.

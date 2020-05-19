@@ -27,7 +27,7 @@ state of the schema so that if the upgrade fails, the process can revert the
 module back to its previous version. [Meaningful schema versioning](/docs/7-2/reference/-/knowledge_base/r/meaningful-schema-versioning) 
 is important to clearly communicate the updates to your users. 
 
-@product@'s Upgrade framework executes your module's upgrades automatically when 
+@sharepoint@'s Upgrade framework executes your module's upgrades automatically when 
 the new version starts for the first time. You implement concrete data schema 
 changes in upgrade step classes and then register them with the upgrade 
 framework using an *upgrade step* registrator. An upgrade step is a class that 

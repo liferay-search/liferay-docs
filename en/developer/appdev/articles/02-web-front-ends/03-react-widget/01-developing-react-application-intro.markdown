@@ -6,15 +6,15 @@ header-id: developing-a-react-application
 
 [TOC levels=1-4]
 
-Running an existing React app on @product@ makes the app available as a 
-widget for using on site pages. You can [adapt your existing React app](/docs/7-2/reference/-/knowledge_base/r/adapting-existing-apps-to-run-on-product), 
+Running an existing React app on @sharepoint@ makes the app available as a 
+widget for using on site pages. You can [adapt your existing React app](/docs/7-2/reference/-/knowledge_base/r/adapting-existing-apps-to-run-on-sharepoint), 
 but this doesn't give you access to the bundler and its various loaders to 
-develop your project further in @product@. To have access to all of @product@'s 
+develop your project further in @sharepoint@. To have access to all of @sharepoint@'s 
 features, you must use the Liferay JS Generator and Liferay npm Bundler to merge 
 your files into a portlet bundle, update your static resource paths, and deploy 
 your bundle. 
 
-![Figure 1: Apps like this Guestbook app are easy to migrate to @product@.](../../../images/appdev-react-app-migrated.png)
+![Figure 1: Apps like this Guestbook app are easy to migrate to @sharepoint@.](../../../images/appdev-react-app-migrated.png)
 
 Follow these steps:
 
@@ -24,7 +24,7 @@ Follow these steps:
 
 2.  Generate a React based portlet bundle project for deploying your app to 
     your 
-    [@product@ installation](/deployment/docs/installing-product). 
+    [@sharepoint@ installation](/deployment/docs/installing-sharepoint). 
 
         yo liferay-js
 
@@ -35,7 +35,7 @@ Follow these steps:
         -   `assets/` &rarr; CSS and resources
             -   `css/` &rarr; CSS files
                 - `styles.css` &rarr; Default CSS file
-        -   `features/` &rarr; @product@ bundle features
+        -   `features/` &rarr; @sharepoint@ bundle features
             -   `localization` &rarr; Resource bundles
                 -   `Language.properties` &rarr; Default language keys
         -   `src/` &rarr; JavaScript and React component files
@@ -95,7 +95,7 @@ Follow these steps:
     | DOM. The DOM is determined at run time when the portlet's page is
     | rendered. 
 
-    -   Use the `HashRouter` for routing between component views, as @product@ 
+    -   Use the `HashRouter` for routing between component views, as @sharepoint@ 
         requires hash routing for proper portal navigation:
  
        ```javascript
@@ -142,7 +142,7 @@ The Liferay npm Bundler confirms the deployment:
     Report written to liferay-npm-bundler-report.html
     Deployed my-react-guestbook-1.0.0.jar to c:\git\bundles
 
-The @product@ console confirms your bundle started: 
+The @sharepoint@ console confirms your bundle started: 
 
     2019-03-22 20:17:53.181 INFO  
     [fileinstall-C:/git/bundles/osgi/modules][BundleStartStopLogger:39] 

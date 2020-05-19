@@ -8,7 +8,7 @@ header-id: upgrading-6-2-themes-to-7-2
 
 In this tutorial, you'll upgrade the Lunar Resort theme developed in the 
 Liferay Portal 6.2 [Developing a Liferay Theme](/docs/6-2/tutorials/-/knowledge_base/t/developing-a-liferay-theme) 
-Learning Path to @product-ver@ using the [Liferay JS Theme Toolkit](https://github.com/liferay/liferay-js-themes-toolkit/tree/master/packages). 
+Learning Path to @sharepoint-ver@ using the [Liferay JS Theme Toolkit](https://github.com/liferay/liferay-js-themes-toolkit/tree/master/packages). 
 The Lunar Resort theme is similar to many Liferay Portal 6.2 themes, as it 
 extends the [`_styled` theme](https://github.com/liferay/liferay-portal/tree/6.2.x/portal-web/docroot/html/themes/_styled), 
 adds configurable settings, and incorporates a responsive design that leverages 

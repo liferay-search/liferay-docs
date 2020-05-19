@@ -7,14 +7,14 @@ header-id: index-settings-contributor
 [TOC levels=1-4]
 
 The Index Settings Contributor sample demonstrates how to add a custom type
-mapping to @product@. You can demo this sample by completing the following
+mapping to @sharepoint@. You can demo this sample by completing the following
 steps:
 
 1.  Navigate to the *Control Panel* &rarr; *Configuration* &rarr; *Search* menu.
 
 2.  Click *Execute* for the *Reindex all search indexes* action.
 
-    All properties defined in your `.json` file are added to @product@'s search
+    All properties defined in your `.json` file are added to @sharepoint@'s search
     engine. This sample adds the following index properties:
 
     - `sampleDate`
@@ -24,7 +24,7 @@ steps:
 
     You'll verify this next.
 
-3.  Find your @product@'s instance ID. This can be found in the *Control Panel*
+3.  Find your @sharepoint@'s instance ID. This can be found in the *Control Panel*
     &rarr; *Configuration* &rarr; *Virtual Instances* menu.
 
 4.  Navigate to the following URL:
@@ -50,7 +50,7 @@ follow these fundamental steps:
 
 1.  Define the new mapping. In this sample, the mapping is defined in the
     `META-INF/mappings/resources/index-type-mappings.json` file. Notice that the
-    default document for @product@ is called `LiferayDocumentType`. The
+    default document for @sharepoint@ is called `LiferayDocumentType`. The
     mapping's features can be found in
     [Elasticsearch's docs](https://www.elastic.co/guide/en/elasticsearch/reference/7.x/mapping.html).
 
@@ -63,7 +63,7 @@ This sample has two classes:
 - `ResourceUtil`: reads the `.json` file.
 
 - `IndexSettingsContributor`: allows the addition of type mappings on
-  @product@'s search engine.
+  @sharepoint@'s search engine.
 
 The `IndexSettingsContributor`'s `contribute` method adds the type mappings:
 

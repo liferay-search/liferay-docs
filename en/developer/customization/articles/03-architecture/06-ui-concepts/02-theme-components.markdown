@@ -67,7 +67,7 @@ of page layout (page) functionality:
 ![Figure 2: Each theme template provides a portion of the page's markup and functionality.](../../../images/portal-layout-theme-templates.png)
 
 - [`FTL_Liferay.ftl`](https://github.com/liferay/liferay-portal/blob/7.2.x/modules/apps/portal-template/portal-template-freemarker/src/main/resources/FTL_liferay.ftl): 
-    Provides [macros](/docs/7-2/reference/-/knowledge_base/r/product-freemarker-macros) 
+    Provides [macros](/docs/7-2/reference/-/knowledge_base/r/sharepoint-freemarker-macros) 
     for commonly used portlets and theme resources. 
 
 - `taglib-mappings.properties`: Maps the portal taglibs to FreeMarker macros.
@@ -87,9 +87,9 @@ Also important to note is
 the web implementation of Liferay's 
 [Lexicon design language](https://lexicondesign.io/). 
 An extension of Bootstrap, Clay CSS fills the gaps between Bootstrap and the 
-needs of @product@, providing additional components and CSS patterns that you 
+needs of @sharepoint@, providing additional components and CSS patterns that you 
 can use in your themes. Clay base, Liferay's Bootstrap API extension, along with 
-Atlas, a custom Bootstrap theme, creates @product@'s Classic theme. See 
+Atlas, a custom Bootstrap theme, creates @sharepoint@'s Classic theme. See 
 [Customizing Atlas and Clay Base Themes](/docs/7-2/frameworks/-/knowledge_base/f/customizing-atlas-and-clay-base-themes) 
 for more information.
 

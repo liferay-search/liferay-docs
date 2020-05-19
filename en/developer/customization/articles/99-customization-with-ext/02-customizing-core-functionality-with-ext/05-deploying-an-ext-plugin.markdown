@@ -6,7 +6,7 @@ header-id: deploying-an-ext-plugin
 
 [TOC levels=1-4]
 
-Deploying an Ext plugin is similar to deploying any other @product@ project. For
+Deploying an Ext plugin is similar to deploying any other @sharepoint@ project. For
 example, you'll step through deploying an Ext plugin in Liferay Workspace.
 
 1.  From your Ext plugin root folder, run `blade deploy` (Gradle or Maven) or
@@ -14,7 +14,7 @@ example, you'll step through deploying an Ext plugin in Liferay Workspace.
 
     The `deploy` target creates a `.war` file with your changes and then deploys
     it to your server. A `BUILD SUCCESSFUL` message indicates your plugin is now
-    being deployed. Your console window running @product@ shows a message like
+    being deployed. Your console window running @sharepoint@ shows a message like
     this:
 
     ```bash
@@ -32,9 +32,9 @@ example, you'll step through deploying an Ext plugin in Liferay Workspace.
     other plugins following initial deployment of the Ext plugin. 
 
     When the server starts, it detects the `.war` file, inspects it, and copies
-    its contents to the appropriate destinations inside @product@.
+    its contents to the appropriate destinations inside @sharepoint@.
 
-3.  Once your server restarts, open @product@ to see the customizations you
+3.  Once your server restarts, open @sharepoint@ to see the customizations you
     made with your Ext plugin.
 
 Frequently, you'll want to add further customizations to your original Ext

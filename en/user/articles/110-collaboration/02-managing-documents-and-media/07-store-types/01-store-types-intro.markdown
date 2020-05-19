@@ -18,7 +18,7 @@ store files. This is the default store.
 **Advanced File System Store:** Nests files into directories by version, for 
 faster performance and to store more files. 
 
-**DBStore (Database Storage)**: Stores files in the @product@ database. The file 
+**DBStore (Database Storage)**: Stores files in the @sharepoint@ database. The file 
 (stored as a blob) size limit is 1 GB. Use the Simple File System Store or 
 Advanced File System Store to store larger files. 
 
@@ -32,7 +32,7 @@ in *Control Panel* &rarr; *Configuration* &rarr; *Server Administration* &rarr;
 
 The Simple File System Store is the default store. It stores Documents and Media
 files on the server's file system (local or mounted). This store is heavily
-bound to @product@'s database. The store's default root folder is
+bound to @sharepoint@'s database. The store's default root folder is
 `[Liferay Home]/data/document_library`. You can change this via the
 `dl.store.file.system.root.dir=` property in a `portal-ext.properties` file, or
 in the Control Panel. For instructions on this, see the 
@@ -45,7 +45,7 @@ locking. You must therefore use a Storage Area Network or a clustered file
 system. 
 
 The Simple File System Store creates a folder structure based on primary keys in 
-@product@'s database. If, for example, you upload a presentation with the file 
+@sharepoint@'s database. If, for example, you upload a presentation with the file 
 name `workflow.odp` to a folder named `stuff`, the store creates a folder 
 structure like this: 
 
@@ -59,13 +59,13 @@ structure like this:
 
 `versionNumber`: The document's version number. 
 
-![Figure 1: The Simple File System Store creates a folder structure based on primary keys in @product@'s database.](../../../../images/enterprise-file-system-store.png)
+![Figure 1: The Simple File System Store creates a folder structure based on primary keys in @sharepoint@'s database.](../../../../images/enterprise-file-system-store.png)
 
 | **Note:** Be careful not to confuse a document's numeric file entry name from 
 | its document ID. Each has an independent counter. The numeric file entry name 
 | is used in the folder path for storing the document, but the document ID is 
 | not. The numeric file entry name can be found in the `name` column of the 
-| `DLFileEntry` table in @product@'s database; the document ID can be found in 
+| `DLFileEntry` table in @sharepoint@'s database; the document ID can be found in 
 | the `fileEntryId` column of the same table. 
 
 ## Using the Advanced File System Store
@@ -93,13 +93,13 @@ for instructions on using the Advanced File System Store.
 ## Using Amazon Simple Storage Service
 
 Amazon's Simple Storage Service (S3) is a cloud-based storage solution that you 
-can use with @product@. It lets you store your documents to the cloud seamlessly 
+can use with @sharepoint@. It lets you store your documents to the cloud seamlessly 
 from all nodes. 
 
 When you sign up for the service, Amazon assigns you unique keys that link you 
 to your account. In Amazon's interface, you can create *buckets* of data 
 optimized by region. Once you create these to your specifications, follow 
 [these instructions](/docs/7-2/deploy/-/knowledge_base/d/using-amazon-simple-storage-service) 
-to connect your repository to @product@. 
+to connect your repository to @sharepoint@. 
 
 Consult Amazon's S3 documentation for more information. 

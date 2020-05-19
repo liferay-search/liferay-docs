@@ -6,7 +6,7 @@ header-id: setting-up-your-npm-environment
 
 [TOC levels=1-4]
 
-If you're using npm for development in @product@, you should set up your npm 
+If you're using npm for development in @sharepoint@, you should set up your npm 
 environment to avoid potential permissions issues. Follow these steps to 
 configure your npm environment:
 

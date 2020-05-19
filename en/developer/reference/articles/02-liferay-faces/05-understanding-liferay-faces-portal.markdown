@@ -19,7 +19,7 @@ Some of the features included in Liferay Faces Portal are:
 - Utilities: Provides the `LiferayPortletHelperUtil` which contains a variety
   Portlet-API and Liferay-specific convenience methods.
 
-- JSF Components: Provides a set of JSF equivalents for popular @product@ JSP
+- JSF Components: Provides a set of JSF equivalents for popular @sharepoint@ JSP
   tags (not exhaustive):
     - `liferay-ui:captcha` &rarr; `portal:captcha`
     - `liferay-ui:input-editor` &rarr; `portal:inputRichText`

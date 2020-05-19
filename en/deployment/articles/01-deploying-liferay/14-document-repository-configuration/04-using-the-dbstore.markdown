@@ -6,7 +6,7 @@ header-id: using-the-dbstore
 
 [TOC levels=1-4]
 
-You can store Documents and Media files in your @product@ database using
+You can store Documents and Media files in your @sharepoint@ database using
 DBStore. DBStore's maximum file (stored as a blob) size is 1 gigabyte. To store
 files larger than that, use Simple File System Store or Advanced File System
 Store. 
@@ -22,6 +22,6 @@ Here are the DBStore configuration steps:
     dl.store.impl=com.liferay.portal.store.db.DBStore
     ```
 
-2.  Restart @product@. 
+2.  Restart @sharepoint@. 
 
-Documents and Media now uses @product@'s database via DBStore. 
+Documents and Media now uses @sharepoint@'s database via DBStore. 

@@ -9,7 +9,7 @@ header-id: authoring-content-structured-and-inline-content
 The primary goal of Content Management isn't to show off the flashiest new 
 features or follow all the latest trends in design, but to provide you with the
 tools you need to create digital content that communicates your message clearly
-and effectively. With this in mind, @product@ offers two core approaches to help
+and effectively. With this in mind, @sharepoint@ offers two core approaches to help
 you accelerate and simplify creating and organizing content: Structured Web
 Content and Inline Content.
 
@@ -38,7 +38,7 @@ large font italics with a thin border that displays within the main text
 section. A content writer or marketer could then create any number of articles, 
 all having a uniform style based on the structure.
 
-In @product@, those articles could be added to pages across the site, or 
+In @sharepoint@, those articles could be added to pages across the site, or 
 displayed dynamically with tools like the Asset Publisher and Web Content 
 Display Pages.
 
@@ -97,5 +97,5 @@ pages like:
   large number of pages.
 
 Most sites need a little bit of both. Read on to learn more about building
-sites with @product@ and how Content Pages and Structured Content can help you
+sites with @sharepoint@ and how Content Pages and Structured Content can help you
 do that.

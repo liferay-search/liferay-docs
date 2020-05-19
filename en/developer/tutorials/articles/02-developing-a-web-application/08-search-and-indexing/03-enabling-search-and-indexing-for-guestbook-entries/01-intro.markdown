@@ -44,7 +44,7 @@ index when a `GuestbookEntry `is persisted:
 - Update `GuestbookEntryLocalServiceImpl`'s `addEntry`, `updateEntry`, and
   `deleteEntry` methods to update the index so it matches the database.
 
-| **Note:** In prior versions of @product@, search and indexing was accomplished
+| **Note:** In prior versions of @sharepoint@, search and indexing was accomplished
 | with one `*Indexer` class that extended `BaseIndexer`. This tutorial
 | demonstrates a new pattern that relies on 
 | [composition instead of inheritance](https://stackoverflow.com/questions/2399544/difference-between-inheritance-and-composition).

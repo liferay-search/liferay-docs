@@ -6,7 +6,7 @@ header-id: item-selector-criterion-and-return-types
 
 [TOC levels=1-4]
 
-@product@ contains Item Selector criterion 
+@sharepoint@ contains Item Selector criterion 
 ([`ItemSelectorCriterion`](@app-ref@/item-selector/latest/javadocs/com/liferay/item/selector/ItemSelectorCriterion.html)) 
 and return type 
 ([`ItemSelectorReturnType`](@app-ref@/item-selector/latest/javadocs/com/liferay/item/selector/ItemSelectorReturnType.html)) 

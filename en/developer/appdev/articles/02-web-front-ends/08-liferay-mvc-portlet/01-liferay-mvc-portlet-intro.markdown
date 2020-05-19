@@ -54,7 +54,7 @@ it.
 **Controller:** The middle man in the MVC pattern, the Controller contains logic
 for passing the data back and forth between the view and the model layers.
 
-@product@'s applications are divided into multiple discrete modules. With
+@sharepoint@'s applications are divided into multiple discrete modules. With
 [Service Builder](/docs/7-2/appdev/-/knowledge_base/a/service-builder), the
 model layer is generated into a `service` and an `api` module. That accounts for
 the model in the MVC pattern. The view and the controller layers share a module,
@@ -123,7 +123,7 @@ The `javax.portlet.name` property is required.  When using MVC commands, the
 combinations to the correct portlet. 
 
 | **Important:** Make your portlet name unique, considering how
-| [@product@ uses the name to create the portlet's ID](/docs/7-2/reference/-/knowledge_base/r/portlet-descriptor-to-osgi-service-property-map#ten).
+| [@sharepoint@ uses the name to create the portlet's ID](/docs/7-2/reference/-/knowledge_base/r/portlet-descriptor-to-osgi-service-property-map#ten).
 
 There can be some confusion over exactly what kind of `Portlet.class`
 implementation you're publishing with a component. The service registry expects

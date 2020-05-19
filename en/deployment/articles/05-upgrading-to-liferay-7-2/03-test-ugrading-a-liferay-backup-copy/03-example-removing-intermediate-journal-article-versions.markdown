@@ -19,7 +19,7 @@ Here are example steps for removing intermediate Journal Article versions:
     too. For example, you may want to keep the two latest versions or just the
     latest. 
 
-2.  Find a method for deleting the entity versions. @product@ [app 
+2.  Find a method for deleting the entity versions. @sharepoint@ [app 
     APIs](@app-ref@/apps/) and [com.lifieray.portal.kernel
     API](@platform-ref@/7.2-latest/javadocs/portal-kernel/) are available at
     [@platform-ref@](@platform-ref@).
@@ -143,4 +143,4 @@ You can write similar code to remove intermediate versions of other entities.
 | read the printout of versions to be removed as a test before committing to
 | deleting them. 
 
-After you've pruned your database, test it with @product@. 
+After you've pruned your database, test it with @sharepoint@. 

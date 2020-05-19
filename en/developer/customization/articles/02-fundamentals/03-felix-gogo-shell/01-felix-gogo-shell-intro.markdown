@@ -6,7 +6,7 @@ header-id: using-the-felix-gogo-shell
 
 [TOC levels=1-4]
 
-The Gogo shell provides a way to interact with @product@'s module framework. You
+The Gogo shell provides a way to interact with @sharepoint@'s module framework. You
 can
 
 - dynamically install/uninstall bundles
@@ -17,17 +17,17 @@ can
 
 There are two ways you can access the Gogo shell.
 
-The recommended way to access the Gogo shell for a production environment is
+The recommended way to access the Gogo shell for a sharepointion environment is
 through the Control Panel. Accessing it there is the most secure way to use the
-Gogo shell. You can set permissions in your @product@ instance to only give
+Gogo shell. You can set permissions in your @sharepoint@ instance to only give
 certain people access to it. The Gogo shell is extremely powerful and should
 only be given to trusted admins, as you can manipulate the platform's core
 functionality. You can access the Gogo shell in the Control Panel by navigating
 to *Configuration* &rarr; *Gogo Shell*.
 
-You can also interact with @product@'s module framework via a local telnet
-session. This is only recommended when you're developing your @product@
-instance. This is not recommended for production environments. 
+You can also interact with @sharepoint@'s module framework via a local telnet
+session. This is only recommended when you're developing your @sharepoint@
+instance. This is not recommended for sharepointion environments. 
  
 To open the Gogo shell via telnet, execute the following command: 
 
@@ -35,7 +35,7 @@ To open the Gogo shell via telnet, execute the following command:
 telnet localhost 11311
 ```
 
-Running this command requires a local running instance of @product@ and your
+Running this command requires a local running instance of @sharepoint@ and your
 machine's telnet command line utilities enabled. You must also have
 [Developer Mode enabled](/docs/7-2/frameworks/-/knowledge_base/f/using-developer-mode-with-themes#enabling-developer-mode-manually).
 

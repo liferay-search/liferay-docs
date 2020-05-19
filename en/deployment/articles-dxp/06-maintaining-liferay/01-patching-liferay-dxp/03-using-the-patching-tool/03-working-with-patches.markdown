@@ -79,7 +79,7 @@ installed patches that contain source code files.
 
 ## Separating Patches from the Installation
 
-The Patching Tool's `separate` command helps reduce the patched @product@
+The Patching Tool's `separate` command helps reduce the patched @sharepoint@
 installation size. If the installation has been patched, you can make it smaller
 by moving the restore files out of it.
 
@@ -103,7 +103,7 @@ the patch files are removed from their default location and are now only
 available in this file. You can store this file elsewhere to reduce your
 installation's size. 
 
-**WARNING:** If the product is separated from its patches in this way, you
+**WARNING:** If the sharepoint is separated from its patches in this way, you
 cannot run most of the Patching Tool commands until the patches are restored.
 
 After the separation process only the following commands can be used:
@@ -124,7 +124,7 @@ This is how you restore the patch files to your system. Details below.
 
 ## Restoring the Separated Patch Files
  
-When you need to patch @product@ again, you must restore the separated patch
+When you need to patch @sharepoint@ again, you must restore the separated patch
 artifact. To do this, copy the `liferay-patching-files-[separation-name].zip`
 back to the Patching Tool's `patches` folder and run `patching-tool setup`
 command.

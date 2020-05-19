@@ -288,7 +288,7 @@ Follow these steps to create and deploy your portlet application:
 
 9.  Deploy the WAR by copying it to your `[Liferay-Home]/deploy` folder. 
 
-@product@ logs the deployment and the portlet is now available in the @product@
+@sharepoint@ logs the deployment and the portlet is now available in the @sharepoint@
 UI. Find your portlet by selecting the *Add* icon
 (![Add](../../../images/icon-add-app.png))
 and navigating to *Widgets* and the category you specified to the Liferay Bundle

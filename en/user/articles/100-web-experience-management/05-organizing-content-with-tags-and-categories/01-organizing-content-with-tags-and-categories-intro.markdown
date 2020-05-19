@@ -7,7 +7,7 @@ header-id: organizing-content-with-tags-and-categories
 [TOC levels=1-4]
 
 Tags and categories are two important tools you can use to help organize
-information in @product@. These tools help users to easily find the content
+information in @sharepoint@. These tools help users to easily find the content
 they're looking for through search or navigation. Tagging and categorizing
 assets is easy. You can tag or categorize an asset at creation time or when
 editing an existing asset. If you click on the *Metadata* section of the
@@ -25,7 +25,7 @@ if no categories have been created), the *Select* option doesn't appear.
 | section.
 
 The Menu (![Menu](../../../images/icon-menu.png)) contains interfaces for
-managing tags and categories for each site in @product@. Navigate to the Site
+managing tags and categories for each site in @sharepoint@. Navigate to the Site
 Administration menu &rarr; *Categorization*, and you'll find the *Tags* and
 *Categories* options. These options can be used to manage all your site's tags
 and categories. It is important that you both tag and categorize your content

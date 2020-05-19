@@ -12,7 +12,7 @@ header-id: using-lcs
 | [LCS Feature Deprecation Update](https://help.liferay.com/hc/en-us/articles/360037317691-Liferay-Connected-Services-Feature-Deprecation-Update-March-2020)
 | to learn more about how you can prepare for these upcoming changes. 
  
-Once your @product@ server is connected to LCS, you can get down to the business 
+Once your @sharepoint@ server is connected to LCS, you can get down to the business 
 that LCS is designed for---managing your servers. If you're not 
 already there, log in with your account on 
 [lcs.liferay.com](https://lcs.liferay.com). 
@@ -46,7 +46,7 @@ This articles in this section each detail one or more of LCS's features:
     notification emails when specific events occur in your LCS projects. 
 
 -   [**Managing Liferay DXP Subscriptions:**](/docs/7-2/deploy/-/knowledge_base/d/managing-liferay-dxp-subscriptions) 
-    Learn how to view and manage your @product@ subscriptions for the servers in 
+    Learn how to view and manage your @sharepoint@ subscriptions for the servers in 
     your LCS project. 
 
 -   [**Understanding Environment Tokens:**](/docs/7-2/deploy/-/knowledge_base/d/understanding-environment-tokens)

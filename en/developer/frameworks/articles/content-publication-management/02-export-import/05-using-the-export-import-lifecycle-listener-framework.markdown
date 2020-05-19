@@ -132,7 +132,7 @@ steps below:
     [here](https://github.com/liferay/liferay-portal/blob/7.2.0-m2/modules/apps/export-import/export-import-service/src/main/java/com/liferay/exportimport/lifecycle/LoggerExportImportLifecycleListener.java).
 
 10. Once you've successfully created your export/import lifecycle listener module,
-    generate the module's JAR file and copy it to @product@'s `osgi/modules`
+    generate the module's JAR file and copy it to @sharepoint@'s `osgi/modules`
     folder.
 
     Once your module is installed and activated in your instance's service

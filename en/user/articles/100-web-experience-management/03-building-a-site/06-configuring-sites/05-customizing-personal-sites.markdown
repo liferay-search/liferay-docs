@@ -59,7 +59,7 @@ sections of the `portal.properties` file for details.
 
 | **Note:** By default, users can modify the pages and applications on their
 | personal Sites. Administrators, however, can customize the modifiable portions
-| of personal Sites through @product@'s permissions system by removing permissions
+| of personal Sites through @sharepoint@'s permissions system by removing permissions
 | from Roles. To disallow all Liferay users from modifying something, remove the
 | relevant permission from the User Role.
 

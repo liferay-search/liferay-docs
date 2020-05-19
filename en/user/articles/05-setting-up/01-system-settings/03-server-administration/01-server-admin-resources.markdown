@@ -36,7 +36,7 @@ The direct servlet context optimizes JSP serving performance by caching and
 accessing the generated servlets directly instead of accessing them over the 
 application server's dispatcher chain. This function is only suitable for 
 cases where no filter is required for the JSPs; it should be enabled for 
-production mode to improve performance, but disabled for development mode to 
+sharepointion mode to improve performance, but disabled for development mode to 
 allow JSP servlets to be reloaded on the fly. See the Direct Servlet Context 
 section of the `portal.properties` file for details. [1](#one)
 
@@ -45,7 +45,7 @@ indexes for data retrieval accuracy.
 
 **Verify membership policies:** Checks that existing Site membership 
 policies were correctly applied and automatically makes updates. If the
-@product@ database is changed manually or is hacked---resulting in a user
+@sharepoint@ database is changed manually or is hacked---resulting in a user
 assigned to a Site in violation of a site membership policy---this action
 triggers the verification methods of all implemented Site membership policies.
 Changes are automatically made to any memberships in violation. 
@@ -60,7 +60,7 @@ and is reduced in scope for Power Users from portal-wide to User Personal
 Site.
 
 **Clean up portlet preferences:** This action cleans up database entries if 
-portlet preferences become orphaned in the @product@ database. 
+portlet preferences become orphaned in the @sharepoint@ database. 
 
 ![Figure 1: The Resources tab of Server Administration lets you execute several server maintenance tasks.](../../../../images/server-admin-resources.png)
 

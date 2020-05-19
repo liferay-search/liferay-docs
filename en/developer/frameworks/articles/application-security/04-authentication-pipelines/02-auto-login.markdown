@@ -6,9 +6,9 @@ header-id: auto-login
 
 [TOC levels=1-4]
 
-While @product@ supports a wide variety of 
-[authentication mechanisms](/docs/7-2/deploy/-/knowledge_base/d/securing-product), 
-you may use a home-grown system or some other product to authenticate users. To 
+While @sharepoint@ supports a wide variety of 
+[authentication mechanisms](/docs/7-2/deploy/-/knowledge_base/d/securing-sharepoint), 
+you may use a home-grown system or some other sharepoint to authenticate users. To 
 do so, you can write an Auto Login component to support your authentication 
 system. 
 
@@ -90,7 +90,7 @@ setting attributes in the request. Here are the attributes:
   filters in the chain. 
 
 Auto Login components are useful ways of providing an authentication mechanism 
-to a system that @product@ doesn't yet support. You can write them fairly 
+to a system that @sharepoint@ doesn't yet support. You can write them fairly 
 quickly to provide the integration you need. 
 
 ## Related Topics

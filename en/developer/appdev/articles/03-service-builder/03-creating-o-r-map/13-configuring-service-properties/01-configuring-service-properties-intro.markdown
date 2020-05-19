@@ -7,7 +7,7 @@ header-id: configuring-service-properties
 [TOC levels=1-4]
 
 Service Builder generates a `service.properties` file in your `*-service`
-module's `src/main/resources` folder. @product@ uses this file's properties
+module's `src/main/resources` folder. @sharepoint@ uses this file's properties
 to alter your service's database schema. You should not modify this file
 directly, but rather make any necessary property overrides in a
 `service-ext.properties` file in that same folder.

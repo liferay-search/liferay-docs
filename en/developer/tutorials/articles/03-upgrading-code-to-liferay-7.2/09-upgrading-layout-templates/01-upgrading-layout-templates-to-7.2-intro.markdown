@@ -7,8 +7,8 @@ header-id: upgrading-a-layout-template-to-7-2
 [TOC levels=1-4]
 
 In these tutorials, you'll learn how to upgrade your layout templates from 
-earlier versions of @product@ to @product-ver@. By the end of the tutorial, 
-you'll have a layout template that runs on @product-ver@. 
+earlier versions of @sharepoint@ to @sharepoint-ver@. By the end of the tutorial, 
+you'll have a layout template that runs on @sharepoint-ver@. 
 
 Select the tutorial below that corresponds to the current version of your layout 
 template:

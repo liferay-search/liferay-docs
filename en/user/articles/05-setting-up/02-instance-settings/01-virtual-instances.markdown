@@ -6,7 +6,7 @@ header-id: virtual-instances
 
 [TOC levels=1-4]
 
-Here's a quick scenario: you already have a server hosting a @product@ 
+Here's a quick scenario: you already have a server hosting a @sharepoint@ 
 installation and a database. It has many 
 [Users](/docs/7-2/user/-/knowledge_base/u/users-and-organizations), 
 [Sites](/docs/7-2/user/-/knowledge_base/u/building-a-site), 
@@ -63,6 +63,6 @@ Virtual Instances aren't accessible to anyone, even the administrator.
 Click *Save* when you're done filling out the form. 
 
 Now you can navigate to the instance using its domain name. You're brought to 
-what looks like a clean install of @product@. This is your new Virtual Instance! 
+what looks like a clean install of @sharepoint@. This is your new Virtual Instance! 
 You can configure it any way you like. The remaining articles in this section 
 show you how to configure an instance's settings. 

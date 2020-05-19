@@ -37,7 +37,7 @@ for a description of all possible node settings.
 ### Adding Index Configurations
 
 The `additionalIndexConfigurations` configuration defines extra settings (in
-JSON or YAML) that are applied to the @product@ index when it's created. For
+JSON or YAML) that are applied to the @sharepoint@ index when it's created. For
 example, you can create custom analyzers and filters using this setting. For a
 complete list of available settings, see the 
 [Elasticsearch reference](https://www.elastic.co/guide/en/elasticsearch/reference/7.x/index-modules.html).
@@ -83,7 +83,7 @@ dynamic templates, but don't try to override existing mappings. If any of the
 mappings set here overlap with existing mappings, index creation fails. Use
 `overrideTypeMappings` to replace default mappings.
 
-As with dynamic templates, you can add sub-field mappings to @product@'s type
+As with dynamic templates, you can add sub-field mappings to @sharepoint@'s type
 mapping. These are referred to as
 [properties](https://www.elastic.co/guide/en/elasticsearch/reference/7.x/properties.html)
 in Elasticsearch.
@@ -106,7 +106,7 @@ See
 [here](https://www.elastic.co/guide/en/elasticsearch/reference/7.x/mapping-types.html)
 for more details on Elasticsearch's field datatypes.
 
-The above example shows how a `fooName` field might be added to @product@'s type
+The above example shows how a `fooName` field might be added to @sharepoint@'s type
 mapping. Because `fooName` is not an existing property in the mapping, it 
 works fine. If you try to override an existing property mapping, index
 creation fails. Instead use the `overrideTypeMappings` setting to override
@@ -121,7 +121,7 @@ curl http://[HOST]:[ES_PORT]/liferay-[COMPANY_ID]/_mapping/LiferayDocumentType?p
 ```
 
 Here's what it would look like for an Elasticsearch instance running on
-`localhost:9200`, with a @product@ Company ID of `20116`:
+`localhost:9200`, with a @sharepoint@ Company ID of `20116`:
 
 ```bash
 curl http://localhost:9200/liferay-20116/_mapping/LiferayDocumentType?pretty
@@ -132,10 +132,10 @@ you want to see the mappings that were used to create the index with that name.
 
 ### Overriding Type Mappings
 
-Use `overrideTypeMappings` to override @product@'s default type mappings. This
+Use `overrideTypeMappings` to override @sharepoint@'s default type mappings. This
 is an advanced feature that should be used only if strictly necessary. If you
 set this value, the default mappings used to define the Liferay Document Type in
-@product@ source code (for example, `liferay-type-mappings.json`) are ignored
+@sharepoint@ source code (for example, `liferay-type-mappings.json`) are ignored
 entirely, so include the whole mappings definition in this property, not just
 the segment you're modifying. To make a modification, find the entire list of
 the current mappings being used to create the index by navigating to the URL

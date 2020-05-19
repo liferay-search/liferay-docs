@@ -14,7 +14,7 @@ has seen and manipulated the data. To write an app for each of these processes
 is laborious. It's much better to have a tool for quickly defining a process to
 suit each use case. The process architect must define both the data that gets
 collected and the process the data moves through to reach its final state. To
-accomplish this, @product@ already includes the
+accomplish this, @sharepoint@ already includes the
 [Dynamic Data Lists app](/docs/7-2/user/-/knowledge_base/u/creating-data-definitions)
 for defining forms, and the 
 [Workflow Designer app](/docs/7-2/user/-/knowledge_base/u/workflow-designer) 

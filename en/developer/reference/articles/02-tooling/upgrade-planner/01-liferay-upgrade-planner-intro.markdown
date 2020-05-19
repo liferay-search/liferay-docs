@@ -7,18 +7,18 @@ header-id: liferay-upgrade-planner
 [TOC levels=1-4]
 
 The Liferay Upgrade Planner provides an automated way to adapt your
-installation's data and legacy plugins to your desired @product@ upgrade
+installation's data and legacy plugins to your desired @sharepoint@ upgrade
 version. We recommend leveraging this tool for any of the following upgrades:
 
-- Liferay Portal 6.2 &rarr; @product@ 7.0, 7.1, or 7.2
-- @product@ 7.0 &rarr; @product@ 7.1 or 7.2
-- @product@ 7.1 &rarr; @product@ 7.2
+- Liferay Portal 6.2 &rarr; @sharepoint@ 7.0, 7.1, or 7.2
+- @sharepoint@ 7.0 &rarr; @sharepoint@ 7.1 or 7.2
+- @sharepoint@ 7.1 &rarr; @sharepoint@ 7.2
 
 For step-by-step instructions for following the two upgrade paths, see the
 following documentation:
 
-- [Data Upgrade](/docs/7-2/deploy/-/knowledge_base/d/upgrading-to-product-ver)
-- [Code Upgrade](/docs/7-2/tutorials/-/knowledge_base/t/upgrading-code-to-product-ver)
+- [Data Upgrade](/docs/7-2/deploy/-/knowledge_base/d/upgrading-to-sharepoint-ver)
+- [Code Upgrade](/docs/7-2/tutorials/-/knowledge_base/t/upgrading-code-to-sharepoint-ver)
 
 The Upgrade Planner is provided in
 [Liferay Dev Studio](/docs/7-2/reference/-/knowledge_base/r/liferay-dev-studio) 
@@ -83,6 +83,6 @@ Upgrade Plan window. Each step can have several options:
 
 Great! You now have a good understanding of the Liferay Upgrade Planner's UI and
 how to get started. Visit the
-[Data Upgrade](/docs/7-2/deploy/-/knowledge_base/d/upgrading-to-product-ver) and
-[Code Upgrade](/docs/7-2/tutorials/-/knowledge_base/t/upgrading-code-to-product-ver)
+[Data Upgrade](/docs/7-2/deploy/-/knowledge_base/d/upgrading-to-sharepoint-ver) and
+[Code Upgrade](/docs/7-2/tutorials/-/knowledge_base/t/upgrading-code-to-sharepoint-ver)
 sections for more information on those upgrade processes.

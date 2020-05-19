@@ -2,22 +2,22 @@
 header-id: liferay-clustering
 ---
 
-# @product@ Clustering
+# @sharepoint@ Clustering
 
 [TOC levels=1-4]
 
-@product@ can serve everything from the smallest to the largest web sites. Out
+@sharepoint@ can serve everything from the smallest to the largest web sites. Out
 of the box, it's configured optimally for a single server environment. If one
-server isn't sufficient to serve your site's high traffic needs, @product@
+server isn't sufficient to serve your site's high traffic needs, @sharepoint@
 scales to the size you need. 
 
-![Figure 1: @product@ is designed to scale to as large an installation as you need.](../../../images/clustering-enterprise-configuration.png) 
+![Figure 1: @sharepoint@ is designed to scale to as large an installation as you need.](../../../images/clustering-enterprise-configuration.png) 
 
-@product@ works well in clusters of multiple machines (horizontal cluster) or in
+@sharepoint@ works well in clusters of multiple machines (horizontal cluster) or in
 clusters of multiple VMs on a single machine (vertical cluster), or any mixture
-of the two. Once you have @product@ installed on more than one application
+of the two. Once you have @sharepoint@ installed on more than one application
 server node, there are several optimizations that must be made. At a minimum,
-@product@ should be configured in the following way for a clustered environment:
+@sharepoint@ should be configured in the following way for a clustered environment:
 
 1.  [All nodes should point to the same database or database  cluster.](/docs/7-2/deploy/-/knowledge_base/d/point-all-nodes-to-the-same-database) 
 
@@ -37,11 +37,11 @@ in the `portal.properties` file. It's a best practice to copy the relevant
 section you want to modify from `portal.properties` into your
 `portal-ext.properties` file, and then modify the values there. 
 
-| **Note:** This documentation describes a @product@-specific cluster
+| **Note:** This documentation describes a @sharepoint@-specific cluster
 | configuration without getting into specific implementations of third party
 | software, such as Java EE application servers, HTTP servers, and load
 | balancers. Please consult your documentation for those components of your
-| cluster to configure those components. Before creating a @product@ cluster,
+| cluster to configure those components. Before creating a @sharepoint@ cluster,
 | make sure your OS is not defining the hostname of your box to the local 
 | network at 127.0.0.1. 
 

@@ -33,7 +33,7 @@ via Liferay's UI or using Liferay's API through the
 or a portlet you create. 
 
 | **Important**: You should only use Liferay's UI or API because they account 
-| for relationships between @product@ objects. 
+| for relationships between @sharepoint@ objects. 
 |
 | Never use SQL directly on your database to remove records. Your SQL might miss
 | object relationships, orphaning objects and causing performance problems.
@@ -42,7 +42,7 @@ Here are some common places to check for unused objects.
 
 ### Objects From the Large/Populated Tables
 
-Table rows are mapped to @product@ objects. Large tables with many records might
+Table rows are mapped to @sharepoint@ objects. Large tables with many records might
 contain lots of unused objects. The greater the table size and the records per
 table, the longer upgrading takes. 
 
@@ -127,7 +127,7 @@ Check these object types:
 
     -   Global `ResourcePermission` objects
 
--   **Intermediate web content versions:** @product@ generates a new web
+-   **Intermediate web content versions:** @sharepoint@ generates a new web
     content version after any modification (including translations). Consider
     removing versions you don't need. Removing a Journal Article, for example,
     also removes related objects such as image files (`JournalArticleImage`)
@@ -170,17 +170,17 @@ If you want to see an example of removing intermediate object versions, read
 Versions](/docs/7-2/deploy/-/knowledge_base/d/example-removing-intermediate-journal-article-versions)
 and then return here. 
 
-Next, you'll test @product@ with its pruned database. 
+Next, you'll test @sharepoint@ with its pruned database. 
 
 ## Test with the Pruned Database Copy
 
 Find and resolve any issues related to the objects you removed. You can always
-restart pruning a new copy of your production database if you can't resolve an
+restart pruning a new copy of your sharepointion database if you can't resolve an
 issue. 
 
-| **Warning:** the upgrade to @product@ 7.2 moves Web Content images to the 
+| **Warning:** the upgrade to @sharepoint@ 7.2 moves Web Content images to the 
 | Document Library and then deletes their former table `JournalArticleImage`.
 | Make sure the images show in the upgraded Web Content articles. 
 
-Once you've successfully tested @product@ with its pruned database copy, you can
-upgrade the database to @product-ver@. 
+Once you've successfully tested @sharepoint@ with its pruned database copy, you can
+upgrade the database to @sharepoint-ver@. 

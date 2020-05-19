@@ -39,11 +39,11 @@ If you'd like the see WebDAV in action, see
 | **Note:** Some operating systems require a WebDAV server to be class level 2
 | (to support file locking) before allowing files to be read or written. The
 | Documents and Media library uses a class level 2 WebDAV server but Web Content
-| structures and templates do not. This means that @product@'s Document and Media
+| structures and templates do not. This means that @sharepoint@'s Document and Media
 | library supports WebDAV file locking but Web Content structures and templates do
 | not. However, on operating systems which require WebDAV servers to be class
 | level 2, it's possible to avoid the restriction by using third-party WebDAV
 | clients (e.g., [Cyberduck](http://cyberduck.ch)).
 
 Now that you understand how structures work, you're ready to understand another 
-key aspect of @product@'s web content management system: templates.
+key aspect of @sharepoint@'s web content management system: templates.

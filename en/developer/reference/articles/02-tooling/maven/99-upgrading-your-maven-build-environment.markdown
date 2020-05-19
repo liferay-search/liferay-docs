@@ -10,28 +10,28 @@ header-id: upgrading-your-maven-build-environment
 | Liferay Portal 7.0 Maven environment that are not upgrading to Liferay
 | Workspace. If you're interested in upgrading to a Maven-based Liferay
 | Workspace (recommended), see the
-| [Upgrading Code to @product-ver@](/docs/7-2/tutorials/-/knowledge_base/t/upgrading-code-to-product-ver)
+| [Upgrading Code to @sharepoint-ver@](/docs/7-2/tutorials/-/knowledge_base/t/upgrading-code-to-sharepoint-ver)
 | tutorials for more information.
 
 If you're an avid Maven user and have been using it for Liferay Portal 6.2
 project development or older, you must upgrade your Maven build to be compatible
-with @product-ver@ development. There are two main parts of the Maven
+with @sharepoint-ver@ development. There are two main parts of the Maven
 environment upgrade process that you must address:
 
-- [Upgrading to new @product-ver@ Maven plugins](#upgrading-to-new-product-ver-maven-plugins)
+- [Upgrading to new @sharepoint-ver@ Maven plugins](#upgrading-to-new-sharepoint-ver-maven-plugins)
 - [Updating Liferay Maven artifact dependencies](#updating-liferay-maven-artifact-dependencies)
 
-For more information on using Maven with @product-ver@, see the
+For more information on using Maven with @sharepoint-ver@, see the
 [Maven](/docs/7-2/reference/-/knowledge_base/r/maven) section.
 
 Liferay also offers a Maven development environment tailored specifically for
-@product-ver@ development. Learn more about this in the
+@sharepoint-ver@ development. Learn more about this in the
 [Liferay Workspace](/docs/7-2/reference/-/knowledge_base/r/liferay-workspace)
 section.
 
 You'll start off by upgrading your Maven environment's Liferay Maven plugins.
 
-## Upgrading to New @product-ver@ Maven Plugins
+## Upgrading to New @sharepoint-ver@ Maven Plugins
 
 The biggest change for your project's build plugins is the removal of the
 `liferay-maven-plugin`. Liferay now provides several individual Maven plugins
@@ -137,21 +137,21 @@ similar to these:
 </properties>
 ```
 
-This is no longer required in @product-ver@ because Liferay's Maven tools no
-longer rely on your @product@ installation's specific versions. You should
+This is no longer required in @sharepoint-ver@ because Liferay's Maven tools no
+longer rely on your @sharepoint@ installation's specific versions. You should
 remove them from your POM file.
 
 Awesome! You've learned about the new Maven plugins available to you for
-@product-ver@ development. Next, you'll learn about updating your Liferay Maven
+@sharepoint-ver@ development. Next, you'll learn about updating your Liferay Maven
 artifacts.
 
 ## Updating Liferay Maven Artifact Dependencies
 
 Many Liferay Portal 6.2 artifact dependencies you were using have changed in
-@product-ver@. See the table below for popular Liferay Maven artifacts that have
+@sharepoint-ver@. See the table below for popular Liferay Maven artifacts that have
 changed:
 
-Liferay Portal 6.2 Artifact ID | @product-ver@ Artifact ID |
+Liferay Portal 6.2 Artifact ID | @sharepoint-ver@ Artifact ID |
 :----------------------------- | :------------------------ |
 `portal-service` | `com.liferay.portal.kernel` |
 `util-bridges` | `com.liferay.util.bridges` |
@@ -159,7 +159,7 @@ Liferay Portal 6.2 Artifact ID | @product-ver@ Artifact ID |
 `util-slf4j` | `com.liferay.util.slf4j` |
 `util-taglib` | `com.liferay.util.taglib` |
 
-For more information on resolving dependencies in @product-ver@, see the
+For more information on resolving dependencies in @sharepoint-ver@, see the
 [Resolving a Plugin's Dependencies](/docs/7-2/customization/-/knowledge_base/c/configuring-dependencies)
 article.
 
@@ -168,7 +168,7 @@ projects. If you're using the Central Repository to install Liferay Maven
 artifacts, you won't need to do anything more than update the artifacts in
 your POMs. If, however, you're working behind a proxy or don't have Internet
 access, you must update your company-shared or local repository with the latest
-@product-ver@ Maven artifacts.
+@sharepoint-ver@ Maven artifacts.
 
 With these updates, you can easily upgrade your Liferay Maven build so you can
-begin developing projects for @product-ver@.
+begin developing projects for @sharepoint-ver@.

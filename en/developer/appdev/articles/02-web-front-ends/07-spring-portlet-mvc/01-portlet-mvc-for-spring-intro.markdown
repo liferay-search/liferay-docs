@@ -13,7 +13,7 @@ developing *servlet-based* web applications using
 PortletMVC4Spring supports developing *portlet-based* applications using MVC.
 You can build 
 [Spring Framework](https://spring.io/projects/spring-framework)
-@product@ portlets with features like these:
+@sharepoint@ portlets with features like these:
 
 -   Inversion of control (IoC) / dependency injection (DI)
 -   Annotations

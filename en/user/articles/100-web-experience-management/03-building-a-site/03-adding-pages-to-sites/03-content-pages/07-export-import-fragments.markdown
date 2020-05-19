@@ -56,7 +56,7 @@ Now it's time to import your Fragments to where you need them.
 
 ## Importing
 
-You can import a Collection that was created in @product@, a Collection
+You can import a Collection that was created in @sharepoint@, a Collection
 created using external tools, or Page Fragments without a collection. When you
 first import Page Fragments, they aren't available for use until you have
 approved them for use. This is to ensure that there are no errors in any

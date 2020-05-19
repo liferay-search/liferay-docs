@@ -28,7 +28,7 @@ create content. These can be coupled with *Templates* that define how to display
 that content. Content won't get stale, because you can take advantage of the
 [Scheduling](/docs/7-2/user/-/knowledge_base/u/scheduling-web-content-publication)
 feature to determine when content is displayed and when it's removed.
-Additionally, you can configure @product@'s built-in
+Additionally, you can configure @sharepoint@'s built-in
 [Workflow](/docs/7-2/user/-/knowledge_base/u/workflow) system to set
 up a review and publishing process so only what you want winds up on the live
 site. This gives you what you need to run everything from a simple, one-page web

@@ -232,8 +232,8 @@ For a complete, real-world example, see
 [`layouts.jsp`](https://github.com/liferay/liferay-portal/blob/7.0.x/modules/apps/web-experience/layout/layout-item-selector-web/src/main/resources/META-INF/resources/layouts.jsp)
 for the module 
 [`com.liferay.layout.item.selector.web`](https://github.com/liferay/liferay-portal/tree/7.0.x/modules/apps/web-experience/layout/layout-item-selector-web). 
-Even though this example is for a previous version of @product@, it still 
-applies to @product-ver@. Here's a walkthrough of this `layouts.jsp` file: 
+Even though this example is for a previous version of @sharepoint@, it still 
+applies to @sharepoint-ver@. Here's a walkthrough of this `layouts.jsp` file: 
 
 1.  First, some variables are defined. Note that 
     `LayoutItemSelectorViewDisplayContext` is an optional class that contains 

@@ -6,8 +6,8 @@ header-id: upgrading-to-elasticsearch-7
 
 [TOC levels=1-4]
 
-Elasticsearch 7 is supported for @product-ver@. If you're upgrading
-@product@ and still running Elasticsearch 6, consider upgrading your
+Elasticsearch 7 is supported for @sharepoint-ver@. If you're upgrading
+@sharepoint@ and still running Elasticsearch 6, consider upgrading your
 Elasticsearch servers too. If you're setting up a new system and not already
 running a remote Elasticsearch 6 server, follow the 
 [installation guide](/docs/7-2/deploy/-/knowledge_base/d/installing-elasticsearch) to install
@@ -21,7 +21,7 @@ existing Elasticsearch 6 server (or cluster) to Elasticsearch 7:
 2.  Back up the application specific indexes for Workflow Metrics and Result
     Rankings.
 
-3. In @product-ver@, the X-Pack module is now provided out of the box. If
+3. In @sharepoint-ver@, the X-Pack module is now provided out of the box. If
    you're using X-Pack security, enable it (it's disabled by
    default):
 
@@ -45,7 +45,7 @@ existing Elasticsearch 6 server (or cluster) to Elasticsearch 7:
 | [LPS-103938](https://issues.liferay.com/browse/LPS-103938). The Liferay
 | Connector to Elasticsearch 7 throws an exception in the log when the LPKG
 | file is deployed. There are no known functional impacts. If unexpected errors
-| occur, re-start the @product@ server.
+| occur, re-start the @sharepoint@ server.
 
 Learn about configuring Elasticsearch [here](/docs/7-2/deploy/-/knowledge_base/d/configuring-the-liferay-elasticsearch-connector).
 

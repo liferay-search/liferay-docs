@@ -11,7 +11,7 @@ Portlet 3.0, the
 a new style of portlet development called Bean Portlets that use Contexts and
 Dependency Injection (CDI). Bean Portlets fully leverage 
 [all the new Portlet 3.0 features](https://portals.apache.org/pluto/v301/v3Features.html)
-in compliant portals, and are fully supported in @product@. 
+in compliant portals, and are fully supported in @sharepoint@. 
 
 Bean Portlets are plain old Java objects (POJOs): they don't need to extend
 anything. Portlet descriptors declare them to be portlets. 

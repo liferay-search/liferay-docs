@@ -21,10 +21,10 @@ format) is in the `META-INF/system.packages.extra.mf` file in
 `[LIFERAY_HOME]/osgi/core/com.liferay.portal.bootstrap.jar`. These packages are 
 installed and available in Liferay's OSGi runtime. If your module or WAR uses 
 one of them, specify the corresponding dependency as being "provided" (provided 
-by @product@). Here's how to specify a provided dependency:
+by @sharepoint@). Here's how to specify a provided dependency:
 
 Maven: `<scope>provided</scope>`
  
 Gradle: `providedCompile`
 
-Now you can safely leverage third party packages @product@ provides! 
+Now you can safely leverage third party packages @sharepoint@ provides! 

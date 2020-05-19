@@ -25,7 +25,7 @@ curl -i -X POST \
     "dataDefinitionFields": [
         {
             "fieldType": "text",
-            "name": "product"
+            "name": "sharepoint"
         }
     ],
     "description": {
@@ -266,7 +266,7 @@ Content-Length: 307
     "fieldType" : "text",
     "indexable" : true,
     "localizable" : false,
-    "name" : "product",
+    "name" : "sharepoint",
     "repeatable" : false
   } ],
   "dateCreated" : "2019-05-23T20:18:16Z",
@@ -303,7 +303,7 @@ your request must use a `dataRecordValues` structure like this:
 ```json
     "dataRecordValues": {
 
-        "product": "Bicycle"
+        "sharepoint": "Bicycle"
     }
 ```
 

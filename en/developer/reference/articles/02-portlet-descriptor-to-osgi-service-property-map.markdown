@@ -306,7 +306,7 @@ this document for simplicity.
     }
     ```
 
--   [<a name="ten">10</a>] @product@ creates each portlet's ID based on the 
+-   [<a name="ten">10</a>] @sharepoint@ creates each portlet's ID based on the 
     portlet's name (i.e., the `portlet-name` descriptor in `liferay-portlet.xml`
     or the `javax.portlet.name` OSGi service property). Dashes, periods, and
     spaces are allowed in the portlet name, but they and all other JavaScript
@@ -314,7 +314,7 @@ this document for simplicity.
     portlet ID. Therefore, make your portlet name unique in light of the
     characters that are removed. Otherwise, if you try to deploy a portlet whose
     ID is the same as a portlet that's already deployed, your portlet deployment
-    fails and @product@ logs a message like this:
+    fails and @sharepoint@ logs a message like this:
 
     ```
     Portlet id [portletId] is already in use

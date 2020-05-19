@@ -7,7 +7,7 @@ header-id: creating-an-mvc-portlet
 [TOC levels=1-4]
 
 Generating MVC portlet projects is a snap using Liferay's project templates.
-Here you'll generate an MVC Portlet project and deploy the portlet to @product@. 
+Here you'll generate an MVC Portlet project and deploy the portlet to @sharepoint@. 
 
 1.  Generate an [MVC Portlet project](/docs/7-2/reference/-/knowledge_base/r/using-the-mvc-portlet-template)
     using a Gradle or Maven.
@@ -110,7 +110,7 @@ on the portlet's deployment.
         to the `content/Language*.properties` file(s) in the
         `src/main/resources/` folder. 
 
-    -   `"javax.portlet.security-role-ref=power-user,user"`: Makes the @product@
+    -   `"javax.portlet.security-role-ref=power-user,user"`: Makes the @sharepoint@
         virtual instance's power user and user Roles available for defining the
         portlet's permissions. 
 
@@ -136,7 +136,7 @@ on the portlet's deployment.
     by building the project JAR and copying it to the `deploy/` folder in your
     [Liferay Home](/docs/7-2/deploy/-/knowledge_base/d/liferay-home). 
 
-The MVC Portlet is now available in the @product@ UI, in the Widget category you
+The MVC Portlet is now available in the @sharepoint@ UI, in the Widget category you
 assigned it. 
 
 ![Figure 1: The example portlet shows a message defined by the language property `yourmvc.caption=Hello from YourMVC!` in the Language.properties file.](../../../images/default-mvc-portlet-on-page.png)

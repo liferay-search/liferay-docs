@@ -1,26 +1,26 @@
 ---
-header-id: product-navigation
+header-id: sharepoint-navigation
 ---
 
 # Product Navigation
 
 [TOC levels=1-4]
 
-@product@'s product navigation consists of the main menus you use to customize,
+@sharepoint@'s sharepoint navigation consists of the main menus you use to customize,
 configure, and navigate the system. When you edit a page, switch to a different
 Site scope, access a User's credentials, etc., you're using the default
 navigation menus. Customizing a default menu can help give your Liferay instance
-a unique touch. You can extend and customize the default product navigation to
+a unique touch. You can extend and customize the default sharepoint navigation to
 fit your need.
 
-There are four product navigation sections that you can extend:
+There are four sharepoint navigation sections that you can extend:
 
 - Product Menu
 - Control Menu
 - Simulation Menu
 - User Personal Menu
 
-![Figure 1: The main product navigation menus include the Product Menu, Control Menu, Simulation Menu and User Personal Menu.](../../images/product-navigation-summary.png)
+![Figure 1: The main sharepoint navigation menus include the Product Menu, Control Menu, Simulation Menu and User Personal Menu.](../../images/sharepoint-navigation-summary.png)
 
 The Product Menu is on the left, and displays the Control Panel and Site
 Administration functionality. The Control Menu is on top, offering navigation to
@@ -30,7 +30,7 @@ tools are offered. The Simulation Menu offers options to simulate your Site's
 look for different scenarios (devices, user segments, etc.). Finally, the User
 Personal Menu holds selectable items containing a user's own account settings.
 
-You'll learn more about each of these product navigation sections next.
+You'll learn more about each of these sharepoint navigation sections next.
 
 ## Product Menu
 
@@ -45,7 +45,7 @@ way you want. You can reorganize the Panel Categories and apps, or add
 completely new categories and populate them with custom Panel Apps. You'll
 learn how to provide new or modified Panel Categories and Panel Apps for the
 Product Menu. For more information, read the
-[Customizing the Product Menu](/docs/7-2/customization/-/knowledge_base/c/customizing-the-product-menu)
+[Customizing the Product Menu](/docs/7-2/customization/-/knowledge_base/c/customizing-the-sharepoint-menu)
 articles.
 
 ## Control Menu
@@ -53,7 +53,7 @@ articles.
 The Control Menu is the most visible and accessible menu. For example, on your 
 home page, the Control Menu offers default options for accessing the Product
 Menu, Simulation Menu, and Add Menu. You can think of this menu as the gateway
-to configuring options in @product@.
+to configuring options in @sharepoint@.
 
 ![Figure 2: The Control Menu has three configurable areas: left, right, and middle. It also displays the title and type of page that you are currently viewing.](../../images/control-menu-home.png)
 
@@ -82,7 +82,7 @@ simulate something that it does not provide.
 There are few differences between the Simulation Menu and Product Menu, mostly
 because they extend the same base classes. The Simulation Menu, by default, is
 made up of only one Panel Category and one Panel App. Liferay provides the
-[`SimulationPanelCategory`](https://github.com/liferay/liferay-portal/blob/7.2.0-ga1/modules/apps/product-navigation/product-navigation-simulation-web/src/main/java/com/liferay/product/navigation/simulation/web/internal/application/list/SimulationPanelCategory.java)
+[`SimulationPanelCategory`](https://github.com/liferay/liferay-portal/blob/7.2.0-ga1/modules/apps/sharepoint-navigation/sharepoint-navigation-simulation-web/src/main/java/com/liferay/sharepoint/navigation/simulation/web/internal/application/list/SimulationPanelCategory.java)
 class, a hidden category needed to hold the `DevicePreviewPanelApp`. This is the
 app and functionality you see in the Simulation Menu by default.
 
@@ -100,7 +100,7 @@ appear anywhere in the interface.
 ![Figure 5: By default, the User Personal Menu contains the signed-in user's avatar, which opens the user's settings when selected.](../../images/user-personal-menu.png)
 
 Although Liferay's default User Personal Menu is bare-bones, you can
-add more functionality to fit your needs. Unlike other product navigation menus
+add more functionality to fit your needs. Unlike other sharepoint navigation menus
 (e.g., Product Menu), the User Personal Bar does not require the
 extension/creation of Panel Categories and Panel Apps. It uses another common
 Liferay framework for providing functionality:

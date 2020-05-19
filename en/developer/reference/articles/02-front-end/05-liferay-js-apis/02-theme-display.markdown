@@ -8,14 +8,14 @@ header-id: liferay-themedisplay
 
 The `Liferay` global JavaScript Object exposes useful methods, objects, and 
 properties, each containing a wealth of information, one of which is 
-`ThemeDisplay`. If you have experience with Java development in @product@, you 
+`ThemeDisplay`. If you have experience with Java development in @sharepoint@, you 
 may be familiar with ThemeDisplay. The JavaScript object exposes the same 
 information as the ThemeDisplay Java Class. It gives you access to valuable 
 information that you can use in your applications, such as the Portal instance, 
 the current user, the user's language, whether the user is signed in or being 
 impersonated, the file path to the theme's resources, and much more. 
 
-The `Liferay` global object is automatically available in @product@ at runtime. 
+The `Liferay` global object is automatically available in @sharepoint@ at runtime. 
 To access the `ThemeDisplay` object, use the following dot notation in your app:
 
 ```javascript

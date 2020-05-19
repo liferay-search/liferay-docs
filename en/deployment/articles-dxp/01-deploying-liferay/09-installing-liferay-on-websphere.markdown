@@ -2,7 +2,7 @@
 header-id: installing-liferay-dxp-on-websphere
 ---
 
-# Installing @product@ on WebSphere
+# Installing @sharepoint@ on WebSphere
 
 [TOC levels=1-4]
 
@@ -12,35 +12,35 @@ Corporation, registered in many jurisdictions worldwide.
 | **Tip:** Throughout this installation and configuration process, WebSphere
 | prompts you to click *Save* to apply changes to the Master Configuration. Do | so intermittently to save your changes.
 
-For @product@ to work correctly, WebSphere 9 (Fix Pack 11 is the latest) must be
+For @sharepoint@ to work correctly, WebSphere 9 (Fix Pack 11 is the latest) must be
 installed. You can find more information about this fix pack
 [here](http://www-01.ibm.com/support/docview.wss?uid=swg24043005).
 
-Please also note that @product@ doesn't support the WebSphere Application
+Please also note that @sharepoint@ doesn't support the WebSphere Application
 Liberty Profile.
 
-| **Important:** Before installing @product@, familiarize yourself with
+| **Important:** Before installing @sharepoint@, familiarize yourself with
 | [preparing for install](/docs/7-2/deploy/-/knowledge_base/d/preparing-for-install).
 
-Now, [download the @product@ WAR and Dependency
-JARs](/docs/7-2/deploy/-/knowledge_base/d/obtaining-product#downloading-the-liferay-war-and-dependency-jars):
+Now, [download the @sharepoint@ WAR and Dependency
+JARs](/docs/7-2/deploy/-/knowledge_base/d/obtaining-sharepoint#downloading-the-liferay-war-and-dependency-jars):
 
--   @product@ WAR file
+-   @sharepoint@ WAR file
 -   Dependencies ZIP file
 -   OSGi Dependencies ZIP file
 
 Note that the [*Liferay Home*
 folder](docs/7-2/deploy/-/knowledge_base/d/liferay-home) is important to the
-operation of @product@. In Liferay Home, @product@ creates certain files and
+operation of @sharepoint@. In Liferay Home, @sharepoint@ creates certain files and
 folders that it needs to run. On WebSphere, Liferay Home is typically `[Install
 Location]/WebSphere/AppServer/profiles/your-profile/liferay`.
 
-Without any further ado, get ready to install @product@ in WebSphere!
+Without any further ado, get ready to install @sharepoint@ in WebSphere!
 
-## Preparing WebSphere for @product@
+## Preparing WebSphere for @sharepoint@
 
 When the application server binaries have been installed, start the *Profile
-Management Tool* to create a profile appropriate for @product@.
+Management Tool* to create a profile appropriate for @sharepoint@.
 
 1.  Click *Create...*, choose *Application Server*, and then click *Next*.
 
@@ -60,7 +60,7 @@ Management Tool* to create a profile appropriate for @product@.
     *Next*.
 
 4.  Set the profile name and location. Ensure you specify a performance tuning
-    setting other than *Development*, since you're installing a production
+    setting other than *Development*, since you're installing a sharepointion
     server. See the WebSphere documentation for more information about
     performance tuning settings. Click *Next*.
 
@@ -106,7 +106,7 @@ are a few things you need to configure in your application server.
 
 In this version of WebSphere, servlet filters are not initialized on web
 application startup, but rather, on first access. This can cause problems when
-deploying certain apps to @product@. To configure servlet filters to initialize
+deploying certain apps to @sharepoint@. To configure servlet filters to initialize
 on application startup (i.e., deployment), set the following `webcontainer`
 properties in your WebSphere application server:
 
@@ -121,8 +121,8 @@ documentation](http://www-01.ibm.com/support/docview.wss?rss=180&uid=swg21284395
 
 ### Setting up JVM Parameters for Liferay DXP
 
-Next, in the WebSphere profile you created for @product@, you must set an
-argument that supports @product@'s Java memory requirements. You'll modify this
+Next, in the WebSphere profile you created for @sharepoint@, you must set an
+argument that supports @sharepoint@'s Java memory requirements. You'll modify this
 file:
 
 ```
@@ -136,7 +136,7 @@ Add `maximumHeapSize="2560"` inside the `jvmEntries` tag. For example:
 ```
 
 | **Note:** The JVM parameters used here are defaults intended for initial
-| deployment of production systems. Administrators should change the settings to
+| deployment of sharepointion systems. Administrators should change the settings to
 | values that best address their specific environments. These must be tuned
 | depending on need.
 
@@ -149,7 +149,7 @@ heap sizes to `2560m` there too. Add the following inside the `jvmEntries` tag:
 <jvmEntries xmi:id="JavaVirtualMachine_1183122130078" ...genericJvmArguments="-Dfile.encoding=UTF-8 -Duser.timezone=GMT -Xms2560m -Xmx2560m">
 ```
 
-| **Important:** For @product@ to work properly, the application server JVM must
+| **Important:** For @sharepoint@ to work properly, the application server JVM must
 | use the `GMT` time zone and `UTF-8` file encoding.
 
 Alternately, you can set the UTF-8 properties from the WebSphere Admin Console.
@@ -158,8 +158,8 @@ Alternately, you can set the UTF-8 properties from the WebSphere Admin Console.
 ### Removing the secureSessionCookie Tag
 
 In the same profile, you should delete a problematic `secureSessionCookie` tag
-that can cause @product@ startup errors. Note that this is just a default
-setting; once @product@ is installed, you should tune it appropriately based on
+that can cause @sharepoint@ startup errors. Note that this is just a default
+setting; once @sharepoint@ is installed, you should tune it appropriately based on
 your usage.
 
 In `[Install Location]/WebSphere/AppServer/profiles/your-profile/config/cells/your-cell/cell.xml`,
@@ -173,9 +173,9 @@ WSVR0501E: Error creating component com.ibm.ws.runtime.component.CompositionUnit
 com.ibm.ws.exception.RuntimeWarning: com.ibm.ws.webcontainer.exception.WebAppNotLoadedException: Failed to load webapp: Failed to load webapp: SRVE8111E: The application, LiferayEAR, is trying to modify a cookie which matches a pattern in the restricted programmatic session cookies list [domain=*, name=JSESSIONID, path=/].
 ```
 
-## Installing @product@'s Dependencies
+## Installing @sharepoint@'s Dependencies
 
-You must now install @product@'s dependencies. Recall that earlier you
+You must now install @sharepoint@'s dependencies. Recall that earlier you
 downloaded two ZIP files containing these dependencies. Install their contents
 now:
 
@@ -211,7 +211,7 @@ folder:
 10. `com.liferay.petra.string.jar`
 11. `com.liferay.registry.api.jar`
 12. `hsql.jar`
-13. A JDBC database jar (e.g. MySQL, MariaDB, IBM DB2, Postgres for production)
+13. A JDBC database jar (e.g. MySQL, MariaDB, IBM DB2, Postgres for sharepointion)
 14. `portal-kernel.jar`
 15. `portlet.jar`
 
@@ -222,7 +222,7 @@ The following folders should be present within the `/liferay/osgi` folder:
 3.  `marketplace`
 4.  `war`
 
-### Ensuring that @product@'s portlet.jar is loaded first
+### Ensuring that @sharepoint@'s portlet.jar is loaded first
 
 In addition to placing the `portlet.jar` in the correct folder, you must
 configure the `config.ini` file so that it is loaded first. Navigate to
@@ -237,23 +237,23 @@ configure the `config.ini` file so that it is loaded first. Navigate to
 3.  Save the file.
 
 Once you've installed these dependencies and configured the `config.ini` file,
-start the server profile you created for @product@. Once it starts, you're ready
+start the server profile you created for @sharepoint@. Once it starts, you're ready
 to configure your database.
 
 ## Database Configuration
 
 If you want WebSphere to manage the database connections, follow the
-instructions below. Note this is not necessary if you plan to use @product@'s
+instructions below. Note this is not necessary if you plan to use @sharepoint@'s
 standard database configuration; in that case, skip this section. See the [Using
 the Built-in Data
 Sources](/docs/7-2/deploy/-/knowledge_base/d/preparing-for-install#using-the-built-in-data-source)
 section for more article.
 
-You'll set your database information in @product@'s setup wizard after the
+You'll set your database information in @sharepoint@'s setup wizard after the
 install.
 
-| **Note:** Although @product@'s embedded database is fine for testing purposes,
-| you **should not** use it for production @product@ instances.
+| **Note:** Although @sharepoint@'s embedded database is fine for testing purposes,
+| you **should not** use it for sharepointion @sharepoint@ instances.
 
 ![Figure 3: WebSphere JDBC providers](../../images-dxp/websphere-jdbc-providers.png)
 
@@ -326,10 +326,10 @@ Once you've set up your database, you can set up your mail session.
 ## Mail Configuration
 
 If you want WebSphere to manage your mail sessions, use the following procedure.
-If you want to use @product@'s built-in mail sessions, you can skip this
+If you want to use @sharepoint@'s built-in mail sessions, you can skip this
 section. See the [Configuring
 Mail](/docs/7-2/deploy/-/knowledge_base/d/configuring-mail) article on how to
-use @product@'s built-in mail sessions.
+use @sharepoint@'s built-in mail sessions.
 
 ### Creating a WebSphere-Managed Mail Session (Optional)
 
@@ -369,7 +369,7 @@ the SMTP server has been pinged with the correct port number listed.
 ## Enable Cookies for HTTP Sessions
 
 WebSphere restricts cookies to HTTPS sessions by default. If you're
-using HTTP instead, this prevents users from signing in to @product@ and
+using HTTP instead, this prevents users from signing in to @sharepoint@ and
 displays the following error in the console:
 
 ```
@@ -378,7 +378,7 @@ User 0 is not allowed to access URL http://localhost:9081/web/guest/home and
 portlet com_liferay_login_web_portlet_LoginPortlet
 ```
 
-This occurs because @product@ can't use the HTTPS cookie when you use HTTP. The
+This occurs because @sharepoint@ can't use the HTTPS cookie when you use HTTP. The
 end result is that new sessions are created on each page refresh. Follow these
 steps to resolve this issue in WebSphere:
 
@@ -404,43 +404,43 @@ can do so in the Administrative Console.
 
 4.  Click *Apply* and then *Save* to master configuration.
 
-Once the changes have been saved, @product@ can parse special characters if
+Once the changes have been saved, @sharepoint@ can parse special characters if
 there is localized content.
 
-## Deploy @product@
+## Deploy @sharepoint@
 
-Now you're ready to deploy @product@!
+Now you're ready to deploy @sharepoint@!
 
 1.  In WebSphere's administrative console, click *Applications* &rarr; *New
     Application* &rarr; *New Enterprise Application*.
 
-2.  Browse to the @product@ `.war` file, select it, and click *Next*.
+2.  Browse to the @sharepoint@ `.war` file, select it, and click *Next*.
 
 3.  Leave *Fast Path* selected and click *Next*. Ensure that *Distribute
     Application* has been checked and click *Next* again.
 
-4.  Choose the WebSphere runtimes and/or clusters where you want @product@
+4.  Choose the WebSphere runtimes and/or clusters where you want @sharepoint@
     deployed. Click *Next*.
 
-5.  Select the virtual host to deploy @product@ on and click *Next*.
+5.  Select the virtual host to deploy @sharepoint@ on and click *Next*.
 
-6.  Map @product@ to the root context (`/`) and click *Next*.
+6.  Map @sharepoint@ to the root context (`/`) and click *Next*.
 
 7.  Select the *metadata-complete attribute* setting that you want to use and
     click *Next*.
 
 8.  Ensure that you have made all the correct choices and click *Finish*. When
-    @product@ has installed, click *Save to Master Configuration*.
+    @sharepoint@ has installed, click *Save to Master Configuration*.
 
    ![Figure 6: Review your deployment options before deploying.](../../images-dxp/websphere-deploy-dxp.png)
 
-You've now installed @product@!
+You've now installed @sharepoint@!
 
 ## Setting the JDK Version for Compiling JSPs
 
-@product@ requires that its JSPs are compiled to the Java 8 bytecode format. To
+@sharepoint@ requires that its JSPs are compiled to the Java 8 bytecode format. To
 ensure that WebSphere does this, shut down WebSphere after you've deployed the
-@product@ `.war` file. Navigate to the `WEB_INF` folder and add the following
+@sharepoint@ `.war` file. Navigate to the `WEB_INF` folder and add the following
 setting to the `ibm-web-ext.xml` or in most cases the `ibm-web-ext.xmi` file:
 
 ```xml
@@ -448,23 +448,23 @@ setting to the `ibm-web-ext.xml` or in most cases the `ibm-web-ext.xmi` file:
 ```
 
 The exact path to the `ibm-web-ext.xmi` file depends on your WebSphere
-installation location and @product@ version, but here's an example:
+installation location and @sharepoint@ version, but here's an example:
 
 ```bash
 /opt/IBM/WebSphere/AppServer/profiles/AppSrv01/config/cells/localhostNode01Cell/applications/liferayXX.ear/deployments/liferayXX/liferayXX.war/WEB-INF/ibm-web-ext.xmi
 ```
 
-Note that the @product@ `.war` comes pre-packaged with the `ibm-web-ext.xmi`
+Note that the @sharepoint@ `.war` comes pre-packaged with the `ibm-web-ext.xmi`
 file; this format is functionally the same as `.xml` and WebSphere recognizes
 both formats. For more general information on how WebSphere compiles JSPs see
 IBM's official documentation for [WebSphere Application Server
 9.0.0.x](https://www.ibm.com/support/knowledgecenter/en/SSEQTP_9.0.0/com.ibm.websphere.base.doc/ae/rweb_jspengine.html).
 
-## Start @product@
+## Start @sharepoint@
 
-1.  If you plan to use @product@'s [setup
+1.  If you plan to use @sharepoint@'s [setup
 
-    wizard](/docs/7-2/deploy/-/knowledge_base/d/installing-product#using-the-setup-wizard),
+    wizard](/docs/7-2/deploy/-/knowledge_base/d/installing-sharepoint#using-the-setup-wizard),
     skip to the next step. If you wish to use WebSphere's data source and mail
     session, create a file called `portal-ext.properties` in your Liferay Home
     folder. Place the following configuration in the file:
@@ -475,16 +475,16 @@ IBM's official documentation for [WebSphere Application Server
     setup.wizard.enabled=false
     ```
 2.  In the WebSphere administrative console, navigate to *Enterprise
-    Applications*, select the @product@ application, and click *Start*. While
-    @product@ is starting, WebSphere displays a spinning graphic.
+    Applications*, select the @sharepoint@ application, and click *Start*. While
+    @sharepoint@ is starting, WebSphere displays a spinning graphic.
 
-3.  In @product@'s setup wizard, select and configure your database type. Click
-    *Finish* when you're done. @product@ then creates the tables it needs in the
+3.  In @sharepoint@'s setup wizard, select and configure your database type. Click
+    *Finish* when you're done. @sharepoint@ then creates the tables it needs in the
     database.
 
-Congratulations! You've installed @product@ on WebSphere!
+Congratulations! You've installed @sharepoint@ on WebSphere!
 
-| After deploying @product@, you may see excessive warnings and log messages, such
+| After deploying @sharepoint@, you may see excessive warnings and log messages, such
 | as the ones below, involving `PhaseOptimizer`. These are benign and can be
 | ignored. Make sure to adjust your app server's logging level or log filters to
 | avoid excessive benign log messages.

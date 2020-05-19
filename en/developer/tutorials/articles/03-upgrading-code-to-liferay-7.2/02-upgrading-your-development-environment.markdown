@@ -56,7 +56,7 @@ For more information importing a workspace into your IDE, see
 
 ## Configuring Liferay Workspace Settings
 
-You must configure your workspace with the @product@ version you intend to
+You must configure your workspace with the @sharepoint@ version you intend to
 upgrade to. You should verify the workspace's
 
 - Bundle URL
@@ -68,9 +68,9 @@ Visit these steps to begin.
 
 ### Configuring Bundle URL
 
-The bundle URL points to the @product@ version you want workspace to download.
+The bundle URL points to the @sharepoint@ version you want workspace to download.
 When initiating this step, your workspace's Bundle URL property is updated to
-the latest release of @product-ver@.
+the latest release of @sharepoint-ver@.
 
 For more information on configuring a workspace's bundle URL, see the
 [Adding a Liferay Bundle to Liferay Workspace](/docs/7-2/reference/-/knowledge_base/r/adding-a-liferay-bundle-to-liferay-workspace)
@@ -78,12 +78,12 @@ article.
 
 ### Configuring Target Platform Version
 
-The target platform is the @product@ version you intend to develop for in your
+The target platform is the @sharepoint@ version you intend to develop for in your
 workspace. This is used to specify dependencies associated with a specific
 release. You set the target platform, define your dependencies, and workspace
-automatically assigns the dependency versions based on the set @product@
+automatically assigns the dependency versions based on the set @sharepoint@
 version. When initiating this step, your workspace's Target Platform property is
-updated to the latest release of @product-ver@.
+updated to the latest release of @sharepoint-ver@.
 
 For more information on this, see the
 [Managing the Target Platform](/docs/7-2/reference/-/knowledge_base/r/managing-the-target-platform)
@@ -91,7 +91,7 @@ article.
 
 ## Initializing Server Bundle
 
-Once your workspace is configured for the @product@ version you're upgrading to,
+Once your workspace is configured for the @sharepoint@ version you're upgrading to,
 you can initialize the server bundle. This involves downloading the bundle and
 extracting it into its folder (e.g., `bundles`). If you have an existing
 workspace already equipped with an older Liferay bundle, this deletes the old

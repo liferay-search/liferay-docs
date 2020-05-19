@@ -34,7 +34,7 @@ Dev Studio relies on the following Eclipse plugins to provide this capability:
 - `m2e-wtp` (Maven integration for WTP)
 
 All you have to do is install them so you can begin developing Maven projects
-for @product@.
+for @sharepoint@.
 
 When first installing Dev Studio, the installation startup screen asks if you
 want to install the Maven plugins automatically. Don't worry if you missed this
@@ -47,7 +47,7 @@ Studio manually below.
         http://releases.liferay.com/tools/ide/latest/stable/
 
 2.  Check the *Liferay IDE Maven Support* option. This bundles all the required
-    Maven plugins you need to begin developing Maven projects for @product@.
+    Maven plugins you need to begin developing Maven projects for @sharepoint@.
 
     ![Figure 1: You can install all the necessary Maven plugins for Dev Studio by installing the *Liferay IDE Maven Support* option.](../../../images/maven-install-ide-plugins.png)
 
@@ -71,7 +71,7 @@ Studio manually below.
 | right-clicking your project and selecting *Properties* &rarr; *Maven* &rarr;
 | *Lifecycle Mapping*.
 
-Awesome! Your Dev Studio is ready to develop Maven projects for @product@!
+Awesome! Your Dev Studio is ready to develop Maven projects for @sharepoint@!
 
 You'll learn about importing Maven projects in Dev Studio next.
 

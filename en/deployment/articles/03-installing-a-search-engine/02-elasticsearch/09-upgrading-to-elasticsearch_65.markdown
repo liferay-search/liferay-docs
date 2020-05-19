@@ -7,7 +7,7 @@ header-id: upgrading-to-elasticsearch-6-5
 [TOC levels=1-4]
 
 Elasticsearch 6.5.x is the default, most up-to-date supported version of
-Elasticsearch for @product-ver@. If you're upgrading @product@ and still running
+Elasticsearch for @sharepoint-ver@. If you're upgrading @sharepoint@ and still running
 Elasticsearch 6.1, it's time to upgrade your Elasticsearch servers too. If
 you're setting up a new system and not already running a remote Elasticsearch
 6.1.x server, follow the 

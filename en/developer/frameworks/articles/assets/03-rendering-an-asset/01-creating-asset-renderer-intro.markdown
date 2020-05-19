@@ -43,7 +43,7 @@ class, which configures the asset renderer framework for the Blogs application.
     also implements the
     [`TrashRenderer`](@platform-ref@/7.2-latest/javadocs/portal-kernel/com/liferay/portal/kernel/trash/TrashRenderer.html)
     interface. This is a common practice for many applications, so they can use
-    @product@'s Recycle Bin.
+    @sharepoint@'s Recycle Bin.
 
 3.  Define the asset renderer class's constructor, which typically sets the
     asset object to use in the asset renderer class.

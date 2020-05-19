@@ -17,7 +17,7 @@ configurations. This could include things like
 You can do this by applying files (and their accompanying folder structures, if
 necessary) to your workspace's `configs/docker` folder. This folder is treated
 as your Liferay Home for Docker development; you add additional files that
-overlay your workspace's `configs/common` folder and your @product@ container's
+overlay your workspace's `configs/common` folder and your @sharepoint@ container's
 default configuration.
 
 As an example, you'll enable the
@@ -48,4 +48,4 @@ for your container.
     | the `build/docker/files` folder manually. It's executed automatically when
     | creating or starting the container.
 
-You can now apply configurations to your @product@ Docker container.
+You can now apply configurations to your @sharepoint@ Docker container.

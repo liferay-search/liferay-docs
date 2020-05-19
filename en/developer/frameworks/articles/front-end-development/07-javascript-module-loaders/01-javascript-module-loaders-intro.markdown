@@ -15,4 +15,4 @@ organization and loader is needed. A module loader lets an application load
 dependencies easily by specifying a string that identifies the JavaScript 
 module's name. 
 
-This section shows how to load JavaScript modules in @product@. 
+This section shows how to load JavaScript modules in @sharepoint@. 

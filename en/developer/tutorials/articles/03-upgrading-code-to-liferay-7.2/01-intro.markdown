@@ -1,12 +1,12 @@
 ---
-header-id: upgrading-code-to-product-ver
+header-id: upgrading-code-to-sharepoint-ver
 ---
 
-# Upgrading Code to @product-ver@
+# Upgrading Code to @sharepoint-ver@
 
 [TOC levels=1-4]
 
-Upgrading to @product-ver@ involves migrating your installation and code (your
+Upgrading to @sharepoint-ver@ involves migrating your installation and code (your
 custom apps) to the new version. You'll learn how to upgrade your code in this
 section.
 
@@ -14,7 +14,7 @@ These tutorials assume you're using the
 [Liferay Upgrade Planner](/docs/7-2/reference/-/knowledge_base/r/liferay-upgrade-planner).
 To follow along with this section, install the planner and step through the
 upgrade instructions. You can also use the planner to
-[upgrade your data](/docs/7-2/deploy/-/knowledge_base/d/upgrading-to-product-ver);
+[upgrade your data](/docs/7-2/deploy/-/knowledge_base/d/upgrading-to-sharepoint-ver);
 this is a separate process that must be done independently from the code upgrade
 process.
 
@@ -46,22 +46,22 @@ Here are the code upgrade steps:
 
     2.  [Configure Liferay Workspace Settings](/docs/7-2/tutorials/-/knowledge_base/t/upgrading-your-development-environment#configuring-liferay-workspace-settings){.title}
 
-        Set the @product@ version in workspace's configuration you intend to
+        Set the @sharepoint@ version in workspace's configuration you intend to
         upgrade to.{.summary}
 
         1.  [Configure Bundle URL](/docs/7-2/tutorials/-/knowledge_base/t/upgrading-your-development-environment#configuring-bundle-url){.title commandId=configure_bundle_url}
 
-            Configure your bundle URL that the @product@ bundle is downloaded
+            Configure your bundle URL that the @sharepoint@ bundle is downloaded
             from.{.summary}
 
         2.  [Configure Target Platform Version](/docs/7-2/tutorials/-/knowledge_base/t/upgrading-your-development-environment#configuring-target-platform-version){.title commandId=configure_target_platform_version}
 
             Configure your Target Platform version, which provides the specific
-            artifacts associated with a @product@ release.{.summary}
+            artifacts associated with a @sharepoint@ release.{.summary}
 
         3.  [Initialize Server Bundle](/docs/7-2/tutorials/-/knowledge_base/t/upgrading-your-development-environment#initializing-server-bundle){commandId=initialize_server_bundle}
 
-            Download the @product@ bundle you're upgrading to.
+            Download the @sharepoint@ bundle you're upgrading to.
 
 2.  [Migrate Plugins SDK Projects](/docs/7-2/tutorials/-/knowledge_base/t/migrating-plugins-sdk-projects-to-liferay-workspace){.title}
 
@@ -143,7 +143,7 @@ Here are the code upgrade steps:
 
 6.  [Upgrade Customization Plugins](/docs/7-2/tutorials/-/knowledge_base/t/upgrading-customization-plugins){.title}
 
-    Upgrade your customization plugins so they're deployable to @product-ver@.{.summary}
+    Upgrade your customization plugins so they're deployable to @sharepoint-ver@.{.summary}
 
     1.  [Upgrade Customization Modules](/docs/7-2/tutorials/-/knowledge_base/t/upgrading-customization-modules){.title}
 
@@ -169,7 +169,7 @@ Here are the code upgrade steps:
 
 7.  [Upgrade Themes](/docs/7-2/tutorials/-/knowledge_base/t/upgrading-a-theme-to-7-2){.title}
 
-    Upgrade your themes so they're deployable to @product-ver@.{.summary}
+    Upgrade your themes so they're deployable to @sharepoint-ver@.{.summary}
 
     1.  [Upgrade 6.2 Themes to 7.2](/docs/7-2/tutorials/-/knowledge_base/t/upgrading-6-2-themes-to-7-2){.title}
 
@@ -179,13 +179,13 @@ Here are the code upgrade steps:
 
 8.  [Upgrade Layout Templates](/docs/7-2/tutorials/-/knowledge_base/t/upgrading-a-layout-template-to-7-2){.title}
 
-    Upgrade your layout templates so they're deployable to @product-ver@.{.summary}
+    Upgrade your layout templates so they're deployable to @sharepoint-ver@.{.summary}
 
 9.  [Upgrade Frameworks & Features](/docs/7-2/tutorials/-/knowledge_base/t/upgrading-frameworks-and-features){.title}
 
     1.  [Upgrade JNDI Data Source Usage](/docs/7-2/tutorials/-/knowledge_base/t/upgrading-jndi-data-source-usage){.title}
 
-        Use @product@'s class loader to access the app server's JNDI API.{.summary}
+        Use @sharepoint@'s class loader to access the app server's JNDI API.{.summary}
 
     2.  [Upgrade Service Builder Service Invocation](/docs/7-2/tutorials/-/knowledge_base/t/upgrading-service-builder-service-invocation){.title}
 
@@ -199,12 +199,12 @@ Here are the code upgrade steps:
 
     4.  [Migrate Off of Velocity Templates](/docs/7-2/tutorials/-/knowledge_base/t/migrating-off-of-velocity-templates){.title}
 
-        Velocity template usage is deprecated for @product-ver@. You should
+        Velocity template usage is deprecated for @sharepoint-ver@. You should
         convert your template to FreeMarker.{.summary}
 
 10. [Upgrade Portlets](/docs/7-2/tutorials/-/knowledge_base/t/upgrading-portlets){.title}
 
-    Upgrade your portlets so they're deployable to @product-ver@.{.summary}
+    Upgrade your portlets so they're deployable to @sharepoint-ver@.{.summary}
 
     1.  [Upgrade Generic Portlets](/docs/7-2/tutorials/-/knowledge_base/t/upgrading-a-genericportlet){.title}
 
@@ -227,8 +227,8 @@ Here are the code upgrade steps:
 
     Attempt to leverage an extension point instead of upgrading your Ext plugin.
     If an Ext plugin is necessary, you must review all changes between the
-    previous Liferay Portal instance you were using and @product-ver@, and then
-    manually modify your Ext plugin to merge your changes with @product@'s.{.summary}
+    previous Liferay Portal instance you were using and @sharepoint-ver@, and then
+    manually modify your Ext plugin to merge your changes with @sharepoint@'s.{.summary}
 
 Once you've finished the code upgrade steps, your custom apps will be compatible
-with @product-ver@! 
+with @sharepoint-ver@! 

@@ -10,9 +10,9 @@ header-id: upgrading-jndi-data-source-usage
     <p id="stepTitle">Upgrading Frameworks and Features</p><p>Step 1 of 4</p>
 </div>
 
-In @product@'s OSGi environment, you must use the portal's class loader to load
+In @sharepoint@'s OSGi environment, you must use the portal's class loader to load
 the application server's JNDI classes. An OSGi bundle's attempt to connect to a
-JNDI data source without using @product@'s class loader results in a
+JNDI data source without using @sharepoint@'s class loader results in a
 `java.lang.ClassNotFoundException`.
 
 For more information on how to do this, see the

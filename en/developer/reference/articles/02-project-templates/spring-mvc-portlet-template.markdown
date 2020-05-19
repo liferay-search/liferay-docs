@@ -101,7 +101,7 @@ like this:
 The Maven-generated project includes a `pom.xml` file and does not include the
 Gradle-specific files, but otherwise, appears exactly the same.
 
-The generated WAR is a working application and is deployable to a @product@
+The generated WAR is a working application and is deployable to a @sharepoint@
 instance. To build upon the generated app, modify the project by adding logic
 and additional files to the folders outlined above. You can visit the
 [springmvc-portlet](/docs/7-1/reference/-/knowledge_base/r/spring-mvc-portlet)

@@ -10,7 +10,7 @@ Liferay Faces Alloy is distributed in a `.jar` file. You can add Liferay Faces
 Alloy as a dependency to your portlet projects, to use AlloyUI in a way that is
 consistent with JSF development. 
 
-| **Note:** AlloyUI is deprecated in @product@ 7.2.
+| **Note:** AlloyUI is deprecated in @sharepoint@ 7.2.
 
 During the creation of a JSF portlet in Liferay IDE/Developer Studio, you have
 the option of choosing the portlet's JSF Component Suite. The options include

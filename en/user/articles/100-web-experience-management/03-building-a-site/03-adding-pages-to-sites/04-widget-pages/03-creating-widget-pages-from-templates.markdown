@@ -7,7 +7,7 @@ header-id: creating-widget-pages-from-templates
 [TOC levels=1-4]
 
 Page templates provide pre-configured pages to reuse. There are two types of
-page templates in @product-ver@: Widget Page templates consist of a portlet
+page templates in @sharepoint-ver@: Widget Page templates consist of a portlet
 layout and configuration. Content Page templates are constructed from
 Fragments. You can read about 
 [Content Page Templates in this article](/docs/7-2/user/-/knowledge_base/u/building-content-pages).

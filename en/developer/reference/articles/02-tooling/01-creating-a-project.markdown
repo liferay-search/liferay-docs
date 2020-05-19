@@ -57,7 +57,7 @@ Run `blade create --help` for the entire list of available options.
 
 1.  Navigate to *File* &rarr; *New* &rarr; *Liferay Module Project*.
 
-2.  Specify the project name, location, build type, @product@ version, and
+2.  Specify the project name, location, build type, @sharepoint@ version, and
     template type.
 
     ![Figure 1: The New Liferay Module Project wizard offers project templates for JAR and WAR-based projects.](../../images/liferay-project-wizard.png)
@@ -110,9 +110,9 @@ Run `blade create --help` for the entire list of available options.
 | `-b maven` parameter in the Blade command.
 
 Archetypes prefixed with `com.liferay.project.templates.[TYPE]` or
-`com.liferay.faces.archetype:[TYPE]` are compatible with @product-ver@. All
+`com.liferay.faces.archetype:[TYPE]` are compatible with @sharepoint-ver@. All
 other Liferay archetypes are legacy archetypes targeted for previous versions of
-@product@.
+@sharepoint@.
 
 See Maven's
 [Archetype Generation](http://maven.apache.org/archetype/maven-archetype-plugin/generate-mojo.html)

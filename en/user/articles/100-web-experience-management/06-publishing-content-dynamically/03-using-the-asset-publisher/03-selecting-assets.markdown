@@ -178,7 +178,7 @@ Publisher's other configuration options.
 
 ## Selecting a Content Set
 
-@product-ver@ adds the Content Set feature to create predefined lists of content
+@sharepoint-ver@ adds the Content Set feature to create predefined lists of content
 to display in the Asset Publisher. To use a Content Set,
 
 1.  Click the click the *Options* icon

@@ -6,7 +6,7 @@ header-id: searching-for-localized-content
 
 [TOC levels=1-4]
 
-@product@ supports setting a virtual instance-wide [default
+@sharepoint@ supports setting a virtual instance-wide [default
 language](/docs/7-2/user/-/knowledge_base/u/more-platform-section-instance-settings#localization)
 and setting a In addition, many out of the box assets [support
 translation](/docs/7-2/user/-/knowledge_base/u/other-content-options#localizing-content).
@@ -46,7 +46,7 @@ There are three localized search approaches represented in the table:
 
 2.  Fully Localized for Search: Even though the asset itself is not
     localizable/translatable, its fields are indexed into _all_ the supported
-    locales in the site. This is a new approach, starting with @product-ver@.
+    locales in the site. This is a new approach, starting with @sharepoint-ver@.
 
 3.  Site-Localized for search: The asset's fields are indexed with the site's
     locale appended.
@@ -126,7 +126,7 @@ limited to the following assets:
 - The `title`, `content`, and `description` fields for each Web Content Article support
     fully localized search.
 
-    | **Note:** In @product-ver@ the default (non-localized) version of these
+    | **Note:** In @sharepoint-ver@ the default (non-localized) version of these
     | fields are not indexed for Web Content Articles. Therefore, any custom
     | `IndexerPostProcessor`, `ModelDocumentContributor` or
     | `QueryPreFilterContributor` relying on the presence of fields `title`,

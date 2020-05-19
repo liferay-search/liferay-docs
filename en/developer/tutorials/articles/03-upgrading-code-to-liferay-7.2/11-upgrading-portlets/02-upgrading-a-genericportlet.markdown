@@ -15,7 +15,7 @@ all, `GenericPortlet` provides a default `javax.portlet.Portlet` interface
 implementation. Upgrading a `GenericPortlet` is straightforward and takes only
 two steps: 
 
-1.  Adapt the portlet to @product-ver@'s API using the Liferay Upgrade Planner.
+1.  Adapt the portlet to @sharepoint-ver@'s API using the Liferay Upgrade Planner.
     When running the planner's *Fix Upgrade Problems* step, many of the existing
     issues are autocorrected. For remaining issues, the planner identifies code
     affected by the new API and ways to adapt it.
@@ -24,9 +24,9 @@ two steps:
 
 3.  [Deploy it](/docs/7-2/reference/-/knowledge_base/r/deploying-a-project)
 
-When the portlet WAR file is deployed, @product@'s Plugin Compatibility Layer
+When the portlet WAR file is deployed, @sharepoint@'s Plugin Compatibility Layer
 converts the WAR to a Web Application Bundle (WAB) and installs the portlet as a
-WAB to @product@'s OSGi runtime.
+WAB to @sharepoint@'s OSGi runtime.
 
 On deploying an upgraded portlet, the server prints messages that indicate the
 following portlet status:
@@ -45,7 +45,7 @@ Deploying a portlet produces messages like these:
 2018-03-21 17:45:10.151 INFO  [Refresh Thread: Equinox Container: 0012cbb0-7e2c-0018-146e-95a4d71cdf95][BundleStartStopLogger:35] STARTED sample-dao-portlet_7.1.0.1 [655]
 ```
 
-The portlet is now available on @product@.
+The portlet is now available on @sharepoint@.
 
 You've learned how to upgrade and deploy a portlet that extends
 `GenericPortlet`. You adapt the code, resolve dependencies, and deploy the

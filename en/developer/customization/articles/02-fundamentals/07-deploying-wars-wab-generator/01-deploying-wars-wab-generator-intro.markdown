@@ -6,7 +6,7 @@ header-id: deploying-wars-wab-generator
 
 [TOC levels=1-4]
 
-You can create applications for @product@ as Java EE-style Web Application
+You can create applications for @sharepoint@ as Java EE-style Web Application
 ARchive (WAR) artifacts or as Java ARchive (JAR) OSGi bundle artifacts. Bean
 Portlets, PortletMVC4Spring Portlets, and JSF Portlets must be packaged as WAR
 artifacts because their frameworks are designed for Java EE. Therefore, they
@@ -16,7 +16,7 @@ descriptor.
 Liferay provides a way for these WAR-styled plugins to be deployed and treated
 like OSGi modules by Liferay's OSGi runtime. They can be converted to *WABs*.
 
-@product@ supports the OSGi Web Application Bundle (WAB) standard for deployment
+@sharepoint@ supports the OSGi Web Application Bundle (WAB) standard for deployment
 of Java EE style WARs. Simply put, a WAB is an archive that has a WAR layout and
 contains a `META-INF/MANIFEST.MF` file with the `Bundle-SymbolicName` OSGi
 directive. A WAB is an OSGi bundle. Although the project source has a WAR
@@ -70,7 +70,7 @@ folder structure of a WAR-style portlet.
                     -   `portlet.xml`
                     -   `web.xml`
 
-When a WAR-style portlet is deployed to @product@ and processed by the WAB
+When a WAR-style portlet is deployed to @sharepoint@ and processed by the WAB
 Generator, the portlet's folder structure is transformed. 
 
 **WAB**
@@ -100,7 +100,7 @@ headers directly into your plugin's `liferay-plugin-package.properties` file.
 
 ## Deploying a WAR 
 
-To deploy a WAB based on your WAR plugin, copy your WAR plugin to your @product@
+To deploy a WAB based on your WAR plugin, copy your WAR plugin to your @sharepoint@
 instance's `deploy/` folder in your  [`[Liferay
 Home]`](/docs/7-2/deploy/-/knowledge_base/d/liferay-home). 
 
@@ -109,7 +109,7 @@ Home]`](/docs/7-2/deploy/-/knowledge_base/d/liferay-home).
 Optionally, save the WAB to a local folder. This gives you the opportunity to
 inspect the generated WAB. To store generated WABs, add the following portal
 properties to a `[Liferay Home]/portal-ext.properties` file. Then restart
-@product@:
+@sharepoint@:
 
 ```properties
 module.framework.web.generator.generated.wabs.store=true

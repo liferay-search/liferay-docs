@@ -6,12 +6,12 @@ header-id: modifying-the-web-xml-with-ext-plugins
 
 [TOC levels=1-4]
 
-A supported use case for using Ext Plugins in @product@ is modifying its
+A supported use case for using Ext Plugins in @sharepoint@ is modifying its
 `web.xml` file. Before beginning, make sure you've reviewed the generalized
 [Customization with Ext Plugins](/docs/7-2/customization/-/knowledge_base/c/customizing-core-functionality-with-ext)
 section.
 
-As an example, you'll create a sample Ext plugin that modifies @product@'s
+As an example, you'll create a sample Ext plugin that modifies @sharepoint@'s
 existing `web.xml file` (e.g., in the `/tomcat-[version]/webapps/ROOT/WEB-INF`
 folder). You'll modify the session timeout configuration, which is set to 30
 (minutes) by default:
@@ -55,10 +55,10 @@ Notice that the `<session-timeout>` tag has been updated to `1`.
 
 | **Note:** You can configure an uninterrupted session by setting the
 | `<session-timeout>` tag to `-1`. Leaving a session permanently active is a
-| risk and is not recommended for production environments, but is useful for
+| risk and is not recommended for sharepointion environments, but is useful for
 | testing.
 
-That's it! Now when your Ext plugin is deployed, your @product@ installation
+That's it! Now when your Ext plugin is deployed, your @sharepoint@ installation
 will timeout after one minute of inactivity. Follow the instructions in the
 [Deploy the Plugin](/docs/7-2/customization/-/knowledge_base/c/deploying-an-ext-plugin)
 article for help deploying the Ext plugin to your server.

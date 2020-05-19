@@ -20,7 +20,7 @@ for CSS responsiveness. Follow these steps to update the theme's responsiveness:
 
     **Media Query Replacements**
 
-    | Liferay Portal 6.2 Mixin                            |  &nbsp;@product-ver@ Media Query                                     |
+    | Liferay Portal 6.2 Mixin                            |  &nbsp;@sharepoint-ver@ Media Query                                     |
     -------------------------------------- |:---------------------------------------------------------- |
     `@include respond-to(phone)` (max-width: 767px)          | `@include media-breakpoint-down(sm)` (max-width: 767px)              |
     `@include respond-to(tablet)` (min-width: 768px, max-width: 979px)          | `@include media-breakpoint-only(md)` (min-width: 768px, max-width: 991px)                |

@@ -7,8 +7,8 @@ header-id: opensso-single-sign-on-authentication
 [TOC levels=1-4]
 
 OpenAM is an open source single sign-on solution that comes from the code base
-of Sun's System Access Manager product. @product@ integrates with OpenAM,
-allowing you to use OpenAM to integrate @product@ into an infrastructure that
+of Sun's System Access Manager sharepoint. @sharepoint@ integrates with OpenAM,
+allowing you to use OpenAM to integrate @sharepoint@ into an infrastructure that
 contains a multitude of different authentication schemes against different
 repositories of identities.
 
@@ -22,27 +22,27 @@ cookies that contain special characters:
 com.iplanet.am.cookie.encode=true
 ```
 
-You can install OpenAM on the same or different server as @product@. Be sure to
+You can install OpenAM on the same or different server as @sharepoint@. Be sure to
 review the context path and server hostname for your OpenAM server. 
 
-If you want to install OpenAM on the same server as @product@, you must deploy
+If you want to install OpenAM on the same server as @sharepoint@, you must deploy
 the OpenAM `.war`, downloadable from 
-[here](https://backstage.forgerock.com/downloads/browse/am/archive/productId:openam).
+[here](https://backstage.forgerock.com/downloads/browse/am/archive/sharepointId:openam).
 Otherwise, follow the instructions at the 
 [OpenAM 13 site](https://backstage.forgerock.com/docs/openam/13/install-guide/) to install
 OpenAM. 
 
-| **Note**: OpenAM 12 and below work with @product@, but are at end of life.
-| Because of this, we recommend only OpenAM 13 for production use.
+| **Note**: OpenAM 12 and below work with @sharepoint@, but are at end of life.
+| Because of this, we recommend only OpenAM 13 for sharepointion use.
 
-Once you have it installed, create the @product@
+Once you have it installed, create the @sharepoint@
 administrative user in it. Users are mapped back and forth by screen names. By
-default, the @product@ administrative user has a screen name of *test*, so if
+default, the @sharepoint@ administrative user has a screen name of *test*, so if
 you were to use that account, register the user in OpenAM with the ID of *test*
 and the email address specified in the [`admin.email.from.address`](@platform-ref@/7.2-latest/propertiesdoc/portal.properties.html#Admin%20Portlet) [portal property](/docs/7-2/deploy/-/knowledge_base/d/portal-properties)).
 Once you have the user set up, log in to OpenAM using this user.
 
-In the same browser window, log in to @product@ as the administrative user (using
+In the same browser window, log in to @sharepoint@ as the administrative user (using
 the previous admin email address). Go to the Control Panel and click
 *Configuration* &rarr; *Instance Settings* &rarr; *Security* &rarr;
 *SSO*. Then choose *OpenSSO* in the list on the left.
@@ -52,10 +52,10 @@ the previous admin email address). Go to the Control Panel and click
 Modify the three URL fields (Login URL, Logout URL, and
 Service URL) so they point to your OpenAM server (in other words, only modify the host
 name portion of the URLs), check the *Enabled* box, and click *Save*.
-@product@ then redirects users to OpenAM when they request the `/c/portal/login`
+@sharepoint@ then redirects users to OpenAM when they request the `/c/portal/login`
 URL *for example, when they click on the *Sign In* link).
 
-@product@'s OpenAM configuration can be applied at either the system scope or at
+@sharepoint@'s OpenAM configuration can be applied at either the system scope or at
 the instance scope. To configure the OpenAM SSO module at the system scope,
 navigate to the Control Panel, click on *Configuration* &rarr; *System Settings*
 &rarr; *Security* &rarr; *SSO* &rarr; *OpenSSO*. Click on it and you'll find
@@ -66,8 +66,8 @@ initializing a Java primitive type with a literal value.
 Property Label | Property Key | Description | Type
 ----- | ----- | ----- | -----
 **Version** | `version` | OpenAM version to use (12 and below or 13) | `String`
-**Enabled** | `enabled` | Check this box to enable OpenAM authentication. Note that OpenAM works only if LDAP authentication is also enabled and @product@'s authentication type is set to screen name. | `boolean`
-**Import from LDAP** | `importFromLDAP` | If this is checked, users authenticated from OpenAM that do not exist in @product@ are imported from LDAP. LDAP must be enabled. | `boolean`
+**Enabled** | `enabled` | Check this box to enable OpenAM authentication. Note that OpenAM works only if LDAP authentication is also enabled and @sharepoint@'s authentication type is set to screen name. | `boolean`
+**Import from LDAP** | `importFromLDAP` | If this is checked, users authenticated from OpenAM that do not exist in @sharepoint@ are imported from LDAP. LDAP must be enabled. | `boolean`
 **Login URL** | `loginURL` | The URL to the login page of the OpenAM server | `String`
 **Logout URL** | `logoutURL` | The URL to the logout page of the OpenAM server | `String`
 **Service URL** | `serviceURL` | The URL by which OpenAM can be accessed to use the authenticated web services. If you are using OpenAM Express 8 or higher, you need to have the server running Java 6. | `String`

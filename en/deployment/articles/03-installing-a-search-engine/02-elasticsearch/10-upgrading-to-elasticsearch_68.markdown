@@ -6,8 +6,8 @@ header-id: upgrading-to-elasticsearch-6-8
 
 [TOC levels=1-4]
 
-Elasticsearch 6.8.x is supported for @product-ver@. If you're upgrading
-@product@ and still running Elasticsearch 6.1, it's time to upgrade your
+Elasticsearch 6.8.x is supported for @sharepoint-ver@. If you're upgrading
+@sharepoint@ and still running Elasticsearch 6.1, it's time to upgrade your
 Elasticsearch servers too. If you're setting up a new system and not already
 running a remote Elasticsearch 6.1.x server, follow the 
 [installation guide](/docs/7-2/deploy/-/knowledge_base/d/installing-elasticsearch) to install

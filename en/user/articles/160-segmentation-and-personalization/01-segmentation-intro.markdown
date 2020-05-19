@@ -10,7 +10,7 @@ Liferay's Segmentation and Personalization shows the right content to the
 right people at the right time. It provides the tools you need to manage 
 different audiences and dynamically provide personalized experiences for people 
 using your site. For example, if you're creating a campaign to promote new 
-financial service products, you need a way to display offers to customers who 
+financial service sharepoints, you need a way to display offers to customers who 
 are likely to be interested in those offers. You don't want to display 
 information on a basic free checking account for an "advanced" customer who 
 carries a high balance across several types of accounts, but you do want to 

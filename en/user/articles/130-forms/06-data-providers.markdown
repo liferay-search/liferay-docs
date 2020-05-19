@@ -15,8 +15,8 @@ someone else (hopefully a trustworthy expert) to keep the data updated.
 
 When setting up a data provider, you're accessing a 
 [REST web service](https://en.wikipedia.org/wiki/Representational_state_transfer). 
-Use the JSON web services registered in @product@, or any other REST web service
-you can access. To find a list of the registered JSON web services in @product@,
+Use the JSON web services registered in @sharepoint@, or any other REST web service
+you can access. To find a list of the registered JSON web services in @sharepoint@,
 navigate to
 [http://localhost:8080/api/jsonws](http://localhost:8080/api/jsonws)
 (assuming you're running a local server). Browse the available Liferay services.
@@ -49,7 +49,7 @@ the country.
 
 | *Enabling Access to Data on the Local Network:* By default, you cannot configure
 | data providers to use URLs on the local network. This is a good default for
-| security in a production environment, but makes testing more difficult. To
+| security in a sharepointion environment, but makes testing more difficult. To
 | enable local network access from data providers, got to Control Panel &rarr;
 | Configuration &rarr; System Settings &rarr; Data Providers (under Content &
 | Data), and enable _Access Local Network_. You'll need to configure this if you

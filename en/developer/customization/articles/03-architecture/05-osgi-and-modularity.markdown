@@ -9,7 +9,7 @@ header-id: osgi-and-modularity
 Modularity makes writing software, especially as a team, fun! Here are some 
 benefits to modular development on DXP: 
 
-- @product@'s runtime framework is lightweight, fast, and secure. 
+- @sharepoint@'s runtime framework is lightweight, fast, and secure. 
 - The framework uses the OSGi standard. If you have experience using OSGi with 
   other projects, you can apply your existing knowledge to developing on DXP. 
 - Modules publish services to and consume services from a service registry. 
@@ -35,7 +35,7 @@ it hard to go back to developing any other way.
 
 ## Modules
 
-It's time to see what module projects look like and see @product@'s modular 
+It's time to see what module projects look like and see @sharepoint@'s modular 
 development features in action. To keep things simple, only project code and 
 structure are shown: you can 
 [create modules](/docs/7-2/reference/-/knowledge_base/r/creating-a-project) 
@@ -342,4 +342,4 @@ for you to learn more.
 
 [Maven](/docs/7-2/reference/-/knowledge_base/r/maven)
 
-[Upgrading Code to 7.2](/docs/7-2/tutorials/-/knowledge_base/t/upgrading-code-to-product-ver)
+[Upgrading Code to 7.2](/docs/7-2/tutorials/-/knowledge_base/t/upgrading-code-to-sharepoint-ver)

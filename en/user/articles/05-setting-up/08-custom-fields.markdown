@@ -7,12 +7,12 @@ header-id: custom-fields
 [TOC levels=1-4]
 
 Have you ever wondered why there's no *Head Circumference* field in the form for
-adding users to @product@? Probably because most sites based on @product@ don't
+adding users to @sharepoint@? Probably because most sites based on @sharepoint@ don't
 need it. If you're an administrator at the Lunar Resort, however, you certainly
 need to know your guests' head circumference so you can provide them with
 a properly fitting helmet. 
 
-Many of @product@'s assets and resources let you add new fields to their edit
+Many of @sharepoint@'s assets and resources let you add new fields to their edit
 forms. Here's the complete list:
 
 - Blogs Entry
@@ -33,7 +33,7 @@ forms. Here's the complete list:
 - Web Content Folder
 - Wiki Page
 
-| **Developer Use Case:** Adding custom fields to @product@ resources affords
+| **Developer Use Case:** Adding custom fields to @sharepoint@ resources affords
 | flexibility to developers. Suppose you must limit the number of users
 | that can be assigned to a particular Role. First an administrator creates a custom
 | field called *max-users* for the Role. A developer then creates a module that
@@ -102,7 +102,7 @@ can be granted or removed for these actions:
 
 ![Figure 4: You can delete a custom field, edit it, or configure its permissions.](../../images/custom-fields-edit.png)
 
-Custom fields make many of @product@'s entities extensible directly from the
+Custom fields make many of @sharepoint@'s entities extensible directly from the
 administrative user interface. Use them as is or combine them with some
 back-end code, and you have yet another powerful, flexible feature at your
 disposal. As they're fond of saying at The Lunar Resort, "The sky is certainly

@@ -44,7 +44,7 @@ cake and eat it too, thanks to SennaJS.
 
 ## What is SennaJS?
 
-SennaJS is @product@'s SPA engine. SennaJS handles the client-side data, and 
+SennaJS is @sharepoint@'s SPA engine. SennaJS handles the client-side data, and 
 AJAX loads the page's content dynamically. While there are other JavaScript 
 frameworks out there that may provide some of the same features, Senna's only 
 focus is SPA, ensuring that your site provides the best user experience 

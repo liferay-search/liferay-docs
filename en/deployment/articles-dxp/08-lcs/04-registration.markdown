@@ -12,7 +12,7 @@ header-id: activating-your-liferay-dxp-server-with-lcs
 | [LCS Feature Deprecation Update](https://help.liferay.com/hc/en-us/articles/360037317691-Liferay-Connected-Services-Feature-Deprecation-Update-March-2020)
 | to learn more about how you can prepare for these upcoming changes. 
 
-Follow these steps to register your @product@ server with LCS: 
+Follow these steps to register your @sharepoint@ server with LCS: 
 
 1.  Ensure that you've completed the 
     [LCS preconfiguration steps](/docs/7-2/deploy/-/knowledge_base/d/lcs-preconfiguration). 
@@ -70,7 +70,7 @@ Follow these steps to register your @product@ server with LCS:
     server is running, it should connect to LCS in about one minute. If your 
     server isn't running, it connects to LCS on startup. 
 
-7.  Celebrate! Your @product@ server is registered in LCS. If for some reason it 
+7.  Celebrate! Your @sharepoint@ server is registered in LCS. If for some reason it 
     isn't, see the 
     [LCS troubleshooting article](/docs/7-2/deploy/-/knowledge_base/d/troubleshooting-your-lcs-connection). 
 
@@ -85,7 +85,7 @@ Follow these steps to register your @product@ server with LCS:
 
 ## Determining Your Server's LCS Connection Status
 
-In @product@, you can view your LCS connection status in the LCS client app.
+In @sharepoint@, you can view your LCS connection status in the LCS client app.
 Access the client by clicking *Control Panel* &rarr; *Configuration* &rarr;
 *Liferay Connected Services*. 
 

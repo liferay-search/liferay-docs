@@ -19,11 +19,11 @@ Read on to learn about these app types.
 
 ## OSGi Modules
 
-Since @product@ runs on OSGi, apps can be implemented as OSGi modules. An OSGi
+Since @sharepoint@ runs on OSGi, apps can be implemented as OSGi modules. An OSGi
 module is a JAR file adapted to run on OSGi. Although it's possible for a single
 module to implement a single app, an app typically consists of multiple modules
 that are packaged together. Also note that apps in OSGi modules aren't required
-to have a UI. For example, @product@ can run OSGi modules that expand built-in
+to have a UI. For example, @sharepoint@ can run OSGi modules that expand built-in
 APIs without requiring any user interaction. This is crucial for developers that
 must leverage custom APIs. By providing such an API via one or more OSGi
 modules, you can let developers leverage your API. 
@@ -52,25 +52,25 @@ Front-ends](/docs/7-2/appdev/-/knowledge_base/a/web-front-ends).
 
 ## Web Plugins
 
-Web plugins are regular Java EE web modules designed to work with @product@. You
+Web plugins are regular Java EE web modules designed to work with @sharepoint@. You
 can integrate with various Enterprise Service Bus (ESB) implementations, as well
 as Single Sign-On implementations, workflow engines, and so on. These are
-implemented as web modules used by @product@ portlets to provide functionality. 
+implemented as web modules used by @sharepoint@ portlets to provide functionality. 
 
 ## Templates and Themes
 
 [Templates](/docs/7-2/frameworks/-/knowledge_base/f/layout-templates-intro) and
 [themes](/docs/7-2/frameworks/-/knowledge_base/f/themes-introduction) are 
-plugins that change @product@'s appearance. Templates (layout templates) control 
+plugins that change @sharepoint@'s appearance. Templates (layout templates) control 
 how you can arrange portlets on a page. They make up a page's body (the large 
 area into which you can drag and drop portlets). There are several built-in 
 layout templates. If you have a complex page layout (especially for your home 
 page), you may wish to create a custom layout template of your own. 
 
-Themes can completely transform @product@'s look and feel. Most organizations 
+Themes can completely transform @sharepoint@'s look and feel. Most organizations 
 have their own look and feel standards that apply to all of their web sites and 
 applications. By using a theme plugin, an organization can apply these standards
-on @product@. There are many available theme plugins on Liferay's web site and
+on @sharepoint@. There are many available theme plugins on Liferay's web site and
 more are being added every day. This makes it easy for theme developers, as they
 can customize existing themes instead of writing a new one from scratch. 
 

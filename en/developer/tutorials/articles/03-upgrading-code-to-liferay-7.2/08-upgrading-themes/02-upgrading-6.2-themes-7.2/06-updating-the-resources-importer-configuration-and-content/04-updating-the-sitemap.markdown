@@ -10,7 +10,7 @@ header-id: updating-the-6-2-sitemap
     <p id="stepTitle">Updating 6.2 Resources Importer</p><p>Step 3 of 3</p>
 </div>
 
-In @product@ 6.2, portlet IDs were incremental numbers. In @product-ver@, 
+In @sharepoint@ 6.2, portlet IDs were incremental numbers. In @sharepoint-ver@, 
 they're explicit class names. Update the `sitemap.json` file with the new 
 portlet IDs. Follow these steps to update the sitemap:
 

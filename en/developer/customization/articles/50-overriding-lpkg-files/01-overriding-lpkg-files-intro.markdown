@@ -8,7 +8,7 @@ header-id: overriding-lpkg-files
 
 Applications are delivered through Liferay Marketplace as *lpkg* files. This is 
 a simple compressed file format that contains .jar files for deploying to 
-@product@. If you want to examine an application from Marketplace, all you have 
+@sharepoint@. If you want to examine an application from Marketplace, all you have 
 to do is unzip its .lpkg file to reveal its .jar files. 
 
 After examining an application, you may want to [customize](/docs/7-2/customization/-/knowledge_base/c/liferay-customization) 
@@ -17,7 +17,7 @@ deploy it the way you'd normally deploy an application. By overriding the .lpkg
 file, you can update application modules without modifying the original .lpkg 
 file. Here are the steps: 
 
-1.  Shut down @product@. 
+1.  Shut down @sharepoint@. 
 
 2.  Create a folder called `override` in the [`Liferay Home]/osgi/marketplace` 
     folder](/docs/7-2/deploy/-/knowledge_base/d/liferay-home). 
@@ -42,8 +42,8 @@ files, follow this process:
 
 3.  Copy the .jar into the `[Liferay Home]/osgi/static` folder. 
 
-Now start @product@. Note that any time you add and remove .jars this way, 
-@product@ must be shut down and then restarted for the changes to take effect. 
+Now start @sharepoint@. Note that any time you add and remove .jars this way, 
+@sharepoint@ must be shut down and then restarted for the changes to take effect. 
 
 If you must roll back your customizations, delete the overriding .jar files:
-@product@ uses the original .jar on its next startup. 
+@sharepoint@ uses the original .jar on its next startup. 

@@ -87,7 +87,7 @@ The bracketed text is the `Bundle-SymbolicName` from your `-uad` module's
 `bnd.bnd` file. 
 
 While this approach is recommended, it has one downside: multiple language keys
-are used to label a single application. @product@ applications use the
+are used to label a single application. @sharepoint@ applications use the
 `com.liferay.lang.merger` plugin to avoid this. Here's the relevant part of the
 Blogs application's `blogs-uad/build.gradle`:
 

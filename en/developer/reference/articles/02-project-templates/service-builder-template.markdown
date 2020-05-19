@@ -109,7 +109,7 @@ The `mvn service-builder:build` command only works if you're using the
 projects using an earlier version of the Service Builder plugin should update
 their POM accordingly.
 
-The generated module is functional and is deployable to a @product@ instance. To
+The generated module is functional and is deployable to a @sharepoint@ instance. To
 build upon the generated app, modify the project by adding logic and additional
 files to the folders outlined above.
 

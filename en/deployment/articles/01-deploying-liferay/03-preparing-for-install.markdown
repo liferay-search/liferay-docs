@@ -6,15 +6,15 @@ header-id: preparing-for-install
 
 [TOC levels=1-4]
 
-@product@ doesn't require much to deploy. You need a Java Development Kit (JDK)
+@sharepoint@ doesn't require much to deploy. You need a Java Development Kit (JDK)
 and a database. Several configuration topics (e.g.,
 [search engine integration](/docs/7-2/deploy/-/knowledge_base/d/installing-a-search-engine),
 [document repository configuration](/docs/7-2/deploy/-/knowledge_base/d/document-repository-configuration),
-[security management](/docs/7-2/deploy/-/knowledge_base/d/securing-product),
+[security management](/docs/7-2/deploy/-/knowledge_base/d/securing-sharepoint),
 [clustering](/docs/7-2/deploy/-/knowledge_base/d/liferay-clustering),
-and more) can be addressed *after* deploying @product@. 
+and more) can be addressed *after* deploying @sharepoint@. 
 
-| **Note:** If you are installing @product@ to multiple machines (e.g., in a 
+| **Note:** If you are installing @sharepoint@ to multiple machines (e.g., in a 
 | [cluster](/docs/7-2/deploy/-/knowledge_base/d/liferay-clustering))
 | or prefer centralizing configuration in a file, using portal properties in a
 | [`[LIFERAY_HOME]/portal-ext.properties` file](/docs/7-2/deploy/-/knowledge_base/d/portal-properties)
@@ -22,18 +22,18 @@ and more) can be addressed *after* deploying @product@.
 | the configuration topics throughout this guide demonstrate using applicable
 | portal properties. 
 
-| **Note:** `LIFERAY_HOME` is the location from which @product@ launches 
+| **Note:** `LIFERAY_HOME` is the location from which @sharepoint@ launches 
 | applications, applies configurations, loads JAR files, and generates logs.
 | Liferay Home is customizable and can differ between application servers. The
 | [Liferay Home reference](/docs/7-2/deploy/-/knowledge_base/d/liferay-home)
 | describes its folder structure. 
 
-Start preparing for @product@ install by installing a supported Java
+Start preparing for @sharepoint@ install by installing a supported Java
 Development Kit. 
 
 ## JDK Requirements
 
-@product@ deployment requires a JDK. The 
+@sharepoint@ deployment requires a JDK. The 
 [Support page](https://help.liferay.com/hc/categories/360000894391-Product-Support)
 lists the supported JDKs from various vendors. You must use one of these JDK
 versions:
@@ -43,11 +43,11 @@ versions:
 
 JDK 11 is backwards compatible with JDK 8 applications. Applications and
 customizations developed on JDK 8 run on JDK 8 or JDK 11 runtimes. This makes
-JDK 8 best for developing on @product-ver@. 
+JDK 8 best for developing on @sharepoint-ver@. 
 
 ## JVM Requirements
 
-@product@ requires that the application server JVM use the GMT time zone and
+@sharepoint@ requires that the application server JVM use the GMT time zone and
 UTF-8 file encoding. Include these JVM arguments to set the required values. 
 
 ```properties
@@ -100,7 +100,7 @@ This is a known issue: [LPS-87421](https://issues.liferay.com/browse/LPS-87421).
  --add-opens=java.xml/com.sun.org.apache.xerces.internal.parsers=ALL-UNNAMED
 ```
 
-If you're using JDK 11 on Linux or UNIX and are activating @product@ using an LCS 5.0.0 client, you may see an error like this:
+If you're using JDK 11 on Linux or UNIX and are activating @sharepoint@ using an LCS 5.0.0 client, you may see an error like this:
 
 ```
 ERROR [LCS Worker 2][BaseScheduledTask:92] java.lang.reflect.InaccessibleObjectException: Unable to make public long com.sun.management.internal.OperatingSystemImpl.getOpenFileDescriptorCount() accessible: module jdk.management does not
@@ -122,30 +122,30 @@ It's time to prepare your database.
 
 ## Preparing a Database
 
-The recommended way to set up your @product@ database is also the simplest.
-@product@ takes care of just about everything. Here are the steps:
+The recommended way to set up your @sharepoint@ database is also the simplest.
+@sharepoint@ takes care of just about everything. Here are the steps:
 
-1.  Create a blank database encoded with the character set UTF-8. @product@ is a
+1.  Create a blank database encoded with the character set UTF-8. @sharepoint@ is a
     multilingual application and needs UTF-8 encoding to display all of its
     supported character sets.
 
     | **Note:** If you plan to migrate from one database vendor to another,
-    | [configure the database to use the default query result order you expect for entities @product@ lists](/docs/7-2/deploy/-/knowledge_base/d/sort-order-changed-with-a-different-database). 
+    | [configure the database to use the default query result order you expect for entities @sharepoint@ lists](/docs/7-2/deploy/-/knowledge_base/d/sort-order-changed-with-a-different-database). 
 
 2.  Create a database user for accessing this database. Grant this database user
     all rights, including the rights to create and drop tables, to the blank
-    @product@ database.
+    @sharepoint@ database.
 
-@product@ uses this database user's credentials to connect to the database
+@sharepoint@ uses this database user's credentials to connect to the database
 either
 [directly](#using-the-built-in-data-source)
 or
 [through its application server](#using-a-data-source-on-your-application-server). 
-After you've configured the database connection, @product@ creates its tables in
+After you've configured the database connection, @sharepoint@ creates its tables in
 the database automatically, complete with indexes.
 
-This is the recommended way to set up @product@. It enables @product@ to
-maintain its database automatically during upgrades or when various @product@
+This is the recommended way to set up @sharepoint@. It enables @sharepoint@ to
+maintain its database automatically during upgrades or when various @sharepoint@
 plugins that create database tables of their own are installed. This method is
 by far the best way to set up your database. 
 
@@ -154,14 +154,14 @@ by far the best way to set up your database.
 | [data truncation issues](https://issues.liferay.com/browse/LPS-79229)
 | have been detected reading data from CLOB columns. 
 
-You can connect @product@ with your database using @product@'s built-in data
+You can connect @sharepoint@ with your database using @sharepoint@'s built-in data
 source (recommended) or using a data source you create on your app server. 
 
 ### Using the Built-in Data Source
 
 You can configure the built-in data source from the
-[Basic Configuration page](/docs/7-2/deploy/-/knowledge_base/d/installing-product#using-the-setup-wizard)
-(available when @product@ starts up the first time) or by specifying it using 
+[Basic Configuration page](/docs/7-2/deploy/-/knowledge_base/d/installing-sharepoint#using-the-setup-wizard)
+(available when @sharepoint@ starts up the first time) or by specifying it using 
 portal properties. 
 
 Here's how set it using portal properties:
@@ -181,7 +181,7 @@ Here's how set it using portal properties:
     [LIFERAY_HOME](/docs/7-2/deploy/-/knowledge_base/d/liferay-home)
     once you've established it based on your installation. 
 
-@product@ connects to the data source on startup. 
+@sharepoint@ connects to the data source on startup. 
 
 As an alternative to the built-in data source, you can use your application
 server's data source. 
@@ -191,7 +191,7 @@ server's data source.
 Here's how to use your application server's data source: 
 
 1.  Create your data source based on the instructions in the *Installing 
-    @product@ on [Application Server]* article (for your application server)
+    @sharepoint@ on [Application Server]* article (for your application server)
     and your application server's documentation.
 
 2.  Create a
@@ -209,27 +209,27 @@ Here's how to use your application server's data source:
     [LIFERAY_HOME](/docs/7-2/deploy/-/knowledge_base/d/liferay-home),
     once you've established your LIFERAY_HOME based on your installation. 
 
-@product@ connects to your data source on startup.
+@sharepoint@ connects to your data source on startup.
 
-Allowing the database user you're using to initialize the @product@ database to
+Allowing the database user you're using to initialize the @sharepoint@ database to
 continue with all database rights is recommended. If you're fine with that user
 having the recommended permissions, skip the next section on limiting
 database access. 
 
 ### Limiting Database Access
 
-| **Warning:** The instructions below are not ideal for @product@ installations
+| **Warning:** The instructions below are not ideal for @sharepoint@ installations
 | The following procedure is documented so that enterprises with more
-| restrictive standards can install @product@ with stricter (but sub-optimal)
+| restrictive standards can install @sharepoint@ with stricter (but sub-optimal)
 | database settings. If it's at all possible, allow the database user that
 | initializes the database to continue using the database with the same
 | recommended permissions. The start of this section
 | ([Database Preparation](#preparing-a-database)) 
-| describes the recommended procedure for initializing the @product@ database
-| and preserving that user's permissions for maintaining the @product@ database
+| describes the recommended procedure for initializing the @sharepoint@ database
+| and preserving that user's permissions for maintaining the @sharepoint@ database
 | and updating the database as plugin installations and plugin updates require. 
 
-Even though it's recommended for @product@ to use the same database user to
+Even though it's recommended for @sharepoint@ to use the same database user to
 create and maintain its database automatically, your organizations might insist
 on revoking database initialization and maintenance permissions from that user
 once the database is initialized. If permissions for Select, Insert, Update and
@@ -237,34 +237,34 @@ Delete operations are the only ones you allow for that user, you must initialize
 and maintain the database manually (even though it's not recommended). Here is
 the manual procedure: 
 
-1.  Create a new, blank, database for @product@.
+1.  Create a new, blank, database for @sharepoint@.
 
-2.  Grant full rights for the @product@ database user to do anything to the 
+2.  Grant full rights for the @sharepoint@ database user to do anything to the 
     database. 
 
-3.  Install @product@ and start it so that it automatically populates the
+3.  Install @sharepoint@ and start it so that it automatically populates the
     database.
 
-4.  Once the database has been populated with the @product@ tables, remove all
+4.  Once the database has been populated with the @sharepoint@ tables, remove all
     permissions from that user except permissions to perform Select, Insert,
     Update and Delete operations. 
 
-There are some caveats to running @product@ like this. Many plugins create new
+There are some caveats to running @sharepoint@ like this. Many plugins create new
 tables when they're deployed. Additionally, you must run the database upgrade
-function to upgrade @product@. If the @product@ database user doesn't have
+function to upgrade @sharepoint@. If the @sharepoint@ database user doesn't have
 adequate rights to create/modify/drop tables in the database, you must grant
 those rights to that user before you deploy one of these plugins or start
-upgrading @product@. Once the tables are created or the upgrade completes, you
+upgrading @sharepoint@. Once the tables are created or the upgrade completes, you
 can remove those rights until the next deploy or upgrade. Additionally, your own
 developers might create plugins that must create their own tables. These are
-just like @product@ plugins that do the same thing, and they can only be
-installed if @product@ can create database tables. Installing these plugins
-requires granting the @product@ database user rights to create tables in the
+just like @sharepoint@ plugins that do the same thing, and they can only be
+installed if @sharepoint@ can create database tables. Installing these plugins
+requires granting the @sharepoint@ database user rights to create tables in the
 database before you attempt to install the plugins. 
 
-@product@ has many more configurable features; but they
+@sharepoint@ has many more configurable features; but they
 can wait until *after* deployment. The
-[Configuring @product@](/docs/7-2/deploy/-/knowledge_base/d/configuring-product)
+[Configuring @sharepoint@](/docs/7-2/deploy/-/knowledge_base/d/configuring-sharepoint)
 section explains them. 
 
-Now it's time to install @product@. 
+Now it's time to install @sharepoint@. 

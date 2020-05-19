@@ -88,7 +88,7 @@ Organization.
 
 ## Organization Types
 
-By default, @product@ only includes the *Organization* type. Configure the
+By default, @sharepoint@ only includes the *Organization* type. Configure the
 existing type or add additional types using the aptly named Organization Type
 entry in System Settings. There are two main reasons to configure Organization
 types:

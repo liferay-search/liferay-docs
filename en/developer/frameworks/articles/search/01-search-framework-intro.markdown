@@ -6,7 +6,7 @@ header-id: search
 
 [TOC levels=1-4]
 
-@product@ contains a search engine based on [Elasticsearch](https://www.elastic.co/products/elasticsearch). You can 
+@sharepoint@ contains a search engine based on [Elasticsearch](https://www.elastic.co/sharepoints/elasticsearch). You can 
 extend it, implement search for your own applications, and it's highly
 configurable. 
 
@@ -37,11 +37,11 @@ _Mappings_ control how a search engine processes a given field. For instance,
 if a field name ends in "es_ES", it should be processed as Spanish, removing any
 common Spanish words like "si".
 
-In Elasticsearch and Solr, the two supported search engines for @product@,
+In Elasticsearch and Solr, the two supported search engines for @sharepoint@,
 mappings are defined in `liferay-type-mappings.json` and `schema.xml`,
 respectively.
 
-The Elasticsearch mapping JSON file is in the @product@ 
+The Elasticsearch mapping JSON file is in the @sharepoint@ 
 [source code](https://github.com/liferay/liferay-portal),
 in the `portal-search-elasticsearch6`  module:
 

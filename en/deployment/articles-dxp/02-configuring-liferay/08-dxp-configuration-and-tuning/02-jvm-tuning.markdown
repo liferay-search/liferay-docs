@@ -25,7 +25,7 @@ Garbage collection is first.
 ## Garbage Collector
 
 Choosing the appropriate garbage collector (GC) helps improve the responsiveness
-of your @product@ deployment. Use the concurrent low pause collectors:
+of your @sharepoint@ deployment. Use the concurrent low pause collectors:
 
     -XX:+UseParNewGC -XX:ParallelGCThreads=16 -XX:+UseConcMarkSweepGC
     -XX:+CMSParallelRemarkEnabled -XX:+CMSCompactWhenClearAllSoftRefs
@@ -50,7 +50,7 @@ tuning plans.
 Java's just-in-time (JIT) compiler generates native code to improve performance.
 The default size is `48m`. This may not be sufficient for larger applications.
 Too small a code cache reduces performance, as the JIT isn't able to optimize
-high frequency methods. For @product@,  start with `64m` for the initial code
+high frequency methods. For @sharepoint@,  start with `64m` for the initial code
 cache size.
 
     -XX:InitialCodeCacheSize=64m -XX:ReservedCodeCacheSize=96m

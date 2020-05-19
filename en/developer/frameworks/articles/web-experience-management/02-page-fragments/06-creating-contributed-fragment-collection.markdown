@@ -172,7 +172,7 @@ article.
 
 Now that you have created the necessary pieces of the module, you can build it
 and [deploy it](/docs/7-2/reference/-/knowledge_base/r/deploying-a-project) to
-@product@. After it's deployed, the Fragments will be available for use. This
+@sharepoint@. After it's deployed, the Fragments will be available for use. This
 can also be done by using the
 [Fragments Toolkit](/docs/7-2/frameworks/-/knowledge_base/f/page-fragments-desktop-tools#importing-and-exporting-fragments).
 Contributed Fragments cannot be edited with Liferay, and can only be updated by

@@ -41,9 +41,9 @@ Instance Units to offer to customers. You can also offer a discounted price for
 a bundle of multiple Instance Units.
 
 There are two types of licenses that you can offer for your app: standard
-licenses and developer licenses. Standard licenses are intended for production
+licenses and developer licenses. Standard licenses are intended for sharepointion
 server environments. Developer licenses are limited to 10 unique IP addresses
-and, therefore, should not be used for full-scale production deployments. 
+and, therefore, should not be used for full-scale sharepointion deployments. 
 
 ![Figure 1: Liferay Marketplace lets you specify different types of licenses and license quantities for pricing.](../../../images/licenseview.png)
 

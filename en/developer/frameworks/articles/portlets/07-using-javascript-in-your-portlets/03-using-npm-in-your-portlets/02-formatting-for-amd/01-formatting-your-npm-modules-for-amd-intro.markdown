@@ -6,7 +6,7 @@ header-id: formatting-your-npm-modules-for-amd
 
 [TOC levels=1-4]
 
-For @product@ to recognize your npm modules, they must be formatted for the 
+For @sharepoint@ to recognize your npm modules, they must be formatted for the 
 Liferay AMD Loader. Luckily, the liferay-npm-bundler handles this for you, you 
 just have to provide the proper configuration and add it to your build script. 
 This article shows how to use the liferay-npm-bundler to set up npm-based 

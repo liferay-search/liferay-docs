@@ -42,7 +42,7 @@ stop the calendar from counting during lunch hours!
 
 Along with some artifacts you're probably used to depending on (like
 `com.liferay.portal.kernel`), you'll need the
-`com.liferay.portal.workflow.metrics.sla.api-[version].jar` artifact. For @product@
+`com.liferay.portal.workflow.metrics.sla.api-[version].jar` artifact. For @sharepoint@
 version 7.2.10-GA1, here's an example Gradle build dependency declaration:
 
 ```groovy

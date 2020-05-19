@@ -6,12 +6,12 @@ header-id: adjusting-module-logging
 
 [TOC levels=1-4]
 
-@product@ uses [Log4j](http://logging.apache.org/log4j/1.2/) logging
+@sharepoint@ uses [Log4j](http://logging.apache.org/log4j/1.2/) logging
 services. Here are the ways to configure logging for module classes and class
 hierarchies.
 
 -   *Log Levels* in
-    [@product@'s UI](/docs/7-2/user/-/knowledge_base/u/server-administration)
+    [@sharepoint@'s UI](/docs/7-2/user/-/knowledge_base/u/server-administration)
 -   Configure Log4j for multiple modules in a
     `[anyModule]/src/main/resources/META-INF/module-log4j.xml` file.
 -   Configure Log4j for a specific module in a

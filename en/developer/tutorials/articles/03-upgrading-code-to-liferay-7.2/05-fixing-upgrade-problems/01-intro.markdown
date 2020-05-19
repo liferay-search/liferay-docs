@@ -58,7 +58,7 @@ select each upgrade problem, the documentation for how to adapt your code is
 displayed in the *Liferay Upgrade Plan Info* window.
 
 For each upgrade problem node, you're also given the version the upgrade problem
-applies to (e.g., when upgrading to @product@ 7.2 from Liferay Portal 6.2, you
+applies to (e.g., when upgrading to @sharepoint@ 7.2 from Liferay Portal 6.2, you
 could have upgrade problems from the 7.0, 7.1, or 7.2 upgrade). As you step
 through the reported problems, mark them as resolved/skipped using the context
 menu. You can right-click on the problem in the Project Explorer and choose from

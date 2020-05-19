@@ -6,7 +6,7 @@ header-id: ui-architecture
 
 [TOC levels=1-4]
 
-[@product@'s UI](/docs/7-2/user/-/knowledge_base/u/the-liferay-distinction) 
+[@sharepoint@'s UI](/docs/7-2/user/-/knowledge_base/u/the-liferay-distinction) 
 is a portal for adding sites, pages, widgets, and content. It helps 
 people do work,
 [collaborate](/docs/7-2/user/-/knowledge_base/u/collaboration), 
@@ -28,7 +28,7 @@ The UI comprises the following parts:
 
 ## Content
 
-@product@'s built-in applications help you publish images, video, forms, markup
+@sharepoint@'s built-in applications help you publish images, video, forms, markup
 text, and more to site pages. 
 [Documents and Media](/docs/7-2/user/-/knowledge_base/u/managing-documents-and-media)
 stores images, videos, and documents to use throughout your site. The
@@ -44,12 +44,12 @@ of the built-in applications for adding site content.
 
 ## Applications
 
-@product@ applications provide content and help users accomplish tasks. They're 
+@sharepoint@ applications provide content and help users accomplish tasks. They're 
 [developed the same way](/7-2/appdev/-/knowledge_base/a/web-front-ends)
-as other web applications, and @product@ can combine multiple applications on
+as other web applications, and @sharepoint@ can combine multiple applications on
 one page. 
 
-@product@ supports developing JavaScript-based applications using popular 
+@sharepoint@ supports developing JavaScript-based applications using popular 
 front-end frameworks:
 
 -   [Angular](/docs/7-2/appdev/-/knowledge_base/a/developing-an-angular-application)
@@ -65,7 +65,7 @@ including ones familiar to experienced Liferay portlet developers:
 -   [Liferay MVC Portlet](/docs/7-2/appdev/-/knowledge_base/a/liferay-mvc-portlet)
 
 In the UI, applications are referred to as Widgets and categorized for users to
-add to pages. Administrative applications are available in the product menu
+add to pages. Administrative applications are available in the sharepoint menu
 panels. 
 
 ![Figure 1: Widget pages offer users functionality. Widgets are organized into a page template's rows and columns. This template has two columns: a smaller left column and larger right column. On this page, users select tags in the Tag Cloud widget and the matching tagged images show the Asset Publisher widget.](../../../images/architecture-ui-widgets.png)
@@ -76,7 +76,7 @@ A
 [theme](/docs/7-2/frameworks/-/knowledge_base/f/themes-introduction)
 styles a site with a unique look and feel. It's developed as a WAR project that
 includes CSS, JavaScript, and markup content. You can develop themes using
-whatever tools you prefer, but @product@ offers
+whatever tools you prefer, but @sharepoint@ offers
 [Bootstrap](https://getbootstrap.com/)-based
 components and
 [theme tooling](/docs/7-2/frameworks/-/knowledge_base/f/developing-themes) 
@@ -135,7 +135,7 @@ Here's a quick demonstration of developing a theme:
 
 4.  Add custom styling using your theme's `_custom.scss` file (i.e.,
     `src/css/_custom.scss`). 
-    @product@ supports
+    @sharepoint@ supports
     [Bootstrap](https://getbootstrap.com/),
     as well as
     [Sass](https://sass-lang.com/), 
@@ -174,14 +174,14 @@ provides theme development details.
 
 ## Product Navigation Sidebars and Panels
 
-The product navigation sidebars and panels enable administrators to build sites,
+The sharepoint navigation sidebars and panels enable administrators to build sites,
 add pages, apply themes, and configure the portal. It's also where you can
 provide administrative functionality for your custom applications. The
 navigation sidebars and panels are customizable. 
 
 ![Figure 4: Liferay facilitates integrating custom administrative functionality through navigation menus and administrative applications.](../../../images/architecture-ui-menus-and-panel-app.png)
 
-As you can see, @product@'s UI is highly flexible and customizable. Here's where
+As you can see, @sharepoint@'s UI is highly flexible and customizable. Here's where
 to learn more: 
 
 - [Theme Components](/docs/7-2/customization/-/knowledge_base/c/theme-components): 

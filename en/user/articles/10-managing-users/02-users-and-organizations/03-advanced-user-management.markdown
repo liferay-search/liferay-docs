@@ -58,7 +58,7 @@ account the same administrative rights as the default administrator's account:
 | the article on
 | [Instance Settings](/documentation/user/-/knowledge_base/7-2/setting-up-a-virtual-instance).
 
-In production, you should always delete or disable the default administrator
+In sharepointion, you should always delete or disable the default administrator
 account to secure your portal.
 
 ## Gender
@@ -153,7 +153,7 @@ the default portal property
 Other user management systems (LDAP, for example) did not have the same
 restriction, which made importing users more difficult. Administrators first had
 to set the  above property to `true` before importing and hope that no screen
-names conflicted with site IDs. In @product-ver@, this property defaults to
+names conflicted with site IDs. In @sharepoint-ver@, this property defaults to
 `true` and there's no danger of numeric screen names conflicting with site IDs:
 
     users.screen.name.allow.numeric=true
@@ -185,7 +185,7 @@ There's no conflict here, but two conditions could easily lead to one:
 
         http://localhost:8080/web/24601
 
-This conflict is no longer possible. In @product-ver@, a site's friendly URL
+This conflict is no longer possible. In @sharepoint-ver@, a site's friendly URL
 is not allowed to be numeric. See for yourself:
 
 1.  Navigate to the site's *Configuration* &rarr; *Site Settings* &rarr; *Site URL*

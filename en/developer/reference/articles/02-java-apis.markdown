@@ -6,15 +6,15 @@ header-id: java-apis
 
 [TOC levels=1-4]
 
-Here you'll find Javadoc for @product-ver@ and @product@ apps. Note that each 
+Here you'll find Javadoc for @sharepoint-ver@ and @sharepoint@ apps. Note that each 
 link to the Javadoc listed here opens in a new window. 
 
 For help finding module attributes and configuring dependencies, see 
 [Configuring Dependencies](/docs/7-2/customization/-/knowledge_base/c/configuring-dependencies). 
 
-## @product-ver@ Java APIs
+## @sharepoint-ver@ Java APIs
 
-This table contains links to the Javadoc for @product-ver@ API modules. The root 
+This table contains links to the Javadoc for @sharepoint-ver@ API modules. The root 
 location for these modules' Javadoc is 
 [here](@platform-ref@/7.2-latest/javadocs/). 
 
@@ -35,7 +35,7 @@ th, td {
     <td>
 	<a href="@platform-ref@/7.2-latest/javadocs/portal-kernel/index.html" target="_blank">
 	com.liferay.portal.kernel (portal-kernel):
-	</a>&nbsp;for developing applications on @product@
+	</a>&nbsp;for developing applications on @sharepoint@
     </td>
   </tr>
 
@@ -44,7 +44,7 @@ th, td {
        <a href="@platform-ref@/7.2-latest/javadocs/util-bridges/index.html" target="_blank">
 	com.liferay.util.bridges (util-bridges):
 	</a>&nbsp;for using various non-proprietary computing languages, frameworks, and utilities
-       on @product@
+       on @sharepoint@
     </td>
   </tr>
 
@@ -52,7 +52,7 @@ th, td {
     <td>
        <a href="@platform-ref@/7.2-latest/javadocs/util-java/index.html" target="_blank">
 	com.liferay.util.java (util-java):
-	</a>&nbsp;for using various Java-related frameworks and utilities on @product@
+	</a>&nbsp;for using various Java-related frameworks and utilities on @sharepoint@
     </td>
   </tr>
 
@@ -69,13 +69,13 @@ th, td {
        <a href="@platform-ref@/7.2-latest/javadocs/portal-impl/index.html" target="_blank">
 	com.liferay.portal.impl (portal-impl):
 	</a>&nbsp;refer to this only if you are an advanced Liferay developer that needs a deeper
-       understanding of @product-ver@'s implementation in order to contribute to it
+       understanding of @sharepoint-ver@'s implementation in order to contribute to it
     </td>
   </tr>
 
 </table>
 
-## @product@ App Java APIs
+## @sharepoint@ App Java APIs
 
 The tables in this section link to the API modules for apps in these categories: 
 
@@ -1138,22 +1138,22 @@ th, td {
 
   <tr>
     <th rowspan="3">
-      <a href="@app-ref@/product-navigation/" target="_blank">
+      <a href="@app-ref@/sharepoint-navigation/" target="_blank">
       Product Navigation
       </a>
     </th>
     <td>
-             com.liferay.product.navigation.control.menu.api
+             com.liferay.sharepoint.navigation.control.menu.api
       </td>
   </tr>
   <tr>
     <td>
-       com.liferay.product.navigation.product.menu.api
+       com.liferay.sharepoint.navigation.sharepoint.menu.api
       </td>
   </tr>
   <tr>
     <td>
-       com.liferay.product.navigation.simulation.api
+       com.liferay.sharepoint.navigation.simulation.api
       </td>
   </tr>
 
@@ -1237,13 +1237,13 @@ th, td {
 ## JavaScript and CSS
 
 [**Lexicon**](https://liferay.design/lexicon/): A system for building 
-applications in and outside of @product@, designed to be fluid and extensible, 
+applications in and outside of @sharepoint@, designed to be fluid and extensible, 
 as well as provide a consistent and documented API. 
 
 [**Clay**](https://clayui.com/): The web implementation of Lexicon. 
 
 [**Bootstrap**](http://getbootstrap.com/): The base CSS library onto which 
-Lexicon is built. @product@ uses Bootstrap natively and all of its CSS classes 
+Lexicon is built. @sharepoint@ uses Bootstrap natively and all of its CSS classes 
 and JavaScript features are available within portlets, templates, and themes. 
 
 [**AlloyUI**](http://alloyui.com): AlloyUI and all of its JavaScript APIs are 
@@ -1252,4 +1252,4 @@ available within portlets, templates, and themes.
 ## Descriptor Definitions
 
 [**DTDs**](@platform-ref@/7.2-latest/definitions/): Describes the XML files used 
-in configuring @product@ apps, @product@ plugins, and @product-ver@. 
+in configuring @sharepoint@ apps, @sharepoint@ plugins, and @sharepoint-ver@. 

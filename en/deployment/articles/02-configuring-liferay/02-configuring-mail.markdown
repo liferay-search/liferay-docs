@@ -6,13 +6,13 @@ header-id: configuring-mail
 
 [TOC levels=1-4]
 
-@product@ uses a mail server and SMTP to email notifications. @product@'s
+@sharepoint@ uses a mail server and SMTP to email notifications. @sharepoint@'s
 built-in mail session is the easiest way to configure mail and it's recommended.
-You can configure the built-in mail session before or after deploying @product@.
-Alternatively, you can configure @product@ to use a mail session on the
+You can configure the built-in mail session before or after deploying @sharepoint@.
+Alternatively, you can configure @sharepoint@ to use a mail session on the
 application server. 
 
-Creating a mail session in @product@ or on the application server requires this information: 
+Creating a mail session in @sharepoint@ or on the application server requires this information: 
 
 -   Incoming POP Server and port
 -   POP User Name
@@ -24,7 +24,7 @@ Creating a mail session in @product@ or on the application server requires this 
 
 Built-in mail session setup is recommended and easiest. 
 
-## Configuring @product@'s Built-in Mail Session 
+## Configuring @sharepoint@'s Built-in Mail Session 
 
 The built-in mail session setup can be done using either of these methods:
 
@@ -34,10 +34,10 @@ The built-in mail session setup can be done using either of these methods:
 
 ### Built-in Mail Session in the Control Panel 
 
-After deploying @product@, you can configure the mail session from the Control Panel. 
+After deploying @sharepoint@, you can configure the mail session from the Control Panel. 
 
 1.  Sign in as the administrative user (the user you specified on the
-    [Basic Configuration page](/docs/7-2/deploy/-/knowledge_base/d/installing-product#using-the-setup-wizard)). 
+    [Basic Configuration page](/docs/7-2/deploy/-/knowledge_base/d/installing-sharepoint#using-the-setup-wizard)). 
 
 2.  Navigate to *Control Panel &rarr; Configuration &rarr; Server Administration
     &rarr; Mail*.
@@ -45,7 +45,7 @@ After deploying @product@, you can configure the mail session from the Control P
 3.  Fill out the form. You're asked for the following information: 
 
     **Incoming POP Server:** The hostname for a server running the Post Office
-    Protocol. @product@ checks this mailbox for incoming messages, such as
+    Protocol. @sharepoint@ checks this mailbox for incoming messages, such as
     message board replies. 
 
     **Incoming Port:** The port on which the POP server is listening. 
@@ -53,12 +53,12 @@ After deploying @product@, you can configure the mail session from the Control P
     **Use a Secure Network Connection:** Use an encrypted connection when 
     connecting to the POP server. 
 
-    **User Name:** The user ID @product@ should use to log into the POP server. 
+    **User Name:** The user ID @sharepoint@ should use to log into the POP server. 
 
-    **Password:** The password @product@ should use to log into the POP server. 
+    **Password:** The password @sharepoint@ should use to log into the POP server. 
 
     **Outgoing SMTP Server:** The hostname for a server running the Simple Mail
-    Transfer Protocol. @product@ uses this server to send emails, such as 
+    Transfer Protocol. @sharepoint@ uses this server to send emails, such as 
     password change emails and other notifications. 
 
     **Outgoing Port:** The port on which the SMTP server is listening. 
@@ -66,9 +66,9 @@ After deploying @product@, you can configure the mail session from the Control P
     **Use a Secure Network Connection:** Use an encrypted connection when 
     connecting to the SMTP server. 
 
-    **User Name:** The user ID @product@ should use to log into the SMTP server.
+    **User Name:** The user ID @sharepoint@ should use to log into the SMTP server.
 
-    **Password:** The password @product@ should use to log into the SMTP server.
+    **Password:** The password @sharepoint@ should use to log into the SMTP server.
 
     **Manually specify additional JavaMail properties to override the above
     configuration:** If there are additional properties you need to specify, 
@@ -76,12 +76,12 @@ After deploying @product@, you can configure the mail session from the Control P
 
 4.  Click *Save*. 
 
-@product@ connects to the mail session immediately. 
+@sharepoint@ connects to the mail session immediately. 
 
 ### Built-in Mail Session Portal Properties 
 
 If you prefer specifying your mail session offline or before deploying
-@product@, use portal properties. 
+@sharepoint@, use portal properties. 
 
 1.  Create a
     [`portal-ext.properties` file](/docs/7-2/deploy/-/knowledge_base/d/portal-properties),
@@ -110,16 +110,16 @@ If you prefer specifying your mail session offline or before deploying
     [LIFERAY_HOME](/docs/7-2/deploy/-/knowledge_base/d/liferay-home),
     once you've established it based on your installation. 
 
-@product@ connects to the mail session on the next startup. 
+@sharepoint@ connects to the mail session on the next startup. 
 
 ## Configuring a Mail Session on the Application Server 
 
-You can manage a mail session for @product@ on your application server. Here's how:
+You can manage a mail session for @sharepoint@ on your application server. Here's how:
 
 1.  Create a mail session on your application server, following your application
     server documentation.
 
-2.  Point @product@ to that mail session using the Control Panel or 
+2.  Point @sharepoint@ to that mail session using the Control Panel or 
     portal properties. Here are instructions for both:
 
     -   Configure the JNDI name in the *Mail* page at *Control Panel &rarr; 
@@ -135,7 +135,7 @@ Lastly, configure your instance's email senders.
 
 ## Configuring default email senders
 
-Email senders are the default name and email address @product@ uses to send administrative emails and announcement emails. 
+Email senders are the default name and email address @sharepoint@ uses to send administrative emails and announcement emails. 
 
 Default email senders are configured in the
 [`portal-ext.properties` file](/docs/7-2/deploy/-/knowledge_base/d/portal-properties).  
@@ -157,17 +157,17 @@ Default email senders are configured in the
 1.  Replace the names and email addresses above with your values. 
 
 | **Note:** Following emails are blacklisted by default and cannot be used 
-| in any @product@ installation:
+| in any @sharepoint@ installation:
 | 
 | - `noreply@liferay.com`
 | - `test@liferay.com`
 | - `noreply@domain.invalid`
 | - `test@domain.invalid`
 |
-| If you use them, @product@ logs a `WARN` trace:
+| If you use them, @sharepoint@ logs a `WARN` trace:
 |
 | `Email xxx will be ignored because it is included in mail.send.blacklist`
 
 2.  Restart your server. 
 
-Congratulations on configuring mail for @product@. 
+Congratulations on configuring mail for @sharepoint@. 

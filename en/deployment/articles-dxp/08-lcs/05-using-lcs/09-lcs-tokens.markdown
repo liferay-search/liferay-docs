@@ -66,7 +66,7 @@ having clients that activate and configure themselves is crucial.
 | **Note**: If your auto-scaling environment creates new server nodes from a 
 | server in a system image, that server can't require human interaction during 
 | setup. When creating such an image, you must change any portal property 
-| settings that prevent automatic setup. By default, @product@'s setup wizard 
+| settings that prevent automatic setup. By default, @sharepoint@'s setup wizard 
 | requires human interaction. You must therefore set the `setup.wizard.enabled` 
 | property to `false` if you want your auto-scaling environment to create new 
 | nodes from the server. 

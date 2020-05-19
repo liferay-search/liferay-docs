@@ -6,7 +6,7 @@ header-id: installing-adaptive-media
 
 [TOC levels=1-4]
 
-The Adaptive Media app is installed in @product@ by default. The following 
+The Adaptive Media app is installed in @sharepoint@ by default. The following 
 sections describe the Adaptive Media app's modules, and how to prepare Adaptive 
 Media to handle animated GIFs. 
 
@@ -66,7 +66,7 @@ Ensures that content created before the Adaptive Media installation can use
 adapted images without the need to edit that content manually. It transforms
 the images both at startup and when a user views the content, which can
 negatively affect performance. We therefore recommend that you run some
-performance tests before using this module in production. You can disable
+performance tests before using this module in sharepointion. You can disable
 this module if you don't have old content, are experiencing performance
 problems, or your old content doesn't need adapted images. 
 

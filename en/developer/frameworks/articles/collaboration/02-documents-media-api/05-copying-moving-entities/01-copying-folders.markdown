@@ -27,7 +27,7 @@ Follow these steps to use `copyFolder` to copy a folder:
     and description. It therefore needs the folder's group ID (to specify the 
     default site repository), name, and description. Also note that because the 
     destination folder in this example is the repository's root folder, the 
-    parent folder ID isn't needed---@product@ supplies a constant for specifying 
+    parent folder ID isn't needed---@sharepoint@ supplies a constant for specifying 
     a repository's root folder. 
 
     In the following code, 

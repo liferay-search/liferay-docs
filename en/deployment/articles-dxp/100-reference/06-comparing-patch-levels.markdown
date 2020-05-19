@@ -7,7 +7,7 @@ header-id: comparing-patch-levels
 [TOC levels=1-4]
 
 If you're a developer, the Patching Tool can show you what changed between
-different @product@ patches and versions. These commands show you information
+different @sharepoint@ patches and versions. These commands show you information
 about the different patch levels:
 
 `patching-tool diff`: Prints the differences between two patch levels. At least

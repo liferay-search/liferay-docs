@@ -6,7 +6,7 @@ header-id: cdi-portlet-predefined-beans
 
 [TOC levels=1-4]
 
-@product@ provides injectable portlet artifacts for
+@sharepoint@ provides injectable portlet artifacts for
 [CDI](/docs/7-2/frameworks/-/knowledge_base/f/cdi-dependency-injection) called
 Portlet Predefined Beans, as specified by [JSR 362](https://jcp.org/en/jsr/detail?id=362). 
 There are two types of predefined

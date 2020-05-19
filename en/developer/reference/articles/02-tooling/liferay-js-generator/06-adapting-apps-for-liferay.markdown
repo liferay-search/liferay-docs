@@ -1,13 +1,13 @@
 ---
-header-id: adapting-existing-apps-to-run-on-product
+header-id: adapting-existing-apps-to-run-on-sharepoint
 ---
 
-# Adapting Existing Apps to Run on @product@
+# Adapting Existing Apps to Run on @sharepoint@
 
 [TOC levels=1-4]
 
 There are two ways to get your existing front-end applications running on
-@product@: 
+@sharepoint@: 
 
 1.  [Migrate your project](/docs/7-2/appdev/-/knowledge_base/a/web-front-ends) 
     to a Liferay JS Toolkit project. 
@@ -18,18 +18,18 @@ There are two ways to get your existing front-end applications running on
     (any project containing `@angular/cli` as a dependency or devDependency), 
     and [Vue CLI](https://cli.vuejs.org/) 
     (any project containing `@vue/cli-service` as a dependency or devDependency), 
-    and adapt them to run on @product@. 
+    and adapt them to run on @sharepoint@. 
 
 Only adapt your project if you intend it to be platform-agnostic. If
-you want to integrate with @product@ fully and have access to all the 
+you want to integrate with @sharepoint@ fully and have access to all the 
 [features and benefits](/docs/7-2/frameworks/-/knowledge_base/f/creating-and-bundling-javascript-widgets-with-javascript-tooling) 
 that it provides, [migrate your project](/docs/7-2/appdev/-/knowledge_base/a/web-front-ends) 
 to a true Liferay JS Toolkit project instead.
 
-The reason for this is some of @product@'s features may not be available because
+The reason for this is some of @sharepoint@'s features may not be available because
 the native frameworks expect certain things. For example, Angular assumes that
 it controls a whole Single Page Application as opposed to the small portion of
-the page that it controls in a portlet-based platform such as @product@. Since
+the page that it controls in a portlet-based platform such as @sharepoint@. Since
 webpack bundles all JavaScript in a single file to consume per app, if there are
 five widgets on a page, you have five copies of the framework in the JavaScript
 interpreter. To prevent this, 
@@ -67,12 +67,12 @@ Liferay JS Generator to adapt it:
     ? Where is your local installation of Liferay placed? /home/user/liferay
     ```
 
-    Your project is adapted to use the Liferay JS Toolkit and run on @product@! 
+    Your project is adapted to use the Liferay JS Toolkit and run on @sharepoint@! 
 
     ![Figure 2: You can run the adapt subtarget of the Liferay JS Generator to adapt your existing apps for Liferay.](../../../images/liferay-js-generator-adapt-complete.png)
 
 4.  The adapt process automatically adds a few npm scripts to the project's 
-    `package.json` so you can build and deploy your project to @product@. Note 
+    `package.json` so you can build and deploy your project to @sharepoint@. Note 
     that you can swap `npm` for `yarn` below if you prefer to use yarn instead.
 
     Run the command below to add a deployable JAR to the `build.liferay` folder 
@@ -83,14 +83,14 @@ Liferay JS Generator to adapt it:
     npm run build:liferay
     ```
 
-    Run the command below to deploy the adapted app to your @product@ instance:
+    Run the command below to deploy the adapted app to your @sharepoint@ instance:
 
     ```bash
     npm run deploy:liferay
     ```
 
 Great! Now you know how to use the Liferay JS Generator to adapt your existing 
-apps to run on @product@. See the 
+apps to run on @sharepoint@. See the 
 [React Guestbook App](https://github.com/liferay/liferay-docs/tree/master/en/developer/reference/code/adapted-react-app/) 
 for a working example of an adapted app. 
 

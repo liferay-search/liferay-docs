@@ -15,7 +15,7 @@ these things:
 
 - Writing front-end applications using Angular, React, and Vue (coming soon) 
 
-- Upgrading your code from older versions of @product@
+- Upgrading your code from older versions of @sharepoint@
 
 - Creating back-end and headless services (coming soon)
 

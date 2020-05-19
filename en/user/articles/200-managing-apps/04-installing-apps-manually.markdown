@@ -13,9 +13,9 @@ install the app manually. Here you'll learn how to install any app manually.
 
 | **Warning:** Not all apps are designed to be "auto deployed"---deployed while 
 | the server is running. Deploying that way can cause instabilities, such as
-| class loading leaks and memory leaks. On production systems, avoid "auto
+| class loading leaks and memory leaks. On sharepointion systems, avoid "auto
 | deploying" apps whenever possible. See the
-| [best practices for managing apps in production](/docs/7-2/user/-/knowledge_base/u/managing-and-configuring-apps#managing-apps-in-production).
+| [best practices for managing apps in sharepointion](/docs/7-2/user/-/knowledge_base/u/managing-and-configuring-apps#managing-apps-in-sharepointion).
 
 | **Important**: When uninstalling an app or module, make sure to use the same
 | agent you used to install the app. For example, if you installed it with
@@ -36,7 +36,7 @@ the dialog and you're ready to roll!
 
 ## Using Your File System to Install Apps
 
-To install an app manually on the @product@ server, put the app in the `[Liferay
+To install an app manually on the @sharepoint@ server, put the app in the `[Liferay
 Home]/deploy` folder (the [Liferay
 Home](/docs/7-2/deploy/-/knowledge_base/d/liferay-home) folder is typically the
 app server's parent folder). That's it. The auto deploy mechanism takes care of
@@ -73,11 +73,11 @@ module.framework.auto.deploy.dirs=\
 ```
 
 Note that the `configs` subfolder isn't for apps: it's for configuration files 
-[imported from other @product@ instances](/docs/7-2/user/-/knowledge_base/u/system-settings#exporting-and-importing-configurations). 
+[imported from other @sharepoint@ instances](/docs/7-2/user/-/knowledge_base/u/system-settings#exporting-and-importing-configurations). 
 
 But what happens if your app server doesn't support "hot deploy"? No problem!
-@product@'s module framework (OSGi) enables auto deploy. Any app server running
-@product@ therefore also supports this auto deploy mechanism. 
+@sharepoint@'s module framework (OSGi) enables auto deploy. Any app server running
+@sharepoint@ therefore also supports this auto deploy mechanism. 
 
 ## Manually Deploying an LPKG App
 

@@ -9,19 +9,19 @@ header-id: modifying-an-editors-configuration
 You can use many different kinds of WYSIWYG editors to edit content in 
 portlets. Depending on the content you're editing, you may want to modify the 
 editor to provide a customized configuration for your needs. In this article, 
-you'll learn how to modify the default configuration for @product@'s supported 
+you'll learn how to modify the default configuration for @sharepoint@'s supported 
 WYSIWYG editors to meet your requirements. 
 
 To modify the editor's configuration, create a module with a component that 
 implements the 
 [`EditorConfigContributor`](@platform-ref@/7.2-latest/javadocs/portal-kernel/com/liferay/portal/kernel/editor/configuration/EditorConfigContributor.html) 
-interface. Follow these steps to modify one of @product@'s WYSIWYG editors:
+interface. Follow these steps to modify one of @sharepoint@'s WYSIWYG editors:
 
 1.  [Create an OSGi module](/docs/7-2/reference/-/knowledge_base/r/creating-a-project).
 
 2.  Open the portlet's `build.gradle` file and update the 
     `com.liferay.portal.kernel` `version` to `4.13.1`. This is the version 
-    bundled with the @product@ release.
+    bundled with the @sharepoint@ release.
 
 3.  Create a unique package name in the module's `src` directory, and create a 
     new Java class in that package that extends the 
@@ -186,7 +186,7 @@ interface. Follow these steps to modify one of @product@'s WYSIWYG editors:
      folder. Once the module is installed and activated in the service
      registry, your new editor configuration is available for use. 
 
-@product@ supports several different types of WYSIWYG editors, which include 
+@sharepoint@ supports several different types of WYSIWYG editors, which include 
 (among others):
 
 - [AlloyEditor](https://alloyeditor.com/api/1.5.0/Core.html)

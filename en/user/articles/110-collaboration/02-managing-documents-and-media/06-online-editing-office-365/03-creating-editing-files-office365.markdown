@@ -21,7 +21,7 @@ Here, you'll learn how to do these things:
 
 The first time you create or edit a Documents and Media file via Office 
 365&trade;, you must authenticate with your Microsoft account. This links 
-OneDrive&trade; to your @product@ account, so you only need to do this once. You 
+OneDrive&trade; to your @sharepoint@ account, so you only need to do this once. You 
 can unlink your account at any time by navigating to User Menu &rarr; 
 *Account Settings* &rarr; *General* &rarr; *Apps*, and clicking *Revoke* next to 
 OneDrive&trade;. 
@@ -53,7 +53,7 @@ Follow these steps to create a new Documents and Media file via Office
     ![Figure 2: Select the type of document you want to create.](../../../../images/office365-new.png)
 
 3.  Enter the document's name in the *Title* field, and click *Save*. When you 
-    click *Save*, @product@ creates a temporary Documents and Media file and 
+    click *Save*, @sharepoint@ creates a temporary Documents and Media file and 
     links it to the new Office 365&trade; file. Your browser then opens a new 
     window with that Office 365&trade; file so you can create its content. 
 
@@ -61,7 +61,7 @@ Follow these steps to create a new Documents and Media file via Office
 
 4.  Use the Office 365&trade; editor to create your document's content. 
 
-5.  Save or discard your changes to @product@: 
+5.  Save or discard your changes to @sharepoint@: 
 
     **Check in:** Saves the Office 365&trade; file to Documents and Media, then 
     deletes the file from Office 365&trade;. The saved file's format depends on 

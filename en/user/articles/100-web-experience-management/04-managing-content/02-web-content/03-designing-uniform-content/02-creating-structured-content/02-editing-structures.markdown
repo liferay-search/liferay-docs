@@ -19,7 +19,7 @@ structures.
 
 ![Figure 1: Structures are not pre-installed. You have to make your own.](../../../../../../images/manage-structures.png)
 
-| Note: When you copy a structure, @product@ generates a unique ID for the copied
+| Note: When you copy a structure, @sharepoint@ generates a unique ID for the copied
 | structure, but every other attribute of the copied structure, including the
 | name, is the same as that of the original. When you copy web content structure,
 | enter a new name for it to avoid confusing it with the original. During the

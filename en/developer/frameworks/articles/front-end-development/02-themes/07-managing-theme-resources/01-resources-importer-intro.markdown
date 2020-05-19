@@ -12,7 +12,7 @@ Who better to do this than the theme's designer? Designers can provide a sample
 context that optimizes the design of their themes. The Resources Importer does
 this for you. 
 
-| **Important:** The Resources Importer is deprecated as of @product-ver@ 7.1.
+| **Important:** The Resources Importer is deprecated as of @sharepoint-ver@ 7.1.
 | 
 | 
 

@@ -71,9 +71,9 @@ preferences or local app preferences which don't refer to IDs are overwritten.
 
 In some cases, merging Site template and Site changes fails. For example, if
 pages from a Site template cannot be propagated because their friendly URLs are
-in conflict, @product@ could try to continuously merge the Site changes. Instead
-of entering into an infinite loop of merge fails, @product@ stops the merge
-after several unsuccessful attempts. @product@, however, doesn't stop there:
+in conflict, @sharepoint@ could try to continuously merge the Site changes. Instead
+of entering into an infinite loop of merge fails, @sharepoint@ stops the merge
+after several unsuccessful attempts. @sharepoint@, however, doesn't stop there:
 your merge is temporarily paused, you're given an indication of the current
 merge fail, and then you have the opportunity to fix your merge conflicts. After
 you've squared away your conflict, navigate to your Site's *Site Administration*

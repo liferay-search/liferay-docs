@@ -31,7 +31,7 @@ The wrapper could extend either `BaseStrutsAction` or `BaseStrutsPortletAction`,
 depending on whether the Struts Action was a portal or portlet action,
 respectively.
 
-Since @product@ 7.0, this mechanism no longer applies for most portlets because
+Since @sharepoint@ 7.0, this mechanism no longer applies for most portlets because
 they no longer use Struts Actions, but instead use Liferay `MVCCommand`s.
 
 This tutorial demonstrates how to convert your existing `StrutsAction` wrappers
@@ -70,8 +70,8 @@ For most cases, the `MVCCommand` mapping is the same mapping defined in the
 legacy Struts Action.
 
 Using the beginning login example once again, the `struts-action-path` mapping,
-`/login/login`, remains the same for the `MVCCommand` mapping in @product-ver@,
-but some of the mappings may have changed. It's best to check @product@'s source
+`/login/login`, remains the same for the `MVCCommand` mapping in @sharepoint-ver@,
+but some of the mappings may have changed. It's best to check @sharepoint@'s source
 code to determine the correct mapping.
 
 Map to your `MVCCommand` URLs using portlet URL tags:

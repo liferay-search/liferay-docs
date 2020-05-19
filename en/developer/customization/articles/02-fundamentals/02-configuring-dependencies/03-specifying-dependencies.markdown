@@ -6,13 +6,13 @@ header-id: specifying-dependencies
 
 [TOC levels=1-4]
 
-Compiling your project and deploying it to @product@ requires satisfying its
+Compiling your project and deploying it to @sharepoint@ requires satisfying its
 dependencies on external artifacts. After
 [finding the attributes of an artifact](/docs/7-2/customization/-/knowledge_base/c/finding-artifacts), 
 set a dependency for it in your build file. Here's how: 
 
-1.  Determine whether @product@ provides the Java packages you use from the 
-    artifact. These files list the packages @product@ exports:
+1.  Determine whether @sharepoint@ provides the Java packages you use from the 
+    artifact. These files list the packages @sharepoint@ exports:
 
     -   `modules/core/portal-bootstrap/system.packages.extra.bnd` file in the
         [GitHub repository](https://github.com/liferay/liferay-portal/blob/7.2.x/modules/core/portal-bootstrap/system.packages.extra.bnd).
@@ -20,11 +20,11 @@ set a dependency for it in your build file. Here's how:
 
     -   `META-INF/system.packages.extra.mf` file in
         `[LIFERAY_HOME]/osgi/core/com.liferay.portal.bootstrap.jar`. The file is
-        available in @product@ bundles. It lists exported packages in a
+        available in @sharepoint@ bundles. It lists exported packages in a
         paragraph wrapped at 70 columns--they're harder to read here than in the
         `system.packages.extra.bnd` file. 
 
-2.  If @product@ exports all the packages you use from the artifact, specify the
+2.  If @sharepoint@ exports all the packages you use from the artifact, specify the
     artifact as a compile-only dependency. This prevents your build framework
     from bundling the artifact with your project. Here's how to make the
     dependency compile-only:
@@ -67,8 +67,8 @@ dependencies {
 ```
 
 | **Important:**
-| [@product@ exports many third-party packages](/docs/7-2/reference/-/knowledge_base/r/third-party-packages-portal-exports).
-| Deploy your module to check if @product@ or another module in your Liferay
+| [@sharepoint@ exports many third-party packages](/docs/7-2/reference/-/knowledge_base/r/third-party-packages-portal-exports).
+| Deploy your module to check if @sharepoint@ or another module in your Liferay
 | instance's OSGi runtime framework provides the package you need. If it's
 | provided already, specify the corresponding dependency as being "provided".
 | Here's how to specify a provided dependency:
@@ -86,7 +86,7 @@ Party Library Dependencies](/docs/7-2/customization/-/knowledge_base/c/adding-th
 |
 | If you're developing a WAR that requires a different version of a third-party 
 | package that
-| [@product@ or another module exports](/docs/7-2/reference/-/knowledge_base/r/third-party-packages-portal-exports),
+| [@sharepoint@ or another module exports](/docs/7-2/reference/-/knowledge_base/r/third-party-packages-portal-exports),
 | specify that package in your
 | [`Import-Package:` list](/docs/7-2/customization/-/knowledge_base/c/importing-packages).
 | If the package provider is an OSGi module, publish its exported packages by 

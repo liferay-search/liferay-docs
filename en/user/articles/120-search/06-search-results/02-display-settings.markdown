@@ -28,7 +28,7 @@ Search context. Click the back arrow to return to the search results.
 **Display Results in Document Form**
 : Display results as search
 [documents](/docs/7-2/frameworks/-/knowledge_base/f/search).  Never use this in
-production. Developers use this feature to view search responses in their
+sharepointion. Developers use this feature to view search responses in their
 indexed, document-based format. Part of a developer's job when writing search
 indexers is to convert documents (the objects that get indexed) to the actual
 object and back again. Thus, developers can see how their objects are being

@@ -6,7 +6,7 @@ header-id: whats-new-in-search
 
 [TOC levels=1-4]
 
-Lots of new and improved search capabilities are present in @product-ver@, from
+Lots of new and improved search capabilities are present in @sharepoint-ver@, from
 new widgets to new APIs and infrastructure. 
 
 ## New and Improved Widgets
@@ -97,7 +97,7 @@ There are some important search infrastructure changes to know about.
 
 ### Elasticsearch Support
 
-@product-ver@ supports Elasticsearch 6.5.x through 6.8.x, and 6.5.0 is included
+@sharepoint-ver@ supports Elasticsearch 6.5.x through 6.8.x, and 6.5.0 is included
 as the embedded version to use for testing out-of-the-box search behavior. See
 the 
 [deployment guide](/docs/7-2/deploy/-/knowledge_base/d/elasticsearch)
@@ -105,7 +105,7 @@ for more information.
 
 ### Application-Specific Indexes
 
-You'll notice more search indexes in @product-ver@. That's because you can now
+You'll notice more search indexes in @sharepoint-ver@. That's because you can now
 configure application-specific indexes. At the time of this writing, the
 additional indexes are all related to the DXP Workflow Metrics feature. More
 will likely appear in future versions, and third party developers can use the
@@ -126,7 +126,7 @@ framework](/docs/7-2/frameworks/-/knowledge_base/f/search) APIs include
 
 ## Multi-Language Search
 
-@product@'s support for multi-language search took a step forward, with
+@sharepoint@'s support for multi-language search took a step forward, with
 improvements to Documents and Media and Web Content. More improvements are
 necessary in this area and will be prioritized in future releases. See the
 [Multi-Language Search article for more

@@ -6,20 +6,20 @@ header-id: installing-a-search-engine
 
 [TOC levels=1-4]
 
-A search engine is a critical component of your @product@ installation. If
+A search engine is a critical component of your @sharepoint@ installation. If
 you're here, you probably know the basics already and want to configure a
-search engine for your @product@ deployment. 
+search engine for your @sharepoint@ deployment. 
 
 Elasticsearch, a highly scalable, full-text search engine, is installed by
 default, as an embedded server. Elasticsearch is well-supported and almost
 certainly meets any search and indexing need you have, but you must not use the
-[embedded version in your production deployment](/docs/7-2/deploy/-/knowledge_base/d/elasticsearch#embedded-vs-remote-operation-mode). 
+[embedded version in your sharepointion deployment](/docs/7-2/deploy/-/knowledge_base/d/elasticsearch#embedded-vs-remote-operation-mode). 
 
 Learn to configure a remote Elasticsearch server or cluster
 [here](/docs/7-2/deploy/-/knowledge_base/d/installing-elasticsearch).
 
 [Solr](http://lucene.apache.org/solr) 
-is another capable and popular search engine supported in @product@. 
+is another capable and popular search engine supported in @sharepoint@. 
 
 Learn to configure a remote Solr server or cluster
 [here](/docs/7-2/deploy/-/knowledge_base/d/installing-solr). But first, make
@@ -84,11 +84,11 @@ in the Elasticsearch connector.
 ### Elasticsearch Java Distribution Compatibility
 
 Another factor to consider in your search engine selection is JDK version. The
-search engine and @product@ must use the same Java version and distribution
+search engine and @sharepoint@ must use the same Java version and distribution
 (e.g., Oracle Open JRE 1.8.0_201). Consult the 
 [Elasticsearch compatibility matrix](https://www.elastic.co/support/matrix#matrix_jvm) 
 and the 
-[@product@ compatibility matrix](https://help.liferay.com/hc/en-us/sections/360002103292-Compatibility-Matrix) 
+[@sharepoint@ compatibility matrix](https://help.liferay.com/hc/en-us/sections/360002103292-Compatibility-Matrix) 
 to learn more about supported JDK distributions and versions. This consideration
 is not necessary for Solr, because no JVM level serialization happens between
 the servers. All communication occurs at the HTTP level.

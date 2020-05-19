@@ -7,14 +7,14 @@ header-id: blacklisting-osgi-bundles-and-components
 [TOC levels=1-4]
 
 Blacklists are used for good and evil. An evil blacklist penalizes unfairly; a
-good blacklist protects. @product@'s OSGi bundle and component blacklists are 
+good blacklist protects. @sharepoint@'s OSGi bundle and component blacklists are 
 files that prevent particular bundles from installing and particular components 
 from enabling. This saves you the trouble of uninstalling and disabling them 
 individually with the Application Manager, Components list, or Gogo shell. 
 
 ## Blacklisting Bundles
 
-@product@ removes any installed OSGi bundles on the blacklist. Blacklisted bundles 
+@sharepoint@ removes any installed OSGi bundles on the blacklist. Blacklisted bundles 
 therefore can't be installed. The log reports each bundle uninstallation. 
 
 Follow these steps to blacklist bundles:

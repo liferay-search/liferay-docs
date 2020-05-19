@@ -32,7 +32,7 @@ by themselves, Components work together to build pages piece by piece.
 
 ![Figure 3: Here are several of Liferay's out of the box components arranged in the layout you saw previously.](../../../../../images/content-page-component-example.png)
 
-@product@ ships with a plethora of Layouts, Sections, and Components to use to
+@sharepoint@ ships with a plethora of Layouts, Sections, and Components to use to
 build pages, and a
 [web developer can create their own Fragments](/docs/7-2/frameworks/-/knowledge_base/f/creating-fragments)
 to add to these. 

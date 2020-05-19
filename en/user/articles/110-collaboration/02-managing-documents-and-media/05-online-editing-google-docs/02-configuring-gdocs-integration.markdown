@@ -7,7 +7,7 @@ header-id: configuring-google-docs-integration
 [TOC levels=1-4]
 
 Before you can use Google Docs&trade; to create and edit Documents and Media 
-files, you must configure @product@ to connect with an application in the 
+files, you must configure @sharepoint@ to connect with an application in the 
 [Google API Console](https://console.developers.google.com). 
 
 | **Note:** You must be an administrator to complete these steps. 
@@ -35,11 +35,11 @@ API and set up OAuth 2 for use with that project.
 
 ## Configuring the Portal
 
-Now that you have a Google project set up for use with @product@, you must 
+Now that you have a Google project set up for use with @sharepoint@, you must 
 connect your installation to that project. You can do this at two scopes: 
 
-1.  Globally, for all instances in your @product@ installation.
-2.  At the instance scope, for one or more instances in your @product@ 
+1.  Globally, for all instances in your @sharepoint@ installation.
+2.  At the instance scope, for one or more instances in your @sharepoint@ 
     installation. 
 
 You can override the global configuration for one or more instances by 
@@ -47,7 +47,7 @@ configuring those instances separately. Similarly, you can configure only the
 instances you want to connect to your Google project and leave the global 
 configuration empty. 
 
-Follow these steps to configure your @product@ installation to connect to your 
+Follow these steps to configure your @sharepoint@ installation to connect to your 
 Google project: 
 
 1.  Note that the configuration options are the same in the global and 
@@ -70,6 +70,6 @@ Google project:
 | values from the form. 
 
 | **Note:** You can ignore the *Picker API Key* field. This field is unrelated 
-| to the Google Docs&trade; online editing features in @product@. 
+| to the Google Docs&trade; online editing features in @sharepoint@. 
 
 ![Figure 1: Enter your Google project's OAuth 2 client ID and client secret.](../../../../images/google-drive-system-settings.png)

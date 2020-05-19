@@ -133,4 +133,4 @@ These are some of the pre-configured organization roles:
 
 Roles, and the permissions granted with their assignment, are foundational
 components in Liferay. Understanding their uses and configuration enhances
-your ability to configure @product@ to suit your organizational needs.
+your ability to configure @sharepoint@ to suit your organizational needs.

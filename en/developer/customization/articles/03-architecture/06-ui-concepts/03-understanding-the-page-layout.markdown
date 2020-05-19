@@ -22,10 +22,10 @@ default page layout is organized into three key sections in its
 ## Portlets or Fragments
 
 The `#content` `Section` makes up the majority of the page. Portlets or 
-fragments are contained inside the `#main-content` `div`. @product@ ships with 
+fragments are contained inside the `#main-content` `div`. @sharepoint@ ships with 
 a default set of applications that provide common functionality, such as forums 
 and Wikis, documents and media, blogs, and more. For more information on using 
-@product@ and its native portlets, see the 
+@sharepoint@ and its native portlets, see the 
 [User & Admin documentation](/documentation/user). 
 You can also create custom portlets for your site. Portlets can be added via the
 Add Menu (referred to as widget), included in a sitemap through the 
@@ -51,7 +51,7 @@ As shown in the diagram above, you can also add
 [fragments](/docs/7-2/frameworks/-/knowledge_base/f/page-fragments) 
 to a page. Fragments are components---composed of CSS, JavaScript, and
 HTML---that provide key pieces of functionality for the page (i.e. a carousel or
-banner). @product@ provides an editor for creating collections of fragments that
+banner). @sharepoint@ provides an editor for creating collections of fragments that
 you can then add to the page. These fragments can be edited on the page to suit
 your vision. 
 
@@ -86,11 +86,11 @@ can trigger through the Control Menu. These are listed below:
   user account settings, profile, and dashboard page
 - **Simulation Panel:** Simulates how the page appears on different devices
 
-![Figure 3: Remember to account for the product navigation sidebars and panels when styling your site.](../../../images/portal-layout-nav-control-menu.png)
+![Figure 3: Remember to account for the sharepoint navigation sidebars and panels when styling your site.](../../../images/portal-layout-nav-control-menu.png)
 
 ![Figure 4: The Add Menu pushes the main contents to the left.](../../../images/portal-layout-nav-add-menu.png)
 
-![Figure 5: The Product Menu pushes the main contents to the right.](../../../images/portal-layout-nav-product-menu.png)
+![Figure 5: The Product Menu pushes the main contents to the right.](../../../images/portal-layout-nav-sharepoint-menu.png)
 
 ![Figure 6: The Simulation Panel pushes the main contents to the left.](../../../images/portal-layout-nav-simulation-panel.png)
 
@@ -99,7 +99,7 @@ for absolutely positioned elements, such as a fixed navbar. If the user is
 logged in and can view the Control Menu, the fixed navbar must have a top margin 
 equal to the Control Menu's height. 
 
-See the [Product Navigation articles](/docs/7-2/customization/-/knowledge_base/c/product-navigation) 
+See the [Product Navigation articles](/docs/7-2/customization/-/knowledge_base/c/sharepoint-navigation) 
 for more information on customizing these menus. 
 
 ## Related Topics

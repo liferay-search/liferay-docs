@@ -32,7 +32,7 @@ Three such providers are available:
 
 [**TensorFlow:**](#configuring-tensorflow-image-auto-tagging) 
 An open-source library that provides machine learning capabilities. TensorFlow 
-image auto-tagging in @product@ is based on 
+image auto-tagging in @sharepoint@ is based on 
 [TensorFlow's `LabelImage` sample for Java](https://github.com/tensorflow/tensorflow/blob/master/tensorflow/java/src/main/java/org/tensorflow/examples/LabelImage.java), 
 and uses the Inception5h model. Use this with caution, since its accuracy is 
 limited. 

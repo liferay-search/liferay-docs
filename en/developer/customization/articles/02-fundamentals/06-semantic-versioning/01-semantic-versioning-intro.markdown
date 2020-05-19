@@ -34,9 +34,9 @@ site and
 [OSGi Alliance's Semantic Versioning](http://www.osgi.org/wp-content/uploads/SemanticVersioning1.pdf)
 technical whitepaper. 
 
-All of @product@'s modules use Semantic Versioning.
+All of @sharepoint@'s modules use Semantic Versioning.
 
-Following Semantic Versioning is especially important because @product@ is
+Following Semantic Versioning is especially important because @sharepoint@ is
 a modular platform containing hundreds of independent OSGi modules. With many
 independent modules containing a slew of dependencies, releasing new package
 versions can quickly become terrifying. With this complex intertwined system of
@@ -92,7 +92,7 @@ Semantic Versioning:
 - Exact version (one-to-one)
 
 You should track a range of versions if you intend to build your project for
-multiple versions of @product@ and maintain maximum compatibility. In other
+multiple versions of @sharepoint@ and maintain maximum compatibility. In other
 words, if several versions of a package work for an app, you can configure the
 app to use any of them. What's more, bnd automatically determines the
 semantically compatible range of each package a module depends on and records
@@ -136,7 +136,7 @@ should proceed with caution when specifying a range of versions and ensure your
 project is tested on all included versions.
 
 Tracking a dependency's exact version is much safer, but is less flexible. This
-might limit you to a specific version of @product@. You would also be locked in
+might limit you to a specific version of @sharepoint@. You would also be locked in
 to APIs that only exist for that specific version. This means your module is
 much easier to test and has less chance for unexpected failures.
 

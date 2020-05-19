@@ -21,7 +21,7 @@ for queries and one for filters. Both APIs lived in `portal-kernel` (the 7.1
 source code for filters is 
 [here](https://github.com/liferay/liferay-portal/tree/7.1.x/portal-kernel/src/com/liferay/portal/kernel/search/filter)).
 
-In @product-ver@, there's a new way of querying and filtering via Liferay's
+In @sharepoint-ver@, there's a new way of querying and filtering via Liferay's
 Search API, and the APIs for it live in the `portal-search-api` module. Instead
 of calling specific filter APIs, you'll now construct a query and add it to the
 search request, specifying it as a filter using the
@@ -233,7 +233,7 @@ module's [source code](https://github.com/liferay/liferay-portal/tree/7.2.x/modu
 
 * Elasticsearch 6: Yes
 * Solr 7: No* (Only the "legacy" query types from
-  `com.liferay.portal.kernel.search.*` are supported as of @product@ Beta 2.)
+  `com.liferay.portal.kernel.search.*` are supported as of @sharepoint@ Beta 2.)
 
 ## New/Related APIs
 

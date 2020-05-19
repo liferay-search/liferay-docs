@@ -9,7 +9,7 @@ header-id: referencing-an-npm-modules-package
 Once you've 
 [exposed your modules](/docs/7-2/frameworks/-/knowledge_base/f/using-javascript-in-your-portlets), 
 you can use them in your portlet via the `aui:script` tag's `require` attribute. 
-By default, @product@ automatically composes an npm module's JavaScript variable 
+By default, @sharepoint@ automatically composes an npm module's JavaScript variable 
 based on its name. For example, the module `my-package@1.0.0` translates to the 
 variable `myPackage100` for the `<aui:script>` tag's `require` attribute. This 
 means that each time a new version of the OSGi bundle's npm package is released, 
@@ -118,4 +118,4 @@ Now you know how to reference an npm module's package!
 
 - [Obtaining an OSGi bundle's Dependency npm Package Descriptors](/docs/7-2/frameworks/-/knowledge_base/f/obtaining-dependency-npm-package-descriptors)
 - [liferay-npm-bundler](/docs/7-2/reference/-/knowledge_base/r/liferay-npm-bundler)
-- [How @product@ Publishes npm Packages](/docs/7-2/reference/-/knowledge_base/r/how-the-liferay-npm-bundler-publishes-npm-packages)
+- [How @sharepoint@ Publishes npm Packages](/docs/7-2/reference/-/knowledge_base/r/how-the-liferay-npm-bundler-publishes-npm-packages)

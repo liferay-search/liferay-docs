@@ -44,7 +44,7 @@ template with a theme:
 }
 ```
 
-Now you know how to include layout templates with your @product@ themes! 
+Now you know how to include layout templates with your @sharepoint@ themes! 
 
 ## Related topics
 

@@ -52,5 +52,5 @@ Parameter Name | Type | Default Value | Description
 `langFileName` | `String` | `"Language"` | The file name prefix of the language properties files (e.g., `Language_it.properties`).
 `plugin` | `boolean` | `true` | Whether to check for duplicate language keys between the project and the portal.
 `portalLanguagePropertiesFileName` | `String` | `null` | The `Language.properties` file of the portal.
-`translate` | `boolean` | `true` | Whether to translate the language keys and generate a language properties file for each locale that's supported by @product@.
+`translate` | `boolean` | `true` | Whether to translate the language keys and generate a language properties file for each locale that's supported by @sharepoint@.
 `translateSubscriptionKey` | `String` | `null` | The subscription key for Microsoft Translation integration. Subscription to the Translator Text Translation API on Microsoft Cognitive Services is required. Basic subscriptions, up to 2 million characters a month, are free.

@@ -16,6 +16,6 @@ window, open the Setup tab's Subscriptions tab. There you can enable/disable the
 
 Enabling Email Subscription adds a *Subscribe* link to the Asset Publisher.
 Users wishing to be notified of newly published assets can click on this link to
-be added to the subscription list. @product@ periodically checks for new assets
+be added to the subscription list. @sharepoint@ periodically checks for new assets
 and sends emails to subscribed users informing them about the new assets. By
 default, Liferay performs this check every twenty-four hours.

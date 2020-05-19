@@ -15,7 +15,7 @@ and run it to install
 [Blade CLI](/docs/7-2/reference/-/knowledge_base/r/blade-cli) (default
 CLI for workspace), initialize a new Liferay Workspace, and download @ide@.
 
-Liferay Workspace is the official way to create/manage @product-ver@ projects
+Liferay Workspace is the official way to create/manage @sharepoint-ver@ projects
 using Gradle. Do you prefer Maven over Gradle? You can also generate a
 Maven-based workspace.
 
@@ -54,9 +54,9 @@ optional folders. This provides you the power to customize your workspace's
 folder structure any way you'd like. The top-level files/folder of a Liferay
 (Gradle) Workspace are outlined below:
 
-- `bundles` (generated): the default folder for @product@ bundles.
+- `bundles` (generated): the default folder for @sharepoint@ bundles.
 - `configs`: holds the configuration files for different environments. These
-  files serve as your global configuration files for all @product@ servers and
+  files serve as your global configuration files for all @sharepoint@ servers and
   projects residing in your workspace. To learn more about using the `configs`
   folder, see the [Testing Projects](#testing-projects) section.
 - `ext` (generated): holds the Ext OSGi modules and Ext plugins.
@@ -71,7 +71,7 @@ folder structure any way you'd like. The top-level files/folder of a Liferay
   [`theme`](/docs/7-2/reference/-/knowledge_base/r/theme-template) project
   template).
 - `build.gradle`: the common Gradle build file.
-- `gradle.properties`: specifies the workspace's project locations and @product@
+- `gradle.properties`: specifies the workspace's project locations and @sharepoint@
   server configuration globally. 
 - `gradle-local.properties`: sets user-specific properties for your workspace.
   This lets multiple users use a single workspace, letting them configure
@@ -176,15 +176,15 @@ article.
 
 ### Testing Projects
 
-Liferay provides many configuration settings for @product-ver@. Configuring
-several different @product@ installations to simulate/test certain behaviors can
+Liferay provides many configuration settings for @sharepoint-ver@. Configuring
+several different @sharepoint@ installations to simulate/test certain behaviors can
 become cumbersome and time consuming. With Liferay Workspace, you can easily
 organize environment settings and generate an environment installation with
 those settings.
 
 Liferay Workspace provides the `configs` folder, which lets you configure
 different environments in the same workspace. For example, you could configure
-separate @product@ environment settings for development, testing, and production
+separate @sharepoint@ environment settings for development, testing, and sharepointion
 in a single Liferay Workspace. So how does it work?
 
 The `configs` folder offers six subfolders:
@@ -198,22 +198,22 @@ environments.
 
 `local`: holds the configuration intended for testing locally.
 
-`prod`: holds the configuration for a production site.
+`prod`: holds the configuration for a sharepointion site.
 
 `uat`: holds the configuration for a UAT site.
 
 You're not limited to just these environments. You can create any subfolder in
 the `configs` folder (e.g., `aws`, `test`, etc.) to simulate any environment.
 Each environment folder can supply its own database, `portal-ext.properties`,
-Elasticsearch, etc. The files in each folder overlay your @product@
+Elasticsearch, etc. The files in each folder overlay your @sharepoint@
 installation, which you generate from within workspace.
 
-![Figure 1: The `configs/common` and `configs/[environment]` overlay you @product@ bundle when it's generated.](../../../images/workspace-configs.png)
+![Figure 1: The `configs/common` and `configs/[environment]` overlay you @sharepoint@ bundle when it's generated.](../../../images/workspace-configs.png)
 
-When workspace generates a @product@ bundle, these things happen:
+When workspace generates a @sharepoint@ bundle, these things happen:
 
 1.  Configuration files found in the `configs/common` folder are applied to the
-    @product@ bundle.
+    @sharepoint@ bundle.
 
 2.  The configured workspace environment (`dev`, `local`, etc.) is applied on
     top of any existing configurations from the `common` folder.

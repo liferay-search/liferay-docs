@@ -6,7 +6,7 @@ header-id: servlet
 
 [TOC levels=1-4]
 
-The Servlet sample provides an OSGi Whiteboard Servlet in @product@. When
+The Servlet sample provides an OSGi Whiteboard Servlet in @sharepoint@. When
 deploying this sample and configuring the servlet, a *Hello World* message is
 displayed when accessing the servlet page URL. Log info is also outputted to
 your console.
@@ -15,7 +15,7 @@ your console.
 
 ![Figure 2: The servlet also logs info in the console.](../../../images/servlet-sample-log.png)
 
-To configure the servlet in @product@, complete the following steps:
+To configure the servlet in @sharepoint@, complete the following steps:
 
 1.  Navigate to the *Control Panel* &rarr; *Configuration* &rarr; *Server
     Administration* &rarr; *Log Levels*.
@@ -37,7 +37,7 @@ API.
 
 To customize this sample, modify its
 `com.liferay.blade.samples.servlet.BladeServlet` class. This class extends the
-`HttpServlet` class. Creating your own servlet for @product@ is useful when you
+`HttpServlet` class. Creating your own servlet for @sharepoint@ is useful when you
 need to implement servlet actions. For example, if you wanted to implement the
 CMIS server by yourself with [Apache Chemistry](https://chemistry.apache.org/),
 you would need to implement your own servlet, managing requests at a low level.

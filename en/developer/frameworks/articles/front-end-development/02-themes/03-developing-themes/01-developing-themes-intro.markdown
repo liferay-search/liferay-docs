@@ -36,7 +36,7 @@ override settings that trigger them (if applicable):
 - Layout template caching is disabled (`layout.template.cache.enabled=false`).
 - The server does not launch a browser when starting (`browser.launcher.url=`).
 - FreeMarker Templates for themes and web content are not cached, so changes
-  are applied immediately (via the system setting in your @product@ instance).
+  are applied immediately (via the system setting in your @sharepoint@ instance).
 - Minification of CSS and JavaScript resources is disabled
   (`minifier.enabled=false`).
 

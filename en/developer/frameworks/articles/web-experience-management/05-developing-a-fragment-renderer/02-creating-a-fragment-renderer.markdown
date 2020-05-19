@@ -8,7 +8,7 @@ header-id: creating-a-fragment-renderer
 
 Creating a Fragment Renderer lets you call Liferay's provided Java APIs for
 back-end tasks related to your Fragment. In this article, you'll create a sample
-Fragment Renderer that displays values stored in the current @product@
+Fragment Renderer that displays values stored in the current @sharepoint@
 instance's database.
 
 1.  [Create a default module project](/docs/7-2/reference/-/knowledge_base/r/creating-a-project)

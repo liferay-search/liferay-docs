@@ -6,7 +6,7 @@ header-id: search-tuning-customizing-search-results
 
 [TOC levels=1-4]
 
-Starting with @product-ver@ Service Pack 1, new search tuning features are
+Starting with @sharepoint-ver@ Service Pack 1, new search tuning features are
 available for administrative Users: Custom Result Rankings is one of them.
 
 Result Rankings provides a brute force method for intervening into the relevance
@@ -53,9 +53,9 @@ Elasticsearch as the search engine. If you're using Solr, make sure you disable
 the 
 [search tuning features](/docs/7-2/deploy/-/knowledge_base/d/installing-solr#blacklisting-elasticsearch-only-features)
 (Synonym Sets and Result Rankings) when you upgrade your installation to
-@product@ Service Pack 1 (Fix Pack 2).
+@sharepoint@ Service Pack 1 (Fix Pack 2).
 
-Results Rankings was added in @product-ver@ Service Pack 1.
+Results Rankings was added in @sharepoint-ver@ Service Pack 1.
 
 ## Requirements and Limitations
 
@@ -64,8 +64,8 @@ only to that Virtual Instance. Instead, custom rankings made in one virtual
 Instance are shared across all Virtual Instances in the deployment, and even
 across separate deployments sharing an Elasticsearch cluster (in a multi-tenant
 scenario). Therefore, Result rankings shouldn't be used when connecting
-multiple @product@ deployments to the same Elasticsearch cluster unless you
-intend for the same Result rankings to apply to every @product@ deployment. See 
+multiple @sharepoint@ deployments to the same Elasticsearch cluster unless you
+intend for the same Result rankings to apply to every @sharepoint@ deployment. See 
 [LPS-101291](https://issues.liferay.com/browse/LPS-101291)
 for more information.
 
@@ -185,7 +185,7 @@ User.
 
 ## Result Rankings Aliases versus Synonyms
 
-Since both are new features without precedent in @product@, there can be
+Since both are new features without precedent in @sharepoint@, there can be
 confusion over Result Rankings Aliases and Synonyms.
 [Synonyms](/docs/7-2/user/-/knowledge_base/u/search-tuning-synonym-sets) 
 expand the search to include results matched by additional (synonymous)

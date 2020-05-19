@@ -6,7 +6,7 @@ header-id: migrating-a-service-builder-module-from-spring-di-to-osgi-ds
 
 [TOC levels=1-4]
 
-Prior to @product@ 7.2, Service Builder modules could only use Spring for
+Prior to @sharepoint@ 7.2, Service Builder modules could only use Spring for
 dependency injection (DI). Now 
 [OSGi Declarative Services](/docs/7-2/frameworks/-/knowledge_base/f/declarative-services) (DS) is
 the default dependency injection mechanism for new Service Builder modules. It's

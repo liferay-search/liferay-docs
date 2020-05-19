@@ -35,7 +35,7 @@ Next, you can use your new Segment to define behaviors on your server.
 ## Getting Segment Analytics
 
 After you create and sync a Segment in Analytics Cloud, you can view it and
-customize it in @product@.
+customize it in @sharepoint@.
 
 1.  Go to the *Segments* page.
 

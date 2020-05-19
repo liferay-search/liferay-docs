@@ -6,10 +6,10 @@ header-id: finding-extension-points
 
 [TOC levels=1-4]
 
-@product@ provides many features that help users accomplish their tasks. 
+@sharepoint@ provides many features that help users accomplish their tasks. 
 Sometimes, however, you may find it necessary to [customize a built-in feature](/docs/7-2/customization).
 It's easy to **find** an area you want to customize, but it may seem like a 
-daunting task to figure out **how** to customize it. @product@ was developed for 
+daunting task to figure out **how** to customize it. @sharepoint@ was developed for 
 easy customization, meaning it has many extension points you can use to add 
 your own flavor. 
 
@@ -22,7 +22,7 @@ There's a process you can follow that makes finding an extension point a breeze.
 
 This article demonstrates finding an extension point. It steps through a simple 
 example that locates an extension point for importing LDAP users. The example 
-includes using @product@'s 
+includes using @sharepoint@'s 
 [Application Manager](/docs/7-2/user/-/knowledge_base/u/managing-and-configuring-apps#using-the-app-manager) 
 and 
 [Felix Gogo Shell](/docs/7-2/customization/-/knowledge_base/c/using-the-felix-gogo-shell). 
@@ -118,7 +118,7 @@ to learn how to override a component's service reference.
 **Important** Not all Liferay extension points are available as referenced 
 services. Service references are common in Declarative Services (DS) components, 
 but extension points can be exposed in other ways too. Here's a brief list of 
-other potential extension points in @product@:
+other potential extension points in @sharepoint@:
 
 - Instances of `org.osgi.util.tracker.ServiceTracker<S, T>`
 - Uses of Liferay's `Registry.getServiceTracker`

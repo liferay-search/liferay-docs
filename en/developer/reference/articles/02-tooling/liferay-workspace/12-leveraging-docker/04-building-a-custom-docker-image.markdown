@@ -8,7 +8,7 @@ header-id: building-a-custom-docker-image
 
 You can preserve your container's configuration by building it as an image.
 
-1.  Build your custom @product@ image by running
+1.  Build your custom @sharepoint@ image by running
 
     ```bash
     ./gradlew buildDockerImage
@@ -27,4 +27,4 @@ You can preserve your container's configuration by building it as an image.
 
 2.  Run `docker image ls` to verify the image's availability.
 
-You can now build @product@ Docker images in Liferay Workspace!
+You can now build @sharepoint@ Docker images in Liferay Workspace!

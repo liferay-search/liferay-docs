@@ -171,22 +171,22 @@ to that version, `dm wtf` shows that the schema version is not registered.
 The `dm wtf` command can also help detect errors in portlet definitions and
 custom portlet `schemaVersion` fields. 
 
-Browsing the @product@ database `Release_` table can help you determine a
+Browsing the @sharepoint@ database `Release_` table can help you determine a
 module's upgrade status too. The core's `servletContextName` field value is
-`portal`. If the core's `schemaVersion` field matches your new @product@ version
+`portal`. If the core's `schemaVersion` field matches your new @sharepoint@ version
 (e.g., `7.2.1` for Liferay Portal CE GA2) and the `verified` field is `1`
 (true), the core upgrade completed successfully. 
 
 Each module has one `Release_` table record, and the value for its
 `schemaVersion` field must be `1.0.0` or greater (`1.0.0` is the initial version
-for @product-ver@ modules, except for those that were previously traditional
+for @sharepoint-ver@ modules, except for those that were previously traditional
 plugins intended for Liferay Portal version 6.2 or earlier). 
 
 ## Executing verify processes
 
 Some modules have verify processes. These make sure the upgrade executed
 successfully. Verify processes in the core are automatically executed after
-upgrading @product@. You can also execute them by configuring the
+upgrading @sharepoint@. You can also execute them by configuring the
 [`verify.*` portal properties](@platform-ref@/7.2-latest/propertiesdoc/portal.properties.html#Verify)
 and restarting your server.
 

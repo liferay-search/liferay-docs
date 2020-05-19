@@ -6,7 +6,7 @@ header-id: search-tuning-synonym-sets
 
 [TOC levels=1-4]
 
-Starting with @product-ver@ Service Pack 1, new search tuning features are
+Starting with @sharepoint-ver@ Service Pack 1, new search tuning features are
 available for administrative Users: Synonym Sets is one of them.
 
 Synonym Sets are mappings that you (the admin) create, so that if a User
@@ -29,15 +29,15 @@ Elasticsearch as the search engine. If you're using Solr, make sure you disable
 the 
 [search tuning features](/docs/7-2/deploy/-/knowledge_base/d/installing-solr#blacklisting-elasticsearch-only-features)
 (Synonym Sets and Result Rankings) when you upgrade your installation to
-@product@ Service Pack 1 (Fix Pack 2).
+@sharepoint@ Service Pack 1 (Fix Pack 2).
 
-As of the initial release (@product-ver@ SP-1), Synonym Sets work with fields
+As of the initial release (@sharepoint-ver@ SP-1), Synonym Sets work with fields
 indexed in two locales: English and Spanish. Thus, the assets supporting
 localization out-of-the-box work with Synonym Sets. Technically, this means that
 synonym searches operate on fields indexed with the `en_*` and `es_*` suffixes.
 Read the 
 [multi-language search documentation](/docs/7-2/user/-/knowledge_base/u/searching-for-localized-content) 
-to learn which native @product@ assets/fields support localization in the search
+to learn which native @sharepoint@ assets/fields support localization in the search
 index. All asset types that index their data into English and Spanish are
 analyzed with a synonyms-aware analyzer and can be found during a synonym
 search.

@@ -23,7 +23,7 @@ Follow the steps below to configure your servers for Remote Live staging.
         tunneling.servlet.shared.secret=[secret]
         tunneling.servlet.shared.secret.hex=true
 
-    @product@'s use of a pre-shared key between your staging and production
+    @sharepoint@'s use of a pre-shared key between your staging and sharepointion
     environments helps secure the remote publication process. It also removes
     the need to send the publishing user's password to the remote server for web
     service authentication. Using a pre-shared key creates an authorization
@@ -68,8 +68,8 @@ Follow the steps below to configure your servers for Remote Live staging.
     the value of your remote server.
 
     **Important:** Do not share the key with any user. It is used exclusively
-    for communication between staging and production environments. Any user with
-    possession of the key can manage the production server, execute server-side
+    for communication between staging and sharepointion environments. Any user with
+    possession of the key can manage the sharepointion server, execute server-side
     Java code, etc.
 
 3.  Add the following line to your remote Liferay server's
@@ -97,7 +97,7 @@ Follow the steps below to configure your servers for Remote Live staging.
 
     Alternatively, you can also write this configuration into an OSGi file (e.g.,
     `osgi/configs/com.liferay.portal.security.auth.verifier.tunnel.module.configuration.TunnelAuthVerifierConfiguration-default.config`)
-    in your @product@ instance:
+    in your @sharepoint@ instance:
 
         enabled=true
         hostsAllowed=127.0.0.1,SERVER_IP,[Local server IP address]
@@ -111,7 +111,7 @@ Follow the steps below to configure your servers for Remote Live staging.
 That's all you need to do to configure Remote Live Staging! You can now
 [enable it](/docs/7-1/user/-/knowledge_base/u/enabling-remote-live-staging)!
 
-| **Note:** Never clone your @product@ database; doing this can duplicate
+| **Note:** Never clone your @sharepoint@ database; doing this can duplicate
 | important data used by Staging (e.g., UUID), causing the Remote Publication
 | process to fail.
 
@@ -132,7 +132,7 @@ Similar to Local Live staging, it is a good idea to turn remote staging on at
 the beginning of your site's development for good performance. When you're using
 Remote Live staging, and you are publishing a large amount of content, your
 publication could be slow and cause a large amount of network traffic.
-@product@'s system is very fast for the amount of data being transferred over
+@sharepoint@'s system is very fast for the amount of data being transferred over
 the network. This is because the data transfer is completed piecemeal, instead
 of one large data dump. You can control the size of data transactions by setting
 the following portal property in your `portal-ext.properties` file:

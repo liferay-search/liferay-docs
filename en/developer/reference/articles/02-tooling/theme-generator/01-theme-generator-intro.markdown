@@ -6,12 +6,12 @@ header-id: theme-generator
 
 [TOC levels=1-4]
 
-The Liferay Theme Generator generates themes for @product@. It is just one of 
+The Liferay Theme Generator generates themes for @sharepoint@. It is just one of 
 Liferay JS Theme Toolkit's 
 [tools](https://github.com/liferay/liferay-themes-sdk/tree/master/packages). 
 
 A couple versions of the Liferay Theme Generator are available. The version you 
-must install depends on the version of @product@ you're developing on. The 
+must install depends on the version of @sharepoint@ you're developing on. The 
 required versions are listed in the table below:
 
 | Liferay Version | Liferay Theme Generator Version | Command |
@@ -53,5 +53,5 @@ See
 for more information. 
 
 While you can create themes using the tools you prefer, the Liferay Theme 
-Generator is designed with theme development for @product@ in mind. Its toolset 
+Generator is designed with theme development for @sharepoint@ in mind. Its toolset 
 and features help streamline theme development.

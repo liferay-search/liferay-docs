@@ -42,4 +42,4 @@ Content Management system enables you to plan and manage it. With tools such as
 the WYSIWYG editor, structures and templates, you can quickly add and edit
 content. With Web Content Display, you can rapidly select and configure what
 content to display. You'll find that managing your site becomes far easier when
-using @product@'s Web Content Management system.
+using @sharepoint@'s Web Content Management system.

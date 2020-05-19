@@ -23,7 +23,7 @@ to swap out your persistence technology later.
 and mapping those models to SQL databases. By defining your model in a single
 XML file, you can generate your object model (the M in MVC), your service layer,
 and your persistence layer all in one shot. At the same time, you can  support
-every database @product@ supports. 
+every database @sharepoint@ supports. 
 
 Ready to begin? 
 

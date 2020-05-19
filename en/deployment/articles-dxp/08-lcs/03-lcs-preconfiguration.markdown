@@ -20,7 +20,7 @@ configure. The sections in this guide walk you through these steps:
 3.  [Ensuring Access to LCS](#ensuring-access-to-lcs)
 4.  [NTP Server Synchronization](#ntp-server-synchronization)
 5.  [Configuring WebSphere](#configuring-websphere): 
-    This is only necessary if you're running @product@ on the WebSphere 
+    This is only necessary if you're running @sharepoint@ on the WebSphere 
     application server. 
 6.  [Installing the LCS Client App](#installing-the-lcs-client-app)
 
@@ -35,7 +35,7 @@ Liferay releases a new version of it.
 
 ## Downloading the LCS Client App
 
-The LCS client app is included in each @product@ bundle and autodeploys when the 
+The LCS client app is included in each @sharepoint@ bundle and autodeploys when the 
 bundle starts. The included version of the app, however, may be outdated. To get
 the latest version of the LCS client app, you must first download it via Liferay
 Marketplace. 
@@ -166,7 +166,7 @@ The next section discusses NTP server synchronization.
 
 ## NTP Server Synchronization
 
-For LCS to work properly, the application server running @product@ should be 
+For LCS to work properly, the application server running @sharepoint@ should be 
 synchronized with a time server. If it's not, you may get log errors similar to 
 these: 
 
@@ -227,7 +227,7 @@ app:
         weblogic.jndi.*\
     ```
 
-3.  In your @product@ installation, delete the `osgi/state` folder. 
+3.  In your @sharepoint@ installation, delete the `osgi/state` folder. 
 
 4.  Start the application server. 
 
@@ -280,7 +280,7 @@ Your server should always be running the latest version of the LCS client app.
 There are two ways to upgrade the app, depending on the exact LCS
 pre-configuration steps you followed: 
 
-1.  Via Liferay Marketplace *inside* @product@. Use this method if you don't
+1.  Via Liferay Marketplace *inside* @sharepoint@. Use this method if you don't
     need to configure the LCS client app (e.g., to connect through a proxy)
     before it deploys. 
 

@@ -26,7 +26,7 @@ Server view is segmented into six tabs:
 
 **Portal Properties:** This service has been disabled, if you enabled it earlier you can see here the past history for your portal's properties and their settings.
 
-**Details:** Displays general information about your @product@ installation, 
+**Details:** Displays general information about your @sharepoint@ installation, 
 Java version, and hardware.
  
 **Server Settings:** View or change your server's name, location, and 
@@ -42,7 +42,7 @@ description. You can also unregister the server from LCS.
 
 The *Details* tab shows general information about your server. There are three 
 tabs under Details: *Software*, *Java*, and *Hardware*. Each shows information, 
-respectively, about your @product@ installation, Java installation, and 
+respectively, about your @sharepoint@ installation, Java installation, and 
 hardware. This information is useful to the Liferay Support team in the event 
 you need their assistance. 
 

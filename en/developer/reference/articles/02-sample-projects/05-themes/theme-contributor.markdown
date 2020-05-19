@@ -11,7 +11,7 @@ body, Control Menu, Product Menu, and Simulation Panel. When deploying this
 sample with no customizations, the colors of the theme and aforementioned menus
 are updated.
 
-![Figure 1: Your @product@ pages and menu fonts now have a yellow tint.](../../../images/theme-contributor-yellow.png)
+![Figure 1: Your @sharepoint@ pages and menu fonts now have a yellow tint.](../../../images/theme-contributor-yellow.png)
 
 Also, there's a simple JavaScript update that is provided, which logs a message
 to the browser's console window that states *Hello Blade Theme Contributor!*.
@@ -20,9 +20,9 @@ to the browser's console window that states *Hello Blade Theme Contributor!*.
 
 ## What API(s) and/or code components does this sample highlight?
 
-This sample demonstrates a way to contribute updates to a @product@ theme. Theme
+This sample demonstrates a way to contribute updates to a @sharepoint@ theme. Theme
 Contributors let you package UI resources (e.g., CSS and JS) independent of a
-theme to include on a @product@ page.
+theme to include on a @sharepoint@ page.
 
 ## How does this sample leverage the API(s) and/or code component?
 
@@ -50,7 +50,7 @@ All of the SCSS files used in this sample are imported into the main
 
 @import "blade.theme.contributor/body";
 @import "blade.theme.contributor/control_menu";
-@import "blade.theme.contributor/product_menu";
+@import "blade.theme.contributor/sharepoint_menu";
 @import "blade.theme.contributor/simulation_panel";
 ```
 

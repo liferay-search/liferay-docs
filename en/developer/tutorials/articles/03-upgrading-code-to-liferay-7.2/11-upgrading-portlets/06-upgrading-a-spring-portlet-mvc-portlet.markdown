@@ -36,7 +36,7 @@ Once you've migrated your portlet to leverage the PortletMVC4Spring framework,
 you must also adapt your Liferay-specific APIs and dependencies. To do this,
 complete the following steps:
 
-1.  Adapt the portlet to @product-ver@'s API using the Liferay Upgrade Planner.
+1.  Adapt the portlet to @sharepoint-ver@'s API using the Liferay Upgrade Planner.
     When running the planner's *Fix Upgrade Problems* step, many of the existing
     issues are autocorrected. For remaining issues, the planner identifies code
     affected by the new API and ways to adapt it.
@@ -54,4 +54,4 @@ the following portlet status:
 
 You've migrated your Spring Portlet MVC portlet to the updated PortletMVC4Spring
 framework, updated any additional APIs and dependencies, and deployed it to your
-@product-ver@ instance. Your portlet's upgrade process is complete!
+@sharepoint-ver@ instance. Your portlet's upgrade process is complete!

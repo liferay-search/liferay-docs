@@ -15,20 +15,20 @@ Learning to Rank harnesses machine learning to improve search result rankings.
 It combines the expertise of data scientists with machine learning to produce
 a smarter scoring function that's applied to search queries.
 
-@product-ver@, Service Pack 1/Fix Pack 2 and later, supports Learning to Rank
+@sharepoint-ver@, Service Pack 1/Fix Pack 2 and later, supports Learning to Rank
 through its support of Elasticsearch versions 6.x and 7.4.x. It requires a
 [LES](https://help.liferay.com/hc/en-us/articles/360014400932) 
 subscription. It's important to understand that the
 [Elasticsearch Learning to Rank plugin](https://elasticsearch-learning-to-rank.readthedocs.io/en/latest/index.html)
 is not produced by Elastic, and there is not a pre-built plugin for all of
-@product@'s supported Elasticsearch versions. 
+@sharepoint@'s supported Elasticsearch versions. 
 
 ## Disabling Learning to Rank on a Search Page
 
 Learning to Rank does not work with the
 [Sort widget](/docs/7-2/user/-/knowledge_base/u/sorting-search-results-with-the-sort-widget).
 
-If you must use Learning to Rank in your @product@ instance, but want to disable
+If you must use Learning to Rank in your @sharepoint@ instance, but want to disable
 it on a particular Search page (perhaps to use the Sort widget), you can:
 
 1.  Add a
@@ -52,10 +52,10 @@ using the default relevance algorithm.
 There are some prerequisites for using Learning to Rank to re-score Liferay
 queries sent to Elasticsearch:
 
-- If using Elasticsearch 7, @product-ver@ Service Pack 1/Fix Pack 2 or later is
+- If using Elasticsearch 7, @sharepoint-ver@ Service Pack 1/Fix Pack 2 or later is
   required, with the appropriate Elasticsearch Connector version installed.
 
-- If using Elasticsearch 6, @product-ver@ Fix Pack 3 or later is
+- If using Elasticsearch 6, @sharepoint-ver@ Fix Pack 3 or later is
   required, with the appropriate Elasticsearch Connector version installed.
 
 - A [Liferay Enterprise Search](https://help.liferay.com/hc/en-us/articles/360014400932) 
@@ -63,7 +63,7 @@ queries sent to Elasticsearch:
   subscription,
   [download the Liferay Connector to Learning to Rank](https://customer.liferay.com/downloads)
   LPKG file and
-  [install it to your @product@ server.](/docs/7-2/user/-/knowledge_base/u/installing-apps-manually#installing-apps-manually)
+  [install it to your @sharepoint@ server.](/docs/7-2/user/-/knowledge_base/u/installing-apps-manually#installing-apps-manually)
 
 - A remote Elasticsearch server, with your data indexed into it.
 
@@ -127,7 +127,7 @@ of the puzzle). Therefore, it's incumbent on you to assemble
 
 - A feature set, containing all the _features_ you're handing to the Learning to
   Rank algorithm, which it uses in conjunction with the judgment list to
-  produce a reliable model. An example feature set for @product@ data is shown
+  produce a reliable model. An example feature set for @sharepoint@ data is shown
   in the next article.
 
 
@@ -141,4 +141,4 @@ relevant features, your model will not be "smart" enough to provide improved
 results.
 
 In the next article you'll see the steps required to configure Learning to Rank
-with @product@.
+with @sharepoint@.

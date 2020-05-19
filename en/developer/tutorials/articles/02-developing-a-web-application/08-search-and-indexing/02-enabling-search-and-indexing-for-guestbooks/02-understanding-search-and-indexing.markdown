@@ -10,13 +10,13 @@ header-id: understanding-search-and-indexing
     <p id="stepTitle">Enabling Search and Indexing for Guestbooks</p><p>Step 1 of 6</p>
 </div>
 
-By default, @product@ uses Elasticsearch, a search engine backed by the popular
+By default, @sharepoint@ uses Elasticsearch, a search engine backed by the popular
 Lucene search library, to implement its search and indexing functionality. You
 could search the database, but that requires resource-hogging table merges.
 Instead, a search engine like Elasticsearch converts searchable entities into
 *documents*. In Elasticsearch, documents are searchable database entities
 converted into JSON objects. After you implement indexing for guestbook entries,
-@product@ creates a document for each entry. The indexing code specifies which
+@sharepoint@ creates a document for each entry. The indexing code specifies which
 guestbook entry fields to add to each guestbook entry document, and it adds all
 the guestbook entry documents to an index. A search returns a *hits* object
 containing pointers to documents matching the search query. Searching for
@@ -24,10 +24,10 @@ entities with a search engine via an index is faster than searching for entities
 in the database. Elasticsearch provides some additional features like relevancy
 scoring and fuzzy search queries. 
 
-Along with the search engine, @product@ has its own search infrastructure.
-@product@ adds the following features to the existing Elasticsearch API: 
+Along with the search engine, @sharepoint@ has its own search infrastructure.
+@sharepoint@ adds the following features to the existing Elasticsearch API: 
 
--   Indexed documents include the fields needed by @product@ (e.g., 
+-   Indexed documents include the fields needed by @sharepoint@ (e.g., 
     `entryClassName`, `entryClassPK`, `assetTagNames`, `assetCategories`, 
     `companyId`, `groupId`, staging status). 
 -   It ensures the scope of returned search results is appropriate by applying 

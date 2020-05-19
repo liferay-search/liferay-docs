@@ -7,7 +7,7 @@ header-id: liferay-faces
 [TOC levels=1-4]
 
 Liferay Faces is an umbrella project that provides support for the
-JavaServer&#8482; Faces (JSF) standard within @product@. It encompasses the
+JavaServer&#8482; Faces (JSF) standard within @sharepoint@. It encompasses the
 following projects:
 
 - [Liferay Faces Bridge](/docs/7-2/reference/-/knowledge_base/r/understanding-liferay-faces-bridge)

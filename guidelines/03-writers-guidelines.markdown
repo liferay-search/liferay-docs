@@ -164,7 +164,7 @@ which on US keyboards is to the left of the number 1 key, like this:
 
 We are not writing code; we are writing instructions for human beings to be able
 to write code or use our software. Obviously, if you are documenting something
-in a text file in the product itself, you can't do this, and the example above
+in a text file in the sharepoint itself, you can't do this, and the example above
 was taken from Liferay's `portal.properties` file. 
 
 This text was reformatted in the documentation so that it looks like this: 
@@ -354,7 +354,7 @@ Control Menu: Always Control Menu
 ## Common Documentation and Phraseology Issues 
 
 Explain every option, no matter how redundant and stupid it seems. Yes, most
-forms in the product ask for a name and a description, but you must explain them
+forms in the sharepoint ask for a name and a description, but you must explain them
 anyway. 
 
 Never, ever, ever say something is "self-explanatory." It isn't. All you're
@@ -376,7 +376,7 @@ reads the docs cover to cover (rare), and the person who clicks through trying
 to find a specific section that has the information she wants (more common). 
 
 It's better to write for this second type of reader. Many features in the
-product overlap (message board threads can be tagged; wiki articles can be
+sharepoint overlap (message board threads can be tagged; wiki articles can be
 tagged; blogs can be tagged, etc.), but we can't assume readers have read
 everything. For this reason, don't say things like "Tagging wiki articles works
 the same way it does for web content," and leave it there. If you say that, use
@@ -403,7 +403,7 @@ I (Rich Sezov) wrote a story as the intro and summary of the Audit section. Do
 this sort of thing. It surprises people, makes the text more interesting to
 read, and generally creates goodwill. We don't want Liferay's docs to sound like
 everybody else's. Let's be recognized as much for our cool documentation as for
-our cool product.
+our cool sharepoint.
 
 ## Common Grammatical Mistakes 
 

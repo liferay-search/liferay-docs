@@ -6,7 +6,7 @@ header-id: setting-up-a-virtual-instance
 
 [TOC levels=1-4]
 
-Once @product@ is installed, the configuration begins. Recall that 
+Once @sharepoint@ is installed, the configuration begins. Recall that 
 configuration happens at different scopes. Here we're covering configuration at 
 the virtual instance scope. There's an important difference between the system 
 scope and the instance scope. The system scope is the highest level scope you 

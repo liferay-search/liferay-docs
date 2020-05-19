@@ -11,7 +11,7 @@ in FreeMarker. There is no need to instantiate these taglibs within your
 FreeMarker template; they're already provided for you automatically. You can
 access these taglibs by indicating the TLD's file name with underscores.
 
-When you're using @product@'s template editor, you can find variables on the 
+When you're using @sharepoint@'s template editor, you can find variables on the 
 left side of the template editor. To place one of the variables onto
 the template editor,
 
@@ -38,7 +38,7 @@ editor.
 | code execution and privilege escalation, and should be used with caution, if
 | enabled.
 
-After you've saved your template, @product@ provides a WebDAV URL and static 
+After you've saved your template, @sharepoint@ provides a WebDAV URL and static 
 URL. These values access the XML source of your structure. You can find these 
 URLs by returning to your template after it's been saved and expanding the 
 *Details* section. For more information on WebDAV and the uses of the WebDAV 

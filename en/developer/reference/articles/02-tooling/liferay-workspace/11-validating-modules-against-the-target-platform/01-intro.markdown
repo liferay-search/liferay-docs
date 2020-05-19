@@ -43,7 +43,7 @@ You can resolve your modules before deployment. This can be done by calling the
 
 This task gathers all the capabilities provided by
  
-- the specified version of @product@ (i.e.,
+- the specified version of @sharepoint@ (i.e.,
   [targeted platform](/docs/7-2/reference/-/knowledge_base/r/managing-the-target-platform))
 - the current workspace's modules
 
@@ -68,7 +68,7 @@ projects, themes, or npm portlets.
 | validates all the modules in your workspace.
 
 The `resolve` task can automatically gather the available capabilities from your
-workspace, but you must specify this for your targeted @product@ version. To do
+workspace, but you must specify this for your targeted @sharepoint@ version. To do
 this, open your workspace's `gradle.properties` file and set the
 `liferay.workspace.target.platform.version` property to the version you want to
 target. For example,
@@ -87,7 +87,7 @@ The versions following a GA1 release of DXP follow fix pack versions (e.g.,
 `7.2.10.fp1`, `7.2.10.fp2`, etc.).
 
 Setting the target platform property provides a static *distro* JAR for the
-specified version of @product@, which contains all the metadata (i.e.,
+specified version of @sharepoint@, which contains all the metadata (i.e.,
 capabilities, packages, versions, etc.) running in that version. The distro JAR
 is a complete snapshot of everything provided in the OSGi runtime; this serves
 as the target platform's list of capabilities that your modules are validated
@@ -109,14 +109,14 @@ There are two scenarios you may run into during development that require a
 modification for your project to pass the resolver check.
 
 - You're depending on a third party library that is not available in the
-  targeted @product@ instance or the current workspace.
-- You're depending on a customized distribution of @product@.
+  targeted @sharepoint@ instance or the current workspace.
+- You're depending on a customized distribution of @sharepoint@.
 
 You'll explore these use cases next.
 
-### Depending on Third Party Libraries Not Included in @product@
+### Depending on Third Party Libraries Not Included in @sharepoint@
 
-The `resolve` task, by default, gathers all of @product@'s capabilities and the
+The `resolve` task, by default, gathers all of @sharepoint@'s capabilities and the
 capabilities of your workspace's modules. What if, however, your module depends
 on a third party project that is not included in either space (e.g.,
 [Google Guava](https://opensource.google.com/projects/guava))?. The `resolve`
@@ -140,12 +140,12 @@ For help resolving third party dependency errors, see the
 [Resolving Third Party Library Package Dependencies](/docs/7-1/frameworks/-/knowledge_base/frameworks/adding-third-party-libraries-to-a-module)
 tutorial.
 
-### Depending on a Customized Distribution of @product@
+### Depending on a Customized Distribution of @sharepoint@
 
 There are times when manually specifying your project's list of dependent JARs
-does not suffice. If your app requires a customized @product@ instance to
+does not suffice. If your app requires a customized @sharepoint@ instance to
 run, you must regenerate the target platform's default list of capabilities with
-an updated list. Two examples of a customized @product@ instance are described
+an updated list. Two examples of a customized @sharepoint@ instance are described
 below:
 
 **Example 1: Leveraging an External Feature**
@@ -158,23 +158,23 @@ included by default. For example, Audience Targeting is an example of this type
 of external framework. If you're creating a Liferay Audience Targeting rule that
 depends on the Audience Targeting framework, you can't easily provide a slew of
 JARs for your module. In this case, you should install the platform your code
-depends on and regenerate an updated list of capabilities that your @product@
+depends on and regenerate an updated list of capabilities that your @sharepoint@
 instance provides.
 
 **Example 2: Leveraging a Customized Core Feature**
 
-You can extend @product@'s core features to provide a customized experience for
+You can extend @sharepoint@'s core features to provide a customized experience for
 your intended audience. Once deployed, you can assume these customizations are
 present and build other things on top of them. The new capabilities resulting
 from your customizations are not available, however, in the target platform's
 default list of capabilities. Therefore, when your application relies on
 non-default capabilities, it fails during the `resolve` task. To get around
 this, you must regenerate a new list of capabilities that your customized
-@product@ instance provides.
+@sharepoint@ instance provides.
 
 To regenerate the target platform's capabilities (distro JAR) based on the
-current workspace's @product@ instance, follow the
-[Depending on a Customized Distribution of @product@](/docs/7-2/reference/-/knowledge_base/r/depending-on-a-customized-distribution-of-product)
+current workspace's @sharepoint@ instance, follow the
+[Depending on a Customized Distribution of @sharepoint@](/docs/7-2/reference/-/knowledge_base/r/depending-on-a-customized-distribution-of-sharepoint)
 article.
 
 ## Including the Resolver in Your Gradle Build

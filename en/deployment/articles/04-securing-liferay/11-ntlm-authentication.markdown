@@ -9,23 +9,23 @@ header-id: ntlm-single-sign-on-authentication
 NTLM (NT LAN Manager) is a suite of Microsoft protocols that provide
 authentication, integrity, and confidentiality for users. Though Microsoft has
 adopted Kerberos in modern versions of Windows server, NTLM is still used when
-authenticating to a workgroup. @product@ now supports NTLM v2
+authenticating to a workgroup. @sharepoint@ now supports NTLM v2
 authentication. NTLM v2 is more secure and has a stronger authentication process
 than NTLMv1.
 
-| **Note:** NTLM authentication was deprecated in @product-ver@ and was removed.
+| **Note:** NTLM authentication was deprecated in @sharepoint-ver@ and was removed.
 | You can still install it from Marketplace [here](https://web.liferay.com/marketplace/-/mp/application/125668266) 
 | or [here](https://web.liferay.com/marketplace/-/mp/application/125668305). 
 
-Note that in order to use NTLM SSO, @product@'s portal instance authentication
+Note that in order to use NTLM SSO, @sharepoint@'s portal instance authentication
 type must be set to screen name. 
 
-| **Note:** To USE NTLM with @product@, you must configure your browser. Consult
+| **Note:** To USE NTLM with @sharepoint@, you must configure your browser. Consult
 | your browser vendor's documentation for the details.
 
 Most importantly, all users *must* be imported from an Active Directory server.
 NTLM (and Kerberos) works only if the users are in the AD; otherwise any SSO
-requests initiated by @product@ fail.
+requests initiated by @sharepoint@ fail.
 
 
 NTLM configuration can be applied either at the system scope or at the scope of
@@ -37,8 +37,8 @@ you would when initializing a Java primitive type with a literal value.
 
 Property Label | Property Key | Description | Type
 ---- | ---- | ---- | ----
-**Enabled** | `enabled` | Check this box to enable NTLN SSO authentication. Note that NTLM will only work if @product@'s authentication type is set to screen name. | `boolean`
-**Domain Controller** | `domainController` | Enter the IP address of your domain controller. This is the server that contains the user accounts you want to use with @product@. | `String`
+**Enabled** | `enabled` | Check this box to enable NTLN SSO authentication. Note that NTLM will only work if @sharepoint@'s authentication type is set to screen name. | `boolean`
+**Domain Controller** | `domainController` | Enter the IP address of your domain controller. This is the server that contains the user accounts you want to use with @sharepoint@. | `String`
 **Domain Controller Name** | `domainControllerName` | Specify the domain controller NetBIOS name. | `String`
 **Domain** | `domain` | Enter the domain / workgroup name | `String`
 **Service Account** | `serviceAccount` | You need to create a service account for NTLM. This account will be a computer account, not a user account. | `String`
@@ -48,7 +48,7 @@ Property Label | Property Key | Description | Type
 
 Note the AD's name and IP address correspond to the `domainControllerName` and
 `domainController` settings. The `Service Account` is for the _NTLM_ account
-(registered with NTLM), not the @product@ user account.
+(registered with NTLM), not the @sharepoint@ user account.
 
 To override system defaults for a particular portal instance, navigate to the
 Control Panel, click on *Configuration* &rarr; *Instance Settings*, click on
@@ -63,8 +63,8 @@ thus can ensure NTLM compatibility. In an Active Directory based network /
 domain, it is hard to beat the user experience that NTLM authentication can
 provide.
 
-Please remember that in order to use NTLM SSO, your @product@ instance
+Please remember that in order to use NTLM SSO, your @sharepoint@ instance
 authentication type must be set to screen name *and* that all users have been
 imported from your active directory. If this is not acceptable for your
-@product@ implementation, then another SSO solution (such as CAS) can be used as
+@sharepoint@ implementation, then another SSO solution (such as CAS) can be used as
 a broker between your portal and the NTLM authentication process.

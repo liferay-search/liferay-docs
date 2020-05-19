@@ -115,4 +115,4 @@ There are also configuration options that are only available for individual
 pages or page groups only. You'll learn about options available for both
 instances.
 
-Next, you'll look at creating the main page types you'll use in @product@.
+Next, you'll look at creating the main page types you'll use in @sharepoint@.

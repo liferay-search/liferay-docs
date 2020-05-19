@@ -21,7 +21,7 @@ You can create a service tracker in two ways:
 3.  Create a service tracker that tracks service events using a callback 
     handler. 
 
-Both ways depend on `org.osgi.core`, whose packages @product@ exports by
+Both ways depend on `org.osgi.core`, whose packages @sharepoint@ exports by
 default. Configure it as `compileOnly` (Gradle) or `provided`  (Maven). See the
 [Third Party Packages Portal
 Exports](/docs/7-1/reference/-/knowledge_base/r/third-party-packages-portal-exports)

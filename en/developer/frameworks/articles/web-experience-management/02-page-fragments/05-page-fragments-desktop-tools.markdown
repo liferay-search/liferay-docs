@@ -12,7 +12,7 @@ with its own built in previews.
 
 ## Collection Format
 
-To import a Collection into @product@, it must be archived in a `.zip` with the
+To import a Collection into @sharepoint@, it must be archived in a `.zip` with the
 contents in the following format:
 
 - `collection.json`: a text file which describes your collection with the 
@@ -110,9 +110,9 @@ choice.
 
 ## Importing and Exporting Fragments
 
-The Fragments Toolkit can connect to your currently running @product@ to import
+The Fragments Toolkit can connect to your currently running @sharepoint@ to import
 and export fragments. You can even have fragments that you create with the 
-toolkit imported into @product@ automatically.
+toolkit imported into @sharepoint@ automatically.
 
 - To get collections and fragments from a running server, run `npm run export`.
 
@@ -120,7 +120,7 @@ toolkit imported into @product@ automatically.
   server, run `npm run import`. If your Fragment's configuration JSON (if
   available) is invalid, the import fails and provides an error message.
 
-- To have collections and fragments automatically imported into @product@ as
+- To have collections and fragments automatically imported into @sharepoint@ as
   they are created or modified, run `npm run import:watch`.
 
 - To preview how a fragment will look when it's imported, run `npm run preview`.
@@ -131,7 +131,7 @@ toolkit imported into @product@ automatically.
   [OAuth 2](https://web.liferay.com/marketplace/-/mp/application/109571986)
   plugin in your portal instance for this command to work properly.
 
-- To create a `.zip` file that can be manually imported into @product@, run
+- To create a `.zip` file that can be manually imported into @sharepoint@, run
   `npm run compress`.
 
 With these tools at your disposal, you can more efficiently manage creating 

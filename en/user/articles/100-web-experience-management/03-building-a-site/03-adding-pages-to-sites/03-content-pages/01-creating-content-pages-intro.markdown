@@ -6,7 +6,7 @@ header-id: creating-content-pages
 
 [TOC levels=1-4]
 
-Content Pages provide a new paradigm for creating pages in @product@. They 
+Content Pages provide a new paradigm for creating pages in @sharepoint@. They 
 empower marketers and content creators to build pages that can be easily 
 managed and have their content edited in-line and on the fly.
 
@@ -30,7 +30,7 @@ you have a number of Fragments associated with a certain marketing campaign,
 you could create a Collection for that campaign, so that you have all of those 
 Fragments readily available when you're working on a page for that campaign.
 
-With all of the Fragments and Collections that are included in @product-ver@, 
+With all of the Fragments and Collections that are included in @sharepoint-ver@, 
 many projects can be completed using only the out-of-the-box Fragments and 
 capabilities. In many cases, though, you need to develop your own Fragments.
 You can learn about the Fragment creation process and editing interface in the

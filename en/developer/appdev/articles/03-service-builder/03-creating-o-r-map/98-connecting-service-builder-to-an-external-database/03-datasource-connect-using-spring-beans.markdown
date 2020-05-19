@@ -6,7 +6,7 @@ header-id: connecting-the-data-source-using-spring-beans
 
 [TOC levels=1-4]
 
-Sometimes you want to use a database other than @product@'s. To do this, its
+Sometimes you want to use a database other than @sharepoint@'s. To do this, its
 data source must be defined in `portal-ext.properties` or configured as a JNDI
 data source on the app server. Here you'll connect
 [Service Builder](/docs/7-2/appdev/-/knowledge_base/a/service-builder)
@@ -33,7 +33,7 @@ Here are the steps:
 | **Warning:** If your Service Builder services require nested transactions, 
 | using an external data source may not be appropriate for you. Transactions
 | between separate data sources cannot be fully nested. Rollbacks may not
-| propagate between a module that uses an external data source and @product@
+| propagate between a module that uses an external data source and @sharepoint@
 | services (or another app's services) that use a different data source. 
 
 First, use portal properties to set your data source. 

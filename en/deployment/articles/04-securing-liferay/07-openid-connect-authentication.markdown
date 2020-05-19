@@ -15,7 +15,7 @@ website. By using OpenID Connect, you *delegate* user authentication to other
 providers, making it easy for users with existing accounts to authenticate to
 your system. 
 
-| **Note:** You can add multiple providers to your installation, but @product@
+| **Note:** You can add multiple providers to your installation, but @sharepoint@
 | can't be an OpenID Connect provider.
 
 Because OpenID Connect is built on OAuth 2.0, its token flow is similar. OAuth
@@ -32,7 +32,7 @@ This is an OAuth 2.0 client. The process varies by provider:
 1.  Navigate to the provider's website and create a client. 
 
 2.  During the creation process, you must supply an *authorized redirect URL*
-    that can process the tokens sent from the provider. @product@'s URL is
+    that can process the tokens sent from the provider. @sharepoint@'s URL is
 
         https://[server.domain]/c/portal/login/openidconnect
 
@@ -86,7 +86,7 @@ these as you need.
 
 **Subject Types:** A Subject Identifier is a unique and never reassigned
 identifier the provider uses to establish who the user is, and is consumed by
-the client (i.e., @product@). There are two types: public (provides the same
+the client (i.e., @sharepoint@). There are two types: public (provides the same
 value to all clients) and private (provides a different value to each client). 
 
 **Token Endpoint:** The provider's URL where tokens can be requested. 
@@ -131,7 +131,7 @@ There's a new link in the Sign-In Portlet for signing in with OpenID Connect:
 3.  This takes you to your provider's sign in page. Enter your credentials and
     log in. 
 
-4.  Upon successful authentication, you're redirected back to @product@ in an
+4.  Upon successful authentication, you're redirected back to @sharepoint@ in an
     authenticated state. 
 
 OpenID is a standards-based, secure way to authenticate users from other

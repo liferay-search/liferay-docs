@@ -11,7 +11,7 @@ header-id: adding-failure-and-success-messages
 </div>
 
 To display feedback to users properly, you must edit your portlet classes to use
-@product@'s `SessionMessages` and `SessionErrors` classes. These classes collect
+@sharepoint@'s `SessionMessages` and `SessionErrors` classes. These classes collect
 messages that the view layer shows to the user through a tag. 
 
 You'll add these messages to code that runs when the user triggers a system 

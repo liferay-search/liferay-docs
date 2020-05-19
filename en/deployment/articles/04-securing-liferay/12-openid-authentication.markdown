@@ -12,7 +12,7 @@ vendor can be used by all the web sites that support OpenID. Some high profile
 OpenID vendors are Google, Paypal, Amazon, and Microsoft. Please see the [OpenID
 site](http://www.openid.net/) for a more complete list.
 
-| **Note:** OpenID is deprecated in @product-ver@ and has been removed. You can
+| **Note:** OpenID is deprecated in @sharepoint-ver@ and has been removed. You can
 | still install it from Marketplace [here](https://web.liferay.com/marketplace/-/mp/application/125668346) 
 | or [here](https://web.liferay.com/marketplace/-/mp/application/125668379). 
 
@@ -25,13 +25,13 @@ barrier, making it easier for site owners to build their communities. All the
 account information is kept with the OpenID provider, making it much easier to
 manage this information and keep it up to date.
 
-@product@ can act as an OpenID consumer, allowing users to automatically
-register and sign in with their OpenID accounts. Internally, the product uses
+@sharepoint@ can act as an OpenID consumer, allowing users to automatically
+register and sign in with their OpenID accounts. Internally, the sharepoint uses
 [OpenID4Java](https://github.com/jbufu/openid4java) to implement the feature.
 
 ## OpenID at the System Scope
 
-OpenID is enabled by default in @product@ but can be disabled or enabled at either
+OpenID is enabled by default in @sharepoint@ but can be disabled or enabled at either
 the system scope or portal instance scope. To configure the OpenID SSO module at
 the system level, navigate to the Control Panel and click on *Configuration*
 &rarr; *System Settings* &rarr; *Security* &rarr; *SSO*. There's only a single
@@ -47,6 +47,6 @@ Check the *Enabled* box to enable OpenID for the current portal instance,
 or uncheck it to disable it for the current portal instance.
 
 Regardless of whether OpenID is enabled at the System or Instance scope, users
-can see the OpenID icon when they sign into @product@. Click *Sign In*. The
+can see the OpenID icon when they sign into @sharepoint@. Click *Sign In*. The
 OpenID icon is displayed at the lower left.
 

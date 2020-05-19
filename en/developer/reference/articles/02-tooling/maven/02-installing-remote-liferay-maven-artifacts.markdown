@@ -10,7 +10,7 @@ If you haven't configured your project to retrieve artifacts from a custom Maven
 repository, your project will leverage the artifacts from the Central
 Repository. You can view these artifacts from the
 [Maven Central Repository](https://search.maven.org/) site. Use the Latest
-Version column as a guide to see what's available for the version of @product@
+Version column as a guide to see what's available for the version of @sharepoint@
 you're developing for. 
 
 If you'd like to access Liferay's latest released Maven artifacts, configure

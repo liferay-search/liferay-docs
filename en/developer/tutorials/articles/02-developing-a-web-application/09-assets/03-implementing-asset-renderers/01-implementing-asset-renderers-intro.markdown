@@ -7,10 +7,10 @@ header-id: implementing-asset-renderers
 [TOC levels=1-4]
 
 Assets are display versions of entities, so they contain fields like `title`,
-`description`, and `summary`. @product@ uses these fields to display assets. 
+`description`, and `summary`. @sharepoint@ uses these fields to display assets. 
 Asset Renderers translate an entity into an asset via these fields. You must
 therefore create and register Asset Renderer classes for your guestbook and
-guestbook entry entities. Without these classes, @product@ can't display your
+guestbook entry entities. Without these classes, @sharepoint@ can't display your
 entities in Asset Publisher, Notifications, Activities, or anywhere else that
 displays assets. 
 

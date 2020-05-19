@@ -21,7 +21,7 @@ sections.
 
 ## Analytics
 
-@product@ includes built-in support for Google Analytics for analyzing 
+@sharepoint@ includes built-in support for Google Analytics for analyzing 
 traffic on your Site. Google Analytics provides a snippet of code which you add
 to your pages enable tracking. Adding this code to every page on a Site would
 be tedious, especially if it's a large Site with a lot of user-generated
